@@ -154,43 +154,43 @@ game = Scorecard(os.path.dirname(os.path.abspath(__file__)),
 ##########################################################
 # Top 1st
 # Pitching: TBR #36 Andrew Kittredge
-inn = game.new_inning()
+t1 = game.new_inning()
 
 # 1. BOS #50 Mookie Betts (X - X - X)
-inn.new_ab()
-inn.pitch_list("c c b")
-inn.out("G6-3")
+t1.new_ab()
+t1.pitch_list("c c b")
+t1.out("G6-3")
 
 # 2. BOS #16 Andrew Benintendi (X - X - X)
-inn.new_ab()
-inn.pitch_list("b c b b f b")
-inn.reach("BB")
-inn.thrown_out(2, "13 DP6-4-3", 2, 36)
+t1.new_ab()
+t1.pitch_list("b c b b f b")
+t1.reach("BB")
+t1.thrown_out(2, "13 DP6-4-3", 2, 36)
 
 # 3. BOS #13 Hanley Ramirez (X - X - 16)
-inn.new_ab()
-inn.pitch_list("b")
-inn.out("DP6-4-3")
+t1.new_ab()
+t1.pitch_list("b")
+t1.out("DP6-4-3")
 
 
 # Bot 1st
 # Pitching: BOS #22 Rick Porcello
-inn = game.new_inning()
+b1 = game.new_inning()
 
 # 1. TBR #2  Denard Span (X - X - X)
-inn.new_ab()
-inn.pitch_list("c b b")
-inn.out("G6-3")
+b1.new_ab()
+b1.pitch_list("c b b")
+b1.out("G6-3")
 
 # 2. TBR #39 Kevin Kiermaier (X - X - X)
-inn.new_ab()
-inn.pitch_list("b c b")
-inn.out("L7")
+b1.new_ab()
+b1.pitch_list("b c b")
+b1.out("L7")
 
 # 3. TBR #27 Carlos Gómez (X - X - X)
-inn.new_ab()
-inn.pitch_list("c")
-inn.out("G5-3")
+b1.new_ab()
+b1.pitch_list("c")
+b1.out("G5-3")
 
 
 ##########################################################
@@ -198,47 +198,47 @@ inn.out("G5-3")
 ##########################################################
 # Top 2nd
 # Pitching: TBR #36 Andrew Kittredge
-inn = game.new_inning()
+t2 = game.new_inning()
 
 # 4. BOS #28 J.D. Martinez (X - X - X)
-inn.new_ab()
-inn.pitch_list("c")
-inn.out("G5-3")
+t2.new_ab()
+t2.pitch_list("c")
+t2.out("G5-3")
 
 # 5. BOS #2  Xander Bogaerts (X - X - X)
-inn.new_ab()
-inn.pitch_list("b b c b")
-inn.hit(4, rbis=1)
+t2.new_ab()
+t2.pitch_list("b b c b")
+t2.hit(4, rbis=1)
 
 # 6. BOS #18 Mitch Moreland (X - X - X)
-inn.new_ab()
-inn.pitch_list("c f b")
-inn.out("F8")
+t2.new_ab()
+t2.pitch_list("c f b")
+t2.out("F8")
 
 # 7. BOS #36 Eduardo Núñez (X - X - X)
-inn.new_ab()
-inn.pitch_list("b c f b s")
-inn.out("K")
+t2.new_ab()
+t2.pitch_list("b c f b s")
+t2.out("K")
 
 
 # Bot 2nd
 # Pitching: BOS #22 Rick Porcello
-inn = game.new_inning()
+b2 = game.new_inning()
 
 # 4. TBR #13 Brad Miller (X - X - X)
-inn.new_ab()
-inn.pitch_list("b b f c f c")
-inn.out("!K")
+b2.new_ab()
+b2.pitch_list("b b f c f c")
+b2.out("!K")
 
 # 5. TBR #5  Matt Duffy (X - X - X)
-inn.new_ab()
-inn.pitch_list("c c b b f f")
-inn.out("F8")
+b2.new_ab()
+b2.pitch_list("c c b b f f")
+b2.out("F8")
 
 # 6. TBR #18 Joey Wendle (X - X - X)
-inn.new_ab()
-inn.pitch_list("f f b c")
-inn.out("!K")
+b2.new_ab()
+b2.pitch_list("f f b c")
+b2.out("!K")
 
 
 ##########################################################
@@ -246,58 +246,58 @@ inn.out("!K")
 ##########################################################
 # Top 3rd
 # Pitching: TBR #36 Andrew Kittredge
-inn = game.new_inning()
+t3 = game.new_inning()
 
 # 8. BOS #12 Brock Holt (X - X - X)
-inn.new_ab()
-inn.pitch_list("b")
-inn.out("F7")
+t3.new_ab()
+t3.pitch_list("b")
+t3.out("F7")
 
 # 9. BOS #3  Sandy León (X - X - X)
-inn.new_ab()
-inn.pitch_list("b c b b")
-inn.out("L8")
+t3.new_ab()
+t3.pitch_list("b c b b")
+t3.out("L8")
 
 # 1. BOS #50 Mookie Betts (X - X - X)
-inn.new_ab()
-inn.pitch_list("c b c b")
-inn.hit(2)
+t3.new_ab()
+t3.pitch_list("c b c b")
+t3.hit(2)
 
 # 2. BOS #16 Andrew Benintendi (X - 50 - X)
-inn.new_ab()
-inn.pitch_list("c c f b 2 b f b")
-inn.out("G4-3")
+t3.new_ab()
+t3.pitch_list("c c f b 2 b f b")
+t3.out("G4-3")
 
 
 # Bot 3rd
 # Pitching: BOS #22 Rick Porcello
-inn = game.new_inning()
+b3 = game.new_inning()
 
 # 7. TBR #11 Adeiny Hechavarría (X - X - X)
-inn.new_ab()
-inn.pitch_list("b f f f")
-inn.out("F8")
+b3.new_ab()
+b3.pitch_list("b f f f")
+b3.out("F8")
 
 # 8. TBR #0  Mallex Smith (X - X - X)
-inn.new_ab()
-inn.pitch_list("f b b c b f")
-inn.out("L8")
+b3.new_ab()
+b3.pitch_list("f b b c b f")
+b3.out("L8")
 
 # 9. TBR #45 Jesús Sucre (X - X - X)
-inn.new_ab()
-inn.pitch_list("c c b b f f b b")
-inn.reach("BB")
-inn.advance(2, "2 1B")
+b3.new_ab()
+b3.pitch_list("c c b b f f b b")
+b3.reach("BB")
+b3.advance(2, "2 1B")
 
 # 1. TBR #2  Denard Span (X - X - 45)
-inn.new_ab()
-inn.hit(1)
-inn.thrown_out(2, "39 FC6", 3, 22)
+b3.new_ab()
+b3.hit(1)
+b3.thrown_out(2, "39 FC6", 3, 22)
 
 # 2. TBR #39 Kevin Kiermaier (X - 45 - 2)
-inn.new_ab()
-inn.pitch_list("c b")
-inn.reach("FC6")
+b3.new_ab()
+b3.pitch_list("c b")
+b3.reach("FC6")
 
 
 ##########################################################
@@ -305,69 +305,69 @@ inn.reach("FC6")
 ##########################################################
 # Top 4th
 # Pitching: TBR #36 Andrew Kittredge
-inn = game.new_inning()
+t4 = game.new_inning()
 
 # 3. BOS #13 Hanley Ramirez (X - X - X)
-inn.new_ab()
-inn.pitch_list("b s")
-inn.hit(2)
-inn.advance(3, "18 SB")
-inn.advance("U", "36 E5")
+t4.new_ab()
+t4.pitch_list("b s")
+t4.hit(2)
+t4.advance(3, "18 SB")
+t4.advance("U", "36 E5")
 
 # 4. BOS #28 J.D. Martinez (X - 13 - X)
-inn.new_ab()
-inn.pitch_list("c b b f b")
-inn.out("G6-3")
+t4.new_ab()
+t4.pitch_list("c b b f b")
+t4.out("G6-3")
 
 # Pitching change (TBR): #48 Ryan Yarbrough replaces #36 Andrew Kittredge
-inn.pitching_substitution(48)
+t4.pitching_substitution(48)
 
 # 5. BOS #2  Xander Bogaerts (X - 13 - X)
-inn.new_ab()
-inn.pitch_list("c")
-inn.out("(F)P3")
+t4.new_ab()
+t4.pitch_list("c")
+t4.out("(F)P3")
 
 # 6. BOS #18 Mitch Moreland (X - 13 - X)
-inn.new_ab()
-inn.pitch_list("b b f b f b")
-inn.reach("BB")
-inn.advance(2, "36 E5")
+t4.new_ab()
+t4.pitch_list("b b f b f b")
+t4.reach("BB")
+t4.advance(2, "36 E5")
 
 # 7. BOS #36 Eduardo Núñez (13 - X - 18)
-inn.new_ab()
-inn.pitch_list("b b 1")
-inn.error(5)
-inn.reach("E5")
+t4.new_ab()
+t4.pitch_list("b b 1")
+t4.error(5)
+t4.reach("E5")
 
 # 8. BOS #12 Brock Holt (X - 18 - 36)
-inn.new_ab()
-inn.pitch_list("c f b f c")
-inn.out("!K")
+t4.new_ab()
+t4.pitch_list("c f b f c")
+t4.out("!K")
 
 
 # Bot 4th
 # Pitching: BOS #22 Rick Porcello
-inn = game.new_inning()
+b4 = game.new_inning()
 
 # 3. TBR #27 Carlos Gómez (X - X - X)
-inn.new_ab()
-inn.pitch_list("b f f")
-inn.out("F8")
+b4.new_ab()
+b4.pitch_list("b f f")
+b4.out("F8")
 
 # 4. TBR #13 Brad Miller (X - X - X)
-inn.new_ab()
-inn.pitch_list("c")
-inn.out("F8")
+b4.new_ab()
+b4.pitch_list("c")
+b4.out("F8")
 
 # 5. TBR #5  Matt Duffy (X - X - X)
-inn.new_ab()
-inn.pitch_list("f f b")
-inn.hit(1)
+b4.new_ab()
+b4.pitch_list("f f b")
+b4.hit(1)
 
 # 6. TBR #18 Joey Wendle (X - X - 5)
-inn.new_ab()
-inn.pitch_list("b c b")
-inn.out("F8")
+b4.new_ab()
+b4.pitch_list("b c b")
+b4.out("F8")
 
 
 ##########################################################
@@ -375,57 +375,57 @@ inn.out("F8")
 ##########################################################
 # Top 5th
 # Pitching: TBR #48 Ryan Yarbrough
-inn = game.new_inning()
+t5 = game.new_inning()
 
 # 9. BOS #3  Sandy León (X - X - X)
-inn.new_ab()
-inn.out("F9")
+t5.new_ab()
+t5.out("F9")
 
 # 1. BOS #50 Mookie Betts (X - X - X)
-inn.new_ab()
-inn.pitch_list("b")
-inn.out("F9")
+t5.new_ab()
+t5.pitch_list("b")
+t5.out("F9")
 
 # 2. BOS #16 Andrew Benintendi (X - X - X)
-inn.new_ab()
-inn.pitch_list("b b b c c b")
-inn.reach("BB")
-inn.thrown_out(2, "13 FC6-4", 3, 48)
+t5.new_ab()
+t5.pitch_list("b b b c c b")
+t5.reach("BB")
+t5.thrown_out(2, "13 FC6-4", 3, 48)
 
 # 3. BOS #13 Hanley Ramirez (X - X - 16)
-inn.new_ab()
-inn.pitch_list("c")
-inn.reach("FC6-4")
+t5.new_ab()
+t5.pitch_list("c")
+t5.reach("FC6-4")
 
 
 # Bot 5th
 # Pitching: BOS #22 Rick Porcello
-inn = game.new_inning()
+b5 = game.new_inning()
 
 # 7. TBR #11 Adeiny Hechavarría (X - X - X)
-inn.new_ab()
-inn.pitch_list("b")
-inn.out("G5-3")
+b5.new_ab()
+b5.pitch_list("b")
+b5.out("G5-3")
 
 # 8. TBR #0  Mallex Smith (X - X - X)
-inn.new_ab()
-inn.hit(1)
-inn.advance(2, "45 1B")
+b5.new_ab()
+b5.hit(1)
+b5.advance(2, "45 1B")
 
 # 9. TBR #45 Jesús Sucre (X - X - 0)
-inn.new_ab()
-inn.pitch_list("1 1 1 f")
-inn.hit(1)
+b5.new_ab()
+b5.pitch_list("1 1 1 f")
+b5.hit(1)
 
 # 1. TBR #2  Denard Span (X - 0 - 45)
-inn.new_ab()
-inn.pitch_list("c f s")
-inn.out("K")
+b5.new_ab()
+b5.pitch_list("c f s")
+b5.out("K")
 
 # 2. TBR #39 Kevin Kiermaier (X - 0 - 45)
-inn.new_ab()
-inn.pitch_list("f b s")
-inn.out("(F)P5")
+b5.new_ab()
+b5.pitch_list("f b s")
+b5.out("(F)P5")
 
 
 ##########################################################
@@ -433,75 +433,75 @@ inn.out("(F)P5")
 ##########################################################
 # Top 6th
 # Pitching: TBR #48 Ryan Yarbrough
-inn = game.new_inning()
+t6 = game.new_inning()
 
 # 4. BOS #28 J.D. Martinez (X - X - X)
-inn.new_ab()
-inn.hit(2)
-inn.advance(4, "2 2B")
+t6.new_ab()
+t6.hit(2)
+t6.advance(4, "2 2B")
 
 # 5. BOS #2  Xander Bogaerts (X - 28 - X)
-inn.new_ab()
-inn.pitch_list("b")
-inn.hit(2, rbis=1)
-inn.advance(3, "18 G3")
+t6.new_ab()
+t6.pitch_list("b")
+t6.hit(2, rbis=1)
+t6.advance(3, "18 G3")
 
 # 6. BOS #18 Mitch Moreland (X - 2 - X)
-inn.new_ab()
-inn.pitch_list("b f b")
-inn.out("G3")
+t6.new_ab()
+t6.pitch_list("b f b")
+t6.out("G3")
 
 # 7. BOS #36 Eduardo Núñez (2 - X - X)
-inn.new_ab()
-inn.pitch_list("t f b")
-inn.out("P5")
+t6.new_ab()
+t6.pitch_list("t f b")
+t6.out("P5")
 
 # 8. BOS #12 Brock Holt (2 - X - X)
-inn.new_ab()
-inn.pitch_list("b b f b b")
-inn.reach("BB")
+t6.new_ab()
+t6.pitch_list("b b f b b")
+t6.reach("BB")
 
 # 9. BOS #3  Sandy León (2 - X - 12)
-inn.new_ab()
-inn.pitch_list("c f b b f d s")
-inn.out("K")
+t6.new_ab()
+t6.pitch_list("c f b b f d s")
+t6.out("K")
 
 
 # Bot 6th
 # Pitching: BOS #22 Rick Porcello
-inn = game.new_inning()
+b6 = game.new_inning()
 
 # 3. TBR #27 Carlos Gómez (X - X - X)
-inn.new_ab()
-inn.pitch_list("c b c")
-inn.hit(2)
-inn.advance(3, "5 1B")
-inn.advance(4, "18 SF7")
+b6.new_ab()
+b6.pitch_list("c b c")
+b6.hit(2)
+b6.advance(3, "5 1B")
+b6.advance(4, "18 SF7")
 
 # 4. TBR #13 Brad Miller (X - 27 - X)
-inn.new_ab()
-inn.pitch_list("f b f b c")
-inn.out("!K")
+b6.new_ab()
+b6.pitch_list("f b f b c")
+b6.out("!K")
 
 # 5. TBR #5  Matt Duffy (X - 27 - X)
-inn.new_ab()
-inn.pitch_list("b f")
-inn.hit(1)
-inn.advance(2, "11 WP")
+b6.new_ab()
+b6.pitch_list("b f")
+b6.hit(1)
+b6.advance(2, "11 WP")
 
 # Pitching change (BOS): #37 Heath Hembree replaces #22 Rick Porcello
-inn.pitching_substitution(37)
+b6.pitching_substitution(37)
 
 # 6. TBR #18 Joey Wendle (27 - X - 5)
-inn.new_ab()
-inn.pitch_list("f")
-inn.out("SF7", rbis=1)
+b6.new_ab()
+b6.pitch_list("f")
+b6.out("SF7", rbis=1)
 
 # 7. TBR #11 Adeiny Hechavarría (X - X - 5)
-inn.new_ab()
-inn.pitch_list("c f b b s")
-inn.wp()
-inn.out("K2-3")
+b6.new_ab()
+b6.pitch_list("c f b b s")
+b6.wp()
+b6.out("K2-3")
 
 
 ##########################################################
@@ -509,50 +509,50 @@ inn.out("K2-3")
 ##########################################################
 # Top 7th
 # Pitching: TBR #48 Ryan Yarbrough
-inn = game.new_inning()
+t7 = game.new_inning()
 
 # 1. BOS #50 Mookie Betts (X - X - X)
-inn.new_ab()
-inn.pitch_list("b")
-inn.out("L7")
+t7.new_ab()
+t7.pitch_list("b")
+t7.out("L7")
 
 # 2. BOS #16 Andrew Benintendi (X - X - X)
-inn.new_ab()
-inn.pitch_list("c b c f b f s")
-inn.out("K")
+t7.new_ab()
+t7.pitch_list("c b c f b f s")
+t7.out("K")
 
 # 3. BOS #13 Hanley Ramirez (X - X - X)
-inn.new_ab()
-inn.pitch_list("t b f")
-inn.out("P3")
+t7.new_ab()
+t7.pitch_list("t b f")
+t7.out("P3")
 
 
 # Bot 7th
 # Pitching: BOS #37 Heath Hembree
-inn = game.new_inning()
+b7 = game.new_inning()
 
 # 8. TBR #0  Mallex Smith (X - X - X)
-inn.new_ab()
-inn.pitch_list("c b")
-inn.out("L7")
+b7.new_ab()
+b7.pitch_list("c b")
+b7.out("L7")
 
 # 9. TBR #45 Jesús Sucre (X - X - X)
-inn.new_ab()
-inn.pitch_list("b f c b s")
-inn.out("K")
+b7.new_ab()
+b7.pitch_list("b f c b s")
+b7.out("K")
 
 # 1. TBR #2  Denard Span (X - X - X)
-inn.new_ab()
-inn.pitch_list("b b b c c d")
-inn.reach("BB")
+b7.new_ab()
+b7.pitch_list("b b b c c d")
+b7.reach("BB")
 
 # Pitching change (BOS): #66 Bobby Poyner replaces #37 Heath Hembree
-inn.pitching_substitution(66)
+b7.pitching_substitution(66)
 
 # 2. TBR #39 Kevin Kiermaier (X - X - 2)
-inn.new_ab()
-inn.pitch_list("c b f f")
-inn.out("P5")
+b7.new_ab()
+b7.pitch_list("c b f f")
+b7.out("P5")
 
 
 ##########################################################
@@ -560,74 +560,74 @@ inn.out("P5")
 ##########################################################
 # Top 8th
 # Pitching: TBR #48 Ryan Yarbrough
-inn = game.new_inning()
+t8 = game.new_inning()
 
 # 4. BOS #28 J.D. Martinez (X - X - X)
-inn.new_ab()
-inn.pitch_list("c b s f b")
-inn.hit(1)
-inn.advance(2, "2 1B")
-inn.advance(3, "12 BB")
+t8.new_ab()
+t8.pitch_list("c b s f b")
+t8.hit(1)
+t8.advance(2, "2 1B")
+t8.advance(3, "12 BB")
 
 # 5. BOS #2  Xander Bogaerts (X - X - 28)
-inn.new_ab()
-inn.pitch_list("b c 1")
-inn.hit(1)
-inn.advance(2, "12 BB")
+t8.new_ab()
+t8.pitch_list("b c 1")
+t8.hit(1)
+t8.advance(2, "12 BB")
 
 # 6. BOS #18 Mitch Moreland (X - 28 - 2)
-inn.new_ab()
-inn.out("F8")
+t8.new_ab()
+t8.out("F8")
 
 # Pitching change (TBR): #54 Sergio Romo replaces #48 Ryan Yarbrough
-inn.pitching_substitution(54)
+t8.pitching_substitution(54)
 
 # 7. BOS #36 Eduardo Núñez (X - 28 - 2)
-inn.new_ab()
-inn.pitch_list("b b")
-inn.out("F8")
+t8.new_ab()
+t8.pitch_list("b b")
+t8.out("F8")
 
 # 8. BOS #12 Brock Holt (X - 28 - 2)
-inn.new_ab()
-inn.pitch_list("d b c f b b")
-inn.reach("BB")
+t8.new_ab()
+t8.pitch_list("d b c f b b")
+t8.reach("BB")
 
 # 9. BOS #3  Sandy León (28 - 2 - 12)
-inn.new_ab()
-inn.pitch_list("c f b s")
-inn.out("K")
+t8.new_ab()
+t8.pitch_list("c f b s")
+t8.out("K")
 
 
 # Bot 8th
 # Pitching: BOS #66 Bobby Poyner
-inn = game.new_inning()
+b8 = game.new_inning()
 
 # 3. TBR #27 Carlos Gómez (X - X - X)
-inn.new_ab()
-inn.hit(4, rbis=1)
+b8.new_ab()
+b8.hit(4, rbis=1)
 
 # 4. TBR #13 Brad Miller (X - X - X)
-inn.new_ab()
-inn.pitch_list("b b")
-inn.out("P3")
+b8.new_ab()
+b8.pitch_list("b b")
+b8.out("P3")
 
 # Pitching change (BOS): #39 Carson Smith replaces #66 Bobby Poyner
-inn.pitching_substitution(39)
+b8.pitching_substitution(39)
 
 # 5. TBR #5  Matt Duffy (X - X - X)
-inn.new_ab()
-inn.hit(1)
-inn.advance(2, "11 SB")
+b8.new_ab()
+b8.hit(1)
+b8.advance(2, "11 SB")
 
 # 6. TBR #18 Joey Wendle (X - X - 5)
-inn.new_ab()
-inn.pitch_list("b f c b f 1 1 s")
-inn.out("K")
+b8.new_ab()
+b8.pitch_list("b f c b f 1 1 s")
+b8.out("K")
 
 # 7. TBR #11 Adeiny Hechavarría (X - X - 5)
-inn.new_ab()
-inn.pitch_list("c 1 1 1 b s 1 d d")
-inn.out("F8")
+b8.new_ab()
+b8.pitch_list("c 1 1 1 b s 1 d d")
+b8.out("F8")
 
 
 ##########################################################
@@ -635,53 +635,53 @@ inn.out("F8")
 ##########################################################
 # Top 9th
 # Pitching: TBR #52 Chaz Roe
-inn = game.new_inning()
+t9 = game.new_inning()
 
 # Pitching change (TBR): #52 Chaz Roe replaces #54 Sergio Romo
-inn.pitching_substitution(52)
+t9.pitching_substitution(52)
 
 # 1. BOS #50 Mookie Betts (X - X - X)
-inn.new_ab()
-inn.pitch_list("b b c b b")
-inn.reach("BB")
-inn.thrown_out(2, "13 CS", 2, 52)
+t9.new_ab()
+t9.pitch_list("b b c b b")
+t9.reach("BB")
+t9.thrown_out(2, "13 CS", 2, 52)
 
 # 2. BOS #16 Andrew Benintendi (X - X - 50)
-inn.new_ab()
-inn.pitch_list("1 1")
-inn.out("F7")
+t9.new_ab()
+t9.pitch_list("1 1")
+t9.out("F7")
 
 # 3. BOS #13 Hanley Ramirez (X - X - 50)
-inn.new_ab()
-inn.pitch_list("1 c s b b b f")
-inn.out("P2")
+t9.new_ab()
+t9.pitch_list("1 c s b b b f")
+t9.out("P2")
 
 
 # Bot 9th
 # Pitching: BOS #46 Craig Kimbrel
-inn = game.new_inning()
+b9 = game.new_inning()
 
 # Pitching change (BOS): #46 Craig Kimbrel replaces #39 Carson Smith
-inn.pitching_substitution(46)
+b9.pitching_substitution(46)
 
 # 8. TBR #0  Mallex Smith (X - X - X)
-inn.new_ab()
-inn.pitch_list("c s b b f b b")
-inn.reach("BB")
-inn.thrown_out(1, "44 DP6-3", 2, 46)
+b9.new_ab()
+b9.pitch_list("c s b b f b b")
+b9.reach("BB")
+b9.thrown_out(2, "44 DP6-3", 2, 46)
 
 # Offensive change (TBR): Pinch-hitter #44 C.J. Cron replaces #45 Jesús Sucre, batting 9th
-inn.offensive_substitution(9, 44, "PH")
+b9.offensive_substitution(9, 44, "PH")
 
 # 9. TBR #44 C.J. Cron (X - X - 0)
-inn.new_ab()
-inn.pitch_list("1 d 1")
-inn.out("DP6-3")
+b9.new_ab()
+b9.pitch_list("1 d 1")
+b9.out("DP6-3")
 
 # 1. TBR #2  Denard Span (X - X - X)
-inn.new_ab()
-inn.pitch_list("b c c f f b")
-inn.out("P6")
+b9.new_ab()
+b9.pitch_list("b c c f f b")
+b9.out("P6")
 
 # Winning team: BOS
 # WP: BOS #22 Rick Porcello
