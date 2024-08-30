@@ -5,143 +5,130 @@ from baseball_scorecard.baseball_scorecard import Scorecard
 # https://www.baseball-reference.com/boxes/TBA/TBA201804010.shtml
 # https://www.mlb.com/gameday/red-sox-vs-rays/2018/04/01/529445/final
 
-game = Scorecard(os.path.dirname(os.path.abspath(__file__)),
-{
-    "scorer": "Vicyorus",
-    "date":   "2018-04-01 13:10-16:34",
-    "at":     "Tropicana Field, St. Petersburg, FL",
-    "att":    "14,256",
-    "temp":   "72F, Dome",
-    "wind":   "0mph, None",
-    "away"   : {
-        "team":    "Boston Red Sox",
-        "starter": 76,
-        "roster":  {
-            # Lineup
-            50 : "Mookie Betts",
-            11 : "Rafael Devers",
-            28 : "J.D. Martinez",
-            2  : "Xander Bogaerts",
-            18 : "Mitch Moreland",
-            7  : "Christian Vázquez",
-            19 : "Jackie Bradley Jr.",
-            23 : "Blake Swihart",
-            12 : "Brock Holt",
-
-            # Starting pitcher
-            76 : "Hector Velázquez",
-
-            # Bench
-            36 : "Eduardo Núñez",
-            16 : "Andrew Benintendi",
-            3  : "Sandy León",
-            13 : "Hanley Ramirez",
-
-            # Bullpen
-            39 : "Carson Smith",
-            22 : "Rick Porcello",
-            41 : "Chris Sale",
-            61 : "Brian Johnson",
-            66 : "Bobby Poyner",
-            37 : "Heath Hembree",
-            24 : "David Price",
-            46 : "Craig Kimbrel",
-            64 : "Marcus Walden",
-            56 : "Joe Kelly",
-            32 : "Matt Barnes",
+game = Scorecard(
+    os.path.dirname(os.path.abspath(__file__)),
+    {
+        "scorer": "Vicyorus",
+        "date": "2018-04-01 13:10-16:34",
+        "at": "Tropicana Field, St. Petersburg, FL",
+        "att": "14,256",
+        "temp": "72F, Dome",
+        "wind": "0mph, None",
+        "away": {
+            "team": "Boston Red Sox",
+            "starter": 76,
+            "roster": {
+                # Lineup
+                50: "Mookie Betts",
+                11: "Rafael Devers",
+                28: "J.D. Martinez",
+                2: "Xander Bogaerts",
+                18: "Mitch Moreland",
+                7: "Christian Vázquez",
+                19: "Jackie Bradley Jr.",
+                23: "Blake Swihart",
+                12: "Brock Holt",
+                # Starting pitcher
+                76: "Hector Velázquez",
+                # Bench
+                36: "Eduardo Núñez",
+                16: "Andrew Benintendi",
+                3: "Sandy León",
+                13: "Hanley Ramirez",
+                # Bullpen
+                39: "Carson Smith",
+                22: "Rick Porcello",
+                41: "Chris Sale",
+                61: "Brian Johnson",
+                66: "Bobby Poyner",
+                37: "Heath Hembree",
+                24: "David Price",
+                46: "Craig Kimbrel",
+                64: "Marcus Walden",
+                56: "Joe Kelly",
+                32: "Matt Barnes",
+            },
+            "lefties": [41, 61, 66, 24],
+            "lineup": [
+                [50, "9"],
+                [11, "5"],
+                [28, "7"],
+                [2, "6"],
+                [18, "3"],
+                [7, "2"],
+                [19, "8"],
+                [23, "0"],
+                [12, "4"],
+            ],
+            "bench": [
+                [36, "SS"],
+                [16, "LF"],
+                [3, "C"],
+                [13, "SS"],
+            ],
+            "bullpen": [39, 22, 41, 61, 66, 37, 24, 46, 64, 56, 32],
         },
-        "lefties" : [
-            41, 61, 66, 24
-        ],
-        "lineup" : [
-            [50, "9"],
-            [11, "5"],
-            [28, "7"],
-            [2,  "6"],
-            [18, "3"],
-            [7,  "2"],
-            [19, "8"],
-            [23, "0"],
-            [12, "4"],
-        ],
-        "bench" : [
-            [36, "SS"],
-            [16, "LF"],
-            [3,  "C" ],
-            [13, "SS"],
-        ],
-        "bullpen" : [
-            39, 22, 41, 61, 66, 37, 24, 46, 64, 56, 32
-        ],
-    },
-    "home"   : {
-        "team":    "Tampa Bay Rays",
-        "starter": 34,
-        "roster":  {
-            # Lineup
-            2  : "Denard Span",
-            39 : "Kevin Kiermaier",
-            27 : "Carlos Gómez",
-            13 : "Brad Miller",
-            5  : "Matt Duffy",
-            18 : "Joey Wendle",
-            40 : "Wilson Ramos",
-            0  : "Mallex Smith",
-            11 : "Adeiny Hechavarría",
-
-            # Starting pitcher
-            34 : "Jake Faria",
-
-            # Bench
-            8  : "Rob Refsnyder",
-            44 : "C.J. Cron",
-            28 : "Daniel Robertson",
-            45 : "Jesús Sucre",
-
-            # Bullpen
-            37 : "Alex Colomé",
-            46 : "José Alvarado",
-            48 : "Ryan Yarbrough",
-            52 : "Chaz Roe",
-            50 : "Austin Pruitt",
-            36 : "Andrew Kittredge",
-            4  : "Blake Snell",
-            72 : "Yonny Chirinos",
-            35 : "Matt Andriese",
-            22 : "Chris Archer",
-            54 : "Sergio Romo",
+        "home": {
+            "team": "Tampa Bay Rays",
+            "starter": 34,
+            "roster": {
+                # Lineup
+                2: "Denard Span",
+                39: "Kevin Kiermaier",
+                27: "Carlos Gómez",
+                13: "Brad Miller",
+                5: "Matt Duffy",
+                18: "Joey Wendle",
+                40: "Wilson Ramos",
+                0: "Mallex Smith",
+                11: "Adeiny Hechavarría",
+                # Starting pitcher
+                34: "Jake Faria",
+                # Bench
+                8: "Rob Refsnyder",
+                44: "C.J. Cron",
+                28: "Daniel Robertson",
+                45: "Jesús Sucre",
+                # Bullpen
+                37: "Alex Colomé",
+                46: "José Alvarado",
+                48: "Ryan Yarbrough",
+                52: "Chaz Roe",
+                50: "Austin Pruitt",
+                36: "Andrew Kittredge",
+                4: "Blake Snell",
+                72: "Yonny Chirinos",
+                35: "Matt Andriese",
+                22: "Chris Archer",
+                54: "Sergio Romo",
+            },
+            "lefties": [46, 48, 4],
+            "lineup": [
+                [2, "0"],
+                [39, "8"],
+                [27, "9"],
+                [13, "3"],
+                [5, "5"],
+                [18, "4"],
+                [40, "2"],
+                [0, "7"],
+                [11, "6"],
+            ],
+            "bench": [
+                [8, "LF"],
+                [44, "1B"],
+                [28, "SS"],
+                [45, "C"],
+            ],
+            "bullpen": [37, 46, 48, 52, 50, 36, 4, 72, 35, 22, 54],
         },
-        "lefties" : [
-            46, 48, 4
-        ],
-        "lineup" : [
-            [2,  "0"],
-            [39, "8"],
-            [27, "9"],
-            [13, "3"],
-            [5,  "5"],
-            [18, "4"],
-            [40, "2"],
-            [0,  "7"],
-            [11, "6"],
-        ],
-        "bench" : [
-            [8,  "LF"],
-            [44, "1B"],
-            [28, "SS"],
-            [45, "C" ],
-        ],
-        "bullpen" : [
-            37, 46, 48, 52, 50, 36, 4, 72, 35, 22, 54
-        ],
+        "umpires": {
+            "HP": "Manny Gonzalez",
+            "1B": "Jeff Nelson",
+            "2B": "Laz Diaz",
+            "3B": "Andy Fletcher",
+        },
     },
-    "umpires" : {
-        "HP" : "Manny Gonzalez",
-        "1B" : "Jeff Nelson",
-        "2B" : "Laz Diaz",
-        "3B" : "Andy Fletcher",
-    },
-}
 )
 
 ##########################################################
@@ -687,5 +674,5 @@ game.save_pitcher(56, is_away_team=True)
 # LP: TBR #46 José Alvarado
 game.losing_pitcher(46)
 
-#print(game)
+# print(game)
 game.generate_scorecard()
