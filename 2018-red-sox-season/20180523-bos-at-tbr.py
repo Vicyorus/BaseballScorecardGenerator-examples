@@ -577,7 +577,7 @@ t9.pitching_substitution(37)
 t9.new_ab()
 t9.pitch_list("b f t f")
 t9.error(6)
-t9.reach("E6", 2)
+t9.reach("E6", end_base=2)
 t9.advance(3, "2 2B")
 t9.advance("U", "2 2B")
 

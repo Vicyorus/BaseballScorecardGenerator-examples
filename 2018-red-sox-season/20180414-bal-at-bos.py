@@ -400,7 +400,7 @@ b4.pitching_substitution(50)
 b4.new_ab()
 b4.pitch_list("s c f b f b")
 b4.error(6)
-b4.reach("E6", 2)
+b4.reach("E6", end_base=2)
 
 # 5. BOS #11 Rafael Devers (X - 28 - X)
 b4.new_ab()

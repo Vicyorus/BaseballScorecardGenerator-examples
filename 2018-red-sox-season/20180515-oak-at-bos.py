@@ -9,7 +9,7 @@ game = Scorecard(
     os.path.dirname(os.path.abspath(__file__)),
     {
         "scorer": "Vicyorus",
-        "date": "2018-05-15 20:52-00:08 +1",
+        "date": "2018-05-15 20:52-01:50 +1 (1:42 delay)",
         "at": "Fenway Park, Boston, MA",
         "att": "34,906",
         "temp": "59F, Cloudy",
@@ -349,7 +349,7 @@ b4 = game.new_inning()
 b4.new_ab()
 b4.pitch_list("s b")
 b4.error(5)
-b4.reach("E5", 2)
+b4.reach("E5", end_base=2)
 b4.advance(3, "2 1B")
 b4.advance("U", "18 FC3-6")
 

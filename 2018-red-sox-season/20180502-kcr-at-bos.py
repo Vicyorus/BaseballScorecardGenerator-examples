@@ -4,142 +4,130 @@ from baseball_scorecard.baseball_scorecard import Scorecard
 # KCR @ BOS, 2018-05-02
 # https://www.baseball-reference.com/boxes/BOS/BOS201805020.shtml
 # https://www.mlb.com/gameday/royals-vs-red-sox/2018/05/02/529860/final
-game = Scorecard(os.path.dirname(os.path.abspath(__file__)),
-{
-    "scorer": "Vicyorus",
-    "date":   "2018-05-02 13:05-15:50",
-    "at":     "Fenway Park, Boston, MA",
-    "att":    "32,267",
-    "temp":   "86F, Sunny",
-    "wind":   "14mph, Out To CF",
-    "away"   : {
-        "team":    "Kansas City Royals",
-        "starter": 41,
-        "roster":  {
-            # Lineup
-            15 : "Whit Merrifield",
-            12 : "Jorge Soler",
-            8  : "Mike Moustakas",
-            13 : "Salvador Perez",
-            19 : "Cheslor Cuthbert",
-            25 : "Jon Jay",
-            2  : "Alcides Escobar",
-            4  : "Alex Gordon",
-            9  : "Drew Butera",
 
-            # Starting pitcher
-            41 : "Danny Duffy",
-
-            # Bench
-            1  : "Ryan Goins",
-            21 : "Lucas Duda",
-            45 : "Abraham Almonte",
-
-            # Bullpen
-            31 : "Ian Kennedy",
-            58 : "Scott Barlow",
-            61 : "Kevin McCarthy",
-            53 : "Eric Skoglund",
-            64 : "Burch Smith",
-            33 : "Brian Flynn",
-            54 : "Tim Hill",
-            39 : "Jason Hammel",
-            51 : "Blaine Boyer",
-            40 : "Kelvin Herrera",
-            65 : "Jakob Junis",
-            56 : "Brad Keller",
+game = Scorecard(
+    os.path.dirname(os.path.abspath(__file__)),
+    {
+        "scorer": "Vicyorus",
+        "date": "2018-05-02 13:05-15:50",
+        "at": "Fenway Park, Boston, MA",
+        "att": "32,267",
+        "temp": "86F, Sunny",
+        "wind": "14mph, Out To CF",
+        "away": {
+            "team": "Kansas City Royals",
+            "starter": 41,
+            "roster": {
+                # Lineup
+                15: "Whit Merrifield",
+                12: "Jorge Soler",
+                8: "Mike Moustakas",
+                13: "Salvador Perez",
+                19: "Cheslor Cuthbert",
+                25: "Jon Jay",
+                2: "Alcides Escobar",
+                4: "Alex Gordon",
+                9: "Drew Butera",
+                # Starting pitcher
+                41: "Danny Duffy",
+                # Bench
+                1: "Ryan Goins",
+                21: "Lucas Duda",
+                45: "Abraham Almonte",
+                # Bullpen
+                31: "Ian Kennedy",
+                58: "Scott Barlow",
+                61: "Kevin McCarthy",
+                53: "Eric Skoglund",
+                64: "Burch Smith",
+                33: "Brian Flynn",
+                54: "Tim Hill",
+                39: "Jason Hammel",
+                51: "Blaine Boyer",
+                40: "Kelvin Herrera",
+                65: "Jakob Junis",
+                56: "Brad Keller",
+            },
+            "lefties": [41, 53, 33, 54],
+            "lineup": [
+                [15, "4"],
+                [12, "9"],
+                [8, "5"],
+                [13, "0"],
+                [19, "3"],
+                [25, "7"],
+                [2, "6"],
+                [4, "8"],
+                [9, "2"],
+            ],
+            "bench": [
+                [1, "2B"],
+                [21, "1B"],
+                [45, "OF"],
+            ],
+            "bullpen": [31, 58, 61, 53, 64, 33, 54, 39, 51, 40, 65, 56],
         },
-        "lefties" : [
-            41, 53, 33, 54
-        ],
-        "lineup" : [
-            [15, "4"],
-            [12, "9"],
-            [8,  "5"],
-            [13, "0"],
-            [19, "3"],
-            [25, "7"],
-            [2,  "6"],
-            [4,  "8"],
-            [9,  "2"],
-        ],
-        "bench" : [
-            [1,  "2B"],
-            [21, "1B"],
-            [45, "OF"],
-        ],
-        "bullpen" : [
-            31, 58, 61, 53, 64, 33, 54, 39, 51, 40, 65, 56
-        ],
-    },
-    "home"   : {
-        "team":    "Boston Red Sox",
-        "starter": 31,
-        "roster":  {
-            # Lineup
-            50 : "Mookie Betts",
-            16 : "Andrew Benintendi",
-            13 : "Hanley Ramirez",
-            28 : "J.D. Martinez",
-            2  : "Xander Bogaerts",
-            11 : "Rafael Devers",
-            36 : "Eduardo Núñez",
-            3  : "Sandy León",
-            19 : "Jackie Bradley Jr.",
-
-            # Starting pitcher
-            31 : "Drew Pomeranz",
-
-            # Bench
-            5  : "Tzu-Wei Lin",
-            18 : "Mitch Moreland",
-            23 : "Blake Swihart",
-            7  : "Christian Vázquez",
-
-            # Bullpen
-            39 : "Carson Smith",
-            22 : "Rick Porcello",
-            41 : "Chris Sale",
-            61 : "Brian Johnson",
-            37 : "Heath Hembree",
-            24 : "David Price",
-            46 : "Craig Kimbrel",
-            76 : "Hector Velázquez",
-            64 : "Marcus Walden",
-            56 : "Joe Kelly",
-            32 : "Matt Barnes",
+        "home": {
+            "team": "Boston Red Sox",
+            "starter": 31,
+            "roster": {
+                # Lineup
+                50: "Mookie Betts",
+                16: "Andrew Benintendi",
+                13: "Hanley Ramirez",
+                28: "J.D. Martinez",
+                2: "Xander Bogaerts",
+                11: "Rafael Devers",
+                36: "Eduardo Núñez",
+                3: "Sandy León",
+                19: "Jackie Bradley Jr.",
+                # Starting pitcher
+                31: "Drew Pomeranz",
+                # Bench
+                5: "Tzu-Wei Lin",
+                18: "Mitch Moreland",
+                23: "Blake Swihart",
+                7: "Christian Vázquez",
+                # Bullpen
+                39: "Carson Smith",
+                22: "Rick Porcello",
+                41: "Chris Sale",
+                61: "Brian Johnson",
+                37: "Heath Hembree",
+                24: "David Price",
+                46: "Craig Kimbrel",
+                76: "Hector Velázquez",
+                64: "Marcus Walden",
+                56: "Joe Kelly",
+                32: "Matt Barnes",
+            },
+            "lefties": [31, 41, 61, 24],
+            "lineup": [
+                [50, "9"],
+                [16, "7"],
+                [13, "3"],
+                [28, "0"],
+                [2, "6"],
+                [11, "5"],
+                [36, "4"],
+                [3, "2"],
+                [19, "8"],
+            ],
+            "bench": [
+                [5, "OF"],
+                [18, "1B"],
+                [23, "C"],
+                [7, "C"],
+            ],
+            "bullpen": [39, 22, 41, 61, 37, 24, 46, 76, 64, 56, 32],
         },
-        "lefties" : [
-            31, 41, 61, 24
-        ],
-        "lineup" : [
-            [50, "9"],
-            [16, "7"],
-            [13, "3"],
-            [28, "0"],
-            [2,  "6"],
-            [11, "5"],
-            [36, "4"],
-            [3,  "2"],
-            [19, "8"],
-        ],
-        "bench" : [
-            [5,  "OF"],
-            [18, "1B"],
-            [23, "C" ],
-            [7,  "C" ],
-        ],
-        "bullpen" : [
-            39, 22, 41, 61, 37, 24, 46, 76, 64, 56, 32
-        ],
+        "umpires": {
+            "HP": "Brian O'Nora",
+            "1B": "Fieldin Culbreth",
+            "2B": "CB Bucknor",
+            "3B": "Chris Conroy",
+        },
     },
-    "umpires" : {
-        "HP" : "Brian O'Nora",
-        "1B" : "Fieldin Culbreth",
-        "2B" : "CB Bucknor",
-        "3B" : "Chris Conroy",
-    },
-}
 )
 
 ##########################################################
@@ -639,5 +627,5 @@ game.save_pitcher(46)
 # LP: KCR #41 Danny Duffy
 game.losing_pitcher(41, is_away_team=True)
 
-#print(game)
+# print(game)
 game.generate_scorecard()

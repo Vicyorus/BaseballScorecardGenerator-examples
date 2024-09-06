@@ -496,7 +496,7 @@ t7.out("G1-3")
 t7.new_ab()
 t7.pitch_list("d")
 t7.error(4)
-t7.reach("E4", 2, rbis=1)
+t7.reach("E4", end_base=2, rbis=1)
 t7.advance(3, "11 1B")
 
 # 1. MIN #11 Jorge Polanco (X - 60 - X)

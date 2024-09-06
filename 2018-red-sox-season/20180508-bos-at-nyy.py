@@ -454,7 +454,7 @@ b6.out("G5-3")
 b6.new_ab()
 b6.pitch_list("b f c b")
 b6.error(5)
-b6.reach("E5", 2)
+b6.reach("E5", end_base=2)
 
 # 6. NYY #31 Aaron Hicks (X - 24 - X)
 b6.new_ab()

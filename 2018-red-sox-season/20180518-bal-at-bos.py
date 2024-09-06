@@ -623,7 +623,7 @@ b8.out("K")
 b8.new_ab()
 b8.pitch_list("c c b f f f f f")
 b8.error(7)
-b8.reach("E7", 2)
+b8.reach("E7", end_base=2)
 b8.advance(3, "11 G4-3")
 b8.advance("U", "36 2B")
 

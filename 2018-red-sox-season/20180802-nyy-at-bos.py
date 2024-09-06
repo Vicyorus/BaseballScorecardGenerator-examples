@@ -338,7 +338,7 @@ b3.advance(3, "23 E1")
 b3.new_ab()
 b3.pitch_list("b")
 b3.error(1)
-b3.reach("E1", 2)
+b3.reach("E1", end_base=2)
 
 # 8. BOS #12 Brock Holt (36 - 23 - X)
 b3.new_ab()

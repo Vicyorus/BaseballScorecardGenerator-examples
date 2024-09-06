@@ -594,7 +594,7 @@ b8.pitching_substitution(19)
 b8.new_ab()
 b8.pitch_list("s b b")
 b8.error(9)
-b8.reach("E9", 2)
+b8.reach("E9", end_base=2)
 b8.advance("U", "59 1B")
 
 # 5. BOS #36 Eduardo Núñez (X - 18 - X)

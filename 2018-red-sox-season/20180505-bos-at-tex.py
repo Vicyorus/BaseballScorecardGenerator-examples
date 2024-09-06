@@ -360,7 +360,7 @@ t5.advance("U", "16 1B")
 t5.new_ab()
 t5.pitch_list("b b")
 t5.error(5)
-t5.reach("E5", 2)
+t5.reach("E5", end_base=2)
 
 # 2. BOS #16 Andrew Benintendi (7 - 50 - X)
 t5.new_ab()

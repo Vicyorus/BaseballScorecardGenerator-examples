@@ -602,7 +602,7 @@ b7.out("K")
 b7.new_ab()
 b7.pitch_list("c b c")
 b7.error(6)
-b7.reach("E6", 2)
+b7.reach("E6", end_base=2)
 b7.advance(3, "61 2B")
 b7.advance("U", "61 2B")
 

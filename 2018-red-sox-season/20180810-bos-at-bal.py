@@ -338,7 +338,7 @@ b3.advance("U", "3 1B")
 b3.new_ab()
 b3.pitch_list("c f b b")
 b3.error(8)
-b3.reach("E8", 2)
+b3.reach("E8", end_base=2)
 b3.advance(3, "3 1B")
 b3.advance("U", "34 SAC1-3")
 

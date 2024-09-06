@@ -326,7 +326,7 @@ b4 = game.new_inning()
 b4.new_ab()
 b4.pitch_list("b s f")
 b4.error(5)
-b4.reach("E5", 2)
+b4.reach("E5", end_base=2)
 b4.advance(3, "18 1B")
 b4.advance("U", "36 1B")
 

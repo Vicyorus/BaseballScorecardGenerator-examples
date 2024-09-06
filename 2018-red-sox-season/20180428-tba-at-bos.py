@@ -611,7 +611,7 @@ b7.out("G4-3")
 b7.new_ab()
 b7.pitch_list("s b")
 b7.error(5)
-b7.reach("E5", 2)
+b7.reach("E5", end_base=2)
 b7.advance(3, "11 1B")
 
 # 5. BOS #2  Xander Bogaerts (X - 28 - X)

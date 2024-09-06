@@ -321,7 +321,7 @@ t4 = game.new_inning()
 t4.new_ab()
 t4.pitch_list("b c b b")
 t4.error(6)
-t4.reach("E6", 2)
+t4.reach("E6", end_base=2)
 t4.advance("U", "36 1B")
 
 # 6. BOS #11 Rafael Devers (X - 2 - X)

@@ -9,7 +9,7 @@ game = Scorecard(
     os.path.dirname(os.path.abspath(__file__)),
     {
         "scorer": "Vicyorus",
-        "date": "2018-07-24 19:08-22:15",
+        "date": "2018-07-24 19:08-22:42 (0:27 delay)",
         "at": "Oriole Park at Camden Yards, Baltimore, MD",
         "att": "13,342",
         "temp": "79F, Overcast",

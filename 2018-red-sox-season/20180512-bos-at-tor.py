@@ -474,7 +474,7 @@ b6.out("G5-3")
 # 7. TOR #30 Anthony Alford (X - X - X)
 b6.new_ab()
 b6.error(5)
-b6.reach("E5", 2)
+b6.reach("E5", end_base=2)
 
 # 8. TOR #21 Luke Maile (X - 30 - X)
 b6.new_ab()

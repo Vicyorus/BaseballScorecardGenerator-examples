@@ -407,7 +407,7 @@ b5.out("!K")
 b5.new_ab()
 b5.pitch_list("b c")
 b5.error(5)
-b5.reach("E5", 2)
+b5.reach("E5", end_base=2)
 
 # Pitching change (NYY): #30 David Robertson replaces #19 Masahiro Tanaka
 b5.pitching_substitution(30)

@@ -467,7 +467,7 @@ t7.new_ab()
 t7.pitch_list("b b f")
 t7.hit(2)
 t7.advance(3, "36 1B")
-t7.advance(4, "19 SF7")
+t7.advance(4, "19 (F)SF7")
 
 # 6. BOS #36 Eduardo Núñez (X - 11 - X)
 t7.new_ab()

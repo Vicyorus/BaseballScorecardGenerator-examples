@@ -235,7 +235,7 @@ b2.out("G4-3")
 b2.new_ab()
 b2.pitch_list("f b d b")
 b2.error(4)
-b2.reach("E4", 2)
+b2.reach("E4", end_base=2)
 
 # 8. BOS #3  Sandy León (X - 36 - X)
 b2.new_ab()
