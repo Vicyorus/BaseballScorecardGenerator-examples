@@ -217,7 +217,7 @@ b2 = game.new_inning()
 
 # 4. BOS #28 J.D. Martinez (X - X - X)
 b2.new_ab()
-b2.hit(4, rbis=1)
+b2.hit(4)
 
 # 5. BOS #11 Rafael Devers (X - X - X)
 b2.new_ab()

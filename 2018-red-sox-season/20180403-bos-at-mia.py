@@ -235,7 +235,7 @@ b2.out("L8")
 b2.new_ab()
 b2.pitch_list("c s b b b")
 b2.hit(1)
-b2.thrown_out(2, "19 DP9-3", 3, 41)
+b2.thrown_out(1, "19 DP9-3", 3, 41)
 
 # 7. MIA #19 Miguel Rojas (X - X - 1)
 b2.new_ab()

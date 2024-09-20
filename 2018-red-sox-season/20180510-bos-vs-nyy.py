@@ -386,7 +386,7 @@ t5 = game.new_inning()
 # 3. BOS #13 Hanley Ramirez (X - X - X)
 t5.new_ab()
 t5.pitch_list("c f f b b")
-t5.hit(4, rbis=1)
+t5.hit(4)
 
 # Pitching change (NYY): #56 Jonathan Holder replaces #52 CC Sabathia
 t5.pitching_substitution(56)
@@ -582,7 +582,7 @@ t8.defensive_switch(14, "5")
 # 4. BOS #28 J.D. Martinez (X - X - X)
 t8.new_ab()
 t8.pitch_list("b")
-t8.hit(4, rbis=1)
+t8.hit(4)
 
 # 5. BOS #2  Xander Bogaerts (X - X - X)
 t8.new_ab()

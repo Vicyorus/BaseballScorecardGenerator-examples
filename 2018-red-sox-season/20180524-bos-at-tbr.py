@@ -630,7 +630,7 @@ t9.out("F9")
 # 4. BOS #18 Mitch Moreland (X - X - X)
 t9.new_ab()
 t9.pitch_list("c")
-t9.hit(4, rbis=1)
+t9.hit(4)
 
 # 5. BOS #2  Xander Bogaerts (X - X - X)
 t9.new_ab()

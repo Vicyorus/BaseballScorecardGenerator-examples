@@ -206,7 +206,7 @@ t2 = game.new_inning()
 t2.new_ab()
 t2.pitch_list("f b c")
 t2.hit(1)
-t2.thrown_out(2, "19 PO", 2, 33)
+t2.thrown_out(1, "19 PO", 2, 33)
 
 # Pitching change (WSH): #33 Matt Grace replaces #23 Erick Fedde, batting 9th
 t2.pitching_substitution(33)

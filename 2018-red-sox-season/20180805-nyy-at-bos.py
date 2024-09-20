@@ -396,7 +396,7 @@ b5.out("K")
 # 1. BOS #50 Mookie Betts (X - X - X)
 b5.new_ab()
 b5.pitch_list("b b")
-b5.hit(4, rbis=1)
+b5.hit(4)
 
 # 2. BOS #16 Andrew Benintendi (X - X - X)
 b5.new_ab()

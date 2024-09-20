@@ -364,7 +364,7 @@ t5 = game.new_inning()
 
 # 1. BOS #50 Mookie Betts (X - X - X)
 t5.new_ab()
-t5.hit(4, rbis=1)
+t5.hit(4)
 
 # 2. BOS #16 Andrew Benintendi (X - X - X)
 t5.new_ab()

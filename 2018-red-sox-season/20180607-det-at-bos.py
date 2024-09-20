@@ -195,7 +195,7 @@ b1 = game.new_inning()
 # 1. BOS #16 Andrew Benintendi (X - X - X)
 b1.new_ab()
 b1.pitch_list("b f b b")
-b1.hit(4, rbis=1)
+b1.hit(4)
 
 # 2. BOS #2  Xander Bogaerts (X - X - X)
 b1.new_ab()

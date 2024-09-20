@@ -443,7 +443,7 @@ t7.new_ab()
 t7.pitch_list("b c b s")
 t7.hit(1, rbis=1)
 t7.advance(2, "22 1B")
-t7.thrown_out(3, "7 PO", 3, 41)
+t7.thrown_out(2, "7 PO", 3, 41)
 
 # 8. CWS #18 Daniel Palka (X - X - 32)
 t7.new_ab()

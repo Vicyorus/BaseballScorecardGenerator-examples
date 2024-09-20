@@ -415,7 +415,7 @@ t5.out("L8")
 # 2. NYY #99 Aaron Judge (X - X - X)
 t5.new_ab()
 t5.pitch_list("b")
-t5.hit(4, rbis=1)
+t5.hit(4)
 
 # 3. NYY #27 Giancarlo Stanton (X - X - X)
 t5.new_ab()

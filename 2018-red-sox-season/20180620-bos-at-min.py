@@ -169,7 +169,7 @@ b1 = game.new_inning()
 # 1. MIN #36 Robbie Grossman (X - X - X)
 b1.new_ab()
 b1.pitch_list("c c b b")
-b1.hit(4, rbis=1)
+b1.hit(4)
 
 # 2. MIN #20 Eddie Rosario (X - X - X)
 b1.new_ab()

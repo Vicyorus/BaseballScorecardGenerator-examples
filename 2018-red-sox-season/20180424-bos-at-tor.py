@@ -686,7 +686,7 @@ b10.out("!K")
 # 1. TOR #18 Curtis Granderson (X - X - X)
 b10.new_ab()
 b10.pitch_list("b b")
-b10.hit(4, rbis=1)
+b10.hit(4)
 
 # Winning team: TOR
 # WP: TOR #36 Tyler Clippard

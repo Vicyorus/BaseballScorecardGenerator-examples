@@ -420,7 +420,7 @@ t6.out("DP6-3")
 # 5. BOS #2  Xander Bogaerts (X - X - X)
 t6.new_ab()
 t6.pitch_list("s s f b b f")
-t6.hit(4, rbis=1)
+t6.hit(4)
 
 # 6. BOS #11 Rafael Devers (X - X - X)
 t6.new_ab()

@@ -307,7 +307,7 @@ b3.out("K")
 # 5. BOS #2  Xander Bogaerts (X - X - X)
 b3.new_ab()
 b3.pitch_list("b s f b b")
-b3.hit(4, rbis=1)
+b3.hit(4)
 
 # 6. BOS #5  Ian Kinsler (X - X - X)
 b3.new_ab()

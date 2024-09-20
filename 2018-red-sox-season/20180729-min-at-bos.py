@@ -626,7 +626,7 @@ t9.new_ab()
 t9.pitch_list("b f")
 t9.reach("HBP")
 t9.advance(2, "2 WP")
-t9.thrown_out(3, "2 DP6-4", 3, 46)
+t9.thrown_out(2, "2 DP6-4", 3, 46)
 
 # 4. MIN #2  Brian Dozier (X - X - 11)
 t9.new_ab()

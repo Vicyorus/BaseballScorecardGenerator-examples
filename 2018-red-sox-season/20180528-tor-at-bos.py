@@ -442,7 +442,7 @@ b5.defensive_switch(3, "5")
 # 4. BOS #28 J.D. Martinez (X - X - X)
 b5.new_ab()
 b5.pitch_list("s f")
-b5.hit(4, rbis=1)
+b5.hit(4)
 
 # 5. BOS #11 Rafael Devers (X - X - X)
 b5.new_ab()

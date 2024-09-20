@@ -653,7 +653,7 @@ b9.pitching_substitution(56)
 # 6. BOS #11 Rafael Devers (X - X - X)
 b9.new_ab()
 b9.pitch_list("s b b")
-b9.hit(4, rbis=1)
+b9.hit(4)
 
 # 7. BOS #36 Eduardo Núñez (X - X - X)
 b9.new_ab()
@@ -707,7 +707,7 @@ b10.pitching_substitution(38)
 # 1. BOS #50 Mookie Betts (X - X - X)
 b10.new_ab()
 b10.pitch_list("c")
-b10.hit(4, rbis=1)
+b10.hit(4)
 
 # Winning team: BOS
 # WP: BOS #47 Tyler Thornburg

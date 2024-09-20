@@ -251,7 +251,7 @@ b2.defensive_switch(45, "0")
 # 4. BOS #18 Mitch Moreland (X - X - X)
 b2.new_ab()
 b2.pitch_list("b")
-b2.hit(4, rbis=1)
+b2.hit(4)
 
 # 5. BOS #2  Xander Bogaerts (X - X - X)
 b2.new_ab()

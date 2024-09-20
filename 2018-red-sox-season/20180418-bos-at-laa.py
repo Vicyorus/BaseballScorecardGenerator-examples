@@ -518,7 +518,7 @@ t7 = game.new_inning()
 # 3. BOS #28 J.D. Martinez (X - X - X)
 t7.new_ab()
 t7.pitch_list("b b")
-t7.hit(4, rbis=1)
+t7.hit(4)
 
 # 4. BOS #18 Mitch Moreland (X - X - X)
 t7.new_ab()

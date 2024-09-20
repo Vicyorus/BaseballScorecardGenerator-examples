@@ -305,7 +305,7 @@ t4.out("K")
 # 6. TBR #0  Mallex Smith (X - 13 - X)
 t4.new_ab()
 t4.hit(1, rbis=1)
-t4.thrown_out(2, "11 PO", 3, 22)
+t4.thrown_out(1, "11 PO", 3, 22)
 
 # 7. TBR #11 Adeiny Hechavarría (X - X - 0)
 t4.new_ab()

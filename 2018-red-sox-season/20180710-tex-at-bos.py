@@ -193,7 +193,7 @@ t2.out("K")
 
 # 5. TEX #12 Rougned Odor (X - X - X)
 t2.new_ab()
-t2.hit(4, rbis=1)
+t2.hit(4)
 
 # 6. TEX #67 Ronald Guzmán (X - X - X)
 t2.new_ab()

@@ -282,7 +282,7 @@ b3 = game.new_inning()
 b3.new_ab()
 b3.pitch_list("c f b b f b")
 b3.hit(1)
-b3.thrown_out(2, "16 PO", 1, 57)
+b3.thrown_out(1, "16 PO", 1, 57)
 
 # 1. BOS #16 Andrew Benintendi (X - X - 19)
 b3.new_ab()
@@ -408,7 +408,7 @@ b5 = game.new_inning()
 
 # 2. BOS #2  Xander Bogaerts (X - X - X)
 b5.new_ab()
-b5.hit(4, rbis=1)
+b5.hit(4)
 
 # 3. BOS #28 J.D. Martinez (X - X - X)
 b5.new_ab()

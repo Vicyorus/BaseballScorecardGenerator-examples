@@ -265,7 +265,7 @@ b2.out("F9")
 # 9. BOS #19 Jackie Bradley Jr. (X - X - X)
 b2.new_ab()
 b2.pitch_list("c b")
-b2.hit(4, rbis=1)
+b2.hit(4)
 
 # 1. BOS #16 Andrew Benintendi (X - X - X)
 b2.new_ab()

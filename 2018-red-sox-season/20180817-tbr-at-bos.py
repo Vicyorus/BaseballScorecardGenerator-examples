@@ -466,7 +466,7 @@ t6.out("K")
 b6 = game.new_inning()
 
 # Defensive switch (TBR): #9 Jake Bauers moves to DH
-b6.defensive_switch(9, "10")
+b6.defensive_switch(9, "0")
 
 # 6. BOS #5  Ian Kinsler (X - X - X)
 b6.new_ab()

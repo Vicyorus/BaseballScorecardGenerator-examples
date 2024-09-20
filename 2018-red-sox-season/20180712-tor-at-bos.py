@@ -485,7 +485,7 @@ t7 = game.new_inning()
 
 # 5. TOR #8  Kendrys Morales (X - X - X)
 t7.new_ab()
-t7.hit(4, rbis=1)
+t7.hit(4)
 
 # 6. TOR #55 Russell Martin (X - X - X)
 t7.new_ab()

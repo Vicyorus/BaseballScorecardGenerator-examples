@@ -374,7 +374,7 @@ b5.hit(3, rbis=1)
 b5.new_ab()
 b5.pitch_list("c b b b b")
 b5.reach("BB")
-b5.thrown_out(2, "3 DP4-3", 3, 27)
+b5.thrown_out(1, "3 DP4-3", 3, 27)
 
 # 9. BOS #3  Sandy León (36 - X - 12)
 b5.new_ab()

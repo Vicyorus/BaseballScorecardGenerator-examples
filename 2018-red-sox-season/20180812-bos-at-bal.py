@@ -154,7 +154,7 @@ t1.out("G5-3")
 # 3. BOS #25 Steve Pearce (X - X - X)
 t1.new_ab()
 t1.pitch_list("b c f f")
-t1.hit(4, rbis=1)
+t1.hit(4)
 
 # 4. BOS #28 J.D. Martinez (X - X - X)
 t1.new_ab()

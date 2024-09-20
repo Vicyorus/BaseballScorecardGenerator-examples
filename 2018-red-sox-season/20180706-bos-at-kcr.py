@@ -144,7 +144,7 @@ t1 = game.new_inning()
 # 1. BOS #50 Mookie Betts (X - X - X)
 t1.new_ab()
 t1.pitch_list("b f")
-t1.hit(4, rbis=1)
+t1.hit(4)
 
 # 2. BOS #16 Andrew Benintendi (X - X - X)
 t1.new_ab()

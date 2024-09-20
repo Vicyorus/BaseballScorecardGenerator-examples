@@ -382,7 +382,7 @@ b5.out("G5-3")
 # 1. OAK #10 Marcus Semien (X - X - X)
 b5.new_ab()
 b5.pitch_list("c b")
-b5.hit(4, rbis=1)
+b5.hit(4)
 
 # 2. OAK #25 Stephen Piscotty (X - X - X)
 b5.new_ab()

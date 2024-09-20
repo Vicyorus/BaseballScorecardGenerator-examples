@@ -520,7 +520,7 @@ b7.out("P1")
 # 5. DET #46 Jeimer Candelario (X - X - X)
 b7.new_ab()
 b7.pitch_list("b b c b")
-b7.hit(4, rbis=1)
+b7.hit(4)
 
 # 6. DET #34 James McCann (X - X - X)
 b7.new_ab()

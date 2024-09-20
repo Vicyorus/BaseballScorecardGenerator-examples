@@ -195,7 +195,7 @@ t2.out("G5-3")
 # 5. BOS #2  Xander Bogaerts (X - X - X)
 t2.new_ab()
 t2.pitch_list("b b c b")
-t2.hit(4, rbis=1)
+t2.hit(4)
 
 # 6. BOS #18 Mitch Moreland (X - X - X)
 t2.new_ab()
@@ -591,7 +591,7 @@ b8 = game.new_inning()
 
 # 3. TBR #27 Carlos Gómez (X - X - X)
 b8.new_ab()
-b8.hit(4, rbis=1)
+b8.hit(4)
 
 # 4. TBR #13 Brad Miller (X - X - X)
 b8.new_ab()
@@ -655,7 +655,7 @@ b9.pitching_substitution(46)
 b9.new_ab()
 b9.pitch_list("c s b b f b b")
 b9.reach("BB")
-b9.thrown_out(2, "44 DP6-3", 2, 46)
+b9.thrown_out(1, "44 DP6-3", 2, 46)
 
 # Offensive change (TBR): Pinch-hitter #44 C.J. Cron replaces #45 Jesús Sucre, batting 9th
 b9.offensive_substitution(9, 44, "PH")

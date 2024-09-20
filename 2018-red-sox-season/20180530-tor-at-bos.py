@@ -345,7 +345,7 @@ b5 = game.new_inning()
 # 5. BOS #36 Eduardo Núñez (X - X - X)
 b5.new_ab()
 b5.pitch_list("c")
-b5.hit(4, rbis=1)
+b5.hit(4)
 
 # 6. BOS #12 Brock Holt (X - X - X)
 b5.new_ab()

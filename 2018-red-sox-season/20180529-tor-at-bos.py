@@ -313,7 +313,7 @@ t4.out("F7")
 # 4. TOR #14 Justin Smoak (X - X - X)
 t4.new_ab()
 t4.pitch_list("c b f b f")
-t4.hit(4, rbis=1)
+t4.hit(4)
 
 # 5. TOR #37 Teoscar Hernández (X - X - X)
 t4.new_ab()
@@ -497,6 +497,7 @@ t7.new_ab()
 t7.pitch_list("b b c f b b")
 t7.reach("BB")
 t7.advance(2, "29 1B")
+t7.error(1)
 t7.advance(3, "18 1B")
 t7.advance("U", "18 E1")
 
@@ -514,7 +515,6 @@ t7.out("K")
 t7.new_ab()
 t7.pitch_list("b c d f")
 t7.hit(1, rbis=1)
-t7.error(1)
 t7.advance(2, "E1")
 
 # Pitching change (BOS): #56 Joe Kelly replaces #22 Rick Porcello
@@ -533,7 +533,7 @@ b7 = game.new_inning()
 # 2. BOS #2  Xander Bogaerts (X - X - X)
 b7.new_ab()
 b7.pitch_list("c b")
-b7.hit(4, rbis=1)
+b7.hit(4)
 
 # Pitching change (TOR): #36 Tyler Clippard replaces #31 Joe Biagini
 b7.pitching_substitution(36)

@@ -251,7 +251,7 @@ t3.out("L8")
 # 1. BOS #50 Mookie Betts (X - X - X)
 t3.new_ab()
 t3.pitch_list("b f b b c f")
-t3.hit(4, rbis=1)
+t3.hit(4)
 
 # 2. BOS #16 Andrew Benintendi (X - X - X)
 t3.new_ab()
@@ -505,7 +505,7 @@ t7.out("DP5-4-3")
 # 4. BOS #28 J.D. Martinez (X - X - X)
 t7.new_ab()
 t7.pitch_list("f f")
-t7.hit(4, rbis=1)
+t7.hit(4)
 
 # Pitching change (BAL): #48 Richard Bleier replaces #43 Mike Wright Jr.
 t7.pitching_substitution(48)

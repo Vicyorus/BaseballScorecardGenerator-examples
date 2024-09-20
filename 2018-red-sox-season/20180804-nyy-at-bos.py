@@ -309,7 +309,7 @@ b4.out("K")
 # 4. BOS #28 J.D. Martinez (X - X - X)
 b4.new_ab()
 b4.pitch_list("f b")
-b4.hit(4, rbis=1)
+b4.hit(4)
 
 # 5. BOS #2  Xander Bogaerts (X - X - X)
 b4.new_ab()

@@ -173,22 +173,22 @@ t1.new_ab()
 t1.hit(1)
 t1.advance(4, "42 2B")
 
-# 2. BAL #42 Craig Gentry (X - X - 16)
+# 2. BAL #42 Craig Gentry (X - X - 42)
 t1.new_ab()
 t1.pitch_list("l b b c f f f f 1 c")
 t1.out("!K")
 
-# 3. BAL #42 Manny Machado (X - X - 16)
+# 3. BAL #42 Manny Machado (X - X - 42)
 t1.new_ab()
 t1.pitch_list("f b b s b")
 t1.hit(2, rbis=1)
 t1.advance(3, "42 G4-3")
 
-# 4. BAL #42 Adam Jones (X - 13 - X)
+# 4. BAL #42 Adam Jones (X - 42 - X)
 t1.new_ab()
 t1.out("G4-3")
 
-# 5. BAL #42  Danny Valencia (13 - X - X)
+# 5. BAL #42  Danny Valencia (42 - X - X)
 t1.new_ab()
 t1.pitch_list("b b c")
 t1.out("G6-3")
@@ -249,17 +249,17 @@ b2.new_ab()
 b2.pitch_list("b b")
 b2.hit(2)
 
-# 6. BOS #42 Rafael Devers (X - 18 - X)
+# 6. BOS #42 Rafael Devers (X - 42 - X)
 b2.new_ab()
 b2.pitch_list("b b b b")
 b2.reach("BB")
 
-# 7. BOS #42  Christian Vázquez (X - 18 - 11)
+# 7. BOS #42  Christian Vázquez (X - 42 - 42)
 b2.new_ab()
 b2.pitch_list("c b c f f s")
 b2.out("K")
 
-# 8. BOS #42 Brock Holt (X - 18 - 11)
+# 8. BOS #42 Brock Holt (X - 42 - 42)
 b2.new_ab()
 b2.pitch_list("f f f")
 b2.out("(F)P5")
@@ -288,7 +288,7 @@ t3.pitch_list("b b f b b")
 t3.reach("BB")
 t3.advance(2, "42 SB")
 
-# 3. BAL #42 Manny Machado (X - X - 14)
+# 3. BAL #42 Manny Machado (X - X - 42)
 t3.new_ab()
 t3.pitch_list("c b f b d")
 t3.out("P6")
@@ -313,7 +313,7 @@ b3.new_ab()
 b3.pitch_list("c b")
 b3.hit(2)
 
-# 3. BOS #42 Hanley Ramirez (X - 16 - X)
+# 3. BOS #42 Hanley Ramirez (X - 42 - X)
 b3.new_ab()
 b3.pitch_list("c b s b f s")
 b3.out("K")
@@ -336,12 +336,12 @@ t4.new_ab()
 t4.pitch_list("b c b c b b")
 t4.reach("BB")
 
-# 6. BAL #42 Chris Davis (X - X - 2)
+# 6. BAL #42 Chris Davis (X - X - 42)
 t4.new_ab()
 t4.pitch_list("c c b f b b f f c")
 t4.out("!K")
 
-# 7. BAL #42  Tim Beckham (X - X - 2)
+# 7. BAL #42  Tim Beckham (X - X - 42)
 t4.new_ab()
 t4.pitch_list("c f 1 b f t")
 t4.out("KT")
@@ -357,16 +357,16 @@ b4.pitch_list("b f b b s b")
 b4.reach("BB")
 b4.advance(2, "42 WP")
 
-# 5. BOS #42 Mitch Moreland (X - X - 28)
+# 5. BOS #42 Mitch Moreland (X - X - 42)
 b4.new_ab()
 b4.out("(F)P5")
 
-# 6. BOS #42 Rafael Devers (X - X - 28)
+# 6. BOS #42 Rafael Devers (X - X - 42)
 b4.new_ab()
 b4.pitch_list("s 1 b f s")
 b4.out("K")
 
-# 7. BOS #42  Christian Vázquez (X - X - 28)
+# 7. BOS #42  Christian Vázquez (X - X - 42)
 b4.new_ab()
 b4.pitch_list("b f f b")
 b4.wp()
@@ -411,19 +411,19 @@ b5.pitch_list("c c")
 b5.hit(1)
 b5.thrown_out(2, "42 FC3-6", 2, 605164)
 
-# 1. BOS #42 Jackie Bradley Jr. (X - X - 5)
+# 1. BOS #42 Jackie Bradley Jr. (X - X - 42)
 b5.new_ab()
 b5.pitch_list("c f")
 b5.reach("FC3-6")
 b5.advance(2, "42 SB")
 b5.advance(4, "42 3B")
 
-# 2. BOS #42 Andrew Benintendi (X - X - 19)
+# 2. BOS #42 Andrew Benintendi (X - X - 42)
 b5.new_ab()
 b5.pitch_list("c 1 b")
 b5.hit(3, rbis=1)
 
-# 3. BOS #42 Hanley Ramirez (16 - X - X)
+# 3. BOS #42 Hanley Ramirez (42 - X - X)
 b5.new_ab()
 b5.pitch_list("b c")
 b5.out("L8")
@@ -436,7 +436,7 @@ b5.out("L8")
 # Pitching: BOS #42 Heath Hembree
 t6 = game.new_inning()
 
-# Pitching change (BOS): #37 Heath Hembree replaces #41 Chris Sale
+# Pitching change (BOS): #42 Heath Hembree replaces #41 Chris Sale
 t6.pitching_substitution(592390)
 
 # 2. BAL #42 Craig Gentry (X - X - X)
@@ -444,16 +444,16 @@ t6.new_ab()
 t6.pitch_list("f b f")
 t6.hit(1)
 
-# 3. BAL #42 Manny Machado (X - X - 14)
+# 3. BAL #42 Manny Machado (X - X - 42)
 t6.new_ab()
 t6.pitch_list("b 1 1 b")
 t6.out("P6")
 
-# 4. BAL #42 Adam Jones (X - X - 14)
+# 4. BAL #42 Adam Jones (X - X - 42)
 t6.new_ab()
 t6.out("F7")
 
-# 5. BAL #42  Danny Valencia (X - X - 14)
+# 5. BAL #42  Danny Valencia (X - X - 42)
 t6.new_ab()
 t6.pitch_list("b 1")
 t6.out("G5-3")
@@ -469,41 +469,41 @@ b6.pitch_list("f")
 b6.error(5)
 b6.reach("E5")
 b6.advance(3, "42 2B")
-b6.advance("U", "11 WP")
+b6.advance("U", "42 WP")
 
-# 5. BOS #42 Mitch Moreland (X - X - 28)
+# 5. BOS #42 Mitch Moreland (X - X - 42)
 b6.new_ab()
 b6.pitch_list("c b")
 b6.hit(2)
 b6.advance(3, "42 1B")
-b6.advance("U", "5 2B")
+b6.advance("U", "42 2B")
 
-# 6. BOS #42 Rafael Devers (28 - 18 - X)
+# 6. BOS #42 Rafael Devers (42 - 42 - X)
 b6.new_ab()
 b6.pitch_list("b b s l s")
 b6.wp()
 b6.out("K")
 
-# 7. BOS #42  Christian Vázquez (X - 18 - X)
+# 7. BOS #42  Christian Vázquez (X - 42 - X)
 b6.new_ab()
 b6.pitch_list("c s s")
 b6.out("K")
 
-# 8. BOS #42 Brock Holt (X - 18 - X)
+# 8. BOS #42 Brock Holt (X - 42 - X)
 b6.new_ab()
 b6.pitch_list("c f")
 b6.hit(1)
 b6.advance(3, "42 2B")
 
-# 9. BOS #42  Tzu-Wei Lin (18 - X - 12)
+# 9. BOS #42  Tzu-Wei Lin (42 - X - 42)
 b6.new_ab()
 b6.pitch_list("b c c")
 b6.hit(2, rbis=1)
 
-# Pitching change (BAL): #48 Richard Bleier replaces #37 Dylan Bundy
+# Pitching change (BAL): #42 Richard Bleier replaces #42 Dylan Bundy
 b6.pitching_substitution(542947)
 
-# 1. BOS #42 Jackie Bradley Jr. (12 - 5 - X)
+# 1. BOS #42 Jackie Bradley Jr. (42 - 42 - X)
 b6.new_ab()
 b6.pitch_list("b c b f")
 b6.out("G5-3")
@@ -543,17 +543,17 @@ b7.hit(1)
 b7.advance(2, "42 SB")
 b7.thrown_out(4, "42 7-2", 3, 542947)
 
-# 3. BOS #42 Hanley Ramirez (X - X - 16)
+# 3. BOS #42 Hanley Ramirez (X - X - 42)
 b7.new_ab()
 b7.pitch_list("f f c")
 b7.out("!K")
 
-# 4. BOS #42 J.D. Martinez (X - X - 16)
+# 4. BOS #42 J.D. Martinez (X - X - 42)
 b7.new_ab()
 b7.pitch_list("s 1 s d b f s")
 b7.out("K")
 
-# 5. BOS #42 Mitch Moreland (X - 16 - X)
+# 5. BOS #42 Mitch Moreland (X - 42 - X)
 b7.new_ab()
 b7.hit(1)
 
@@ -565,10 +565,10 @@ b7.hit(1)
 # Pitching: BOS #42 Matt Barnes
 t8 = game.new_inning()
 
-# Pitching change (BOS): #32 Matt Barnes replaces #37 Heath Hembree
+# Pitching change (BOS): #42 Matt Barnes replaces #42 Heath Hembree
 t8.pitching_substitution(598264)
 
-# Offensive change (BAL): Pinch-hitter #15 Chance Sisco replaces #36 Caleb Joseph, batting 9th
+# Offensive change (BAL): Pinch-hitter #42 Chance Sisco replaces #42 Caleb Joseph, batting 9th
 t8.offensive_substitution(9, 642082, "PH")
 
 # 9. BAL #42 Chance Sisco (X - X - X)
@@ -586,7 +586,7 @@ t8.new_ab()
 t8.pitch_list("b c f b b b")
 t8.reach("BB")
 
-# 3. BAL #42 Manny Machado (X - X - 14)
+# 3. BAL #42 Manny Machado (X - X - 42)
 t8.new_ab()
 t8.pitch_list("f 1 c b 1 b 1")
 t8.out("F9")
@@ -596,7 +596,7 @@ t8.out("F9")
 # Pitching: BAL #42 Richard Bleier
 b8 = game.new_inning()
 
-# Defensive switch (BAL): #15 Chance Sisco moves to C
+# Defensive switch (BAL): #42 Chance Sisco moves to C
 b8.defensive_switch(642082, "2")
 
 # 6. BOS #42 Rafael Devers (X - X - X)
@@ -605,16 +605,16 @@ b8.pitch_list("c b b")
 b8.hit(1)
 b8.thrown_out(2, "42 FC6-4", 1, 542947)
 
-# 7. BOS #42  Christian Vázquez (X - X - 11)
+# 7. BOS #42  Christian Vázquez (X - X - 42)
 b8.new_ab()
 b8.pitch_list("b f b b")
 b8.reach("FC6-4")
 
-# 8. BOS #42 Brock Holt (X - X - 7)
+# 8. BOS #42 Brock Holt (X - X - 42)
 b8.new_ab()
 b8.out("F8")
 
-# 9. BOS #42  Tzu-Wei Lin (X - X - 7)
+# 9. BOS #42  Tzu-Wei Lin (X - X - 42)
 b8.new_ab()
 b8.pitch_list("1 1 c d")
 b8.out("G4-3")
@@ -627,7 +627,7 @@ b8.out("G4-3")
 # Pitching: BOS #42 Craig Kimbrel
 t9 = game.new_inning()
 
-# Pitching change (BOS): #46 Craig Kimbrel replaces #32 Matt Barnes
+# Pitching change (BOS): #42 Craig Kimbrel replaces #42 Matt Barnes
 t9.pitching_substitution(518886)
 
 # 4. BAL #42 Adam Jones (X - X - X)
@@ -635,7 +635,7 @@ t9.new_ab()
 t9.pitch_list("c")
 t9.out("L9")
 
-# Offensive change (BAL): Pinch-hitter #24 Pedro Alvarez replaces #2 Danny Valencia, batting 5th
+# Offensive change (BAL): Pinch-hitter #42 Pedro Alvarez replaces #42 Danny Valencia, batting 5th
 t9.offensive_substitution(5, 476883, "PH")
 
 # 5. BAL #42 Pedro Alvarez (X - X - X)

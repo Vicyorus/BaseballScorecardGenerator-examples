@@ -478,7 +478,7 @@ t7.out("G6-3")
 # 8. BOS #7  Christian Vázquez (X - X - X)
 t7.new_ab()
 t7.pitch_list("b c b b")
-t7.hit(4, rbis=1)
+t7.hit(4)
 
 # 9. BOS #19 Jackie Bradley Jr. (X - X - X)
 t7.new_ab()

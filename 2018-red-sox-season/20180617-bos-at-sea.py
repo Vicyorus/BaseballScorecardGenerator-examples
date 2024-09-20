@@ -354,7 +354,7 @@ b4 = game.new_inning()
 # 4. SEA #23 Nelson Cruz (X - X - X)
 b4.new_ab()
 b4.pitch_list("c b b s f b")
-b4.hit(4, rbis=1)
+b4.hit(4)
 
 # 5. SEA #15 Kyle Seager (X - X - X)
 b4.new_ab()
@@ -487,7 +487,7 @@ t7.pitching_substitution(60)
 
 # 9. BOS #19 Jackie Bradley Jr. (X - X - X)
 t7.new_ab()
-t7.hit(4, rbis=1)
+t7.hit(4)
 
 # 1. BOS #50 Mookie Betts (X - X - X)
 t7.new_ab()

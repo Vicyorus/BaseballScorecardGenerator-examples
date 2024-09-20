@@ -664,7 +664,7 @@ b9.out("K")
 # 3. TOR #14 Justin Smoak (X - X - X)
 b9.new_ab()
 b9.pitch_list("b b b")
-b9.hit(4, rbis=1)
+b9.hit(4)
 
 # 4. TOR #37 Teoscar Hernández (X - X - X)
 b9.new_ab()

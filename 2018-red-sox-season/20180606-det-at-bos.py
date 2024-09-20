@@ -399,7 +399,7 @@ b5 = game.new_inning()
 # 1. BOS #16 Andrew Benintendi (X - X - X)
 b5.new_ab()
 b5.pitch_list("f")
-b5.hit(4, rbis=1)
+b5.hit(4)
 
 # 2. BOS #2  Xander Bogaerts (X - X - X)
 b5.new_ab()
@@ -535,7 +535,7 @@ b7.pitching_substitution(45)
 
 # 8. BOS #7  Christian Vázquez (X - X - X)
 b7.new_ab()
-b7.hit(4, rbis=1)
+b7.hit(4)
 
 # 9. BOS #19 Jackie Bradley Jr. (X - X - X)
 b7.new_ab()

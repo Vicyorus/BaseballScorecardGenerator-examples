@@ -196,7 +196,7 @@ t2 = game.new_inning()
 # 4. TBR #44 C.J. Cron (X - X - X)
 t2.new_ab()
 t2.pitch_list("b b b c")
-t2.hit(4, rbis=1)
+t2.hit(4)
 
 # 5. TBR #28 Daniel Robertson (X - X - X)
 t2.new_ab()

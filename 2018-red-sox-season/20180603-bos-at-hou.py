@@ -180,7 +180,7 @@ b1 = game.new_inning()
 # 1. HOU #4  George Springer (X - X - X)
 b1.new_ab()
 b1.pitch_list("b c")
-b1.hit(4, rbis=1)
+b1.hit(4)
 
 # 2. HOU #2  Alex Bregman (X - X - X)
 b1.new_ab()
@@ -370,7 +370,7 @@ t5.out("K")
 
 # 1. BOS #16 Andrew Benintendi (X - X - X)
 t5.new_ab()
-t5.hit(4, rbis=1)
+t5.hit(4)
 
 # 2. BOS #2  Xander Bogaerts (X - X - X)
 t5.new_ab()

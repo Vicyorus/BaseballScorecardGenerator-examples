@@ -202,7 +202,7 @@ b1.out("F7")
 
 # 3. BOS #13 Hanley Ramirez (X - X - X)
 b1.new_ab()
-b1.hit(4, rbis=1)
+b1.hit(4)
 
 # 4. BOS #28 J.D. Martinez (X - X - X)
 b1.new_ab()
@@ -308,7 +308,7 @@ t3.thrown_out(2, "12 FC5-6", 1, 66)
 # 8. NYY #12 Tyler Wade (X - 14 - 26)
 t3.new_ab()
 t3.reach("FC5-6")
-t3.thrown_out(2, "41 DP3", 3, 66)
+t3.thrown_out(1, "41 DP3", 3, 66)
 
 # 9. NYY #41 Miguel Andujar (14 - X - 12)
 t3.new_ab()

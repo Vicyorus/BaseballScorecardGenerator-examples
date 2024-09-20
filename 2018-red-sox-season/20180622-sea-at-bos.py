@@ -169,7 +169,7 @@ t1.out("G1-3")
 
 # 6. SEA #27 Ryon Healy (X - X - X)
 t1.new_ab()
-t1.hit(4, rbis=1)
+t1.hit(4)
 
 # 7. SEA #3  Mike Zunino (X - X - X)
 t1.new_ab()

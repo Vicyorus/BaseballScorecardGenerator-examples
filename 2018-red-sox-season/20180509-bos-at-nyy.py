@@ -397,7 +397,7 @@ t5.out("G1-3")
 # 2. BOS #16 Andrew Benintendi (X - X - X)
 t5.new_ab()
 t5.pitch_list("c")
-t5.hit(4, rbis=1)
+t5.hit(4)
 
 # 3. BOS #13 Hanley Ramirez (X - X - X)
 t5.new_ab()

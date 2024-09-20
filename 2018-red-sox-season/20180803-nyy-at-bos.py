@@ -274,7 +274,7 @@ t3 = game.new_inning()
 # 7. NYY #41 Miguel Andujar (X - X - X)
 t3.new_ab()
 t3.pitch_list("c")
-t3.hit(4, rbis=1)
+t3.hit(4)
 
 # 8. NYY #28 Austin Romine (X - X - X)
 t3.new_ab()

@@ -510,7 +510,7 @@ t7.out("!K")
 # 3. BOS #28 J.D. Martinez (X - X - X)
 t7.new_ab()
 t7.pitch_list("c")
-t7.hit(4, rbis=1)
+t7.hit(4)
 
 # Pitching change (TEX): #53 Jesse Chavez replaces #38 Doug Fister
 t7.pitching_substitution(53)
@@ -538,7 +538,7 @@ b7 = game.new_inning()
 # 7. TEX #16 Ryan Rua (X - X - X)
 b7.new_ab()
 b7.pitch_list("b b b c")
-b7.hit(4, rbis=1)
+b7.hit(4)
 
 # 8. TEX #67 Ronald Guzmán (X - X - X)
 b7.new_ab()

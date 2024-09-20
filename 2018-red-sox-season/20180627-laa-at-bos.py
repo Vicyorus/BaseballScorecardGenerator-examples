@@ -231,7 +231,7 @@ b2 = game.new_inning()
 # 6. BOS #36 Eduardo Núñez (X - X - X)
 b2.new_ab()
 b2.pitch_list("c")
-b2.hit(4, rbis=1)
+b2.hit(4)
 
 # 7. BOS #11 Rafael Devers (X - X - X)
 b2.new_ab()
@@ -417,7 +417,7 @@ t5 = game.new_inning()
 
 # 1. LAA #3  Ian Kinsler (X - X - X)
 t5.new_ab()
-t5.hit(4, rbis=1)
+t5.hit(4)
 
 # 2. LAA #27 Mike Trout (X - X - X)
 t5.new_ab()

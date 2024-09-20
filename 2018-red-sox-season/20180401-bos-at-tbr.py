@@ -222,7 +222,7 @@ b2 = game.new_inning()
 
 # 4. TBR #13 Brad Miller (X - X - X)
 b2.new_ab()
-b2.hit(4, rbis=1)
+b2.hit(4)
 
 # 5. TBR #5  Matt Duffy (X - X - X)
 b2.new_ab()

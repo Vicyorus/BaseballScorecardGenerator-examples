@@ -173,7 +173,7 @@ b1.out("G5-3")
 # 2. BOS #2  Xander Bogaerts (X - X - X)
 b1.new_ab()
 b1.pitch_list("c b")
-b1.hit(4, rbis=1)
+b1.hit(4)
 
 # 3. BOS #28 J.D. Martinez (X - X - X)
 b1.new_ab()
