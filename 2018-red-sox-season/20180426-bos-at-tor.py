@@ -185,17 +185,17 @@ b1.hit(1)
 b1.advance(2, "26 HBP")
 
 # 4. TOR #26 Yangervis Solarte (37 - X - 14)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("f")
 b1.reach("HBP")
 
 # 5. TOR #11 Kevin Pillar (37 - 14 - 26)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("s s")
 b1.out("SF9", rbis=1)
 
 # 6. TOR #13 Lourdes Gurriel Jr. (X - 14 - 26)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("c f f")
 b1.out("F9")
 
@@ -269,23 +269,23 @@ t3.atbase("PR")
 t3.advance(4, "16 2B")
 
 # 1. BOS #50 Mookie Betts (X - 12 - X)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("d")
 t3.out("F8")
 
 # 2. BOS #16 Andrew Benintendi (X - 5 - X)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("b")
 t3.hit(2, rbis=1)
 t3.thrown_out(2, "28 PO", 3, 25)
 
 # 3. BOS #13 Hanley Ramirez (X - 16 - X)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("f b s b d d")
 t3.reach("BB")
 
 # 4. BOS #28 J.D. Martinez (X - 16 - 13)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("b 2")
 t3.no_ab("PO")
 
@@ -318,7 +318,7 @@ b3.pitch_list("c")
 b3.hit(2)
 
 # 6. TOR #13 Lourdes Gurriel Jr. (X - 11 - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("b s b f")
 b3.out("G5-3")
 
@@ -349,12 +349,12 @@ t4.hit(2)
 t4.advance(3, "11 SF8")
 
 # 7. BOS #11 Rafael Devers (18 - 36 - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("b b c s")
 t4.out("SF8", rbis=1)
 
 # 8. BOS #7  Christian Vázquez (36 - X - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("f b b c")
 t4.out("P4")
 
@@ -410,7 +410,7 @@ t5.hit(1)
 t5.advance(4, "28 HR")
 
 # 4. BOS #28 J.D. Martinez (16 - X - 13)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.hit(4, rbis=3)
 
 # 5. BOS #18 Mitch Moreland (X - X - X)
@@ -534,7 +534,7 @@ b7.advance(4, "8 G1-6-3")
 b7.offensive_substitution(1, 8, "PH")
 
 # 1. TOR #8  Kendrys Morales (29 - X - X)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("c f b 3 f")
 b7.out("G1-6-3", rbis=1)
 
@@ -546,7 +546,7 @@ b7.hit(2)
 b7.pitching_substitution(32)
 
 # 3. TOR #14 Justin Smoak (X - 37 - X)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("c d c b s")
 b7.out("K")
 
@@ -606,12 +606,12 @@ b8.reach("BB")
 b8.advance(2, "15 G6-3")
 
 # 7. TOR #15 Randal Grichuk (X - 11 - 18)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b c")
 b8.out("G6-3")
 
 # 8. TOR #21 Luke Maile (11 - 18 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b c f s")
 b8.out("K")
 
@@ -645,12 +645,12 @@ t9.new_ab()
 t9.out("L8")
 
 # 9. BOS #5  Tzu-Wei Lin (X - X - 11)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("b b f 1 b s f b")
 t9.reach("BB")
 
 # 1. BOS #50 Mookie Betts (X - 11 - 5)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.out("F8")
 
 

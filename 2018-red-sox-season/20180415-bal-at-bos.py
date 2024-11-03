@@ -185,11 +185,11 @@ t1.hit(2, rbis=1)
 t1.advance(3, "42 G4-3")
 
 # 4. BAL #42 Adam Jones (X - 42 - X)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.out("G4-3")
 
 # 5. BAL #42 Danny Valencia (42 - X - X)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("b b c")
 t1.out("G6-3")
 
@@ -250,17 +250,17 @@ b2.pitch_list("b b")
 b2.hit(2)
 
 # 6. BOS #42 Rafael Devers (X - 42 - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("b b b b")
 b2.reach("BB")
 
 # 7. BOS #42 Christian Vázquez (X - 42 - 42)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("c b c f f s")
 b2.out("K")
 
 # 8. BOS #42 Brock Holt (X - 42 - 42)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("f f f")
 b2.out("(F)P5")
 
@@ -289,7 +289,7 @@ t3.reach("BB")
 t3.advance(2, "42 SB")
 
 # 3. BAL #42 Manny Machado (X - X - 42)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("c b f b d")
 t3.out("P6")
 
@@ -314,7 +314,7 @@ b3.pitch_list("c b")
 b3.hit(2)
 
 # 3. BOS #42 Hanley Ramirez (X - 42 - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("c b s b f s")
 b3.out("K")
 
@@ -367,7 +367,7 @@ b4.pitch_list("s 1 b f s")
 b4.out("K")
 
 # 7. BOS #42 Christian Vázquez (X - X - 42)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("b f f b")
 b4.wp()
 b4.out("P4")
@@ -419,12 +419,12 @@ b5.advance(2, "42 SB")
 b5.advance(4, "42 3B")
 
 # 2. BOS #42 Andrew Benintendi (X - X - 42)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("c 1 b")
 b5.hit(3, rbis=1)
 
 # 3. BOS #42 Hanley Ramirez (42 - X - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b c")
 b5.out("L8")
 
@@ -479,24 +479,24 @@ b6.advance(3, "42 1B")
 b6.advance("U", "42 2B")
 
 # 6. BOS #42 Rafael Devers (42 - 42 - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("b b s l s")
 b6.wp()
 b6.out("K")
 
 # 7. BOS #42 Christian Vázquez (X - 42 - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("c s s")
 b6.out("K")
 
 # 8. BOS #42 Brock Holt (X - 42 - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("c f")
 b6.hit(1)
 b6.advance(3, "42 2B")
 
 # 9. BOS #42 Tzu-Wei Lin (42 - X - 42)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("b c c")
 b6.hit(2, rbis=1)
 
@@ -504,7 +504,7 @@ b6.hit(2, rbis=1)
 b6.pitching_substitution(542947)
 
 # 1. BOS #42 Jackie Bradley Jr. (42 - 42 - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("b c b f")
 b6.out("G5-3")
 
@@ -549,12 +549,12 @@ b7.pitch_list("f f c")
 b7.out("!K")
 
 # 4. BOS #42 J.D. Martinez (X - X - 42)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("s 1 s d b f s")
 b7.out("K")
 
 # 5. BOS #42 Mitch Moreland (X - 42 - X)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.hit(1)
 
 

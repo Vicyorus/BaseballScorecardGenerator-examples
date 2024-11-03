@@ -190,7 +190,7 @@ b1.hit(2)
 b1.advance(4, "25 HR")
 
 # 5. NYY #25 Gleyber Torres (27 - 18 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.hit(4, rbis=3)
 
 # 6. NYY #41 Miguel Andujar (X - X - X)
@@ -288,7 +288,7 @@ t3.hit(1)
 t3.advance(2, "28 SB")
 
 # 3. BOS #28 J.D. Martinez (50 - X - 16)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("b b f c b f s")
 t3.out("K")
 
@@ -374,11 +374,11 @@ b4.new_ab()
 b4.hit(2)
 
 # 4. NYY #18 Didi Gregorius (99 - 27 - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.out("SF7", rbis=1)
 
 # 5. NYY #25 Gleyber Torres (X - 27 - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("b")
 b4.out("F7")
 
@@ -428,12 +428,12 @@ b5.pitch_list("c")
 b5.out("G6-3")
 
 # 8. NYY #66 Kyle Higashioka (X - 41 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("c b s")
 b5.out("F9")
 
 # 9. NYY #11 Brett Gardner (41 - X - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b c f b f")
 b5.out("F9")
 
@@ -483,7 +483,7 @@ b6.hit(1)
 b6.thrown_out(2, "14 FC4-6", 2, 65)
 
 # 3. NYY #27 Giancarlo Stanton (X - 31 - 99)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("s b b c f")
 b6.out("IF3")
 
@@ -491,18 +491,18 @@ b6.out("IF3")
 b6.offensive_substitution(4, 14, "PH")
 
 # 4. NYY #14 Neil Walker (X - 31 - 99)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.reach("FC4-6")
 b6.advance(2, "25 BB")
 
 # 5. NYY #25 Gleyber Torres (31 - X - 14)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("b f d b b")
 b6.reach("BB")
 b6.thrown_out(2, "41 FC5-4", 3, 65)
 
 # 6. NYY #41 Miguel Andujar (31 - 14 - 25)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.reach("FC5-4")
 
 
@@ -623,18 +623,18 @@ b8.hit(1)
 b8.advance(2, "14 1B")
 
 # 4. NYY #14 Neil Walker (X - 99 - 29)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("c")
 b8.hit(1, rbis=1)
 b8.thrown_out(2, "41 DP5-4-3", 2, 76)
 
 # 5. NYY #25 Gleyber Torres (X - 29 - 14)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("d f b f")
 b8.out("F8")
 
 # 6. NYY #41 Miguel Andujar (X - 29 - 14)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b b f")
 b8.out("DP5-4-3")
 
@@ -668,13 +668,13 @@ t9.advance(3, "23 1B")
 t9.advance(4, "11 FC5-4")
 
 # 5. BOS #23 Blake Swihart (X - 3 - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("b f b c f b")
 t9.hit(1)
 t9.thrown_out(2, "11 FC5-4", 2, 54)
 
 # 6. BOS #11 Rafael Devers (3 - X - 23)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("f")
 t9.reach("FC5-4", rbis=1)
 t9.thrown_out(2, "12 FC6", 3, 54)

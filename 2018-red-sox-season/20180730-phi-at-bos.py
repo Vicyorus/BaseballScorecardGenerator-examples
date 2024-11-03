@@ -151,12 +151,12 @@ t1.pitch_list("c b b")
 t1.hit(2)
 
 # 3. PHI #37 Odúbel Herrera (X - 17 - X)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("f b f")
 t1.out("F8")
 
 # 4. PHI #41 Carlos Santana (X - 17 - X)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.out("P6")
 
 
@@ -193,7 +193,7 @@ t2.hit(2)
 t2.advance(4, "7 1B")
 
 # 6. PHI #7  Maikel Franco (X - 13 - X)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.hit(1, rbis=1)
 
 # 7. PHI #38 Jorge Alfaro (X - X - 7)
@@ -250,13 +250,13 @@ t3.advance(3, "37 1B")
 t3.thrown_out(4, "41 DP5-2-6-5", 3, 24)
 
 # 3. PHI #37 Odúbel Herrera (X - 17 - X)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("f b f")
 t3.hit(1)
 t3.thrown_out(3, "41 DP5-2-6-5", 2, 24)
 
 # 4. PHI #41 Carlos Santana (17 - X - 37)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("b")
 t3.reach("DP5-2-6-5")
 
@@ -371,13 +371,13 @@ b5.pitch_list("1")
 b5.hit(3, rbis=1)
 
 # 8. BOS #12 Brock Holt (36 - X - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("c b b b b")
 b5.reach("BB")
 b5.thrown_out(1, "3 DP4-3", 3, 27)
 
 # 9. BOS #3  Sandy León (36 - X - 12)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.out("DP4-3")
 
 
@@ -410,7 +410,7 @@ t6.pitch_list("c c f b")
 t6.hit(1)
 
 # 6. PHI #7  Maikel Franco (X - 41 - 13)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("s c c")
 t6.out("!K")
 
@@ -505,12 +505,12 @@ t8.pitch_list("s b")
 t8.hit(2)
 
 # 4. PHI #41 Carlos Santana (X - 37 - X)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("b b b b")
 t8.reach("BB")
 
 # 5. PHI #13 Asdrúbal Cabrera (X - 37 - 41)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.out("L9")
 
 
@@ -524,17 +524,17 @@ b8.pitch_list("c f")
 b8.hit(2)
 
 # 9. BOS #3  Sandy León (X - 12 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b b c")
 b8.out("P5")
 
 # 1. BOS #50 Mookie Betts (X - 12 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("c b f t")
 b8.out("KT")
 
 # 2. BOS #16 Andrew Benintendi (X - 12 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.out("L8")
 
 
@@ -631,7 +631,7 @@ t10.pitch_list("b b b b")
 t10.reach("BB")
 
 # 4. PHI #41 Carlos Santana (X - 17 - 37)
-t10.new_ab()
+t10.new_ab(is_risp=True)
 t10.pitch_list("f b s b")
 t10.out("G4-3")
 
@@ -665,7 +665,7 @@ b10.pitching_substitution(40)
 b10.offensive_substitution(9, 23, "PH")
 
 # 9. BOS #23 Blake Swihart (X - 12 - X)
-b10.new_ab()
+b10.new_ab(is_risp=True)
 b10.pitch_list("b c s")
 b10.out("F7")
 
@@ -811,7 +811,7 @@ t13.pitch_list("b")
 t13.hit(1)
 
 # 7. PHI #15 Andrew Knapp (X - 37 - 7)
-t13.new_ab()
+t13.new_ab(is_risp=True)
 t13.pitch_list("b")
 t13.out("F7")
 
@@ -831,12 +831,12 @@ b13.advance(4, "23 2B")
 b13.pitching_substitution(57)
 
 # 8. BOS #12 Brock Holt (X - X - 36)
-b13.new_ab()
+b13.new_ab(is_risp=True)
 b13.pitch_list("1 c f b f s")
 b13.out("K")
 
 # 9. BOS #23 Blake Swihart (X - 36 - X)
-b13.new_ab()
+b13.new_ab(is_risp=True)
 b13.hit(2, rbis=1)
 
 # Winning team: BOS

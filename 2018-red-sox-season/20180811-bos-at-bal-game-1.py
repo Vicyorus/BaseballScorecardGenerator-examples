@@ -274,7 +274,7 @@ b3.pitch_list("f f")
 b3.out("G6-3")
 
 # 2. BAL #1  Tim Beckham (X - 61 - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("c b b s b f s")
 b3.out("K")
 
@@ -375,7 +375,7 @@ t5.hit(1)
 t5.thrown_out(2, "18 FC4-6", 3, 63)
 
 # 3. BOS #18 Mitch Moreland (50 - X - 16)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("b c f 1")
 t5.reach("FC4-6")
 
@@ -452,12 +452,12 @@ b6.pitch_list("s f")
 b6.hit(2)
 
 # 4. BAL #45 Mark Trumbo (X - 10 - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("b f s s")
 b6.out("K")
 
 # 5. BAL #16 Trey Mancini (X - 10 - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("c c")
 b6.out("G1-3")
 
@@ -481,17 +481,17 @@ t7.pitch_list("c f b")
 t7.out("G1-3")
 
 # 1. BOS #50 Mookie Betts (X - 3 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b c d d b")
 t7.reach("BB")
 t7.thrown_out(2, "18 FC4-6", 3, 63)
 
 # 2. BOS #16 Andrew Benintendi (X - 3 - 50)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.out("F7")
 
 # 3. BOS #18 Mitch Moreland (X - 3 - 50)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("c b b f")
 t7.reach("FC4-6")
 

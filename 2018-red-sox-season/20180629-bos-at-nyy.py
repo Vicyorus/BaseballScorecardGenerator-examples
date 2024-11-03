@@ -196,16 +196,16 @@ t2.hit(2)
 t2.advance(3, "2 F9")
 
 # 5. BOS #2  Xander Bogaerts (X - 25 - X)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("b c b")
 t2.out("F9")
 
 # 6. BOS #36 Eduardo Núñez (25 - X - X)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.out("(F)P3")
 
 # 7. BOS #11 Rafael Devers (25 - X - X)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("b")
 t2.out("L8")
 
@@ -220,7 +220,7 @@ b2.hit(3)
 b2.advance(4, "41 1B")
 
 # 6. NYY #41 Miguel Andujar (25 - X - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("b")
 b2.hit(1, rbis=1)
 b2.thrown_out(2, "28 DP6-4-3", 2, 57)
@@ -260,12 +260,12 @@ t3.hit(1)
 t3.advance(2, "16 SB")
 
 # 2. BOS #16 Andrew Benintendi (X - X - 50)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("b 1 c b b b")
 t3.reach("BB")
 
 # 3. BOS #28 J.D. Martinez (X - 50 - 16)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.out("F8")
 
 
@@ -335,12 +335,12 @@ b4.hit(2)
 b4.advance(4, "41 HR")
 
 # 5. NYY #25 Gleyber Torres (27 - 18 - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("b s b")
 b4.out("SF7", rbis=1)
 
 # 6. NYY #41 Miguel Andujar (X - 18 - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("c")
 b4.hit(4, rbis=2)
 
@@ -388,13 +388,13 @@ t5.hit(2)
 t5.advance(4, "16 2B")
 
 # 2. BOS #16 Andrew Benintendi (X - 50 - X)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("b f b")
 t5.hit(2, rbis=1)
 t5.advance(3, "28 SB")
 
 # 3. BOS #28 J.D. Martinez (X - 16 - X)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("b b b c")
 t5.out("F9")
 

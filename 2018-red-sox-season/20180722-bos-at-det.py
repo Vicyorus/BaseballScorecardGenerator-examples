@@ -200,11 +200,11 @@ t2.advance(3, "11 G4-3")
 t2.advance(4, "36 G6-3")
 
 # 6. BOS #11 Rafael Devers (25 - 2 - X)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.out("G4-3", rbis=1)
 
 # 7. BOS #36 Eduardo Núñez (2 - X - X)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.out("G6-3", rbis=1)
 
 # 8. BOS #19 Jackie Bradley Jr. (X - X - X)
@@ -308,22 +308,22 @@ t4.advance(3, "36 1B")
 t4.advance(4, "19 HR")
 
 # 6. BOS #11 Rafael Devers (25 - 2 - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.reach("FC3")
-t4.thrown_out(3, "36 5", 1, 54)
 t4.advance(2, "36 1B")
+t4.thrown_out(3, "36 5", 1, 54)
 
 # Pitching change (DET): #54 Drew VerHagen replaces #36 Blaine Hardy
 t4.pitching_substitution(54)
 
 # 7. BOS #36 Eduardo Núñez (25 - 2 - 11)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("b")
 t4.hit(1, rbis=1)
 t4.advance(4, "19 HR")
 
 # 8. BOS #19 Jackie Bradley Jr. (2 - X - 36)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("b f b c 1 1 f")
 t4.hit(4, rbis=3)
 
@@ -353,12 +353,12 @@ b4.pitch_list("t b f")
 b4.hit(2)
 
 # 4. DET #55 John Hicks (X - 9 - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("s f f b f b b t")
 b4.out("KT")
 
 # 5. DET #46 Jeimer Candelario (X - 9 - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("c s b f f f f b")
 b4.out("G5-3")
 
@@ -483,7 +483,7 @@ t7.hit(1)
 t7.advance(4, "16 3B")
 
 # 2. BOS #16 Andrew Benintendi (X - 3 - 50)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("c b")
 t7.hit(3, rbis=2)
 t7.advance(4, "28 SF9")
@@ -492,7 +492,7 @@ t7.advance(4, "28 SF9")
 t7.pitching_substitution(19)
 
 # 3. BOS #28 J.D. Martinez (16 - X - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("c f")
 t7.out("SF9", rbis=1)
 
@@ -526,8 +526,8 @@ b7.hit(4)
 b7.new_ab()
 b7.pitch_list("c b b c f b")
 b7.hit(1)
-b7.thrown_out(3, "1 4-6", 3, 44)
 b7.advance(2, "1 1B")
+b7.thrown_out(3, "1 4-6", 3, 44)
 
 # 7. DET #21 JaCoby Jones (X - X - 34)
 b7.new_ab()
@@ -593,16 +593,16 @@ b8.advance(2, "55 BB")
 b8.offensive_substitution(3, 37, "PH")
 
 # 3. DET #37 James Adduci (X - 60 - 28)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.out("L6")
 
 # 4. DET #55 John Hicks (X - 60 - 28)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b b c b b")
 b8.reach("BB")
 
 # 5. DET #46 Jeimer Candelario (60 - 28 - 55)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b b f b c f f")
 b8.out("F8")
 

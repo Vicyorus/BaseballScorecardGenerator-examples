@@ -201,21 +201,21 @@ b1.hit(1)
 b1.advance(2, "2 1B")
 
 # 3. BOS #28 J.D. Martinez (X - 50 - 16)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b")
 b1.out("L8")
 
 # 4. BOS #2  Xander Bogaerts (50 - X - 16)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.hit(1, rbis=1)
 
 # 5. BOS #18 Mitch Moreland (X - 16 - 2)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("c")
 b1.out("L9")
 
 # 6. BOS #5  Ian Kinsler (X - 16 - 2)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b")
 b1.out("G5-3")
 
@@ -239,13 +239,13 @@ t2.hit(2)
 t2.advance(4, "13 3B")
 
 # 6. HOU #13 Tyler White (X - 1 - X)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("b")
 t2.hit(3, rbis=1)
 t2.advance(4, "6 SF8")
 
 # 7. HOU #6  Jake Marisnick (13 - X - X)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("f f")
 t2.out("SF8", rbis=1)
 
@@ -261,7 +261,7 @@ t2.pitch_list("b f f")
 t2.hit(1)
 
 # 1. HOU #4  George Springer (X - 15 - 18)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("s")
 t2.out("F9")
 
@@ -320,7 +320,7 @@ t3.pitch_list("f f b b b 1 f f b")
 t3.reach("BB")
 
 # 7. HOU #6  Jake Marisnick (X - 10 - 13)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("f b")
 t3.out("P4")
 
@@ -336,22 +336,22 @@ b3.hit(2)
 b3.advance(3, "2 1B")
 
 # 2. BOS #16 Andrew Benintendi (X - 50 - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("b b c")
 b3.out("L8")
 
 # 3. BOS #28 J.D. Martinez (X - 50 - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("f")
 b3.out("G6-3")
 
 # 4. BOS #2  Xander Bogaerts (X - 50 - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("c s f b")
 b3.hit(1)
 
 # 5. BOS #18 Mitch Moreland (50 - X - 2)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("c b s f s")
 b3.out("K")
 
@@ -389,18 +389,18 @@ t4.hit(1)
 t4.advance(2, "2 BB")
 
 # 3. HOU #2  Alex Bregman (4 - X - 27)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("1 b f b d c b")
 t4.reach("BB")
 t4.thrown_out(2, "1 FC6-4", 3, 44)
 
 # 4. HOU #10 Yuli Gurriel (4 - 27 - 2)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("b")
 t4.out("SF9", rbis=1)
 
 # 5. HOU #1  Carlos Correa (X - 27 - 2)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.reach("FC6-4")
 
 
@@ -432,12 +432,12 @@ b4.hit(1)
 b4.advance(2, "50 BB")
 
 # 1. BOS #50 Mookie Betts (X - 7 - 19)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("c b b b f b")
 b4.reach("BB")
 
 # 2. BOS #16 Andrew Benintendi (7 - 19 - 50)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("b b f")
 b4.out("F8")
 
@@ -517,17 +517,17 @@ t6.pitch_list("c")
 t6.reach("HBP")
 
 # 3. HOU #2  Alex Bregman (X - 4 - 27)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("s s b f b s")
 t6.out("K")
 
 # 4. HOU #10 Yuli Gurriel (X - 4 - 27)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("s c")
 t6.out("IF6")
 
 # 5. HOU #1  Carlos Correa (X - 4 - 27)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("s s")
 t6.out("G3-1")
 
@@ -622,16 +622,16 @@ t8.hit(1)
 t8.advance(2, "E5")
 
 # 2. HOU #27 Jose Altuve (18 - 4 - X)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.out("F7")
 
 # 3. HOU #2  Alex Bregman (18 - 4 - X)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("d c f s")
 t8.out("K")
 
 # 4. HOU #10 Yuli Gurriel (18 - 4 - X)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("d")
 t8.out("P4")
 
@@ -654,7 +654,7 @@ b8.pitch_list("c s f f")
 b8.hit(2)
 
 # 6. BOS #5  Ian Kinsler (X - 18 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("c b b c b f f c")
 b8.out("!K")
 
@@ -662,7 +662,7 @@ b8.out("!K")
 b8.pitching_substitution(55)
 
 # 7. BOS #11 Rafael Devers (X - 18 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b b c c c")
 b8.out("!K")
 
@@ -726,14 +726,14 @@ b9.advance(2, "16 WP")
 b9.advance(3, "16 1B")
 
 # 2. BOS #16 Andrew Benintendi (X - 23 - 50)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("c b s")
 b9.wp()
 b9.hit(1, rbis=1)
 b9.thrown_out(2, "28 DP6-4-3", 2, 54)
 
 # 3. BOS #28 J.D. Martinez (50 - X - 16)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("f f")
 b9.out("DP6-4-3")
 

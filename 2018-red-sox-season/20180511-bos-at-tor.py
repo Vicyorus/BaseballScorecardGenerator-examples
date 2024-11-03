@@ -158,17 +158,17 @@ t1.advance(2, "28 SB")
 t1.advance(3, "28 G3")
 
 # 3. BOS #13 Hanley Ramirez (50 - X - 16)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("s s c")
 t1.out("!K")
 
 # 4. BOS #28 J.D. Martinez (50 - X - 16)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("c s f b b f")
 t1.out("G3", rbis=1)
 
 # 5. BOS #2  Xander Bogaerts (16 - X - X)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("c")
 t1.out("G6-3")
 
@@ -183,7 +183,7 @@ b1.hit(2)
 b1.advance(4, "20 1B")
 
 # 2. TOR #20 Josh Donaldson (X - 37 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b s")
 b1.hit(1, rbis=1)
 
@@ -243,12 +243,12 @@ b2.advance(3, "30 F9")
 b2.advance(4, "21 1B")
 
 # 7. TOR #30 Anthony Alford (X - 8 - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("b")
 b2.out("F9")
 
 # 8. TOR #21 Luke Maile (8 - X - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("d")
 b2.hit(1, rbis=1)
 b2.advance(2, "37 E1")
@@ -265,7 +265,7 @@ b2.error(1)
 b2.reach("E1")
 
 # 2. TOR #20 Josh Donaldson (X - 21 - 37)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("b s b c f b f s")
 b2.out("K")
 
@@ -291,8 +291,8 @@ t3.out("G3")
 t3.new_ab()
 t3.pitch_list("b f s b f b f d")
 t3.reach("BB")
-t3.thrown_out(4, "28 8-6-2", 3, 41)
 t3.advance(3, "28 2B")
+t3.thrown_out(4, "28 8-6-2", 3, 41)
 
 # 4. BOS #28 J.D. Martinez (X - X - 13)
 t3.new_ab()
@@ -358,7 +358,7 @@ t4.error(2)
 t4.advance(3, "E2")
 
 # 1. BOS #50 Mookie Betts (3 - X - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.out("L7")
 
 
@@ -406,7 +406,7 @@ t5.pitch_list("b")
 t5.out("F8")
 
 # 5. BOS #2  Xander Bogaerts (X - 16 - X)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("b b c s")
 t5.out("L5")
 
@@ -645,12 +645,12 @@ t10.reach("E6")
 t10.advance(2, "16 SB")
 
 # 2. BOS #16 Andrew Benintendi (X - X - 50)
-t10.new_ab()
+t10.new_ab(is_risp=True)
 t10.pitch_list("c 1 1 f 1 b b f")
 t10.out("(F)P5")
 
 # 3. BOS #13 Hanley Ramirez (X - 50 - X)
-t10.new_ab()
+t10.new_ab(is_risp=True)
 t10.pitch_list("b f")
 t10.out("G5-3")
 
@@ -683,17 +683,17 @@ b10.reach("BB")
 b10.offensive_substitution(9, 23, "PH")
 
 # 9. TOR #23 Dalton Pompey (X - 18 - 21)
-b10.new_ab()
+b10.new_ab(is_risp=True)
 b10.pitch_list("l s l")
 b10.out("K")
 
 # 1. TOR #37 Teoscar Hernández (X - 18 - 21)
-b10.new_ab()
+b10.new_ab(is_risp=True)
 b10.pitch_list("b f t b b")
 b10.out("L9")
 
 # 2. TOR #20 Josh Donaldson (X - 18 - 21)
-b10.new_ab()
+b10.new_ab(is_risp=True)
 b10.pitch_list("f b s b f s")
 b10.out("K")
 
@@ -756,7 +756,7 @@ b11.hit(1)
 b11.advance(2, "8 SB")
 
 # 6. TOR #8  Kendrys Morales (X - X - 11)
-b11.new_ab()
+b11.new_ab(is_risp=True)
 b11.pitch_list("f c 1 1 b d b s")
 b11.out("K")
 

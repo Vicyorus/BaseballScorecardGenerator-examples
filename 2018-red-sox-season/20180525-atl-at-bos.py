@@ -165,7 +165,7 @@ t1.pitch_list("b b b c c b")
 t1.reach("BB")
 
 # 5. ATL #24 Kurt Suzuki (X - 1 - 22)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("c")
 t1.reach("FC5")
 
@@ -214,12 +214,12 @@ t2.pitch_list("f b f")
 t2.hit(1)
 
 # 9. ATL #7  Dansby Swanson (X - 25 - 17)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("b")
 t2.out("L8")
 
 # 1. ATL #1  Ozzie Albies (X - 25 - 17)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("f")
 t2.out("F9")
 
@@ -251,7 +251,7 @@ b2.pitch_list("1 b b b b")
 b2.reach("BB")
 
 # 8. BOS #7  Christian Vázquez (X - 2 - 12)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("c b")
 b2.out("L8")
 
@@ -277,21 +277,21 @@ t3.hit(1)
 t3.advance(4, "22 2B")
 
 # 4. ATL #22 Nick Markakis (X - 13 - 5)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.hit(2, rbis=2)
 
 # 5. ATL #24 Kurt Suzuki (X - 22 - X)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("f f f s")
 t3.out("K")
 
 # 6. ATL #11 Ender Inciarte (X - 22 - X)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("f c b")
 t3.out("G6-3")
 
 # 7. ATL #25 Tyler Flowers (X - 22 - X)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("c b")
 t3.out("G5-3")
 
@@ -413,18 +413,18 @@ b5.hit(3)
 b5.advance(4, "16 SF8")
 
 # 1. BOS #50 Mookie Betts (19 - X - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b c b b s b")
 b5.reach("BB")
 b5.advance(2, "28 SB")
 
 # 2. BOS #16 Andrew Benintendi (19 - X - 50)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("1 1 1 b b s 1 f f 1")
 b5.out("SF8", rbis=1)
 
 # 3. BOS #28 J.D. Martinez (X - X - 50)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("1 c c b f")
 b5.out("G4-3")
 
@@ -538,7 +538,7 @@ b7.out("!K")
 b7.pitching_substitution(45)
 
 # 1. BOS #50 Mookie Betts (X - X - 12)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("f b")
 b7.hit(4, rbis=2)
 
@@ -620,12 +620,12 @@ t9.hit(2)
 t9.advance(3, "1 G3-1")
 
 # 1. ATL #1  Ozzie Albies (X - 7 - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("b c f")
 t9.out("G3-1")
 
 # 2. ATL #13 Ronald Acuña Jr. (7 - X - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("s s s")
 t9.out("K")
 

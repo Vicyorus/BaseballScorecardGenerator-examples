@@ -181,17 +181,17 @@ b1.pitch_list("b b b c c s")
 b1.out("K")
 
 # 3. OAK #8  Jed Lowrie (X - X - 10)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("1 b b")
 b1.hit(2, rbis=1)
 
 # 4. OAK #2  Khris Davis (X - 8 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("c f c")
 b1.out("!K")
 
 # 5. OAK #26 Matt Chapman (X - 8 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("c f b")
 b1.out("F7")
 
@@ -283,12 +283,12 @@ b3.pitch_list("s f d")
 b3.hit(2, rbis=1)
 
 # 3. OAK #8  Jed Lowrie (X - 25 - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("c b s s")
 b3.out("K")
 
 # 4. OAK #2  Khris Davis (X - 25 - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("c s b d c")
 b3.out("!K")
 
@@ -336,7 +336,7 @@ b4.pitch_list("b b s")
 b4.hit(2)
 
 # 8. OAK #18 Chad Pinder (X - 20 - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("f f s")
 b4.out("K")
 
@@ -365,7 +365,7 @@ t5.reach("E6")
 t5.advance(2, "19 WP")
 
 # 8. BOS #19 Jackie Bradley Jr. (X - X - 3)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("f c b d f b s")
 t5.wp()
 t5.out("K2-3")
@@ -431,12 +431,12 @@ b6.pitch_list("f b c")
 b6.hit(3)
 
 # 6. OAK #28 Matt Olson (26 - X - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("b c")
 b6.out("F8")
 
 # 7. OAK #20 Mark Canha (26 - X - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("c d f b")
 b6.out("G5-3")
 
@@ -529,12 +529,12 @@ b8.new_ab()
 b8.hit(2)
 
 # 5. OAK #26 Matt Chapman (X - 2 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b b b b")
 b8.reach("BB")
 
 # 6. OAK #28 Matt Olson (X - 2 - 26)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("d b")
 b8.out("G3-1")
 

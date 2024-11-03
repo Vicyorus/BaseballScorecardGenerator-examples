@@ -172,18 +172,18 @@ b1.pitch_list("b f f b")
 b1.hit(2)
 
 # 2. BOS #12 Brock Holt (X - 16 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b b s b c f b")
 b1.reach("BB")
 b1.thrown_out(2, "18 DP3-6-1", 2, 68)
 
 # 3. BOS #2  Xander Bogaerts (X - 16 - 12)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b c b f 2 s")
 b1.out("K")
 
 # 4. BOS #18 Mitch Moreland (X - 16 - 12)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.out("DP3-6-1")
 
 
@@ -363,12 +363,12 @@ b5.new_ab()
 b5.hit(2)
 
 # 7. BOS #19 Jackie Bradley Jr. (X - 11 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b b f c c")
 b5.out("!K")
 
 # 8. BOS #23 Blake Swihart (X - 11 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("f b b f s")
 b5.out("K")
 
@@ -434,12 +434,12 @@ t7.advance(3, "10 G4-3")
 t7.advance(4, "32 1B")
 
 # 6. CWS #10 Yoán Moncada (X - 36 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("c b")
 t7.out("G4-3")
 
 # 7. CWS #32 Trayce Thompson (36 - X - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b c b s")
 t7.hit(1, rbis=1)
 t7.advance(2, "22 1B")
@@ -456,7 +456,7 @@ t7.pitch_list("1 f")
 t7.hit(1)
 
 # 1. CWS #7  Tim Anderson (X - 32 - 22)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("s s 2")
 t7.no_ab("PO")
 
@@ -487,12 +487,12 @@ b7.pitch_list("b b")
 b7.reach("FC5")
 
 # 6. BOS #11 Rafael Devers (X - 18 - 36)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("b s s s")
 b7.out("K")
 
 # 7. BOS #19 Jackie Bradley Jr. (X - 18 - 36)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("d b c b s s")
 b7.out("K")
 

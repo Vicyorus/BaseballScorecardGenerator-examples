@@ -208,7 +208,7 @@ t2.hit(1)
 t2.thrown_out(2, "7-4", 2, 57)
 
 # 8. TOR #1  Aledmys Díaz (11 - X - X)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("b b f c f s")
 t2.out("K")
 
@@ -282,7 +282,7 @@ b3.pitch_list("b c 1")
 b3.hit(1)
 
 # 2. BOS #12 Brock Holt (X - 5 - 50)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("c")
 b3.out("DP8-4")
 
@@ -392,7 +392,7 @@ b5.pitch_list("b b b v")
 b5.reach("IBB")
 
 # 2. BOS #12 Brock Holt (X - 5 - 50)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("c b f d b s")
 b5.out("K")
 
@@ -423,12 +423,12 @@ t6.pitch_list("1 b f s")
 t6.out("G3")
 
 # 3. TOR #37 Teoscar Hernández (X - 13 - X)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("b b c f b b")
 t6.reach("BB")
 
 # 4. TOR #14 Justin Smoak (X - 13 - 37)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.out("F8")
 
 
@@ -480,16 +480,16 @@ t7.advance(3, "1 G6-3")
 t7.advance(4, "13 1B")
 
 # 7. TOR #15 Randal Grichuk (8 - 27 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b d c")
 t7.out("G5-3")
 
 # 8. TOR #1  Aledmys Díaz (8 - 27 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.out("G6-3", rbis=1)
 
 # 9. TOR #21 Luke Maile (27 - X - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b b b b")
 t7.reach("BB")
 t7.advance(3, "13 1B")
@@ -498,12 +498,12 @@ t7.advance(3, "13 1B")
 t7.pitching_substitution(32)
 
 # 1. TOR #13 Lourdes Gurriel Jr. (27 - X - 21)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("s b")
 t7.hit(1, rbis=1)
 
 # 2. TOR #26 Yangervis Solarte (21 - X - 13)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("c b d f s")
 t7.out("K")
 
@@ -560,7 +560,7 @@ t8.pitch_list("c c b f d b b")
 t8.reach("BB")
 
 # 7. TOR #15 Randal Grichuk (X - 8 - 27)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("c s c")
 t8.out("!K")
 
@@ -589,12 +589,12 @@ b8.advance(2, "E5")
 b8.advance(3, "12 SB")
 
 # 2. BOS #12 Brock Holt (X - 50 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("d c s b")
 b8.out("G4-3")
 
 # 3. BOS #28 J.D. Martinez (50 - X - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("f f b s")
 b8.out("K")
 
@@ -639,22 +639,22 @@ b9.hit(2)
 b9.advance(4, "19 2B")
 
 # 5. BOS #19 Jackie Bradley Jr. (X - 2 - X)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("l")
 b9.hit(2, rbis=1)
 
 # 6. BOS #36 Eduardo Núñez (X - 19 - X)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("f b b s f d f s")
 b9.out("K")
 
 # 7. BOS #23 Blake Swihart (X - 19 - X)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("c d f f f d b")
 b9.out("F8")
 
 # 8. BOS #3  Sandy León (X - 19 - X)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("c b")
 b9.out("G5-3")
 
@@ -733,13 +733,13 @@ b10.advance(2, "28 IBB")
 b10.advance(4, "2 HR")
 
 # 3. BOS #28 J.D. Martinez (50 - X - 12)
-b10.new_ab()
+b10.new_ab(is_risp=True)
 b10.pitch_list("v v v v")
 b10.reach("IBB")
 b10.advance(4, "2 HR")
 
 # 4. BOS #2  Xander Bogaerts (50 - 12 - 28)
-b10.new_ab()
+b10.new_ab(is_risp=True)
 b10.pitch_list("b b")
 b10.hit(4, rbis=4)
 

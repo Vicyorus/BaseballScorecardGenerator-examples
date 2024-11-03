@@ -176,12 +176,12 @@ b1.new_ab()
 b1.hit(2)
 
 # 4. BOS #2  Xander Bogaerts (X - 28 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b c")
 b1.out("F9")
 
 # 5. BOS #18 Mitch Moreland (X - 28 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("c b s s")
 b1.out("K")
 
@@ -229,49 +229,49 @@ b2.advance(2, "7 G6-3")
 b2.advance(4, "19 2B")
 
 # 8. BOS #7  Christian Vázquez (X - 36 - 11)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("c")
 b2.out("G6-3")
 
 # 9. BOS #19 Jackie Bradley Jr. (36 - 11 - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("b")
 b2.hit(2, rbis=2)
 b2.advance(4, "16 2B")
 
 # 1. BOS #50 Mookie Betts (X - 19 - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("c b b b d")
 b2.reach("BB")
 b2.advance(3, "16 2B")
 b2.advance("U", "18 1B")
 
 # 2. BOS #16 Andrew Benintendi (X - 19 - 50)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("t b b b 2 f")
 b2.hit(2, rbis=1)
 b2.advance(3, "18 1B")
 
 # 3. BOS #28 J.D. Martinez (50 - 16 - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("f b f f c")
 b2.out("!K")
 
 # 4. BOS #2  Xander Bogaerts (50 - 16 - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("v v v v")
 b2.reach("IBB")
 b2.advance(2, "18 1B")
 
 # 5. BOS #18 Mitch Moreland (50 - 16 - 2)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.hit(1, rbis=1)
 
 # Pitching change (LAA): #68 Deck McGuire replaces #46 John Lamb
 b2.pitching_substitution(68)
 
 # 6. BOS #36 Eduardo Núñez (16 - 2 - 18)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.out("P2")
 
 
@@ -310,13 +310,13 @@ t3.hit(1)
 t3.advance(2, "8 WP")
 
 # 3. LAA #8  Justin Upton (3 - X - 27)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("c b b b b")
 t3.wp()
 t3.reach("BB")
 
 # 4. LAA #5  Albert Pujols (3 - 27 - 8)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("c b b f")
 t3.out("G5-3")
 
@@ -505,7 +505,7 @@ b6.hit(2)
 b6.pitching_substitution(58)
 
 # 5. BOS #18 Mitch Moreland (X - 2 - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("b s b b c")
 b6.out("G6-3")
 
@@ -574,11 +574,11 @@ b7.hit(2)
 b7.advance(3, "19 1B")
 
 # 9. BOS #19 Jackie Bradley Jr. (23 - 7 - X)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.hit(1, rbis=1)
 
 # 1. BOS #50 Mookie Betts (7 - X - 19)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("b")
 b7.out("F7")
 
@@ -586,7 +586,7 @@ b7.out("F7")
 b7.offensive_substitution(2, 5, "PH")
 
 # 2. BOS #5  Tzu-Wei Lin (7 - X - 19)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("b b c c f s")
 b7.out("K")
 
@@ -650,7 +650,7 @@ b8.hit(2)
 b8.advance(3, "23 2")
 
 # 6. BOS #23 Blake Swihart (2 - 12 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("c d")
 b8.out("L9")
 

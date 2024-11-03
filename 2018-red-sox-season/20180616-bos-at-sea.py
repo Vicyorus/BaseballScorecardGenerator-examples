@@ -280,12 +280,12 @@ b3.hit(1)
 b3.advance(2, "23 1B")
 
 # 4. SEA #23 Nelson Cruz (X - 9 - 17)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("b t b s b")
 b3.hit(1, rbis=1)
 
 # 5. SEA #15 Kyle Seager (X - 17 - 23)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("b b")
 b3.out("G3")
 
@@ -530,12 +530,12 @@ b8.pitch_list("b b c")
 b8.hit(2)
 
 # 3. SEA #17 Mitch Haniger (X - 2 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("c b s b s")
 b8.out("K")
 
 # 4. SEA #23 Nelson Cruz (X - 2 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("c")
 b8.out("(F)P3")
 

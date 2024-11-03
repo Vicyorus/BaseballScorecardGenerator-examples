@@ -173,18 +173,18 @@ b1.advance(3, "1 WP")
 b1.advance(4, "10 1B")
 
 # 3. HOU #27 Jose Altuve (X - 4 - 2)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("s b c f b c")
 b1.out("!K")
 
 # 4. HOU #1  Carlos Correa (X - 4 - 2)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b c b f s")
 b1.wp()
 b1.out("K")
 
 # 5. HOU #10 Yuli Gurriel (2 - X - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b c s f f d")
 b1.hit(1, rbis=1)
 
@@ -223,7 +223,7 @@ t2.pitch_list("c b b b")
 t2.hit(2, rbis=1)
 
 # 8. BOS #3  Sandy León (X - 12 - X)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("b f b b")
 t2.out("F7")
 
@@ -296,7 +296,7 @@ b3.advance(2, "10 WP")
 b3.advance(4, "10 1B")
 
 # 5. HOU #10 Yuli Gurriel (X - X - 1)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("b f b")
 b3.wp()
 b3.hit(1, rbis=1)
@@ -377,17 +377,17 @@ t5.hit(1)
 t5.advance(2, "16 SB")
 
 # 1. BOS #16 Andrew Benintendi (X - X - 19)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("s 1 1 b b c d b")
 t5.reach("BB")
 
 # 2. BOS #2  Xander Bogaerts (X - 19 - 16)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("c s b s")
 t5.out("K")
 
 # 3. BOS #18 Mitch Moreland (X - 19 - 16)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("s s c")
 t5.out("!K")
 
@@ -507,12 +507,12 @@ b7.hit(1)
 b7.thrown_out(2, "4 DP5-4-3", 1, 32)
 
 # 1. HOU #4  George Springer (X - 18 - 6)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("d")
 b7.out("DP5-4-3")
 
 # 2. HOU #2  Alex Bregman (18 - X - X)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.out("G6-3")
 
 
@@ -539,13 +539,13 @@ t8.advance(2, "18 WP")
 t8.advance(3, "18 G3")
 
 # 3. BOS #18 Mitch Moreland (X - X - 2)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("c 1 s b")
 t8.wp()
 t8.out("G3")
 
 # 4. BOS #28 J.D. Martinez (2 - X - X)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("v v v v")
 t8.reach("IBB")
 # Offensive change (BOS): Pinch-runner #23 Blake Swihart replaces #28 J.D. Martinez
@@ -554,7 +554,7 @@ t8.atbase("PR")
 t8.advance(2, "11 SB")
 
 # 5. BOS #11 Rafael Devers (2 - X - 28)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("c")
 t8.out("L8")
 
@@ -610,12 +610,12 @@ b8.hit(1)
 b8.advance(2, "4 1B")
 
 # 1. HOU #4  George Springer (X - 12 - 6)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b d f")
 b8.hit(1)
 
 # 2. HOU #2  Alex Bregman (12 - 6 - 4)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("c c f b f d b")
 b8.out("(F)P5")
 
@@ -647,7 +647,7 @@ t9.hit(1)
 t9.advance(2, "19 DI")
 
 # 9. BOS #19 Jackie Bradley Jr. (X - X - 3)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("f c s")
 t9.out("K")
 

@@ -296,12 +296,12 @@ t4.new_ab()
 t4.hit(2)
 
 # 5. BOS #18 Mitch Moreland (X - 28 - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("b b f")
 t4.out("G1-3")
 
 # 6. BOS #36 Eduardo Núñez (X - 28 - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("c b")
 t4.out("G6-3")
 
@@ -398,12 +398,12 @@ t6.pitch_list("f")
 t6.hit(2)
 
 # 5. BOS #18 Mitch Moreland (25 - 28 - X)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("c b f s")
 t6.out("K")
 
 # 6. BOS #36 Eduardo Núñez (25 - 28 - X)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.out("G6-3")
 
 
@@ -438,7 +438,7 @@ b6.reach("BB")
 b6.advance(2, "10 PB")
 
 # 3. BAL #10 Adam Jones (X - 23 - 34)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("b d s b b")
 b6.pb()
 b6.reach("BB")
@@ -447,7 +447,7 @@ b6.reach("BB")
 b6.pitching_substitution(70)
 
 # 4. BAL #16 Trey Mancini (23 - 34 - 10)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("b b c s f d f f t")
 b6.out("KT")
 
@@ -470,17 +470,17 @@ t7.new_ab()
 t7.out("SAC1-3")
 
 # 9. BOS #19 Jackie Bradley Jr. (X - 11 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b d c b s s")
 t7.out("K")
 
 # 1. BOS #50 Mookie Betts (X - 11 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("d c b d v")
 t7.reach("IBB")
 
 # 2. BOS #12 Brock Holt (X - 11 - 50)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("c")
 t7.out("G6-3")
 
@@ -567,18 +567,18 @@ b8.advance(2, "10 WP")
 b8.advance(3, "16 SF8")
 
 # 3. BAL #10 Adam Jones (X - 3 - 34)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b b b b")
 b8.wp()
 b8.reach("BB")
 
 # 4. BAL #16 Trey Mancini (3 - 34 - 10)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("c b b f")
 b8.out("SF8", rbis=1)
 
 # 5. BAL #1  Tim Beckham (34 - X - 10)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("f c b s")
 b8.out("K")
 
@@ -603,12 +603,12 @@ t9.pitch_list("1 c t s")
 t9.out("K")
 
 # 8. BOS #3  Sandy León (X - X - 36)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("c 1 s f 1 f d d f")
 t9.out("P6")
 
 # 9. BOS #19 Jackie Bradley Jr. (X - 36 - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("b f")
 t9.hit(1, rbis=1)
 t9.advance(4, "50 2B")
@@ -622,7 +622,7 @@ t9.hit(2, rbis=1)
 t9.pitching_substitution(66)
 
 # 2. BOS #12 Brock Holt (X - 50 - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("c s b")
 t9.out("F7")
 
@@ -651,7 +651,7 @@ b9.pitch_list("b b c f")
 b9.hit(1)
 
 # 9. BAL #3  Cedric Mullins (X - 39 - 61)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("b b c c s")
 b9.out("K")
 
@@ -659,7 +659,7 @@ b9.out("K")
 b9.offensive_substitution(1, 45, "PH")
 
 # 1. BAL #45 Mark Trumbo (X - 39 - 61)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("c b s s")
 b9.out("K")
 

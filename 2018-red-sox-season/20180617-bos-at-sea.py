@@ -170,16 +170,16 @@ b1.error(6)
 b1.advance(2, "E6")
 
 # 2. SEA #2  Jean Segura (X - 9 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.out("P3")
 
 # 3. SEA #17 Mitch Haniger (X - 9 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("c b b")
 b1.out("G4-3")
 
 # 4. SEA #23 Nelson Cruz (X - 9 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("f b b")
 b1.out("G3-1")
 
@@ -207,12 +207,12 @@ t2.pitch_list("1 1 b b f f 1")
 t2.hit(1)
 
 # 7. BOS #12 Brock Holt (X - 28 - 11)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("b c f f")
 t2.out("L3")
 
 # 8. BOS #7  Christian Vázquez (X - 28 - 11)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("c b s")
 t2.out("F9")
 
@@ -267,19 +267,19 @@ t3.advance(2, "28 BB")
 t3.advance(4, "18 1B")
 
 # 4. BOS #28 J.D. Martinez (X - 16 - 2)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("s b c b d f f f b")
 t3.reach("BB")
 t3.advance(3, "18 1B")
 t3.advance(4, "11 HR")
 
 # 5. BOS #18 Mitch Moreland (16 - 2 - 28)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.hit(1, rbis=2)
 t3.advance(4, "11 HR")
 
 # 6. BOS #11 Rafael Devers (28 - X - 18)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("b f f")
 t3.hit(4, rbis=3)
 
@@ -320,7 +320,7 @@ b3.pitch_list("b b b c b")
 b3.reach("BB")
 
 # 3. SEA #17 Mitch Haniger (X - 9 - 2)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("s b s b b c")
 b3.out("!K")
 
@@ -407,28 +407,28 @@ b5.advance(3, "9 1B")
 b5.advance(4, "2 FC5-4")
 
 # 9. SEA #36 David Freitas (X - 16 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.hit(1)
 b5.advance(2, "9 1B")
 b5.advance(3, "2 FC5-4")
 
 # 1. SEA #9  Dee Strange-Gordon (X - 16 - 36)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b b")
 b5.hit(1)
 b5.thrown_out(2, "2 FC5-4", 1, 57)
 
 # 2. SEA #2  Jean Segura (16 - 36 - 9)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("f")
 b5.reach("FC5-4", rbis=1)
 
 # 3. SEA #17 Mitch Haniger (36 - X - 2)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.out("F9")
 
 # 4. SEA #23 Nelson Cruz (36 - X - 2)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b b c t b f")
 b5.out("(F)P3")
 
@@ -502,7 +502,7 @@ t7.advance(2, "2 SB")
 t7.advance(4, "2 HR")
 
 # 3. BOS #2  Xander Bogaerts (X - X - 16)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("1 b")
 t7.hit(4, rbis=2)
 
@@ -566,22 +566,22 @@ t8.advance(3, "50 BB")
 t8.advance(4, "16 SF8")
 
 # 9. BOS #19 Jackie Bradley Jr. (X - 7 - X)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("c b s b b f f d")
 t8.reach("BB")
 t8.advance(2, "50 BB")
 
 # 1. BOS #50 Mookie Betts (X - 7 - 19)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("b b b b")
 t8.reach("BB")
 
 # 2. BOS #16 Andrew Benintendi (7 - 19 - 50)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.out("SF8", rbis=1)
 
 # 3. BOS #2  Xander Bogaerts (X - 19 - 50)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("b c f s")
 t8.out("K")
 
@@ -615,12 +615,12 @@ b8.reach("BB")
 b8.advance(3, "27 2B")
 
 # 5. SEA #15 Kyle Seager (X - 17 - 23)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b")
 b8.out("F7")
 
 # 6. SEA #27 Ryon Healy (X - 17 - 23)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b b f")
 b8.hit(2, rbis=1)
 
@@ -628,7 +628,7 @@ b8.hit(2, rbis=1)
 b8.pitching_substitution(76)
 
 # 7. SEA #5  Guillermo Heredia (23 - 27 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.out("G6-3")
 
 

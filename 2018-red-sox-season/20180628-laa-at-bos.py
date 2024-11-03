@@ -220,12 +220,12 @@ b2.hit(2)
 b2.advance(3, "12 G6-3")
 
 # 6. BOS #12 Brock Holt (X - 2 - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("c f d b b f f")
 b2.out("G6-3")
 
 # 7. BOS #11 Rafael Devers (2 - X - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("d")
 b2.out("G6-3")
 
@@ -259,7 +259,7 @@ t3.pitch_list("1 1 b b d b")
 t3.reach("BB")
 
 # 3. LAA #8  Justin Upton (X - 3 - 27)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("b b f")
 t3.out("G6-3")
 
@@ -368,12 +368,12 @@ t5.pitch_list("c 1 1 s b 1 d b")
 t5.out("G5-3")
 
 # 2. LAA #27 Mike Trout (X - 59 - X)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("f")
 t5.reach("HBP")
 
 # 3. LAA #8  Justin Upton (X - 59 - 27)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("c b b c c")
 t5.out("!K")
 
@@ -454,18 +454,18 @@ b6.advance(3, "12 BB")
 b6.thrown_out(4, "11 DP1-2-3", 2, 48)
 
 # 5. BOS #2  Xander Bogaerts (28 - 18 - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("v v v v")
 b6.reach("IBB")
 b6.advance(2, "12 BB")
 
 # 6. BOS #12 Brock Holt (28 - 18 - 2)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("b d c b c f b")
 b6.reach("BB", rbis=1)
 
 # 7. BOS #11 Rafael Devers (18 - 2 - 12)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("c f")
 b6.out("DP1-2-3")
 
@@ -564,24 +564,24 @@ t8.hit(1)
 t8.advance(2, "5 1B")
 
 # 4. LAA #5  Albert Pujols (27 - X - 8)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("f")
 t8.hit(1, rbis=1)
 
 # 5. LAA #2  Andrelton Simmons (X - 8 - 5)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("b")
 t8.out("L9")
 
 # 6. LAA #6  David Fletcher (X - 8 - 5)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.out("F7")
 
 # Offensive change (LAA): Pinch-hitter #18 Luis Valbuena replaces #24 Chris Young, batting 7th
 t8.offensive_substitution(7, 18, "PH")
 
 # 7. LAA #18 Luis Valbuena (X - 8 - 5)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.out("F8")
 
 

@@ -205,21 +205,20 @@ t2.pitch_list("b s b b")
 t2.error(9)
 t2.reach("E9")
 t2.advance(2, "36 SB")
-t2.advance(3, "19 2B")
 t2.advance("U", "19 2B")
 
 # 7. BOS #36 Eduardo Núñez (X - X - 11)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("s d c s")
 t2.out("K")
 
 # 8. BOS #19 Jackie Bradley Jr. (X - 11 - X)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("b f d b")
 t2.hit(2, rbis=1)
 
 # 9. BOS #7  Christian Vázquez (X - 19 - X)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("c")
 t2.out("G4-3")
 
@@ -316,7 +315,7 @@ t4.pitch_list("c b f b")
 t4.hit(2)
 
 # 7. BOS #36 Eduardo Núñez (X - 11 - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.out("G5-3")
 
 
@@ -384,7 +383,7 @@ b5.pitch_list("s")
 b5.hit(1)
 
 # 7. SEA #5  Guillermo Heredia (X - 15 - 27)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b")
 b5.out("SF7", rbis=1)
 
@@ -474,7 +473,7 @@ t7.hit(1)
 t7.thrown_out(2, "50 DP5-4-3", 2, 34)
 
 # 1. BOS #50 Mookie Betts (X - 19 - 7)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.out("DP5-4-3")
 
 
@@ -535,7 +534,7 @@ t8.pitch_list("c")
 t8.hit(1)
 
 # 6. BOS #11 Rafael Devers (28 - X - 2)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("f b b 1")
 t8.out("(F)P5")
 
@@ -607,7 +606,7 @@ b9.reach("BB")
 b9.advance(2, "23 WP")
 
 # 4. SEA #23 Nelson Cruz (X - X - 17)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("s d b s b d")
 b9.wp()
 b9.reach("BB")
@@ -617,12 +616,12 @@ b9.atbase("PR")
 b9.thrown_out(2, "27 DP6-4-3", 2, 46)
 
 # 5. SEA #15 Kyle Seager (X - 17 - 23)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("c s c")
 b9.out("!K")
 
 # 6. SEA #27 Ryon Healy (X - 17 - 7)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("b t")
 b9.out("DP6-4-3")
 

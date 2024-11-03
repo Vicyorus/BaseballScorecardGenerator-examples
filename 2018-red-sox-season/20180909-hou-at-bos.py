@@ -177,18 +177,18 @@ t1.new_ab()
 t1.out("(F)P3")
 
 # 3. HOU #2  Alex Bregman (X - X - 4)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("b b b b")
 t1.pb()
 t1.reach("BB")
 
 # 4. HOU #10 Yuli Gurriel (X - 4 - 2)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("c b t c")
 t1.out("!K")
 
 # 5. HOU #1  Carlos Correa (X - 4 - 2)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("b c b s s")
 t1.out("K")
 
@@ -205,17 +205,17 @@ b1.advance(3, "28 G2-3")
 b1.advance(4, "2 1B")
 
 # 2. BOS #16 Andrew Benintendi (X - 50 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b")
 b1.out("F7")
 
 # 3. BOS #28 J.D. Martinez (X - 50 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b")
 b1.out("G2-3")
 
 # 4. BOS #2  Xander Bogaerts (50 - X - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("c b s")
 b1.hit(1, rbis=1)
 
@@ -301,7 +301,7 @@ t3.pitch_list("b")
 t3.hit(2)
 
 # 4. HOU #10 Yuli Gurriel (X - 2 - X)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.out("P5")
 
 
@@ -317,11 +317,11 @@ b3.advance(3, "16 G4-3")
 b3.advance(4, "28 SF7")
 
 # 2. BOS #16 Andrew Benintendi (X - 50 - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.out("G4-3")
 
 # 3. BOS #28 J.D. Martinez (50 - X - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("b f d")
 b3.out("SF7", rbis=1)
 
@@ -432,7 +432,7 @@ b5.hit(1)
 b5.advance(4, "28 HR")
 
 # 3. BOS #28 J.D. Martinez (X - 50 - 16)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.hit(4, rbis=3)
 
 # 4. BOS #2  Xander Bogaerts (X - X - X)
@@ -481,7 +481,7 @@ t6.hit(1)
 t6.advance(4, "13 2B")
 
 # 6. HOU #9  Marwin Gonzalez (X - 10 - 1)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("s b c f f")
 t6.out("L9")
 
@@ -489,7 +489,7 @@ t6.out("L9")
 t6.pitching_substitution(37)
 
 # 7. HOU #13 Tyler White (X - 10 - 1)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("f s b b f")
 t6.hit(2, rbis=2)
 t6.advance(4, "22 2B")
@@ -498,13 +498,13 @@ t6.advance(4, "22 2B")
 t6.pitching_substitution(61)
 
 # 8. HOU #16 Brian McCann (X - 13 - X)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("d s d d d")
 t6.reach("BB")
 t6.advance(3, "22 2B")
 
 # 9. HOU #22 Josh Reddick (X - 13 - 16)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("f d b f f b")
 t6.hit(2, rbis=1)
 
@@ -512,7 +512,7 @@ t6.hit(2, rbis=1)
 t6.pitching_substitution(70)
 
 # 1. HOU #4  George Springer (16 - 22 - X)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("c t t")
 t6.out("KT")
 
@@ -557,12 +557,12 @@ t7.advance(3, "10 PB")
 t7.thrown_out(4, "10 FC6-2", 2, 35)
 
 # 3. HOU #2  Alex Bregman (X - 27 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("l f f f")
 t7.out("F8")
 
 # 4. HOU #10 Yuli Gurriel (X - 27 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("c")
 t7.pb()
 t7.reach("FC6-2")
@@ -616,7 +616,7 @@ t8.offensive_substitution(7, 6, "PR")
 t8.atbase("PR")
 
 # 8. HOU #16 Brian McCann (X - 13 - X)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("b b b c b")
 t8.reach("BB")
 # Offensive change (HOU): Pinch-runner #28 J.D. Davis replaces #16 Brian McCann
@@ -625,7 +625,7 @@ t8.atbase("PR")
 t8.thrown_out(2, "22 DP4-6-3", 2, 35)
 
 # 9. HOU #22 Josh Reddick (X - 6 - 16)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("b f b")
 t8.out("DP4-6-3")
 
@@ -660,7 +660,7 @@ b8.hit(1)
 b8.advance(2, "12 BB")
 
 # 6. BOS #5  Ian Kinsler (X - 2 - 18)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b b f f s")
 b8.out("K")
 
@@ -668,7 +668,7 @@ b8.out("K")
 b8.offensive_substitution(7, 12, "PH")
 
 # 7. BOS #12 Brock Holt (X - 2 - 18)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b b c f b f f b")
 b8.reach("BB")
 
@@ -679,7 +679,7 @@ b8.pitching_substitution(29)
 b8.offensive_substitution(8, 23, "PH")
 
 # 8. BOS #23 Blake Swihart (2 - 18 - 12)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("c b c s")
 b8.out("K")
 
@@ -687,7 +687,7 @@ b8.out("K")
 b8.offensive_substitution(9, 7, "PH")
 
 # 9. BOS #7  Christian Vázquez (2 - 18 - 12)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("c c d s")
 b8.out("K")
 
@@ -765,7 +765,7 @@ b9.hit(1)
 b9.advance(2, "18 1B")
 
 # 5. BOS #18 Mitch Moreland (X - 28 - 2)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("b f b")
 b9.hit(1, rbis=1)
 

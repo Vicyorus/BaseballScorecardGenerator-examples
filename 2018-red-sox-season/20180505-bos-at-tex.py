@@ -197,22 +197,22 @@ t2.error(1)
 t2.advance(3, "36 E1")
 
 # 6. BOS #18 Mitch Moreland (X - 2 - X)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("b d c f f d b")
 t2.reach("BB")
 t2.advance(2, "36 E1")
 
 # 7. BOS #36 Eduardo Núñez (X - 2 - 18)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.reach("FC1")
 
 # 8. BOS #11 Rafael Devers (2 - 18 - 36)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("f f b b s")
 t2.out("K")
 
 # 9. BOS #7  Christian Vázquez (2 - 18 - 36)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("c c f d b f")
 t2.out("F9")
 
@@ -363,13 +363,13 @@ t5.error(5)
 t5.reach("E5", end_base=2)
 
 # 2. BOS #16 Andrew Benintendi (7 - 50 - X)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("d")
 t5.hit(1, rbis=1)
 t5.thrown_out(2, "13 DP1-4-3", 2, 35)
 
 # 3. BOS #13 Hanley Ramirez (X - 50 - 16)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("b c f b b")
 t5.out("DP1-4-3")
 
@@ -402,7 +402,7 @@ b5.reach("BB")
 b5.advance(4, "3 HR")
 
 # 1. TEX #3  Delino DeShields (X - 61 - 16)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.hit(4, rbis=3)
 
 # 2. TEX #17 Shin-Soo Choo (X - X - X)
@@ -501,12 +501,12 @@ t7.advance(3, "13 G1-3")
 t7.advance(4, "28 1B")
 
 # 3. BOS #13 Hanley Ramirez (X - 16 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("s c b")
 t7.out("G1-3")
 
 # 4. BOS #28 J.D. Martinez (16 - X - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b")
 t7.hit(1, rbis=1)
 
@@ -559,7 +559,7 @@ t8.pitch_list("1 l")
 t8.out("SAC1-3")
 
 # 8. BOS #11 Rafael Devers (X - 18 - X)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("b f")
 t8.reach("FC1-5")
 
@@ -588,12 +588,12 @@ b8.pitch_list("b f")
 b8.hit(2)
 
 # 3. TEX #9  Isiah Kiner-Falefa (3 - 17 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("s f")
 b8.out("G6-3")
 
 # 4. TEX #30 Nomar Mazara (3 - 17 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("v v v v")
 b8.reach("IBB")
 
@@ -601,12 +601,12 @@ b8.reach("IBB")
 b8.pitching_substitution(56)
 
 # 5. TEX #13 Joey Gallo (3 - 17 - 30)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b f b f s")
 b8.out("K")
 
 # 6. TEX #19 Jurickson Profar (3 - 17 - 30)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("f b f b f f d f f f c")
 b8.out("!K")
 
@@ -633,7 +633,7 @@ t9.hit(3)
 t9.advance(4, "13 SF8")
 
 # 3. BOS #13 Hanley Ramirez (16 - X - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("s b b")
 t9.out("SF8", rbis=1)
 

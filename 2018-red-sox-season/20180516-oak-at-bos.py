@@ -158,12 +158,12 @@ t1.pitch_list("b 1 b b c b")
 t1.reach("BB")
 
 # 4. OAK #2  Khris Davis (X - 10 - 8)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("c s b b s")
 t1.out("K")
 
 # 5. OAK #26 Matt Chapman (X - 10 - 8)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("b b b c s s")
 t1.out("K")
 
@@ -182,19 +182,19 @@ b1.advance(3, "16 1B")
 b1.advance(4, "13 G6-3")
 
 # 2. BOS #16 Andrew Benintendi (X - 50 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b")
 b1.hit(1)
 b1.advance(2, "13 G6-3")
 b1.advance(4, "28 HR")
 
 # 3. BOS #13 Hanley Ramirez (50 - X - 16)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b s d c 1 b f 1")
 b1.out("G6-3", rbis=1)
 
 # 4. BOS #28 J.D. Martinez (X - 16 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b c d")
 b1.hit(4, rbis=2)
 
@@ -307,12 +307,12 @@ b3.pitch_list("f 1")
 b3.out("G6-3")
 
 # 4. BOS #28 J.D. Martinez (X - 16 - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("b f s")
 b3.out("G4-3")
 
 # 5. BOS #2  Xander Bogaerts (16 - X - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("s d")
 b3.out("L7")
 
@@ -331,18 +331,18 @@ t4.reach("BB")
 t4.advance(2, "26 PB")
 
 # 5. OAK #26 Matt Chapman (X - X - 2)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("b f b s s")
 t4.pb()
 t4.out("K")
 
 # 6. OAK #28 Matt Olson (X - 2 - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("c b c f b f")
 t4.out("F7")
 
 # 7. OAK #25 Stephen Piscotty (X - 2 - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.out("F8")
 
 
@@ -471,7 +471,7 @@ b6.reach("BB")
 b6.advance(4, "2 HR")
 
 # 5. BOS #2  Xander Bogaerts (X - 13 - 28)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("c d")
 b6.hit(4, rbis=3)
 
@@ -497,7 +497,7 @@ b6.pitch_list("b b f")
 b6.hit(1)
 
 # 1. BOS #50 Mookie Betts (X - 36 - 7)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("b f")
 b6.out("(F)F9")
 

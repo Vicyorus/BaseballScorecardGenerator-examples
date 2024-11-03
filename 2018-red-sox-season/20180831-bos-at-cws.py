@@ -185,12 +185,12 @@ b1.advance(3, "18 F8")
 b1.advance(4, "10 HR")
 
 # 4. CWS #18 Daniel Palka (X - 26 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b f b")
 b1.out("F8")
 
 # 5. CWS #10 Yoán Moncada (26 - X - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("f b f")
 b1.hit(4, rbis=2)
 
@@ -223,12 +223,12 @@ t2.pitch_list("b")
 t2.hit(2)
 
 # 8. BOS #3  Sandy León (X - 5 - X)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("b f f")
 t2.reach("HBP")
 
 # 9. BOS #19 Jackie Bradley Jr. (X - 5 - 3)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.out("P4")
 
 
@@ -246,12 +246,12 @@ b2.pitch_list("b")
 b2.hit(2)
 
 # 9. CWS #15 Adam Engel (X - 36 - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("c f b")
 b2.out("F9")
 
 # 1. CWS #5  Yolmer Sánchez (X - 36 - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("f b f b")
 b2.out("L7")
 
@@ -297,21 +297,21 @@ b3.hit(2)
 b3.advance(3, "24 1B")
 
 # 4. CWS #18 Daniel Palka (X - 26 - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.reach("HBP")
 b3.advance(2, "24 1B")
 
 # 5. CWS #10 Yoán Moncada (X - 26 - 18)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("c c b b f d s")
 b3.out("K")
 
 # 6. CWS #24 Matt Davidson (X - 26 - 18)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.hit(1)
 
 # 7. CWS #7  Tim Anderson (26 - 18 - 24)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("c s s")
 b3.out("K")
 
@@ -340,17 +340,17 @@ t4.hit(1)
 t4.advance(2, "23 G4-3")
 
 # 6. BOS #23 Blake Swihart (X - 2 - 36)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("b")
 t4.out("G4-3")
 
 # 7. BOS #5  Ian Kinsler (2 - 36 - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("c c b f f f f b f c")
 t4.out("!K")
 
 # 8. BOS #3  Sandy León (2 - 36 - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("b c b")
 t4.out("L8")
 
@@ -544,12 +544,12 @@ b7.hit(1)
 b7.advance(4, "24 HR")
 
 # 5. CWS #10 Yoán Moncada (X - 26 - 18)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("s d b b c s")
 b7.out("K")
 
 # 6. CWS #24 Matt Davidson (X - 26 - 18)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("b f c d")
 b7.hit(4, rbis=3)
 
@@ -565,7 +565,7 @@ b7.pitch_list("c b b f d b")
 b7.reach("BB")
 
 # 9. CWS #15 Adam Engel (X - 7 - 36)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("f f f s")
 b7.out("K")
 

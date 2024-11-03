@@ -218,16 +218,16 @@ b2.hit(2)
 b2.advance(3, "13 G4-3")
 
 # 5. TEX #13 Joey Gallo (X - 30 - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.out("G4-3")
 
 # 6. TEX #9  Isiah Kiner-Falefa (30 - X - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("b f")
 b2.out("G5-3")
 
 # 7. TEX #67 Ronald Guzmán (30 - X - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("b f f b s")
 b2.out("K")
 
@@ -256,7 +256,7 @@ t3.pitch_list("1")
 t3.out("G5-3")
 
 # 2. BOS #16 Andrew Benintendi (X - 19 - X)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("f c")
 t3.out("G3")
 
@@ -508,7 +508,7 @@ t8.pitch_list("c b b f b")
 t8.hit(2, rbis=1)
 
 # 4. BOS #28 J.D. Martinez (X - 13 - X)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("f c b s")
 t8.out("K")
 

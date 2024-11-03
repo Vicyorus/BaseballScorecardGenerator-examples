@@ -212,7 +212,7 @@ t2.reach("HBP")
 t2.thrown_out(2, "45 DP6-4-3", 2, 76)
 
 # 9. TBR #45 Jesús Sucre (X - 26 - 35)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("b f b b")
 t2.out("DP6-4-3")
 
@@ -233,7 +233,7 @@ b2.hit(2)
 b2.advance(3, "36 G4-3")
 
 # 6. BOS #36 Eduardo Núñez (X - 2 - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("c c")
 b2.out("G4-3")
 
@@ -241,7 +241,7 @@ b2.out("G4-3")
 b2.pitching_substitution(68)
 
 # 7. BOS #12 Brock Holt (2 - X - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("d c f b b s")
 b2.out("K")
 
@@ -321,7 +321,7 @@ t4.pitch_list("b s c f b b b")
 t4.reach("BB")
 
 # 9. TBR #45 Jesús Sucre (X - 26 - 35)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("c f f d f c")
 t4.out("!K")
 
@@ -343,17 +343,17 @@ b4.reach("BB")
 b4.thrown_out(2, "28 DP6-4-3", 1, 68)
 
 # 4. BOS #28 J.D. Martinez (X - 16 - 25)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("b s s d b f f")
 b4.out("DP6-4-3")
 
 # 5. BOS #2  Xander Bogaerts (16 - X - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("c b b f d f f b")
 b4.reach("BB")
 
 # 6. BOS #36 Eduardo Núñez (16 - X - 2)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.out("L7")
 
 
@@ -590,12 +590,12 @@ t9.reach("BB")
 t9.advance(2, "35 SB")
 
 # 8. TBR #35 Brandon Lowe (X - X - 26)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("b s b s b s")
 t9.out("K")
 
 # 9. TBR #45 Jesús Sucre (X - 26 - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("c s s")
 t9.out("K")
 

@@ -242,7 +242,7 @@ t2.thrown_out(2, "23 DP6-4-3", 2, 49)
 t2.pitching_substitution(49)
 
 # 7. BOS #23 Blake Swihart (X - 25 - 12)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.out("DP6-4-3")
 
 
@@ -326,7 +326,7 @@ b3.new_ab()
 b3.hit(1)
 
 # 3. CLE #11 José Ramírez (7 - X - 23)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("c 1 1 f f b f b b f f")
 b3.out("G6-3")
 
@@ -385,7 +385,7 @@ b4.pitch_list("b f 1 b b f")
 b4.out("G6-3")
 
 # 8. CLE #7  Yan Gomes (X - 36 - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.hit(4, rbis=2)
 
 # 9. CLE #22 Jason Kipnis (X - X - X)
@@ -418,12 +418,12 @@ t5.reach("BB")
 t5.thrown_out(2, "59 DP6-4-3", 1, 57)
 
 # 8. BOS #59 Sam Travis (X - 12 - 23)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("c f")
 t5.out("DP6-4-3")
 
 # 9. BOS #3  Sandy León (12 - X - X)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("d f b d")
 t5.out("G4-3")
 
@@ -443,22 +443,22 @@ b5.advance(3, "23 1B")
 b5.advance(4, "11 SF9")
 
 # 2. CLE #23 Michael Brantley (X - 12 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.hit(1)
 b5.advance(2, "11 SF9")
 
 # 3. CLE #11 José Ramírez (12 - X - 23)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b f")
 b5.out("SF9", rbis=1)
 
 # 4. CLE #10 Edwin Encarnación (X - 23 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("c f b s")
 b5.out("K")
 
 # 5. CLE #27 Josh Donaldson (X - 23 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.out("(F)F7")
 
 
@@ -546,7 +546,7 @@ t7.advance(2, "59 WP")
 t7.advance(4, "59 2B")
 
 # 8. BOS #59 Sam Travis (X - 12 - 23)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("c b d")
 t7.wp()
 t7.hit(2, rbis=2)
@@ -554,12 +554,12 @@ t7.advance(3, "3 G4-3")
 t7.advance(4, "30 1B")
 
 # 9. BOS #3  Sandy León (X - 59 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("c s")
 t7.out("G4-3")
 
 # 1. BOS #30 Tzu-Wei Lin (59 - X - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b")
 t7.hit(1, rbis=1)
 t7.advance(3, "0 1B")
@@ -576,20 +576,20 @@ t7.advance(3, "28 BB")
 t7.pitching_substitution(58)
 
 # 3. BOS #11 Rafael Devers (30 - X - 0)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b f 1 c d")
 t7.hit(1, rbis=1)
 t7.advance(2, "28 BB")
 t7.thrown_out(3, "25 FC5", 3, 58)
 
 # 4. BOS #28 J.D. Martinez (X - 0 - 11)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("f b b b b")
 t7.reach("BB")
 t7.advance(2, "25 FC5")
 
 # 5. BOS #25 Steve Pearce (0 - 11 - 28)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b c b c")
 t7.reach("FC5")
 
@@ -623,7 +623,7 @@ b7.error(7)
 b7.reach("E7", end_base=2)
 
 # 4. CLE #10 Edwin Encarnación (X - 11 - X)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("c d c b b f b")
 b7.reach("BB")
 
@@ -631,7 +631,7 @@ b7.reach("BB")
 b7.pitching_substitution(44)
 
 # 5. CLE #27 Josh Donaldson (X - 11 - 10)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("c b c b f d")
 b7.out("L8")
 
@@ -686,17 +686,17 @@ b8.hit(2)
 b8.pitching_substitution(63)
 
 # 9. CLE #22 Jason Kipnis (9 - 7 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("s b s")
 b8.out("(F)P2")
 
 # 1. CLE #12 Francisco Lindor (9 - 7 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("v v v v")
 b8.reach("IBB")
 
 # 2. CLE #23 Michael Brantley (9 - 7 - 12)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("c b")
 b8.out("(F)F7")
 

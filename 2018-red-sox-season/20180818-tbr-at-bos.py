@@ -155,16 +155,16 @@ t1.new_ab()
 t1.hit(1)
 
 # 3. TBR #9  Jake Bauers (X - 27 - 5)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.out("IF3")
 
 # 4. TBR #29 Tommy Pham (27 - X - 5)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("d c b f f c")
 t1.out("!K")
 
 # 5. TBR #44 C.J. Cron (27 - X - 5)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("b f s f b f f b")
 t1.out("G1-3")
 
@@ -185,13 +185,13 @@ b1.hit(2)
 b1.advance(4, "18 2B")
 
 # 3. BOS #18 Mitch Moreland (X - 16 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.hit(2, rbis=1)
 b1.advance(3, "28 SB")
 b1.advance(4, "5 BB")
 
 # 4. BOS #28 J.D. Martinez (X - 18 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b b f b b")
 b1.reach("BB")
 b1.advance(2, "2 SB")
@@ -199,7 +199,7 @@ b1.advance(3, "5 BB")
 b1.advance(4, "12 FC3")
 
 # 5. BOS #2  Xander Bogaerts (18 - X - 28)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("1 b b b b")
 b1.reach("BB")
 b1.advance(2, "5 BB")
@@ -208,20 +208,20 @@ b1.advance(3, "12 FC3")
 b1.advance("U", "12 E3")
 
 # 6. BOS #5  Ian Kinsler (18 - 28 - 2)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("d b b b")
 b1.reach("BB", rbis=1)
 b1.advance(2, "12 E3")
 b1.thrown_out(3, "3 CS", 2, 20)
 
 # 7. BOS #12 Brock Holt (28 - 2 - 5)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("c b b c f b f")
 b1.reach("FC3", rbis=1)
 b1.thrown_out(2, "3 1-5", 3, 20)
 
 # 8. BOS #3  Sandy León (X - 5 - 12)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("n")
 
 
@@ -340,7 +340,7 @@ t4.pitch_list("c")
 t4.hit(1)
 
 # 6. TBR #18 Joey Wendle (X - 29 - 44)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("f b b b f f f")
 t4.out("DP7-4")
 
@@ -392,7 +392,7 @@ t5.new_ab()
 t5.reach("HBP")
 
 # 2. TBR #5  Matt Duffy (X - 43 - 27)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.out("F8")
 
 
@@ -481,17 +481,17 @@ t7.pitch_list("c")
 t7.hit(2)
 
 # 9. TBR #43 Michael Pérez (X - 39 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("s f c")
 t7.out("!K")
 
 # 1. TBR #27 Carlos Gómez (X - 39 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("f f c")
 t7.out("!K")
 
 # 2. TBR #5  Matt Duffy (X - 39 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b f b")
 t7.out("L3")
 

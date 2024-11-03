@@ -182,22 +182,22 @@ b1.error(5)
 b1.advance(4, "14 E5")
 
 # 2. TOR #37 Teoscar Hernández (X - 28 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b s b b")
 b1.out("F9")
 
 # 3. TOR #14 Justin Smoak (X - 28 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b b")
 b1.hit(1)
 b1.advance(2, "E5")
 
 # 4. TOR #26 Yangervis Solarte (X - 14 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.out("F7")
 
 # 5. TOR #8  Kendrys Morales (X - 14 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("s b f b d s")
 b1.out("K")
 
@@ -362,23 +362,23 @@ t5.reach("HBP")
 t5.advance(3, "12 2B")
 
 # 9. BOS #12 Brock Holt (X - 19 - 7)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("b c b")
 t5.hit(2, rbis=1)
 
 # 1. BOS #50 Mookie Betts (7 - 12 - X)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("d c")
 t5.out("F9")
 
 # 2. BOS #16 Andrew Benintendi (7 - 12 - X)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("b b c f b b")
 t5.reach("BB")
 t5.thrown_out(2, "13 DP4-6-3", 2, 41)
 
 # 3. BOS #13 Hanley Ramirez (7 - 12 - 16)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.out("DP4-6-3")
 
 
@@ -399,12 +399,12 @@ b5.advance(2, "1 SB")
 b5.advance(4, "28 1B")
 
 # 9. TOR #1  Aledmys Díaz (X - X - 13)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b s s d b")
 b5.out("G5-3")
 
 # 1. TOR #28 Steve Pearce (X - 13 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b b b c s")
 b5.hit(1, rbis=1)
 b5.advance(2, "37 1B")
@@ -416,7 +416,7 @@ b5.hit(1)
 b5.thrown_out(2, "14 FC5-4", 3, 57)
 
 # 3. TOR #14 Justin Smoak (X - 28 - 37)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b f b")
 b5.reach("FC5-4")
 
@@ -516,7 +516,7 @@ t7.advance(2, "13 SB")
 t7.advance(3, "13 SB")
 
 # 3. BOS #13 Hanley Ramirez (X - X - 16)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b 1 b s s b f b")
 t7.reach("BB")
 t7.advance(2, "28 BB")
@@ -525,17 +525,17 @@ t7.advance(2, "28 BB")
 t7.pitching_substitution(22)
 
 # 4. BOS #28 J.D. Martinez (16 - X - 13)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("d f f b b b")
 t7.reach("BB")
 
 # 5. BOS #11 Rafael Devers (16 - 13 - 28)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b b")
 t7.out("F9")
 
 # 6. BOS #36 Eduardo Núñez (16 - 13 - 28)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.out("G3")
 
 

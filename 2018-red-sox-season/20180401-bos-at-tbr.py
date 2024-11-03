@@ -155,12 +155,12 @@ t1.pitch_list("c")
 t1.out("F9")
 
 # 3. BOS #28 J.D. Martinez (X - X - 50)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("b s f f b 1 d f c")
 t1.out("!K")
 
 # 4. BOS #2  Xander Bogaerts (X - 50 - X)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("c s d")
 t1.out("F9")
 
@@ -206,12 +206,12 @@ t2.reach("BB")
 t2.advance(2, "23 SB")
 
 # 8. BOS #23 Blake Swihart (X - X - 19)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("c c b b d b")
 t2.reach("BB")
 
 # 9. BOS #12 Brock Holt (X - 19 - 23)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("c d f")
 t2.out("L7")
 
@@ -241,12 +241,12 @@ b2.hit(1)
 b2.thrown_out(2, "11 FC6-4", 3, 76)
 
 # 8. TBR #0  Mallex Smith (X - 5 - 40)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("f b s b f f f b")
 b2.out("F7")
 
 # 9. TBR #11 Adeiny Hechavarría (X - 5 - 40)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("b f b b")
 b2.reach("FC6-4")
 
@@ -327,7 +327,7 @@ t4.pitch_list("b f")
 t4.hit(1)
 
 # 9. BOS #12 Brock Holt (X - 19 - 23)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("d d f")
 t4.out("G3-1")
 
@@ -358,7 +358,7 @@ b4.pitch_list("b 1 f s b b f b")
 b4.reach("BB")
 
 # 8. TBR #0  Mallex Smith (X - 18 - 40)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("f s b f f")
 b4.out("L8")
 
@@ -384,7 +384,7 @@ t5.reach("BB")
 t5.advance(2, "28 1B")
 
 # 3. BOS #28 J.D. Martinez (X - 50 - 11)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("c f f")
 t5.hit(1, rbis=1)
 
@@ -392,17 +392,17 @@ t5.hit(1, rbis=1)
 t5.pitching_substitution(46)
 
 # 4. BOS #2  Xander Bogaerts (X - 11 - 28)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("c f f s")
 t5.out("K")
 
 # 5. BOS #18 Mitch Moreland (X - 11 - 28)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("b 2 s c")
 t5.out("F8")
 
 # 6. BOS #7  Christian Vázquez (X - 11 - 28)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.out("G4-3")
 
 
@@ -453,22 +453,22 @@ t6.new_ab()
 t6.pitch_list("p c b b c b")
 t6.reach("BB")
 t6.advance(2, "50 HBP")
-t6.thrown_out(4, "11 9-2", 2, 72)
 t6.advance(3, "11 1B")
+t6.thrown_out(4, "11 9-2", 2, 72)
 
 # 1. BOS #50 Mookie Betts (X - 19 - 12)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("c f")
 t6.reach("HBP")
 t6.advance(2, "11 9-2")
 
 # 2. BOS #11 Rafael Devers (19 - 12 - 50)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("f d s")
 t6.hit(1, rbis=1)
 
 # 3. BOS #28 J.D. Martinez (X - 50 - 11)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("s s")
 t6.out("L7")
 
@@ -501,7 +501,7 @@ b6.pitch_list("f")
 b6.hit(2)
 
 # 7. TBR #40 Wilson Ramos (5 - 18 - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("s")
 b6.out("F9")
 
@@ -660,7 +660,7 @@ b9.pitch_list("b 1 1 s c f")
 b9.hit(1)
 
 # 1. TBR #2  Denard Span (0 - X - 11)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("c b 1 b f b s")
 b9.out("K")
 

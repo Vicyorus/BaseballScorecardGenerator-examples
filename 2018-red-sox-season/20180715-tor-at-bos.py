@@ -191,19 +191,19 @@ b1.reach("E4")
 b1.thrown_out(2, "25 FC1-4", 2, 6)
 
 # 5. BOS #25 Steve Pearce (X - 28 - 18)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("c c d b b")
 b1.reach("FC1-4")
 b1.advance(2, "12 1B")
 
 # 6. BOS #12 Brock Holt (28 - X - 25)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("c")
 b1.hit(1, rbis=1)
 b1.thrown_out(2, "36 FC6", 3, 6)
 
 # 7. BOS #36 Eduardo Núñez (X - 25 - 12)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("c f f")
 b1.reach("FC6")
 
@@ -238,7 +238,7 @@ t2.reach("BB")
 t2.advance(2, "1 FC5")
 
 # 9. TOR #1  Aledmys Díaz (X - 8 - 27)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("s")
 t2.reach("FC5")
 
@@ -278,12 +278,12 @@ t3.hit(2)
 t3.advance(4, "37 HR")
 
 # 2. TOR #26 Yangervis Solarte (X - 15 - X)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("f s")
 t3.out("P2")
 
 # 3. TOR #37 Teoscar Hernández (X - 15 - X)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("c 2")
 t3.hit(4, rbis=2)
 
@@ -402,19 +402,19 @@ b5.hit(2)
 b5.advance(4, "19 2B")
 
 # 9. BOS #19 Jackie Bradley Jr. (X - 3 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("c f b b")
 b5.hit(2, rbis=1)
 b5.advance(3, "50 F9")
 b5.advance(4, "2 G1-6-3")
 
 # 1. BOS #50 Mookie Betts (X - 19 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b")
 b5.out("F9")
 
 # 2. BOS #2  Xander Bogaerts (19 - X - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b b f")
 b5.out("G1-6-3", rbis=1)
 
@@ -476,7 +476,7 @@ b6.reach("HBP")
 b6.advance(2, "12 1B")
 
 # 6. BOS #12 Brock Holt (X - 18 - 25)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("l c f b")
 b6.hit(1, rbis=1)
 b6.thrown_out(2, "3 DP4-6-3", 2, 39)
@@ -485,11 +485,11 @@ b6.thrown_out(2, "3 DP4-6-3", 2, 39)
 b6.pitching_substitution(39)
 
 # 7. BOS #36 Eduardo Núñez (X - 25 - 12)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.out("F7")
 
 # 8. BOS #3  Sandy León (X - 25 - 12)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("b f b c f b")
 b6.out("DP4-6-3")
 
@@ -522,7 +522,7 @@ t7.hit(1)
 t7.thrown_out(2, "26 DP1-6-3", 2, 70)
 
 # 2. TOR #26 Yangervis Solarte (X - 1 - 15)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("c b b s f")
 t7.out("DP1-6-3")
 
@@ -552,7 +552,7 @@ b7.pitch_list("c 1 1 f s")
 b7.out("K")
 
 # 3. BOS #28 J.D. Martinez (X - X - 50)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("f s f 1 b d f f d")
 b7.no_ab("2-5")
 
@@ -591,11 +591,11 @@ t8.hit(1)
 t8.advance(2, "29 1B")
 
 # 7. TOR #29 Devon Travis (X - 14 - 55)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.hit(1)
 
 # 8. TOR #27 Dwight Smith Jr. (14 - 55 - 29)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("s c s")
 t8.out("K")
 
@@ -634,7 +634,7 @@ b8.thrown_out(2, "36 FC6-4", 3, 47)
 b8.pitching_substitution(47)
 
 # 7. BOS #36 Eduardo Núñez (X - 25 - 12)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b f f")
 b8.reach("FC6-4")
 

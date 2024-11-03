@@ -165,7 +165,7 @@ t1.pitch_list("c c b b b f f f")
 t1.out("G4-3")
 
 # 4. BOS #25 Steve Pearce (X - 12 - X)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("c b b c")
 t1.out("G6-3")
 
@@ -314,11 +314,11 @@ t4.pitch_list("f c b b")
 t4.hit(2)
 
 # 4. BOS #25 Steve Pearce (X - 28 - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.out("G6-3")
 
 # 5. BOS #11 Rafael Devers (X - 28 - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("s d f s")
 t4.out("K")
 
@@ -385,12 +385,12 @@ b5.advance(2, "E5")
 b5.offensive_substitution(9, 8, "PH")
 
 # 9. WSH #8  Brian Goodwin (X - 29 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("c b")
 b5.out("L8")
 
 # 1. WSH #2  Adam Eaton (X - 29 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("c b 2 f")
 b5.out("F9")
 
@@ -427,7 +427,7 @@ t6.pitch_list("1 s 1 c f f p 1 b")
 t6.hit(1)
 
 # 4. BOS #25 Steve Pearce (50 - X - 28)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("b f")
 t6.out("F8")
 
@@ -470,7 +470,7 @@ t7.advance(3, "36 1B")
 t7.advance(4, "19 (F)SF7")
 
 # 6. BOS #36 Eduardo Núñez (X - 11 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("c")
 t7.hit(1)
 t7.error(7)
@@ -478,12 +478,12 @@ t7.advance(3, "19 E7")
 t7.advance("U", "16 WP")
 
 # 7. BOS #19 Jackie Bradley Jr. (11 - X - 36)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b b s b s")
 t7.out("(F)SF7", rbis=1)
 
 # 8. BOS #7  Christian Vázquez (36 - X - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("f b f")
 t7.out("G3")
 
@@ -491,7 +491,7 @@ t7.out("G3")
 t7.offensive_substitution(9, 16, "PH")
 
 # 9. BOS #16 Andrew Benintendi (36 - X - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("c f b b b f b")
 t7.wp()
 t7.reach("BB")
@@ -623,7 +623,7 @@ t9.advance(3, "50 HBP")
 t9.thrown_out(4, "12 FC1-2", 3, 60)
 
 # 8. BOS #7  Christian Vázquez (X - 19 - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("c b b s s")
 t9.out("K")
 
@@ -631,13 +631,13 @@ t9.out("K")
 t9.offensive_substitution(9, 23, "PH")
 
 # 9. BOS #23 Blake Swihart (X - 19 - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("b c c b f f b b")
 t9.reach("BB")
 t9.advance(2, "50 HBP")
 
 # 1. BOS #50 Mookie Betts (X - 19 - 23)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("b c b f")
 t9.reach("HBP")
 
@@ -646,7 +646,7 @@ t9.pitching_substitution(60)
 t9.defensive_substitution(1, 60, "1")
 
 # 2. BOS #12 Brock Holt (19 - 23 - 50)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("b")
 t9.reach("FC1-2")
 
@@ -676,12 +676,12 @@ b9.pitch_list("f b")
 b9.hit(1)
 
 # 6. WSH #3  Michael A. Taylor (X - 6 - 20)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("d s c t")
 b9.out("KT")
 
 # 7. WSH #1  Wilmer Difo (X - 6 - 20)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("s b b f")
 b9.out("(F)P2")
 

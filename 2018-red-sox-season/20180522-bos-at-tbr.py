@@ -183,7 +183,7 @@ b1.pitch_list("c")
 b1.hit(1)
 
 # 5. TBR #1  Willy Adames (5 - X - 40)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("c b t f f s")
 b1.out("K")
 
@@ -261,7 +261,7 @@ t3.hit(1)
 t3.advance(4, "50 HR")
 
 # 1. BOS #50 Mookie Betts (X - 3 - 19)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("f c d b d")
 t3.hit(4, rbis=3)
 
@@ -290,12 +290,12 @@ t3.advance(2, "2 HBP")
 t3.defensive_substitution(4, 45, "2")
 
 # 5. BOS #2  Xander Bogaerts (X - 13 - 28)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("c c d f")
 t3.reach("HBP")
 
 # 6. BOS #11 Rafael Devers (13 - 28 - 2)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("f c")
 t3.out("F8")
 
@@ -408,12 +408,12 @@ b5.advance(3, "28 PB")
 b5.advance("U", "28 SF7")
 
 # 9. TBR #0  Mallex Smith (X - 8 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("c b b")
 b5.out("B5")
 
 # 1. TBR #28 Daniel Robertson (X - 8 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b b c")
 b5.pb()
 b5.out("SF7", rbis=1)
@@ -632,13 +632,13 @@ b9.pitch_list("c")
 b9.hit(2)
 
 # 8. TBR #8  Rob Refsnyder (45 - 13 - X)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("b b s d b")
 b9.reach("BB")
 b9.thrown_out(2, "0 FC6-4", 3, 46)
 
 # 9. TBR #0  Mallex Smith (45 - 13 - 8)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("f b b f")
 b9.reach("FC6-4")
 

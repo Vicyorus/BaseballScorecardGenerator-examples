@@ -192,13 +192,13 @@ t1.hit(1)
 t1.advance(2, "2 WP")
 
 # 4. BOS #2  Xander Bogaerts (50 - X - 28)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("c s b")
 t1.wp()
 t1.out("P6")
 
 # 5. BOS #18 Mitch Moreland (50 - 28 - X)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("b b s")
 t1.out("G1-3")
 
@@ -223,7 +223,7 @@ b1.new_ab()
 b1.out("G5-3")
 
 # 4. NYY #27 Giancarlo Stanton (X - 26 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b b c f c")
 b1.out("!K")
 
@@ -280,23 +280,23 @@ b2.advance(2, "26 BB")
 b2.advance("U", "99 E5")
 
 # 9. NYY #25 Gleyber Torres (X - 24 - 45)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("c f s")
 b2.out("K")
 
 # 1. NYY #26 Andrew McCutchen (X - 24 - 45)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("c b b b b")
 b2.reach("BB")
 b2.advance(3, "99 E5")
 
 # 2. NYY #99 Aaron Judge (24 - 45 - 26)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.error(5)
 b2.reach("E5", end_base=2)
 
 # 3. NYY #31 Aaron Hicks (26 - 99 - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("b t f b f")
 b2.out("L9")
 
@@ -343,7 +343,7 @@ b3.new_ab()
 b3.hit(2)
 
 # 7. NYY #24 Gary Sánchez (X - 41 - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("c f f")
 b3.out("L8")
 
@@ -414,7 +414,7 @@ t5.hit(2)
 t5.advance(4, "3 1B")
 
 # 8. BOS #3  Sandy León (X - 36 - X)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("b f")
 t5.hit(1, rbis=1)
 
@@ -523,7 +523,7 @@ b6.hit(1)
 b6.advance(4, "31 3B")
 
 # 3. NYY #31 Aaron Hicks (26 - X - 99)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("b c b f")
 b6.hit(3, rbis=2)
 
@@ -531,7 +531,7 @@ b6.hit(3, rbis=2)
 b6.pitching_substitution(76)
 
 # 4. NYY #27 Giancarlo Stanton (31 - X - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("s b s s")
 b6.out("K")
 
@@ -654,19 +654,19 @@ b8.advance(3, "33 G1-3")
 b8.advance(4, "31 1B")
 
 # 1. NYY #26 Andrew McCutchen (X - 45 - 25)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.out("G1-3")
 
 # Offensive change (NYY): Pinch-hitter #33 Greg Bird replaces #99 Aaron Judge, batting 2nd
 b8.offensive_substitution(2, 33, "PH")
 
 # 2. NYY #33 Greg Bird (45 - 25 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("c f")
 b8.out("G1-3", rbis=1)
 
 # 3. NYY #31 Aaron Hicks (25 - X - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b c")
 b8.hit(1, rbis=1)
 
@@ -712,18 +712,18 @@ t9.atbase("PR")
 t9.advance(2, "19 BB")
 
 # 8. BOS #3  Sandy León (X - 12 - 36)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("b")
 t9.out("IF4")
 
 # 9. BOS #19 Jackie Bradley Jr. (X - 12 - 7)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("c b c d b b")
 t9.reach("BB")
 t9.thrown_out(2, "50 DP6-4-3", 2, 61)
 
 # 1. BOS #50 Mookie Betts (12 - 7 - 19)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("b b c b f")
 t9.out("DP6-4-3")
 

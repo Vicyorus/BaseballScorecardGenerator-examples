@@ -238,12 +238,12 @@ b2.hit(1)
 b2.thrown_out(2, "7 FC5-4", 2, 41)
 
 # 8. BOS #7  Christian Vázquez (X - 11 - 12)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("b b f c")
 b2.reach("FC5-4")
 
 # 9. BOS #19 Jackie Bradley Jr. (11 - X - 7)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("c s b s")
 b2.out("K")
 
@@ -272,12 +272,12 @@ t3.pitch_list("c f")
 t3.hit(1)
 
 # 3. BAL #13 Manny Machado (X - 16 - 10)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("s b 2 b")
 t3.out("IF5")
 
 # 4. BAL #6  Jonathan Schoop (X - 16 - 10)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("b b s b")
 t3.out("G5-3")
 
@@ -292,22 +292,22 @@ b3.pitch_list("b c f f b b")
 b3.hit(2)
 
 # 2. BOS #16 Andrew Benintendi (X - 50 - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("c b b t f d")
 b3.out("P4")
 
 # 3. BOS #18 Mitch Moreland (X - 50 - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("f f t")
 b3.out("KT")
 
 # 4. BOS #28 J.D. Martinez (X - 50 - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("d b b v")
 b3.reach("IBB")
 
 # 5. BOS #11 Rafael Devers (X - 50 - 28)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.out("F7")
 
 
@@ -342,7 +342,7 @@ t4.pitch_list("b")
 t4.hit(1)
 
 # 9. BAL #14 Craig Gentry (X - 23 - 27)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.out("F8")
 
 
@@ -406,12 +406,12 @@ b5.advance(3, "50 F8")
 b5.advance(4, "16 HR")
 
 # 1. BOS #50 Mookie Betts (X - 19 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("c b")
 b5.out("F8")
 
 # 2. BOS #16 Andrew Benintendi (19 - X - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("c f b b b")
 b5.hit(4, rbis=2)
 
@@ -422,7 +422,7 @@ b5.hit(2)
 b5.advance(4, "28 HR")
 
 # 4. BOS #28 J.D. Martinez (X - 18 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b")
 b5.hit(4, rbis=2)
 
@@ -446,7 +446,7 @@ b5.pitch_list("c")
 b5.hit(1)
 
 # 8. BOS #7  Christian Vázquez (X - 36 - 12)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("c d c b f f f b f")
 b5.out("F8")
 
@@ -477,12 +477,12 @@ t6.hit(1)
 t6.advance(2, "14 1B")
 
 # 8. BAL #27 Andrew Susac (X - 2 - 23)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("c f s")
 t6.out("K")
 
 # 9. BAL #14 Craig Gentry (X - 2 - 23)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("b c c")
 t6.hit(1)
 
@@ -490,7 +490,7 @@ t6.hit(1)
 t6.pitching_substitution(37)
 
 # 1. BAL #16 Trey Mancini (2 - 23 - 14)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("s")
 t6.out("F9")
 
@@ -516,12 +516,12 @@ b6.pitch_list("b 1")
 b6.hit(1)
 
 # 3. BOS #18 Mitch Moreland (19 - X - 16)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("c")
 b6.out("P5")
 
 # 4. BOS #28 J.D. Martinez (19 - X - 16)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("c")
 b6.out("L5")
 
@@ -584,7 +584,7 @@ b7.new_ab()
 b7.hit(1)
 
 # 9. BOS #19 Jackie Bradley Jr. (12 - X - 7)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("t b f b s")
 b7.out("K")
 
@@ -620,7 +620,7 @@ t8.new_ab()
 t8.hit(1)
 
 # 1. BAL #16 Trey Mancini (X - 23 - 14)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("b f")
 t8.out("G1-3")
 
@@ -644,17 +644,17 @@ b8.hit(1)
 b8.pitching_substitution(38)
 
 # 3. BOS #18 Mitch Moreland (X - 50 - 16)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("s f s")
 b8.out("K")
 
 # 4. BOS #28 J.D. Martinez (X - 50 - 16)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("f c f b s")
 b8.out("K")
 
 # 5. BOS #11 Rafael Devers (X - 50 - 16)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b f d b s s")
 b8.out("K")
 
@@ -676,17 +676,17 @@ t9.hit(2)
 t9.advance(3, "13 G3")
 
 # 3. BAL #13 Manny Machado (X - 29 - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("b")
 t9.out("G3")
 
 # 4. BAL #6  Jonathan Schoop (29 - X - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("b f c f b d f f f")
 t9.out("F8")
 
 # 5. BAL #45 Mark Trumbo (29 - X - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("b c f f b c")
 t9.out("!K")
 

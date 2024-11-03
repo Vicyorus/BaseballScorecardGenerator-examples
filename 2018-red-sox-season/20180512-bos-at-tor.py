@@ -213,7 +213,7 @@ t2.error(9)
 t2.advance(2, "E9")
 
 # 8. BOS #19 Jackie Bradley Jr. (X - 36 - X)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("t c b")
 t2.out("P3")
 
@@ -257,13 +257,13 @@ t3.hit(2)
 t3.advance(4, "16 2B")
 
 # 2. BOS #16 Andrew Benintendi (X - 50 - X)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("b d d c")
 t3.hit(2, rbis=1)
 t3.advance(4, "13 HR")
 
 # 3. BOS #13 Hanley Ramirez (X - 16 - X)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("f")
 t3.hit(4, rbis=2)
 
@@ -305,7 +305,7 @@ b3.pitch_list("f")
 b3.hit(1)
 
 # 2. TOR #20 Josh Donaldson (X - 3 - 37)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("c b f b")
 b3.out("DP6-4")
 
@@ -361,12 +361,12 @@ b4.reach("BB")
 b4.advance(2, "30 1B")
 
 # 7. TOR #30 Anthony Alford (X - 11 - 55)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("b b")
 b4.hit(1, rbis=1)
 
 # 8. TOR #21 Luke Maile (X - 55 - 30)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("b c s b f s")
 b4.out("K")
 
@@ -408,11 +408,11 @@ b5.hit(2)
 b5.advance(3, "20 G1-3")
 
 # 2. TOR #20 Josh Donaldson (X - 37 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.out("G1-3")
 
 # 3. TOR #26 Yangervis Solarte (37 - X - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("f b b")
 b5.out("P6")
 
@@ -436,7 +436,7 @@ t6.hit(2)
 t6.advance(4, "11 1B")
 
 # 6. BOS #11 Rafael Devers (X - 2 - X)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.hit(1, rbis=1)
 
 # 7. BOS #36 Eduardo Núñez (X - X - 11)
@@ -477,7 +477,7 @@ b6.error(5)
 b6.reach("E5", end_base=2)
 
 # 8. TOR #21 Luke Maile (X - 30 - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("c b b c s")
 b6.out("K")
 
@@ -509,7 +509,7 @@ t7.advance(2, "16 CS")
 t7.pitching_substitution(62)
 
 # 2. BOS #16 Andrew Benintendi (X - 7 - 50)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b c b f s")
 t7.out("K")
 
@@ -517,7 +517,7 @@ t7.out("K")
 t7.pitching_substitution(22)
 
 # 3. BOS #13 Hanley Ramirez (X - 50 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b c")
 t7.out("P6")
 
@@ -602,7 +602,7 @@ b8.hit(1)
 b8.advance(2, "55 SB")
 
 # 6. TOR #55 Russell Martin (X - X - 11)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b c c d b s")
 b8.out("K")
 
@@ -634,7 +634,7 @@ t9.hit(2)
 t9.advance(4, "16 1B")
 
 # 2. BOS #16 Andrew Benintendi (X - 50 - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.hit(1, rbis=1)
 
 # 3. BOS #13 Hanley Ramirez (X - X - 16)

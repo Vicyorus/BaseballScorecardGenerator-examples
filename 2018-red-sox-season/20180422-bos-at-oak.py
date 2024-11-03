@@ -164,7 +164,7 @@ t1.pitch_list("c b f")
 t1.hit(1)
 
 # 5. BOS #11 Rafael Devers (X - 19 - 18)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("c f s")
 t1.out("K")
 
@@ -181,17 +181,17 @@ b1.advance(3, "25 G6-3")
 b1.advance(4, "2 1B")
 
 # 2. OAK #25 Stephen Piscotty (X - 10 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b s")
 b1.out("G6-3")
 
 # 3. OAK #8  Jed Lowrie (10 - X - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b s b f b c")
 b1.out("!K")
 
 # 4. OAK #2  Khris Davis (10 - X - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("c b")
 b1.hit(1, rbis=1)
 
@@ -356,7 +356,7 @@ t5.pitch_list("b b c b")
 t5.hit(2)
 
 # 9. BOS #5  Tzu-Wei Lin (X - 7 - X)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("b d c d s f")
 t5.out("(F)P2")
 
@@ -376,12 +376,12 @@ b5.pitch_list("b")
 b5.hit(2)
 
 # 9. OAK #13 Bruce Maxwell (X - 5 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b f f")
 b5.out("F7")
 
 # 1. OAK #10 Marcus Semien (X - 5 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("f b")
 b5.out("L9")
 
@@ -451,13 +451,13 @@ t7.advance(2, "23 FC2-5")
 t7.advance(4, "12 2B")
 
 # 6. BOS #23 Blake Swihart (X - 18 - 11)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("c")
 t7.reach("FC2-5")
 t7.advance(3, "12 2B")
 
 # 7. BOS #12 Brock Holt (X - 11 - 23)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b b f b f")
 t7.hit(2, rbis=1)
 
@@ -465,11 +465,11 @@ t7.hit(2, rbis=1)
 t7.pitching_substitution(36)
 
 # 8. BOS #7  Christian Vázquez (23 - 12 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.out("(F)P3")
 
 # 9. BOS #5  Tzu-Wei Lin (23 - 12 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("c c s")
 t7.out("K")
 
@@ -536,7 +536,7 @@ t8.pitch_list("s s f b f 1 s")
 t8.out("K")
 
 # 4. BOS #18 Mitch Moreland (X - X - 16)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("1 s 1 t s")
 t8.out("K")
 
@@ -564,12 +564,12 @@ b8.hit(1)
 b8.advance(4, "2 HR")
 
 # 3. OAK #8  Jed Lowrie (X - 10 - 25)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b f b f s")
 b8.out("K")
 
 # 4. OAK #2  Khris Davis (X - 10 - 25)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.hit(4, rbis=3)
 
 # Pitching change (BOS): #39 Carson Smith replaces #24 David Price
@@ -606,7 +606,7 @@ t9.reach("E6")
 t9.advance(2, "7 DI")
 
 # 8. BOS #7  Christian Vázquez (X - X - 12)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("c s d b b f f")
 t9.out("P3")
 

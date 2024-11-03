@@ -285,11 +285,11 @@ b3.pitch_list("b b s c")
 b3.hit(2)
 
 # 3. BOS #28 J.D. Martinez (3 - 16 - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.out("F8")
 
 # 4. BOS #25 Steve Pearce (3 - 16 - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("c f b")
 b3.out("G6-3")
 
@@ -323,7 +323,7 @@ t4.pitch_list("s b b b f")
 t4.hit(1)
 
 # 7. TEX #9  Isiah Kiner-Falefa (X - 29 - 19)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("f f f f f b b")
 t4.out("F7")
 
@@ -397,7 +397,7 @@ b5.new_ab()
 b5.hit(2)
 
 # 2. BOS #16 Andrew Benintendi (X - 50 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b f c b s")
 b5.out("K")
 
@@ -432,7 +432,7 @@ t6.reach("BB")
 t6.pitching_substitution(37)
 
 # 7. TEX #9  Isiah Kiner-Falefa (X - 12 - 19)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("c f f d s")
 t6.out("K")
 
@@ -484,17 +484,17 @@ t7.hit(3)
 t7.offensive_substitution(9, 13, "PH")
 
 # 9. TEX #13 Joey Gallo (61 - X - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("c b b s s")
 t7.out("K")
 
 # 1. TEX #3  Delino DeShields (61 - X - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("c")
 t7.out("G5-3")
 
 # 2. TEX #1  Elvis Andrus (61 - X - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b f")
 t7.out("G4-3")
 
@@ -573,7 +573,7 @@ b8.hit(1)
 b8.advance(4, "28 HR")
 
 # 3. BOS #28 J.D. Martinez (X - 50 - 16)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("s b s f b")
 b8.hit(4, rbis=3)
 

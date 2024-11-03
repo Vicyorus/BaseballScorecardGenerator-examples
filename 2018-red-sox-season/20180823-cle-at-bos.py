@@ -182,12 +182,12 @@ b1.offensive_substitution(3, 23, "PR")
 b1.atbase("PR")
 
 # 4. BOS #28 J.D. Martinez (X - 16 - 18)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("d b c f f c")
 b1.out("!K")
 
 # 5. BOS #2  Xander Bogaerts (X - 16 - 23)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("c c f s")
 b1.out("K")
 
@@ -260,7 +260,7 @@ t3.hit(1)
 t3.advance(2, "12 SB")
 
 # 1. CLE #12 Francisco Lindor (X - X - 1)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("c b f n 1 t")
 t3.out("KT")
 
@@ -334,7 +334,7 @@ b4.pitch_list("c b b b b")
 b4.reach("BB")
 
 # 7. BOS #36 Eduardo Núñez (X - 28 - 12)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("b s f")
 b4.out("L8")
 
@@ -374,32 +374,32 @@ b5.advance(3, "19 1B")
 b5.advance(4, "23 2B")
 
 # 9. BOS #19 Jackie Bradley Jr. (X - 3 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("c f")
 b5.hit(1)
 b5.advance(2, "16 BB")
 b5.advance(4, "23 2B")
 
 # 1. BOS #50 Mookie Betts (3 - X - 19)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b")
 b5.out("F7")
 
 # 2. BOS #16 Andrew Benintendi (3 - X - 19)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("c b b b f b")
 b5.reach("BB")
 b5.advance(3, "23 2B")
 b5.advance(4, "2 2B")
 
 # 3. BOS #23 Blake Swihart (3 - 19 - 16)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("f b c b f f")
 b5.hit(2, rbis=2)
 b5.advance(4, "2 2B")
 
 # 4. BOS #28 J.D. Martinez (16 - 23 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("v v v v")
 b5.reach("IBB")
 b5.advance(3, "2 2B")
@@ -409,30 +409,30 @@ b5.advance(4, "36 2B")
 b5.pitching_substitution(90)
 
 # 5. BOS #2  Xander Bogaerts (16 - 23 - 28)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b f s")
 b5.hit(2, rbis=2)
 b5.advance(4, "36 2B")
 
 # 6. BOS #12 Brock Holt (28 - 2 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("v v v v")
 b5.reach("IBB")
 b5.advance(3, "36 2B")
 
 # 7. BOS #36 Eduardo Núñez (28 - 2 - 12)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.hit(2, rbis=2)
 
 # Pitching change (CLE): #39 Oliver Pérez replaces #90 Adam Cimber
 b5.pitching_substitution(39)
 
 # 8. BOS #3  Sandy León (12 - 36 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.out("P6")
 
 # 9. BOS #19 Jackie Bradley Jr. (12 - 36 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b s s s")
 b5.out("K")
 
@@ -486,22 +486,22 @@ b6.advance(2, "28 1B")
 b6.advance(3, "12 1B")
 
 # 4. BOS #28 J.D. Martinez (50 - X - 23)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("b")
 b6.hit(1, rbis=1)
 b6.advance(2, "12 1B")
 
 # 5. BOS #2  Xander Bogaerts (X - 23 - 28)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("b c b b c s")
 b6.out("K")
 
 # 6. BOS #12 Brock Holt (X - 23 - 28)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.hit(1)
 
 # 7. BOS #36 Eduardo Núñez (23 - 28 - 12)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.out("P4")
 
 
@@ -529,7 +529,7 @@ t7.pitch_list("c f f")
 t7.hit(1)
 
 # 5. CLE #53 Melky Cabrera (X - 36 - 10)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.out("DP6")
 
 
@@ -636,12 +636,12 @@ t9.hit(1)
 t9.thrown_out(2, "36 DP6-4-3", 1, 47)
 
 # 2. CLE #36 Yandy Díaz (X - 1 - 12)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("b d c f f d f f f f")
 t9.out("DP6-4-3")
 
 # 3. CLE #9  Erik González (1 - X - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.out("F7")
 
 # Winning team: BOS

@@ -161,18 +161,18 @@ t1.advance(3, "25 2B")
 t1.thrown_out(4, "2 FC5-2", 2, 48)
 
 # 4. BOS #25 Steve Pearce (X - 16 - 28)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("b c f d")
 t1.hit(2, rbis=1)
 t1.thrown_out(3, "18 FC5", 3, 48)
 
 # 5. BOS #2  Xander Bogaerts (28 - 25 - X)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("b b b c f f")
 t1.reach("FC5-2")
 
 # 6. BOS #18 Mitch Moreland (X - 25 - 2)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("c s f")
 t1.reach("FC5")
 
@@ -328,12 +328,12 @@ b4.hit(1)
 b4.advance(2, "9 1B")
 
 # 3. DET #9  Nick Castellanos (X - 28 - 46)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("f b")
 b4.hit(1)
 
 # 4. DET #55 John Hicks (28 - 46 - 9)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("c f b f f")
 b4.out("L7")
 
@@ -341,12 +341,12 @@ b4.out("L7")
 b4.defensive_substitution(8, 5, "4")
 
 # 5. DET #34 James McCann (28 - 46 - 9)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("b b c s b s")
 b4.out("K")
 
 # 6. DET #41 Victor Martinez (28 - 46 - 9)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("b c")
 b4.out("L9")
 
@@ -397,12 +397,12 @@ b5.reach("BB")
 b5.thrown_out(2, "28 FC6-4", 2, 24)
 
 # 1. DET #28 Niko Goodrum (X - 1 - 21)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("c f b b f")
 b5.reach("FC6-4")
 
 # 2. DET #46 Jeimer Candelario (1 - X - 28)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("c b f s")
 b5.out("K")
 
@@ -432,12 +432,12 @@ t6.advance(2, "2 1B")
 t6.pitching_substitution(19)
 
 # 4. BOS #25 Steve Pearce (X - 16 - 28)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("b b f f c")
 t6.out("!K")
 
 # 5. BOS #2  Xander Bogaerts (X - 16 - 28)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("c b b b c")
 t6.hit(1)
 
@@ -445,7 +445,7 @@ t6.hit(1)
 t6.pitching_substitution(68)
 
 # 6. BOS #18 Mitch Moreland (16 - 28 - 2)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("f")
 t6.out("(F)P5")
 
@@ -453,7 +453,7 @@ t6.out("(F)P5")
 t6.pitching_substitution(45)
 
 # 7. BOS #36 Eduardo Núñez (16 - 28 - 2)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("b b b c c f")
 t6.out("(F)F9")
 
@@ -511,7 +511,7 @@ t7.reach("BB")
 t7.pitching_substitution(58)
 
 # 3. BOS #28 J.D. Martinez (X - 50 - 16)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("f f b")
 t7.out("G3")
 
@@ -564,12 +564,12 @@ t8.pitch_list("b")
 t8.out("G5-3")
 
 # 6. BOS #18 Mitch Moreland (X - 25 - X)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("f b")
 t8.out("G3-1")
 
 # 7. BOS #36 Eduardo Núñez (25 - X - X)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("f f f f")
 t8.out("G5-3")
 
@@ -596,17 +596,17 @@ b8.wp()
 b8.out("K")
 
 # 3. DET #9  Nick Castellanos (28 - X - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("f b")
 b8.reach("FC5-2-5", end_base=2)
 
 # 4. DET #55 John Hicks (X - 9 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b s b s d b")
 b8.reach("BB")
 
 # 5. DET #34 James McCann (X - 9 - 55)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b c f f f s")
 b8.out("K")
 

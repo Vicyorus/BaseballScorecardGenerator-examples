@@ -211,7 +211,7 @@ b1.advance(3, "28 1B")
 b1.advance(4, "18 2B")
 
 # 3. BOS #28 J.D. Martinez (X - 12 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("c")
 b1.hit(1)
 b1.advance(3, "18 2B")
@@ -219,19 +219,19 @@ b1.error(1)
 b1.advance(4, "36 E1")
 
 # 4. BOS #2  Xander Bogaerts (12 - X - 28)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("c b")
 b1.out("(F)P3")
 
 # 5. BOS #18 Mitch Moreland (12 - X - 28)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b b")
 b1.hit(2, rbis=1)
 b1.advance(3, "36 E1")
 b1.advance("U", "5 FC6-4")
 
 # 6. BOS #36 Eduardo Núñez (28 - 18 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.hit(1)
 b1.thrown_out(2, "5 FC6-4", 2, 30)
 
@@ -239,7 +239,7 @@ b1.thrown_out(2, "5 FC6-4", 2, 30)
 b1.pitching_substitution(30)
 
 # 7. BOS #5  Ian Kinsler (18 - X - 36)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.reach("FC6-4", rbis=1)
 
 # 8. BOS #3  Sandy León (X - X - 5)
@@ -302,12 +302,12 @@ b2.hit(2, rbis=1)
 b2.advance("U", "2 HR")
 
 # 3. BOS #28 J.D. Martinez (X - 12 - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("b f t s")
 b2.out("K")
 
 # 4. BOS #2  Xander Bogaerts (X - 12 - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("f")
 b2.hit("U", rbis=2)
 
@@ -345,12 +345,12 @@ t3.reach("BB")
 t3.thrown_out(2, "99 DP4-3", 2, 56)
 
 # 1. NYY #11 Brett Gardner (X - 14 - 29)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("d c b s b f s")
 t3.out("K")
 
 # 2. NYY #99 Aaron Judge (X - 14 - 29)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("b b f b t")
 t3.out("DP4-3")
 
@@ -398,7 +398,7 @@ t4.hit(2)
 t4.advance(4, "45 HR")
 
 # 5. NYY #45 Luke Voit (X - 41 - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.hit(4, rbis=2)
 
 # 6. NYY #24 Gary Sánchez (X - X - X)
@@ -443,7 +443,7 @@ b4.reach("BB")
 b4.advance(4, "28 HR")
 
 # 3. BOS #28 J.D. Martinez (X - 30 - 12)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("f")
 b4.hit(4, rbis=3)
 
@@ -457,13 +457,13 @@ b4.atbase("PR")
 b4.advance(3, "18 WP")
 
 # 5. BOS #18 Mitch Moreland (X - 2 - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("b c f b f")
 b4.wp()
 b4.out("(F)P5")
 
 # 6. BOS #36 Eduardo Núñez (23 - X - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.out("G3-1")
 
 
@@ -559,7 +559,7 @@ t6.hit(1)
 t6.advance(2, "24 WP")
 
 # 6. NYY #24 Gary Sánchez (X - X - 45)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("d b c s s")
 t6.wp()
 t6.out("K")
@@ -621,7 +621,7 @@ b6.advance(2, "36 BB")
 b6.pitching_substitution(67)
 
 # 6. BOS #36 Eduardo Núñez (X - 23 - 18)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("c b b c f d d")
 b6.reach("BB")
 # Offensive change (BOS): Pinch-runner #11 Rafael Devers replaces #36 Eduardo Núñez
@@ -629,7 +629,7 @@ b6.offensive_substitution(6, 11, "PR")
 b6.atbase("PR")
 
 # 7. BOS #5  Ian Kinsler (23 - 59 - 36)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("t f b")
 b6.out("F8")
 
@@ -689,12 +689,12 @@ b7.pitch_list("c s b b f")
 b7.hit(2)
 
 # 1. BOS #30 Tzu-Wei Lin (X - 19 - X)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("c b c f s")
 b7.out("K")
 
 # 2. BOS #12 Brock Holt (X - 19 - X)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("b c c f s")
 b7.out("K")
 
@@ -749,7 +749,7 @@ b8.pitch_list("b c b b")
 b8.hit(2)
 
 # 6. BOS #11 Rafael Devers (X - 59 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b c c f b s")
 b8.out("K")
 

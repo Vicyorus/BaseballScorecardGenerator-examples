@@ -224,21 +224,20 @@ b2.advance("U", "1 2B")
 b2.new_ab()
 b2.pitch_list("b b f")
 b2.hit(1)
-b2.advance(3, "1 2B")
 b2.advance("U", "1 2B")
 
 # 7. DET #60 Ronny Rodríguez (X - 41 - 46)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("b b c c f s")
 b2.out("K")
 
 # 8. DET #1  Jose Iglesias (X - 41 - 46)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("b c b f")
 b2.hit(2, rbis=2)
 
 # 9. DET #21 JaCoby Jones (X - 1 - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("b f")
 b2.out("F9")
 
@@ -267,12 +266,12 @@ t3.pitch_list("c 1 1 b f")
 t3.out("L8")
 
 # 2. BOS #16 Andrew Benintendi (X - X - 23)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("b b c f f b f b")
 t3.reach("BB")
 
 # 3. BOS #2  Xander Bogaerts (X - 23 - 16)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("b c b")
 t3.out("G4-3")
 
@@ -351,12 +350,12 @@ b4.hit(1)
 b4.thrown_out(2, "21 FC5-4", 3, 61)
 
 # 8. DET #1  Jose Iglesias (46 - X - 60)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("s f f f 1 b s")
 b4.out("K")
 
 # 9. DET #21 JaCoby Jones (46 - X - 60)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("c t d 1")
 b4.reach("FC5-4")
 
@@ -390,7 +389,7 @@ t5.pitch_list("f")
 t5.hit(1)
 
 # 3. BOS #2  Xander Bogaerts (50 - X - 16)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("c f s")
 t5.out("K")
 
@@ -443,7 +442,7 @@ t6.pitch_list("b")
 t6.hit(1)
 
 # 8. BOS #19 Jackie Bradley Jr. (X - 11 - 36)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.out("F7")
 
 
@@ -469,18 +468,18 @@ b6.advance(3, "60 WP")
 b6.advance(4, "1 HR")
 
 # 6. DET #46 Jeimer Candelario (55 - X - 41)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("c d")
 b6.out("SF7", rbis=1)
 
 # 7. DET #60 Ronny Rodríguez (X - 41 - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("b b")
 b6.wp()
 b6.out("G6-3")
 
 # 8. DET #1  Jose Iglesias (41 - X - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("d c c")
 b6.hit(4, rbis=2)
 
@@ -518,7 +517,7 @@ t7.thrown_out(2, "2 DP5-4-3", 2, 30)
 t7.pitching_substitution(30)
 
 # 3. BOS #2  Xander Bogaerts (50 - X - 16)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("c")
 t7.out("DP5-4-3")
 
@@ -616,7 +615,7 @@ t9.hit(1)
 t9.advance(2, "50 DI")
 
 # 1. BOS #50 Mookie Betts (X - X - 23)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("c b s b d")
 t9.out("G6-3")
 

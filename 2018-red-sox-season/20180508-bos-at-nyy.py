@@ -207,7 +207,7 @@ t2.pitch_list("b c f b")
 t2.hit(2)
 
 # 8. BOS #19 Jackie Bradley Jr. (X - 36 - X)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("f s f s")
 t2.out("K")
 
@@ -233,17 +233,17 @@ b2.pitch_list("b b b c b")
 b2.reach("BB")
 
 # 7. NYY #41 Miguel Andujar (X - 24 - 31)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("c f b s")
 b2.out("K")
 
 # 8. NYY #26 Tyler Austin (X - 24 - 31)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("f b b f b f s")
 b2.out("K")
 
 # 9. NYY #25 Gleyber Torres (X - 24 - 31)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("c b b")
 b2.out("P6")
 
@@ -310,12 +310,12 @@ t4.pitch_list("c b")
 t4.hit(2)
 
 # 5. BOS #2  Xander Bogaerts (X - 28 - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("b")
 t4.out("F7")
 
 # 6. BOS #11 Rafael Devers (X - 28 - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.out("G5-3")
 
 
@@ -381,13 +381,13 @@ t5.hit(1)
 t5.advance(3, "16 1B")
 
 # 2. BOS #16 Andrew Benintendi (X - 36 - 50)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("c f f b d b")
 t5.hit(1, rbis=1)
 t5.advance(2, "T")
 
 # 3. BOS #13 Hanley Ramirez (50 - 16 - X)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("b d d f f")
 t5.out("G4-3")
 
@@ -457,7 +457,7 @@ b6.error(5)
 b6.reach("E5", end_base=2)
 
 # 6. NYY #31 Aaron Hicks (X - 24 - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.out("P4")
 
 
@@ -489,12 +489,12 @@ t7.pitch_list("d f 1 f b")
 t7.out("F8")
 
 # 1. BOS #50 Mookie Betts (X - X - 36)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("f s b f d")
 t7.hit(3, rbis=1)
 
 # 2. BOS #16 Andrew Benintendi (50 - X - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b b b c c s")
 t7.out("K")
 
@@ -522,15 +522,15 @@ b7.advance(3, "11 BLK")
 b7.advance(4, "99 1B")
 
 # 9. NYY #25 Gleyber Torres (X - 14 - X)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("f b b s b b")
 b7.reach("BB")
 b7.advance(2, "11 BLK")
-b7.thrown_out(4, "99 7-2", 2, 56)
 b7.advance(3, "99 1B")
+b7.thrown_out(4, "99 7-2", 2, 56)
 
 # 1. NYY #11 Brett Gardner (X - 14 - 25)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("d f s b n d b")
 b7.balk()
 b7.reach("BB")
@@ -540,12 +540,12 @@ b7.advance(2, "99 7-2")
 b7.pitching_substitution(56)
 
 # 2. NYY #99 Aaron Judge (14 - 25 - 11)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("f b")
 b7.hit(1, rbis=1)
 
 # 3. NYY #18 Didi Gregorius (X - 11 - 99)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.out("G1-3")
 
 
@@ -592,12 +592,12 @@ b8.advance(3, "31 WP")
 b8.thrown_out(4, "31 FC3-2", 2, 56)
 
 # 5. NYY #24 Gary Sánchez (X - X - 27)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("c b b b s s")
 b8.out("K2-3")
 
 # 6. NYY #31 Aaron Hicks (X - 27 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b b f b f")
 b8.wp()
 b8.reach("FC3-2")

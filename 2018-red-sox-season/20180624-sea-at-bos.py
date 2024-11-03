@@ -297,7 +297,7 @@ t4.pitch_list("c b")
 t4.hit(3)
 
 # 4. SEA #27 Ryon Healy (23 - X - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("b c s s")
 t4.out("K")
 
@@ -357,30 +357,30 @@ b5.advance(3, "36 1B")
 b5.advance(4, "11 2B")
 
 # 6. BOS #36 Eduardo Núñez (X - 2 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.hit(1)
 b5.advance(3, "11 2B")
 b5.advance(4, "3 SF8")
 
 # 7. BOS #11 Rafael Devers (2 - X - 36)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("f")
 b5.hit(2, rbis=1)
 b5.advance(3, "19 1B")
 b5.advance(4, "50 SF8")
 
 # 8. BOS #3  Sandy León (36 - 11 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b b s")
 b5.out("SF8", rbis=1)
 
 # 9. BOS #19 Jackie Bradley Jr. (X - 11 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("c f f")
 b5.hit(1)
 
 # 1. BOS #50 Mookie Betts (11 - X - 19)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b")
 b5.out("SF8", rbis=1)
 
@@ -479,7 +479,7 @@ t7.pitch_list("c b b b b")
 t7.reach("BB")
 
 # 7. SEA #3  Mike Zunino (X - 27 - 5)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("c b t s")
 t7.out("K")
 
@@ -503,12 +503,12 @@ b7.hit(1)
 b7.advance(2, "50 SB")
 
 # 1. BOS #50 Mookie Betts (X - X - 19)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("c f f b f b s")
 b7.out("K")
 
 # 2. BOS #16 Andrew Benintendi (X - 19 - X)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("b f f f f")
 b7.out("G5-3")
 

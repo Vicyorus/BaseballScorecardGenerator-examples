@@ -200,12 +200,12 @@ t2.advance(3, "11 G6-3")
 t2.advance(4, "36 HR")
 
 # 6. BOS #11 Rafael Devers (28 - 2 - X)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("b s f b")
 t2.out("G6-3", rbis=1)
 
 # 7. BOS #36 Eduardo Núñez (2 - X - X)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.hit(4, rbis=2)
 
 # 8. BOS #19 Jackie Bradley Jr. (X - X - X)
@@ -251,7 +251,7 @@ b2.hit(1)
 b2.advance(2, "28 PB")
 
 # 8. TBR #28 Daniel Robertson (X - 2 - 11)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("c b c b f c")
 b2.pb()
 b2.out("!K")
@@ -449,24 +449,24 @@ t7.hit(2)
 t7.advance(4, "11 2B")
 
 # 6. BOS #11 Rafael Devers (X - 2 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.hit(2, rbis=1)
 
 # Pitching change (TBR): #50 Austin Pruitt replaces #22 Chris Archer
 t7.pitching_substitution(50)
 
 # 7. BOS #36 Eduardo Núñez (X - 11 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("c")
 t7.out("G6-3")
 
 # 8. BOS #19 Jackie Bradley Jr. (X - 11 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b c")
 t7.out("P5")
 
 # 9. BOS #7  Christian Vázquez (X - 11 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.out("G6-3")
 
 
@@ -552,7 +552,7 @@ b8.advance(3, "27 BB")
 b8.advance(4, "13 BB")
 
 # 2. TBR #39 Kevin Kiermaier (X - 5 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b b b 2 c s b")
 b8.reach("BB")
 b8.advance(2, "27 BB")
@@ -560,7 +560,7 @@ b8.advance(3, "13 BB")
 b8.advance(4, "2 3B")
 
 # 3. TBR #27 Carlos Gómez (X - 5 - 39)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("c d t b b b")
 b8.reach("BB")
 b8.advance(2, "13 BB")
@@ -573,24 +573,24 @@ b8.pitching_substitution(39)
 b8.offensive_substitution(4, 13, "PH")
 
 # 4. TBR #13 Brad Miller (5 - 39 - 27)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("c b b d b")
 b8.reach("BB", rbis=1)
 b8.advance(4, "2 3B")
 
 # 5. TBR #40 Wilson Ramos (39 - 27 - 13)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("c c s")
 b8.out("K")
 
 # 6. TBR #2  Denard Span (39 - 27 - 13)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("c b f d b f")
 b8.hit(3, rbis=3)
 b8.advance(4, "11 1B")
 
 # 7. TBR #11 Adeiny Hechavarría (2 - X - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b b")
 b8.hit(1, rbis=1)
 
@@ -638,7 +638,7 @@ t9.pitch_list("b")
 t9.hit(2)
 
 # 8. BOS #19 Jackie Bradley Jr. (X - 36 - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("c d f d")
 t9.out("G4-3")
 

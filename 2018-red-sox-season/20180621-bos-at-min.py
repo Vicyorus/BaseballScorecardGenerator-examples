@@ -158,12 +158,12 @@ t1.pitch_list("1 b b b b")
 t1.reach("BB")
 
 # 4. BOS #18 Mitch Moreland (X - 50 - 28)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("s b f f f b b c")
 t1.out("!K")
 
 # 5. BOS #2  Xander Bogaerts (X - 50 - 28)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("d b c f f")
 t1.out("L8")
 
@@ -193,7 +193,7 @@ b1.pitch_list("c")
 b1.hit(1)
 
 # 5. MIN #36 Robbie Grossman (X - 5 - 99)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("f f f")
 b1.out("G4-3")
 
@@ -326,11 +326,11 @@ t4.hit(1)
 t4.advance(3, "3 1B")
 
 # 8. BOS #3  Sandy León (X - 18 - 12)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.hit(1, rbis=1)
 
 # 9. BOS #19 Jackie Bradley Jr. (12 - X - 3)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("c b")
 t4.out("P6")
 
@@ -385,17 +385,17 @@ t5.hit(1)
 t5.advance(2, "2 1B")
 
 # 5. BOS #2  Xander Bogaerts (X - 16 - 18)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("b c b f")
 t5.hit(1)
 
 # 6. BOS #11 Rafael Devers (16 - 18 - 2)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("f f b b f")
 t5.out("IF4")
 
 # 7. BOS #12 Brock Holt (16 - 18 - 2)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("c d f d f f")
 t5.out("G4-3")
 
@@ -492,7 +492,7 @@ t7.reach("BB")
 t7.advance(4, "2 2B")
 
 # 5. BOS #2  Xander Bogaerts (X - 28 - 18)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("c s f")
 t7.hit(2, rbis=2)
 t7.advance(3, "T")
@@ -502,7 +502,7 @@ t7.advance(4, "11 G4-3")
 t7.pitching_substitution(55)
 
 # 6. BOS #11 Rafael Devers (2 - X - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("c f b d b")
 t7.out("G4-3", rbis=1)
 
@@ -569,12 +569,12 @@ t8.hit(2)
 t8.advance(4, "18 2B")
 
 # 4. BOS #18 Mitch Moreland (X - 28 - X)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("f")
 t8.hit(2, rbis=1)
 
 # 5. BOS #2  Xander Bogaerts (X - 18 - X)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.out("P3")
 
 
@@ -630,12 +630,12 @@ t9.advance(4, "19 1B")
 t9.offensive_substitution(8, 23, "PH")
 
 # 8. BOS #23 Blake Swihart (X - 12 - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("b b c f s")
 t9.out("K")
 
 # 9. BOS #19 Jackie Bradley Jr. (X - 12 - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("b s")
 t9.hit(1, rbis=1)
 t9.advance(2, "50 1B")
@@ -646,7 +646,7 @@ t9.pitch_list("b s b f")
 t9.hit(1)
 
 # 2. BOS #16 Andrew Benintendi (X - 19 - 50)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("f b c b f c")
 t9.out("!K")
 
@@ -673,11 +673,11 @@ b9.advance(3, "45 G4-3")
 b9.advance(4, "99 SF8")
 
 # 3. MIN #45 Taylor Motter (23 - 2 - X)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.out("G4-3", rbis=1)
 
 # 4. MIN #99 Logan Morrison (2 - X - X)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("b")
 b9.out("SF8", rbis=1)
 

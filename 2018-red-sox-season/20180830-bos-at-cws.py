@@ -195,13 +195,13 @@ b1.hit(1)
 b1.advance(3, "24 1B")
 
 # 7. CWS #24 Matt Davidson (X - 18 - 10)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b c f")
 b1.hit(1, rbis=1)
 b1.thrown_out(2, "36 FC5-4", 3, 22)
 
 # 8. CWS #36 Kevan Smith (10 - X - 24)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.reach("FC5-4")
 
 
@@ -251,12 +251,12 @@ b2.hit(2)
 b2.advance(3, "26 SF8")
 
 # 3. CWS #26 Avisaíl García (5 - 30 - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("c b f f")
 b2.out("SF8", rbis=1)
 
 # 4. CWS #18 Daniel Palka (30 - X - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("c c d b d f f s")
 b2.out("K")
 
@@ -300,12 +300,12 @@ b3.reach("BB")
 b3.thrown_out(2, "36 DP6-4-3", 2, 22)
 
 # 7. CWS #24 Matt Davidson (X - 7 - 10)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("c s c")
 b3.out("!K")
 
 # 8. CWS #36 Kevan Smith (X - 7 - 10)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.out("DP6-4-3")
 
 
@@ -376,23 +376,23 @@ t5.pitch_list("s b")
 t5.out("G5-3")
 
 # 6. BOS #12 Brock Holt (X - 2 - X)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("c c b s")
 t5.out("K")
 
 # 7. BOS #5  Ian Kinsler (X - 2 - X)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("c f d f f d f")
 t5.hit(1)
 t5.advance(2, "3 HBP")
 
 # 8. BOS #3  Sandy León (2 - X - 5)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("s b s")
 t5.reach("HBP")
 
 # 9. BOS #19 Jackie Bradley Jr. (2 - 5 - 3)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("c b")
 t5.out("G3")
 
@@ -501,13 +501,13 @@ t7.advance(4, "19 SF8")
 t7.offensive_substitution(8, 23, "PH")
 
 # 8. BOS #23 Blake Swihart (12 - X - 5)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("c b")
 t7.hit(1, rbis=1)
 t7.advance(4, "50 HR")
 
 # 9. BOS #19 Jackie Bradley Jr. (5 - X - 23)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b")
 t7.out("SF8", rbis=1)
 
@@ -547,7 +547,7 @@ b7.pitch_list("s s b b b c")
 b7.out("!K")
 
 # 4. CWS #18 Daniel Palka (X - 5 - X)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("f c b f f f f d s")
 b7.out("K")
 
@@ -630,25 +630,25 @@ t9.advance(3, "19 1B")
 t9.advance(4, "16 1B")
 
 # 9. BOS #19 Jackie Bradley Jr. (X - 5 - 23)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("c b b f f")
 t9.hit(1, rbis=1)
 t9.advance(3, "16 1B")
 t9.advance(4, "28 HR")
 
 # 1. BOS #50 Mookie Betts (23 - X - 19)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("b c c s")
 t9.out("K")
 
 # 2. BOS #16 Andrew Benintendi (23 - X - 19)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("1 c")
 t9.hit(1, rbis=1)
 t9.advance(4, "28 HR")
 
 # 3. BOS #28 J.D. Martinez (19 - X - 16)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("b b f")
 t9.hit(4, rbis=3)
 
@@ -662,14 +662,14 @@ t9.advance(2, "36 WP")
 t9.pitching_substitution(53)
 
 # 5. BOS #36 Eduardo Núñez (X - X - 2)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("f b f f b b f b")
 t9.wp()
 t9.reach("BB")
 t9.thrown_out(2, "12 FC4-6", 3, 53)
 
 # 6. BOS #12 Brock Holt (X - 2 - 36)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("c b b c")
 t9.reach("FC4-6")
 
@@ -699,7 +699,7 @@ b9.reach("FC1-6")
 b9.advance(2, "30 DI")
 
 # 2. CWS #30 Nicky Delmonico (X - X - 5)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("b c s b s")
 b9.out("K")
 

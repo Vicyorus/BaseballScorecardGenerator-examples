@@ -255,20 +255,20 @@ b3.pitch_list("1 1 1")
 b3.out("G5-3")
 
 # 9. BOS #19 Jackie Bradley Jr. (X - 23 - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("b c s d b")
 b3.hit(2, rbis=1)
 b3.advance(3, "16 1B")
 b3.thrown_out(4, "2 2-4-2-1", 3, 43)
 
 # 1. BOS #16 Andrew Benintendi (X - 19 - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("b f b")
 b3.hit(1)
 b3.thrown_out(2, "2 CS", 2, 43)
 
 # 2. BOS #2  Xander Bogaerts (19 - X - 16)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("1 c f b f d")
 b3.no_ab("2-4-2-1")
 
@@ -463,7 +463,7 @@ t7.error(3)
 t7.reach("E3")
 
 # 7. TOR #18 Curtis Granderson (14 - X - 29)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b")
 t7.out("F8")
 
@@ -496,7 +496,7 @@ b7.new_ab()
 b7.hit(1)
 
 # 1. BOS #16 Andrew Benintendi (X - 12 - 19)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("s")
 b7.out("F7")
 
@@ -550,29 +550,29 @@ b8.advance(3, "36 2B")
 b8.advance(4, "12 1B")
 
 # 4. BOS #11 Rafael Devers (X - 2 - 28)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("l")
 b8.out("IF6")
 
 # 5. BOS #36 Eduardo Núñez (X - 2 - 28)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("c c")
 b8.hit(2, rbis=1)
 b8.advance(3, "12 1B")
 
 # 6. BOS #12 Brock Holt (28 - 36 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b b c b c")
 b8.hit(1, rbis=1)
 b8.advance(2, "7 SB")
 
 # 7. BOS #18 Mitch Moreland (36 - X - 12)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("s f s")
 b8.out("K")
 
 # 8. BOS #7  Christian Vázquez (36 - X - 12)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("f f b s")
 b8.out("K")
 
@@ -604,13 +604,13 @@ t9.advance(4, "8 2B")
 t9.pitching_substitution(46)
 
 # 4. TOR #14 Justin Smoak (11 - X - 26)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("b f s b b b")
 t9.reach("BB")
 t9.advance(3, "8 2B")
 
 # 5. TOR #8  Kendrys Morales (11 - 26 - 14)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("d")
 t9.hit(2, rbis=2)
 # Offensive change (TOR): Pinch-runner #27 Dwight Smith Jr. replaces #8 Kendrys Morales
@@ -618,17 +618,17 @@ t9.offensive_substitution(5, 27, "PR")
 t9.atbase("PR")
 
 # 6. TOR #29 Devon Travis (14 - 8 - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("s d b")
 t9.out("G5-3")
 
 # 7. TOR #18 Curtis Granderson (14 - 27 - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("c b b s f t")
 t9.out("KT")
 
 # 8. TOR #21 Luke Maile (14 - 27 - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.out("G4-3")
 
 # Winning team: BOS

@@ -299,7 +299,7 @@ t4.pitch_list("b b b c b")
 t4.reach("BB")
 
 # 5. BOS #2  Xander Bogaerts (X - 13 - 28)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("b s")
 t4.out("F7")
 
@@ -328,7 +328,7 @@ b4.pitch_list("b b b c")
 b4.hit(1)
 
 # 5. TBR #40 Wilson Ramos (X - 39 - 44)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("c d c f")
 b4.out("F9")
 
@@ -409,7 +409,7 @@ t6.hit(1)
 t6.pitching_substitution(52)
 
 # 4. BOS #28 J.D. Martinez (50 - X - 13)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("f b f f f b b c")
 t6.out("!K")
 
@@ -451,7 +451,7 @@ t7.advance(4, "11 1B")
 t7.pitching_substitution(46)
 
 # 6. BOS #11 Rafael Devers (X - 2 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("s s b")
 t7.hit(1, rbis=1)
 t7.advance(2, "36 1B")
@@ -464,12 +464,12 @@ t7.hit(1)
 t7.thrown_out(2, "19 DP4-6-3", 1, 46)
 
 # 8. BOS #19 Jackie Bradley Jr. (X - 11 - 36)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b l c f d")
 t7.out("DP4-6-3")
 
 # 9. BOS #7  Christian Vázquez (11 - X - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b c f s")
 t7.out("K2-3")
 
@@ -584,11 +584,11 @@ t9.hit(2)
 t9.advance(3, "11 G5-3")
 
 # 6. BOS #11 Rafael Devers (X - 2 - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.out("G5-3")
 
 # 7. BOS #36 Eduardo Núñez (2 - X - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("b s s s")
 t9.out("K2-3")
 

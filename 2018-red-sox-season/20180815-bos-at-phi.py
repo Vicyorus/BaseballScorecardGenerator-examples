@@ -216,7 +216,7 @@ t2.error(2)
 t2.advance(3, "11 POE2")
 
 # 7. BOS #11 Rafael Devers (X - X - 19)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("s 1 1 b 1 s 1 b f")
 t2.out("P6")
 
@@ -275,25 +275,25 @@ t3.advance(2, "12 1B")
 t3.advance(4, "18 2B")
 
 # 2. BOS #12 Brock Holt (X - 17 - 16)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("b")
 t3.hit(1)
 t3.advance(4, "18 2B")
 
 # 3. BOS #18 Mitch Moreland (17 - 16 - 12)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("f b")
 t3.hit(2, rbis=3)
 t3.advance(3, "2 BB")
 
 # 4. BOS #28 J.D. Martinez (X - 18 - X)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("b d b c b")
 t3.reach("BB")
 t3.advance(2, "2 BB")
 
 # 5. BOS #2  Xander Bogaerts (X - 18 - 28)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("b c d b c b")
 t3.reach("BB")
 
@@ -302,12 +302,12 @@ t3.pitching_substitution(50)
 t3.defensive_substitution(9, 50, "1")
 
 # 6. BOS #19 Jackie Bradley Jr. (18 - 28 - 2)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("b b b c")
 t3.out("F9")
 
 # 7. BOS #11 Rafael Devers (18 - 28 - 2)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("s f s")
 t3.out("K")
 
@@ -386,25 +386,25 @@ b4.advance(3, "40 2B")
 b4.advance(4, "37 G3")
 
 # 6. PHI #40 Wilson Ramos (17 - X - 5)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("d b")
 b4.hit(2, rbis=1)
 b4.advance(3, "37 G3")
 b4.advance("U", "41 1B")
 
 # 7. PHI #37 Odúbel Herrera (5 - 40 - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.out("G3", rbis=1)
 
 # 8. PHI #7  Maikel Franco (40 - X - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.out("(F)P3")
 
 # Offensive change (PHI): Pinch-hitter #41 Carlos Santana replaces #54 Austin Davis, batting 9th
 b4.offensive_substitution(9, 41, "PH")
 
 # 9. PHI #41 Carlos Santana (40 - X - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("c f")
 b4.hit(1, rbis=1)
 
@@ -501,7 +501,7 @@ t6.defensive_substitution(9, 96, "1")
 t6.offensive_substitution(9, 25, "PH")
 
 # 9. BOS #25 Steve Pearce (X - 11 - 3)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("c")
 t6.out("G4-3")
 
@@ -521,12 +521,12 @@ b6.hit(3)
 b6.advance(4, "4 SF9")
 
 # 7. PHI #37 Odúbel Herrera (40 - X - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("s b b s d s")
 b6.out("K")
 
 # 8. PHI #7  Maikel Franco (40 - X - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("b f s d d b")
 b6.reach("BB")
 
@@ -534,7 +534,7 @@ b6.reach("BB")
 b6.offensive_substitution(9, 4, "PH")
 
 # 9. PHI #4  Scott Kingery (40 - X - 7)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.out("SF9", rbis=1)
 
 # 1. PHI #16 César Hernández (X - X - 7)
@@ -600,30 +600,30 @@ b7.reach("BB")
 b7.advance(4, "40 2B")
 
 # 4. PHI #17 Rhys Hoskins (X - 33 - 13)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("c")
 b7.out("F9")
 
 # 5. PHI #5  Nick Williams (33 - X - 13)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("c s s")
 b7.out("K")
 
 # 6. PHI #40 Wilson Ramos (33 - X - 13)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("c b s b f b")
 b7.hit(2, rbis=2)
 b7.advance(3, "37 1B")
 b7.advance(4, "7 1B")
 
 # 7. PHI #37 Odúbel Herrera (X - 40 - X)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("s f")
 b7.hit(1)
 b7.advance(2, "7 1B")
 
 # 8. PHI #7  Maikel Franco (40 - X - 37)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("c")
 b7.hit(1, rbis=1)
 
@@ -631,7 +631,7 @@ b7.hit(1, rbis=1)
 b7.offensive_substitution(9, 43, "PH")
 
 # 9. PHI #43 Nick Pivetta (X - 37 - 7)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.out("G1-3")
 
 
@@ -662,25 +662,25 @@ t8.advance(2, "19 E3")
 t8.advance(3, "50 1B")
 
 # 6. BOS #19 Jackie Bradley Jr. (X - 28 - 2)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("b")
 t8.reach("FC3")
 t8.advance(2, "50 1B")
 
 # 7. BOS #11 Rafael Devers (28 - 2 - 19)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("b c s")
 t8.out("L9")
 
 # 8. BOS #3  Sandy León (28 - 2 - 19)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.out("(F)P5")
 
 # Offensive change (BOS): Pinch-hitter #50 Mookie Betts replaces #31 Drew Pomeranz, batting 9th
 t8.offensive_substitution(9, 50, "PH")
 
 # 9. BOS #50 Mookie Betts (28 - 2 - 19)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("c")
 t8.hit(1, rbis=1)
 
@@ -689,7 +689,7 @@ t8.pitching_substitution(58)
 t8.defensive_substitution(9, 58, "1")
 
 # 1. BOS #16 Andrew Benintendi (2 - 19 - 50)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.out("G3-1")
 
 

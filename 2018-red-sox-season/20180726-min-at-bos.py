@@ -146,8 +146,8 @@ t1.new_ab()
 t1.pitch_list("b")
 t1.hit(1)
 t1.advance(2, "2 1B")
-t1.thrown_out(4, "5 8-2", 2, 61)
 t1.advance(3, "5 1B")
+t1.thrown_out(4, "5 8-2", 2, 61)
 
 # 2. MIN #20 Eddie Rosario (X - X - 7)
 t1.new_ab()
@@ -161,19 +161,19 @@ t1.advance(2, "5 8-2")
 t1.advance(3, "23 WP")
 
 # 4. MIN #5  Eduardo Escobar (X - 7 - 2)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("s f")
 t1.hit(1)
 t1.advance(2, "23 WP")
 
 # 5. MIN #23 Mitch Garver (X - 2 - 5)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("b c b b f f b")
 t1.wp()
 t1.reach("BB")
 
 # 6. MIN #36 Robbie Grossman (2 - 5 - 23)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("c f b s")
 t1.out("K")
 
@@ -203,12 +203,12 @@ b1.pitch_list("b c b")
 b1.hit(2)
 
 # 5. BOS #25 Steve Pearce (28 - 2 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b b b b")
 b1.reach("BB")
 
 # 6. BOS #11 Rafael Devers (28 - 2 - 25)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.out("F7")
 
 
@@ -254,14 +254,14 @@ b2.reach("HBP")
 b2.thrown_out(2, "19 FC4-6", 1, 44)
 
 # 9. BOS #19 Jackie Bradley Jr. (X - 23 - 12)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("b")
 b2.reach("FC4-6")
-b2.thrown_out(3, "50 DP3-5", 3, 44)
 b2.advance(2, "50 DP3-5")
+b2.thrown_out(3, "50 DP3-5", 3, 44)
 
 # 1. BOS #50 Mookie Betts (23 - X - 19)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("b f b f 1 b 3")
 b2.out("DP6-3-5", rbis=1)
 
@@ -353,7 +353,7 @@ b4.pitch_list("c c")
 b4.out("G4-3")
 
 # 8. BOS #12 Brock Holt (X - 11 - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.out("F7")
 
 
@@ -420,8 +420,8 @@ t6.out("L7")
 t6.new_ab()
 t6.pitch_list("b s b b b")
 t6.reach("BB")
-t6.thrown_out(4, "2 8-5-4-2", 2, 61)
 t6.advance(2, "2 1B")
+t6.thrown_out(4, "2 8-5-4-2", 2, 61)
 
 # 3. MIN #2  Brian Dozier (X - X - 20)
 t6.new_ab()
@@ -430,7 +430,7 @@ t6.hit(1)
 t6.advance(2, "T")
 
 # 4. MIN #5  Eduardo Escobar (X - 2 - X)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("f s d b d d")
 t6.reach("BB")
 
@@ -438,7 +438,7 @@ t6.reach("BB")
 t6.pitching_substitution(37)
 
 # 5. MIN #23 Mitch Garver (X - 2 - 5)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("b s t")
 t6.out("G4-3")
 
@@ -484,7 +484,7 @@ t7.hit(1)
 t7.thrown_out(2, "16 DP4-6-3", 1, 37)
 
 # 8. MIN #16 Ehire Adrianza (36 - X - 26)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("l s b b 1")
 t7.out("DP4-6-3")
 
@@ -547,12 +547,12 @@ t8.pitch_list("c s s")
 t8.out("K")
 
 # 5. MIN #23 Mitch Garver (X - 2 - X)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("b c b")
 t8.hit(2, rbis=1)
 
 # 6. MIN #36 Robbie Grossman (X - 23 - X)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.out("F7")
 
 
@@ -628,23 +628,23 @@ b9.pitch_list("c")
 b9.out("G2-3")
 
 # 6. BOS #11 Rafael Devers (X - 2 - X)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("c f")
 b9.out("(F)P5")
 
 # 7. BOS #23 Blake Swihart (X - 2 - X)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("b d f b b")
 b9.reach("BB")
 b9.advance(2, "12 BB")
 
 # 8. BOS #12 Brock Holt (X - 2 - 23)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("b b c f d d")
 b9.reach("BB")
 
 # 9. BOS #19 Jackie Bradley Jr. (2 - 23 - 12)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("b b d c c s")
 b9.out("K")
 

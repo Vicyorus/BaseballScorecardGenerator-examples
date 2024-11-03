@@ -244,13 +244,13 @@ t3.new_ab()
 t3.hit(2)
 
 # 1. BOS #50 Mookie Betts (X - 22 - X)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("c s b b d d")
 t3.reach("BB")
 t3.thrown_out(2, "16 DP4-6-3", 2, 43)
 
 # 2. BOS #16 Andrew Benintendi (X - 22 - 50)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("c b c f f f b f b")
 t3.out("DP4-6-3")
 
@@ -502,11 +502,11 @@ t8.hit(2)
 t8.advance(3, "18 SB")
 
 # 2. BOS #16 Andrew Benintendi (X - 50 - X)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.out("F7")
 
 # 3. BOS #18 Mitch Moreland (X - 50 - X)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("b b f s b")
 t8.out("F7")
 
@@ -599,7 +599,7 @@ b9.pitch_list("s f 1 1")
 b9.out("L6")
 
 # 3. PHI #13 Asdrúbal Cabrera (X - X - 4)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("b c s f b s")
 b9.out("K2-3")
 

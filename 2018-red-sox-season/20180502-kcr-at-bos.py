@@ -156,12 +156,12 @@ t1.hit(2)
 t1.thrown_out(2, "13 SFDP8-4-6", 3, 31)
 
 # 3. KCR #8  Mike Moustakas (15 - 12 - X)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("b c f b f c")
 t1.out("!K")
 
 # 4. KCR #13 Salvador Perez (15 - 12 - X)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("d b")
 t1.out("SFDP8-4-6", rbis=1)
 
@@ -218,12 +218,12 @@ t2.hit(1)
 t2.advance(4, "9 2B")
 
 # 9. KCR #9  Drew Butera (X - 2 - 4)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("b c")
 t2.hit(2, rbis=2)
 
 # 1. KCR #15 Whit Merrifield (X - 9 - X)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("b f b d f")
 t2.out("G4-3")
 
@@ -261,23 +261,23 @@ t3.hit(2)
 t3.advance(3, "8 1B")
 
 # 3. KCR #8  Mike Moustakas (X - 12 - X)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("f")
 t3.hit(1)
 t3.advance(2, "19 BB")
 
 # 4. KCR #13 Salvador Perez (12 - X - 8)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.out("F7")
 
 # 5. KCR #19 Cheslor Cuthbert (12 - X - 8)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("b b d b")
 t3.reach("BB")
 t3.thrown_out(2, "25 DP4-6-3", 2, 31)
 
 # 6. KCR #25 Jon Jay (12 - 8 - 19)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.out("DP4-6-3")
 
 
@@ -364,11 +364,11 @@ b4.new_ab()
 b4.hit(1)
 
 # 7. BOS #36 Eduardo Núñez (X - 2 - 11)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.out("L8")
 
 # 8. BOS #3  Sandy León (X - 2 - 11)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("d c f f f")
 b4.out("G5-3")
 
@@ -422,12 +422,12 @@ b5.hit(2)
 b5.advance(3, "28 1B")
 
 # 4. BOS #28 J.D. Martinez (X - 13 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("s s b f d b")
 b5.hit(1)
 
 # 5. BOS #2  Xander Bogaerts (13 - X - 28)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("f 1 b b")
 b5.out("G5-3")
 
