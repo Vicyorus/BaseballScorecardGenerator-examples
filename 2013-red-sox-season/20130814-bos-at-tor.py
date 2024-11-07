@@ -155,17 +155,17 @@ t1.pitch_list("b b 1 b b")
 t1.reach("BB")
 
 # 3. BOS #15 Dustin Pedroia (X - 2 - 18)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("c c f b s")
 t1.out("K")
 
 # 4. BOS #34 David Ortiz (X - 2 - 18)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("c c s")
 t1.out("K")
 
 # 5. BOS #5  Jonny Gomes (X - 2 - 18)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("b c b c")
 t1.out("F9")
 
@@ -217,7 +217,7 @@ t2.pitch_list("b b c c")
 t2.hit(2)
 
 # 9. BOS #16 Will Middlebrooks (X - 39 - X)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.out("F9")
 
 
@@ -338,20 +338,20 @@ b4.hit(2)
 b4.advance(4, "16 2B")
 
 # 5. TOR #13 Brett Lawrie (X - 10 - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.out("L3")
 
 # 6. TOR #16 Mark DeRosa (X - 10 - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("f c b b f")
 b4.hit(2, rbis=1)
 
 # 7. TOR #9  J.P. Arencibia (X - 16 - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.out("F7")
 
 # 8. TOR #22 Kevin Pillar (X - 16 - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("c f")
 b4.out("L9")
 
@@ -375,12 +375,12 @@ t5.hit(2)
 t5.advance(3, "2 G4-3")
 
 # 1. BOS #2  Jacoby Ellsbury (X - 16 - X)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("b c f f b")
 t5.out("G4-3")
 
 # 2. BOS #18 Shane Victorino (16 - X - X)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("t")
 t5.out("L8")
 
@@ -404,7 +404,7 @@ b5.pitch_list("b b b c f f")
 b5.hit(2)
 
 # 3. TOR #19 José Bautista (X - 11 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("s f b b b")
 b5.out("P6")
 
@@ -449,23 +449,23 @@ b6.advance(3, "16 DP3-6-1")
 b6.advance(4, "9 2B")
 
 # 5. TOR #13 Brett Lawrie (X - 10 - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("l s f b f")
 b6.reach("HBP")
 b6.thrown_out(2, "16 DP3-6-1", 1, 31)
 
 # 6. TOR #16 Mark DeRosa (X - 10 - 13)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("m")
 b6.out("DP3-6-1")
 
 # 7. TOR #9  J.P. Arencibia (10 - X - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("b b")
 b6.hit(2, rbis=1)
 
 # 8. TOR #22 Kevin Pillar (X - 9 - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("f")
 b6.out("G4-3")
 
@@ -619,12 +619,12 @@ t9.atbase("PR")
 t9.advance(3, "2 1B")
 
 # 9. BOS #16 Will Middlebrooks (X - 39 - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.reach("HBP")
 t9.advance(2, "2 1B")
 
 # 1. BOS #2  Jacoby Ellsbury (X - 26 - 16)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("s b")
 t9.hit(1)
 
@@ -632,7 +632,7 @@ t9.hit(1)
 t9.pitching_substitution(49)
 
 # 2. BOS #18 Shane Victorino (26 - 16 - 2)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("b")
 t9.out("F7")
 
@@ -684,12 +684,12 @@ t10.pitch_list("b b c c f b c")
 t10.out("!K")
 
 # 6. BOS #7  Stephen Drew (X - 15 - X)
-t10.new_ab()
+t10.new_ab(is_risp=True)
 t10.pitch_list("b b b b")
 t10.reach("BB")
 
 # 7. BOS #12 Mike Napoli (X - 15 - 7)
-t10.new_ab()
+t10.new_ab(is_risp=True)
 t10.pitch_list("c b f b f b")
 t10.out("G5-3")
 
@@ -706,18 +706,18 @@ b10.advance(3, "19 G6-3")
 b10.advance(4, "13 1B")
 
 # 3. TOR #19 José Bautista (X - 11 - X)
-b10.new_ab()
+b10.new_ab(is_risp=True)
 b10.out("G6-3")
 
 # 4. TOR #10 Edwin Encarnación (11 - X - X)
-b10.new_ab()
+b10.new_ab(is_risp=True)
 b10.pitch_list("i i i i")
 b10.reach("IBB")
 b10.advance(2, "13 SB")
 b10.advance(3, "13 1B")
 
 # 5. TOR #13 Brett Lawrie (11 - X - 10)
-b10.new_ab()
+b10.new_ab(is_risp=True)
 b10.pitch_list("c b s")
 b10.hit(1, rbis=1)
 

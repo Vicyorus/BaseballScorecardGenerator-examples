@@ -165,11 +165,11 @@ t1.hit(1)
 t1.advance(2, "88 1B")
 
 # 5. SD #88 Kyle Blanks (18 - X - 7)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.hit(1, rbis=1)
 
 # 6. SD #15 Jesus Guzman (X - 7 - 88)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("c d s b f")
 t1.out("L3")
 
@@ -190,14 +190,14 @@ b1.hit(2)
 b1.advance(3, "15 1B")
 
 # 3. BOS #15 Dustin Pedroia (X - 18 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("c f")
 b1.hit(1)
 b1.advance(2, "34 SB")
 b1.thrown_out(2, "34 DP6", 3, 37)
 
 # 4. BOS #34 David Ortiz (18 - X - 15)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b b c f b")
 b1.out("DP6")
 
@@ -272,7 +272,7 @@ t3.pitch_list("s s b")
 t3.hit(2)
 
 # 4. SD #7  Chase Headley (X - 18 - X)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.out("G5-3")
 
 
@@ -293,22 +293,22 @@ b3.hit(1)
 b3.advance(2, "18 G1-3")
 
 # 2. BOS #18 Shane Victorino (X - 10 - 2)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("c b c f")
 b3.out("G1-3")
 
 # 3. BOS #15 Dustin Pedroia (10 - 2 - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("b b s f c")
 b3.out("!K")
 
 # 4. BOS #34 David Ortiz (10 - 2 - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("i i i i")
 b3.reach("IBB")
 
 # 5. BOS #29 Daniel Nava (10 - 2 - 34)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("c c d b")
 b3.out("G6-3")
 
@@ -335,7 +335,7 @@ t4.new_ab()
 t4.hit(2)
 
 # 8. SD #3  Pedro Ciriaco (X - 12 - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("d s b f b f")
 t4.out("G4-3")
 
@@ -355,17 +355,17 @@ b4.pitch_list("f b")
 b4.hit(2, rbis=1)
 
 # 8. BOS #23 Brandon Snyder (X - 39 - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("f b")
 b4.out("G5-3")
 
 # 9. BOS #10 Jose Iglesias (X - 39 - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("b b c s b")
 b4.out("G6-3")
 
 # 1. BOS #2  Jacoby Ellsbury (X - 39 - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("b b b c")
 b4.out("F7")
 
@@ -433,12 +433,12 @@ t6.reach("BB")
 t6.thrown_out(2, "88 DP4-6-3", 1, 31)
 
 # 5. SD #88 Kyle Blanks (X - 18 - 7)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("b f")
 t6.out("DP4-6-3")
 
 # 6. SD #15 Jesus Guzman (18 - X - X)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("c f s")
 t6.out("K")
 
@@ -458,12 +458,12 @@ b6.pitch_list("c b b")
 b6.hit(2)
 
 # 7. BOS #39 Jarrod Saltalamacchia (X - 37 - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("f f s")
 b6.out("K")
 
 # 8. BOS #23 Brandon Snyder (X - 37 - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("c s s")
 b6.out("K")
 
@@ -550,7 +550,7 @@ b8.pitch_list("c b b b")
 b8.hit(2)
 
 # 4. BOS #34 David Ortiz (X - 15 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("i i i i")
 b8.reach("IBB")
 
@@ -558,17 +558,17 @@ b8.reach("IBB")
 b8.pitching_substitution(57)
 
 # 5. BOS #29 Daniel Nava (X - 15 - 34)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("c s s")
 b8.out("K")
 
 # 6. BOS #37 Mike Carp (X - 15 - 34)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b b")
 b8.out("F8")
 
 # 7. BOS #39 Jarrod Saltalamacchia (X - 15 - 34)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("d c d c s")
 b8.out("K")
 

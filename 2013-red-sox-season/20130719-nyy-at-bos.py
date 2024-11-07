@@ -333,17 +333,17 @@ b4.pitch_list("b")
 b4.hit(2)
 
 # 5. BOS #12 Mike Napoli (X - 34 - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("c f b b b s")
 b4.out("K")
 
 # 6. BOS #5  Jonny Gomes (X - 34 - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("c f d f b b c")
 b4.out("!K")
 
 # 7. BOS #39 Jarrod Saltalamacchia (X - 34 - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("c b")
 b4.out("P1")
 
@@ -362,22 +362,22 @@ t5.hit(2)
 t5.advance(4, "19 2B")
 
 # 7. NYY #39 Brent Lillibridge (X - 55 - X)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("c f b b s")
 t5.out("K")
 
 # 8. NYY #26 Eduardo Núñez (X - 55 - X)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("c f b b f")
 t5.out("G5-3")
 
 # 9. NYY #19 Chris Stewart (X - 55 - X)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("s")
 t5.hit(2, rbis=1)
 
 # 1. NYY #11 Brett Gardner (X - 19 - X)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("b f b c b c")
 t5.out("!K")
 
@@ -509,7 +509,7 @@ b7.advance(3, "10 WP")
 b7.advance(4, "10 1B")
 
 # 7. BOS #39 Jarrod Saltalamacchia (X - 5 - X)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("d")
 b7.out("G5-3")
 
@@ -520,12 +520,12 @@ b7.pitching_substitution(27)
 b7.offensive_substitution(8, 26, "PH")
 
 # 8. BOS #26 Brock Holt (X - 5 - X)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("c b f")
 b7.out("G1-3")
 
 # 9. BOS #10 Jose Iglesias (X - 5 - X)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("d c f d f f b")
 b7.wp()
 b7.hit(1, rbis=1)
@@ -542,7 +542,7 @@ b7.reach("BB")
 b7.advance(2, "29 FC5")
 
 # 2. BOS #29 Daniel Nava (X - 10 - 2)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("c b b f")
 b7.reach("FC5")
 
@@ -577,12 +577,12 @@ t8.pitch_list("c f")
 t8.hit(2)
 
 # 4. NYY #12 Vernon Wells (31 - 24 - X)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("f")
 t8.out("P6")
 
 # 5. NYY #61 Luis Alfonso Cruz (31 - 24 - X)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.out("G6-3")
 
 
@@ -605,12 +605,12 @@ b8.hit(2)
 b8.advance(3, "12 F9")
 
 # 5. BOS #12 Mike Napoli (X - 34 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("c s b")
 b8.out("F9")
 
 # 6. BOS #5  Jonny Gomes (34 - X - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b")
 b8.out("P4")
 

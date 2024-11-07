@@ -178,7 +178,7 @@ b1.pitch_list("b c")
 b1.out("F9")
 
 # 3. BOS #15 Dustin Pedroia (X - X - 2)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b c b")
 b1.hit(1, rbis=1)
 
@@ -260,7 +260,7 @@ t3.hit(1)
 t3.advance(2, "10 SB")
 
 # 2. PHI #10 Michael Young (X - X - 2)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("1 b c f d b")
 t3.out("G5-3")
 
@@ -374,12 +374,12 @@ b5.new_ab()
 b5.out("SAC5-3")
 
 # 8. BOS #7  Stephen Drew (X - 29 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("c b")
 b5.out("P5")
 
 # 9. BOS #10 Jose Iglesias (X - 29 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("c c f c")
 b5.out("!K")
 
@@ -408,11 +408,11 @@ t6.pitch_list("b")
 t6.hit(1)
 
 # 5. PHI #3  Delmon Young (X - 11 - 6)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.out("F9")
 
 # 6. PHI #9  Domonic Brown (X - 11 - 6)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.out("F9")
 
 
@@ -454,7 +454,7 @@ t7.new_ab()
 t7.out("SAC3-4")
 
 # 9. PHI #31 Erik Kratz (X - 15 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("c")
 t7.hit(1, rbis=1)
 t7.advance(2, "2 G1-3")
@@ -465,7 +465,7 @@ t7.pitch_list("f b")
 t7.out("G1-3")
 
 # 2. PHI #10 Michael Young (X - 31 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b s")
 t7.out("G6-3")
 
@@ -575,7 +575,7 @@ t9.pitch_list("b")
 t9.hit(1)
 
 # 2. PHI #10 Michael Young (X - 31 - 2)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("b c c b b f t")
 t9.out("KT")
 

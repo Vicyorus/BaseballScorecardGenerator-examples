@@ -156,12 +156,12 @@ t1.pitch_list("c b c b f f b f f f")
 t1.hit(2)
 
 # 4. BOS #34 David Ortiz (X - 15 - X)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("b b c b f f f b")
 t1.reach("BB")
 
 # 5. BOS #29 Daniel Nava (X - 15 - 34)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("c f")
 t1.out("F8")
 
@@ -229,7 +229,7 @@ b2.hit(1)
 b2.thrown_out(2, "3 DP6-4-3", 2, 46)
 
 # 7. TOR #3  Maicer Izturis (X - 10 - 13)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("c b b")
 b2.out("DP6-4-3")
 
@@ -341,12 +341,12 @@ t5.new_ab()
 t5.hit(2)
 
 # 9. BOS #16 Will Middlebrooks (X - 39 - X)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("b c b")
 t5.out("G1-3")
 
 # 1. BOS #2  Jacoby Ellsbury (X - 39 - X)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.out("F7")
 
 
@@ -367,12 +367,12 @@ b5.advance(3, "3 L9")
 b5.advance(4, "9 1B")
 
 # 7. TOR #3  Maicer Izturis (X - 13 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("f c b b b")
 b5.out("L9")
 
 # 8. TOR #9  J.P. Arencibia (13 - X - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("c")
 b5.hit(1, rbis=1)
 
@@ -414,17 +414,17 @@ t6.advance(2, "5 BB")
 t6.offensive_substitution(5, 5, "PH")
 
 # 5. BOS #5  Jonny Gomes (X - 18 - 34)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("c f b f b b b")
 t6.reach("BB")
 
 # 6. BOS #12 Mike Napoli (18 - 34 - 5)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("b s f f c")
 t6.out("!K")
 
 # 7. BOS #7  Stephen Drew (18 - 34 - 5)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.out("F8")
 
 
@@ -448,12 +448,12 @@ b6.pitch_list("c b")
 b6.out("G1-3")
 
 # 3. TOR #19 José Bautista (X - 7 - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("f 2 2 b b s s")
 b6.out("K")
 
 # 4. TOR #10 Edwin Encarnación (X - 7 - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("b d c b")
 b6.hit(1)
 
@@ -480,7 +480,7 @@ t7.hit(2)
 t7.advance(4, "2 1B")
 
 # 1. BOS #2  Jacoby Ellsbury (X - 16 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b s")
 t7.hit(1, rbis=1)
 t7.advance(2, "18 SB")
@@ -488,23 +488,23 @@ t7.advance(3, "18 G6-3")
 t7.advance(4, "15 1B")
 
 # 2. BOS #18 Shane Victorino (X - X - 2)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("1 b f f f")
 t7.out("G6-3")
 
 # 3. BOS #15 Dustin Pedroia (2 - X - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("c b")
 t7.hit(1, rbis=1)
 t7.advance(2, "34 SB")
 
 # 4. BOS #34 David Ortiz (X - X - 15)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("c b i i i")
 t7.reach("IBB")
 
 # 5. BOS #5  Jonny Gomes (X - 15 - 34)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("c b c s")
 t7.out("K")
 
@@ -624,12 +624,12 @@ b9.pitch_list("b f c f f d")
 b9.out("G5-3")
 
 # 5. TOR #26 Adam Lind (X - 19 - X)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("i i i i")
 b9.reach("IBB")
 
 # 6. TOR #13 Brett Lawrie (X - 19 - 26)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.out("(F)P3")
 
 # Pitching change (BOS): #32 Craig Breslow replaces #36 Junichi Tazawa
@@ -639,7 +639,7 @@ b9.pitching_substitution(32)
 b9.offensive_substitution(7, 16, "PH")
 
 # 7. TOR #16 Mark DeRosa (X - 19 - 26)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("b c s b s")
 b9.out("K")
 
@@ -671,11 +671,11 @@ t10.offensive_substitution(4, 26, "PR")
 t10.atbase("PR")
 
 # 5. BOS #5  Jonny Gomes (X - 34 - X)
-t10.new_ab()
+t10.new_ab(is_risp=True)
 t10.out("G1-3")
 
 # 6. BOS #12 Mike Napoli (X - 26 - X)
-t10.new_ab()
+t10.new_ab(is_risp=True)
 t10.pitch_list("c s d d c")
 t10.out("!K")
 
@@ -736,14 +736,14 @@ t11.hit(1)
 t11.thrown_out(2, "2 FC6-4", 2, 62)
 
 # 1. BOS #2  Jacoby Ellsbury (X - 39 - 16)
-t11.new_ab()
+t11.new_ab(is_risp=True)
 t11.pitch_list("b")
 t11.reach("FC6-4")
 t11.advance(2, "18 SB")
 t11.advance(4, "18 1B")
 
 # 2. BOS #18 Shane Victorino (39 - X - 2)
-t11.new_ab()
+t11.new_ab(is_risp=True)
 t11.pitch_list("c b c")
 t11.hit(1, rbis=2)
 t11.error(2)
@@ -754,7 +754,7 @@ t11.advance(3, "15 E2")
 t11.pitching_substitution(49)
 
 # 3. BOS #15 Dustin Pedroia (X - X - 18)
-t11.new_ab()
+t11.new_ab(is_risp=True)
 t11.pitch_list("c b b")
 t11.out("F8")
 

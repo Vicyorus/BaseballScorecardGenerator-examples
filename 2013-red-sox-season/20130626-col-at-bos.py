@@ -159,7 +159,7 @@ t1.pitch_list("c c 1 s")
 t1.out("K")
 
 # 4. COL #20 Wilin Rosario (X - X - 5)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("s b f f")
 t1.hit(1, rbis=1)
 
@@ -180,7 +180,7 @@ b1.hit(2)
 b1.advance(4, "18 1B")
 
 # 2. BOS #18 Shane Victorino (X - 2 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("c")
 b1.hit(1, rbis=1)
 b1.advance(4, "34 2B")
@@ -198,12 +198,12 @@ b1.advance(3, "12 G6-3")
 b1.advance(4, "29 1B")
 
 # 5. BOS #12 Mike Napoli (X - 34 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b c c d d")
 b1.out("G6-3")
 
 # 6. BOS #29 Daniel Nava (34 - X - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("d b c c d")
 b1.hit(1, rbis=1)
 
@@ -303,28 +303,28 @@ b3.advance(3, "12 1B")
 b3.advance(4, "29 SF8")
 
 # 4. BOS #34 David Ortiz (X - 18 - 15)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("d d b c b")
 b3.reach("BB")
 b3.advance(2, "12 1B")
 b3.advance(3, "29 SF8")
 
 # 5. BOS #12 Mike Napoli (18 - 15 - 34)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.hit(1, rbis=1)
 b3.advance(2, "29 SF8")
 
 # 6. BOS #29 Daniel Nava (15 - 34 - 12)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.out("SF8", rbis=1)
 
 # 7. BOS #39 Jarrod Saltalamacchia (34 - 12 - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("c s f d d s")
 b3.out("K")
 
 # 8. BOS #7  Stephen Drew (34 - 12 - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("f c")
 b3.out("F8")
 
@@ -347,12 +347,12 @@ t4.pitch_list("c b c b b")
 t4.hit(2)
 
 # 6. COL #28 Nolan Arenado (X - 17 - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("b f d f s")
 t4.out("K")
 
 # 7. COL #21 Tyler Colvin (X - 17 - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("c b t b b c")
 t4.out("!K")
 
@@ -401,7 +401,7 @@ t5.pitch_list("b")
 t5.out("G6-3")
 
 # 2. COL #5  Carlos González (X - 8 - X)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("b c s b b s")
 t5.out("K")
 
@@ -449,20 +449,20 @@ t6.hit(2)
 t6.advance(3, "28 1B")
 
 # 5. COL #17 Todd Helton (X - 20 - X)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.out("L7")
 
 # 6. COL #28 Nolan Arenado (X - 20 - X)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.hit(1)
 
 # 7. COL #21 Tyler Colvin (20 - X - 28)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("f b f s")
 t6.out("K")
 
 # 8. COL #8  Yorvit Torrealba (20 - X - 28)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.out("L8")
 
 
@@ -482,7 +482,7 @@ b6.hit(3)
 b6.thrown_out(4, "10 FC6-2", 2, 44)
 
 # 9. BOS #10 Jose Iglesias (7 - X - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("l f")
 b6.reach("FC6-2")
 
@@ -527,21 +527,21 @@ b7.pitch_list("c f")
 b7.hit(2)
 
 # 3. BOS #15 Dustin Pedroia (X - 18 - X)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.out("F9")
 
 # 4. BOS #34 David Ortiz (X - 18 - X)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("i i i i")
 b7.reach("IBB")
 
 # 5. BOS #12 Mike Napoli (X - 18 - 34)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("f")
 b7.out("(F)P2")
 
 # 6. BOS #29 Daniel Nava (X - 18 - 34)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("c b b b f c")
 b7.out("!K")
 

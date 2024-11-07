@@ -247,7 +247,7 @@ t2.pitch_list("f b b s")
 t2.out("G4-3")
 
 # 8. BAL #2  J.J. Hardy (X - 35 - X)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.out("G6-3")
 
 
@@ -266,23 +266,23 @@ b2.hit(2)
 b2.advance(3, "39 G3-1")
 
 # 7. BOS #39 Jarrod Saltalamacchia (X - 37 - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("b c")
 b2.out("G3-1")
 
 # 8. BOS #7  Stephen Drew (37 - X - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("b b b c c b")
 b2.reach("BB")
 b2.advance(2, "72 SB")
 
 # 9. BOS #72 Xander Bogaerts (37 - X - 7)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("b b c b 3 c f b")
 b2.reach("BB")
 
 # 1. BOS #15 Dustin Pedroia (37 - 7 - 72)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("c")
 b2.out("L4")
 
@@ -383,14 +383,14 @@ b4.advance(2, "72 SB")
 b4.advance(3, "72 SF7")
 
 # 9. BOS #72 Xander Bogaerts (X - 39 - 7)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("s f f")
 b4.error(7)
 b4.reach("SF7", rbis=1)
 b4.thrown_out(2, "15 DP5-4-3", 2, 34)
 
 # 1. BOS #15 Dustin Pedroia (7 - X - 72)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("1 d f b f f f 1")
 b4.out("DP5-4-3")
 
@@ -420,17 +420,17 @@ t5.pitch_list("b c c")
 t5.hit(2)
 
 # 9. BAL #1  Brian Roberts (35 - 2 - X)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("c c f")
 t5.out("G5-3", rbis=1)
 
 # 1. BAL #9  Nate McLouth (X - 2 - X)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("b b b c b")
 t5.reach("BB")
 
 # 2. BAL #13 Manny Machado (X - 2 - 9)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("b")
 t5.out("P6")
 
@@ -584,17 +584,17 @@ t8.hit(2)
 t8.pitching_substitution(32)
 
 # 3. BAL #19 Chris Davis (9 - 13 - X)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("b")
 t8.out("G6-3")
 
 # 4. BAL #10 Adam Jones (9 - 13 - X)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("b")
 t8.out("G6-3")
 
 # 5. BAL #21 Nick Markakis (9 - 13 - X)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("c")
 t8.out("F7")
 
@@ -645,7 +645,7 @@ t9.atbase("PR")
 t9.advance(4, "32 SF9")
 
 # 7. BAL #32 Matt Wieters (35 - X - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("f")
 t9.out("SF9", rbis=1)
 
@@ -690,7 +690,7 @@ b9.pitch_list("f b b b")
 b9.out("G1-3")
 
 # 9. BOS #72 Xander Bogaerts (X - 50 - X)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("b c s s")
 b9.out("K")
 

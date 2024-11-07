@@ -171,17 +171,17 @@ t1.hit(2)
 t1.advance(3, "24 F9")
 
 # 2. DET #48 Torii Hunter (X - 14 - X)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("b f f b f f f d")
 t1.out("(F)P3")
 
 # 3. DET #24 Miguel Cabrera (X - 14 - X)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("c b f")
 t1.out("F9")
 
 # 4. DET #28 Prince Fielder (14 - X - X)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("c b c t")
 t1.out("KT")
 
@@ -237,7 +237,7 @@ t2.advance(3, "1 2B")
 t2.thrown_out(4, "1 8-6-2", 3, 31)
 
 # 9. DET #1  Jose Iglesias (4 - X - 55)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("b c")
 t2.hit(2, rbis=1)
 
@@ -382,12 +382,12 @@ t5.hit(1)
 t5.advance(2, "48 1B")
 
 # 2. DET #48 Torii Hunter (X - 55 - 14)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.hit(1)
 t5.thrown_out(2, "24 FC6-4", 3, 31)
 
 # 3. DET #24 Miguel Cabrera (55 - 14 - 48)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("b b f")
 t5.reach("FC6-4")
 
@@ -415,17 +415,17 @@ b5.hit(2)
 b5.advance(4, "16 1B")
 
 # 8. BOS #3  David Ross (5 - 7 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("s s t")
 b5.out("KT")
 
 # 9. BOS #16 Will Middlebrooks (5 - 7 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.hit(1, rbis=2)
 b5.advance(2, "18 SB")
 
 # 1. BOS #18 Shane Victorino (X - X - 16)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("s c b")
 b5.out("P3")
 
@@ -453,12 +453,12 @@ t6.new_ab()
 t6.hit(1)
 
 # 7. DET #18 Matt Tuiasosopo (X - 28 - 4)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("b c s s")
 t6.out("K")
 
 # 8. DET #55 Brayan Peña (X - 28 - 4)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("f")
 t6.out("F8")
 
@@ -532,12 +532,12 @@ b7.pitch_list("b c 1 b s b f 1")
 b7.reach("HBP")
 
 # 9. BOS #16 Will Middlebrooks (X - 7 - 3)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("b s s d f")
 b7.out("F8")
 
 # 1. BOS #18 Shane Victorino (X - 7 - 3)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.out("(F)P2")
 
 
@@ -608,7 +608,7 @@ b8.advance(2, "12 1B")
 b8.pitching_substitution(40)
 
 # 4. BOS #34 David Ortiz (X - 29 - 15)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("c f b")
 b8.out("F9")
 
@@ -619,18 +619,18 @@ b8.pitching_substitution(36)
 b8.offensive_substitution(5, 12, "PH")
 
 # 5. BOS #12 Mike Napoli (X - 29 - 15)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b b b c c")
 b8.hit(1)
 b8.thrown_out(2, "7 FC6", 3, 36)
 
 # 6. BOS #5  Jonny Gomes (29 - 15 - 12)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("c f")
 b8.out("IF6")
 
 # 7. BOS #7  Stephen Drew (29 - 15 - 12)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.reach("FC6")
 
 

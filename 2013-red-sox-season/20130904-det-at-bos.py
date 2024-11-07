@@ -287,11 +287,11 @@ t3.advance(2, "48 G4-3")
 t3.advance(4, "28 HR")
 
 # 2. DET #48 Torii Hunter (1 - X - 14)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.out("G4-3", rbis=1)
 
 # 3. DET #28 Prince Fielder (X - 14 - X)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("d b")
 t3.hit(4, rbis=2)
 
@@ -353,18 +353,18 @@ t4.hit(2)
 t4.advance(3, "1 FC5-4")
 
 # 8. DET #13 Alex Avila (32 - 4 - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("b f b b b")
 t4.reach("BB")
 t4.thrown_out(2, "1 FC5-4", 2, 46)
 
 # 9. DET #1  Jose Iglesias (32 - 4 - 13)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("c f d")
 t4.reach("FC5-4", rbis=1)
 
 # 1. DET #14 Austin Jackson (4 - X - 1)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("s c")
 t4.out("(F)F9")
 
@@ -399,7 +399,7 @@ b4.new_ab()
 b4.hit(1)
 
 # 9. BOS #16 Will Middlebrooks (7 - X - 3)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("f f b 1 b d f")
 b4.out("G6-3")
 
@@ -454,7 +454,7 @@ b5.advance(3, "15 E2")
 b5.advance("U", "15 SF7")
 
 # 3. BOS #15 Dustin Pedroia (X - X - 18)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("1 b b 1 f f 1 f f b f f f")
 b5.out("SF7", rbis=1)
 
@@ -505,7 +505,7 @@ b6.advance(3, "37 BB")
 b6.advance(4, "16 HR")
 
 # 7. BOS #7  Stephen Drew (29 - 12 - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("i i i i")
 b6.reach("IBB")
 b6.advance(2, "37 BB")
@@ -515,7 +515,7 @@ b6.advance(4, "16 HR")
 b6.offensive_substitution(8, 37, "PH")
 
 # 8. BOS #37 Mike Carp (29 - 12 - 7)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("b b f b b")
 b6.reach("BB", rbis=1)
 b6.advance(4, "16 HR")
@@ -524,7 +524,7 @@ b6.advance(4, "16 HR")
 b6.pitching_substitution(62)
 
 # 9. BOS #16 Will Middlebrooks (12 - 7 - 37)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("b")
 b6.hit(4, rbis=4)
 
@@ -554,7 +554,7 @@ b6.hit(2, rbis=1)
 b6.advance(4, "29 HR")
 
 # 5. BOS #29 Daniel Nava (X - 34 - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("c c f f b")
 b6.hit(4, rbis=2)
 
@@ -636,7 +636,7 @@ b7.atbase("PR")
 b7.advance(4, "20 HR")
 
 # 8. BOS #20 Ryan Lavarnway (X - 7 - X)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("c d b f")
 b7.hit(4, rbis=2)
 
@@ -648,12 +648,12 @@ b7.advance(3, "2 L8")
 b7.advance(4, "50 1B")
 
 # 1. BOS #2  Jacoby Ellsbury (X - 16 - X)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("c b")
 b7.out("L8")
 
 # 2. BOS #50 Quintin Berry (16 - X - X)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.hit(1, rbis=1)
 b7.advance(4, "34 HR")
 
@@ -747,16 +747,16 @@ b8.hit(1)
 b8.advance(2, "50 1B")
 
 # 1. BOS #23 Brandon Snyder (X - 20 - 16)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b f f f s")
 b8.out("K")
 
 # 2. BOS #50 Quintin Berry (X - 20 - 16)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.hit(1, rbis=1)
 
 # 3. BOS #10 John McDonald (X - 16 - 50)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("c s d c")
 b8.out("!K")
 

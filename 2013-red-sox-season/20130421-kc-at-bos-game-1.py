@@ -166,7 +166,7 @@ t1.hit(1)
 t1.advance(2, "6 SB")
 
 # 5. KCR #6  Lorenzo Cain (X - X - 35)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("c b")
 t1.out("G5-3")
 
@@ -195,18 +195,18 @@ b1.advance(3, "34 1B")
 b1.advance(4, "12 G4-3")
 
 # 4. BOS #34 David Ortiz (X - 29 - 15)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b f d c d f")
 b1.hit(1, rbis=1)
 b1.advance(2, "12 G4-3")
 
 # 5. BOS #12 Mike Napoli (15 - X - 34)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b f s b f")
 b1.out("G4-3", rbis=1)
 
 # 6. BOS #39 Jarrod Saltalamacchia (X - 34 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("c b s")
 b1.out("L9")
 
@@ -259,7 +259,7 @@ b2.new_ab()
 b2.hit(1)
 
 # 2. BOS #29 Daniel Nava (X - 16 - 2)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("c b c d b s")
 b2.out("K")
 
@@ -329,22 +329,22 @@ t4.advance(3, "6 2B")
 t4.advance(4, "13 1B")
 
 # 5. KCR #6  Lorenzo Cain (X - 16 - 35)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.hit(2, rbis=1)
 t4.advance(4, "13 1B")
 
 # 6. KCR #8  Mike Moustakas (35 - 6 - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("b s b f f s")
 t4.out("K")
 
 # 7. KCR #21 Jeff Francoeur (35 - 6 - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("b b s f s")
 t4.out("K")
 
 # 8. KCR #13 Salvador Perez (35 - 6 - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("c b")
 t4.hit(1, rbis=2)
 
@@ -441,12 +441,12 @@ t6.pitch_list("1 b d 1 b b")
 t6.reach("BB")
 
 # 7. KCR #21 Jeff Francoeur (X - 6 - 8)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("c c s")
 t6.out("K")
 
 # 8. KCR #13 Salvador Perez (X - 6 - 8)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("f f")
 t6.out("F8")
 
@@ -467,12 +467,12 @@ b6.hit(2)
 b6.advance(3, "12 F9")
 
 # 5. BOS #12 Mike Napoli (X - 34 - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("f")
 b6.out("F9")
 
 # 6. BOS #39 Jarrod Saltalamacchia (34 - X - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("f b s d s")
 b6.out("K")
 
@@ -581,12 +581,12 @@ b8.advance(2, "12 BB")
 b8.pitching_substitution(43)
 
 # 5. BOS #12 Mike Napoli (X - 29 - 34)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b b b b")
 b8.reach("BB")
 
 # 6. BOS #39 Jarrod Saltalamacchia (29 - 23 - 12)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b b")
 b8.out("G1-3")
 
@@ -618,7 +618,7 @@ t9.hit(1)
 t9.thrown_out(2, "13 DP5-4", 2, 63)
 
 # 8. KCR #13 Salvador Perez (X - 8 - 21)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("c b")
 t9.reach("DP5-4")
 

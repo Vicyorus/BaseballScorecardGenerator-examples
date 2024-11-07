@@ -157,12 +157,12 @@ t1.error(1)
 t1.advance(3, "4 POE1")
 
 # 3. HOU #15 Jason Castro (X - 27 - X)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("s b b f s")
 t1.out("K")
 
 # 4. HOU #4  Brandon Laird (X - 27 - X)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("f b s f f f 2 f s")
 t1.out("K")
 
@@ -188,12 +188,12 @@ b1.pitch_list("b b f 1 c b")
 b1.hit(2, rbis=1)
 
 # 4. BOS #34 David Ortiz (X - 15 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b d s s s")
 b1.out("K")
 
 # 5. BOS #12 Mike Napoli (X - 15 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("c f b f d f f b")
 b1.out("F9")
 
@@ -246,7 +246,7 @@ b2.pitch_list("b b")
 b2.hit(3)
 
 # 1. BOS #2  Jacoby Ellsbury (23 - X - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("b b l f")
 b2.out("G4-3")
 
@@ -266,12 +266,12 @@ t3.advance(3, "9 F8")
 t3.advance(4, "19 G4-3")
 
 # 9. HOU #9  Marwin Gonzalez (X - 30 - X)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("c")
 t3.out("F8")
 
 # 1. HOU #19 Robbie Grossman (30 - X - X)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("b 3")
 t3.out("G4-3", rbis=1)
 
@@ -297,17 +297,17 @@ b3.hit(2)
 b3.advance(4, "12 2B")
 
 # 4. BOS #34 David Ortiz (X - 15 - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("b c b f s")
 b3.out("K")
 
 # 5. BOS #12 Mike Napoli (X - 15 - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("d s f b f")
 b3.hit(2, rbis=1)
 
 # 6. BOS #29 Daniel Nava (X - 12 - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("c s b f s")
 b3.out("K")
 
@@ -325,22 +325,22 @@ t4.pitch_list("b c")
 t4.hit(2)
 
 # 4. HOU #4  Brandon Laird (X - 15 - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("c c s")
 t4.out("K")
 
 # 5. HOU #12 Carlos Pena (X - 15 - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("s b s c")
 t4.out("!K")
 
 # 6. HOU #23 Chris Carter (X - 15 - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("b b s b c b")
 t4.reach("BB")
 
 # 7. HOU #21 Fernando Martinez (X - 15 - 23)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("b s f s")
 t4.out("K")
 
@@ -392,18 +392,18 @@ t5.advance(3, "19 WP")
 t5.advance(4, "27 SF9")
 
 # 9. HOU #9  Marwin Gonzalez (X - 30 - X)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("c f b s")
 t5.out("K")
 
 # 1. HOU #19 Robbie Grossman (X - 30 - X)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("c s b b b b")
 t5.wp()
 t5.reach("BB")
 
 # 2. HOU #27 Jose Altuve (30 - X - 19)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("b")
 t5.out("SF9", rbis=1)
 
@@ -493,7 +493,7 @@ b6.hit(1)
 b6.advance(2, "5 SB")
 
 # 2. BOS #5  Jonny Gomes (3 - X - 2)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("c c b f d s")
 b6.out("K")
 
@@ -523,7 +523,7 @@ t7.hit(1)
 t7.advance(2, "15 1B")
 
 # 1. HOU #19 Robbie Grossman (30 - X - 9)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b 1 s b c b c")
 t7.out("!K")
 
@@ -531,7 +531,7 @@ t7.out("!K")
 t7.pitching_substitution(36)
 
 # 2. HOU #27 Jose Altuve (30 - X - 9)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.out("SF9", rbis=1)
 
 # 3. HOU #15 Jason Castro (X - X - 9)
@@ -540,7 +540,7 @@ t7.pitch_list("c f")
 t7.hit(1)
 
 # 4. HOU #4  Brandon Laird (X - 9 - 15)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("c f b c")
 t7.out("!K")
 
@@ -569,7 +569,7 @@ b7.pitch_list("c")
 b7.hit(2)
 
 # 6. BOS #29 Daniel Nava (X - 12 - X)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("b c")
 b7.out("G6-3")
 
@@ -596,12 +596,12 @@ t8.hit(2)
 t8.advance(3, "21 G4-3")
 
 # 7. HOU #21 Fernando Martinez (X - 23 - X)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("b c s f f f")
 t8.out("G4-3")
 
 # 8. HOU #30 Matt Dominguez (23 - X - X)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("c f f s")
 t8.out("K")
 
@@ -629,22 +629,22 @@ b8.advance(2, "23 1B")
 b8.advance(4, "5 1B")
 
 # 9. BOS #23 Pedro Ciriaco (X - 16 - 3)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b b")
 b8.hit(1)
 b8.advance(3, "5 1B")
 
 # 1. BOS #2  Jacoby Ellsbury (16 - 3 - 23)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b c b f b f")
 b8.out("DP6-5")
 
 # 2. BOS #5  Jonny Gomes (X - 3 - 23)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.hit(1, rbis=1)
 
 # 3. BOS #15 Dustin Pedroia (23 - X - 5)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b 1 b b c c s")
 b8.out("K")
 

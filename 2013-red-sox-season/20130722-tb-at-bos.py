@@ -163,7 +163,7 @@ t1.hit(1)
 t1.advance(2, "30 BB")
 
 # 4. TBR #21 James Loney (18 - X - 3)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("1 c f b")
 t1.out("SF9", rbis=1)
 
@@ -173,7 +173,7 @@ t1.pitch_list("b s c f b f f d b")
 t1.reach("BB")
 
 # 6. TBR #2  Kelly Johnson (X - 3 - 30)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("c b b")
 t1.out("F7")
 
@@ -269,12 +269,12 @@ t3.new_ab()
 t3.out("F9")
 
 # 4. TBR #21 James Loney (X - X - 18)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("s 1 b")
 t3.out("F8")
 
 # 5. TBR #30 Luke Scott (X - 18 - X)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("b b c")
 t3.out("(F)P5")
 
@@ -363,23 +363,23 @@ t5.pitch_list("l")
 t5.out("SAC3")
 
 # 2. TBR #18 Ben Zobrist (X - 11 - X)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("c")
 t5.hit(1)
 t5.advance(2, "21 1B")
 
 # 3. TBR #3  Evan Longoria (11 - X - 18)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("c b 1 s b t")
 t5.out("KT")
 
 # 4. TBR #21 James Loney (11 - X - 18)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("c d")
 t5.hit(1, rbis=1)
 
 # 5. TBR #30 Luke Scott (X - 18 - 21)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.out("G4-3")
 
 
@@ -491,7 +491,7 @@ b7.hit(1)
 b7.advance(2, "12 WP")
 
 # 5. BOS #12 Mike Napoli (X - X - 34)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("c c f b f")
 b7.wp()
 b7.out("F9")
@@ -561,18 +561,18 @@ t9.advance(3, "11 BB")
 t9.advance(4, "8 SF8")
 
 # 8. TBR #59 Jose Lobaton (X - X - 20)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("b d b f f d")
 t9.reach("BB")
 t9.advance(2, "11 BB")
 
 # 9. TBR #11 Yunel Escobar (X - 20 - 59)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("b b f f f d d")
 t9.reach("BB")
 
 # 1. TBR #8  Desmond Jennings (20 - 59 - 11)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("b f f")
 t9.out("SF8", rbis=1)
 
@@ -580,7 +580,7 @@ t9.out("SF8", rbis=1)
 t9.pitching_substitution(32)
 
 # 2. TBR #18 Ben Zobrist (X - 59 - 11)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("b b f")
 t9.out("F9")
 

@@ -164,7 +164,7 @@ t1.pitch_list("b s f b b")
 t1.hit(1)
 
 # 5. TBR #30 Luke Scott (3 - X - 9)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("s c s")
 t1.out("K")
 
@@ -227,17 +227,17 @@ b2.new_ab()
 b2.hit(2)
 
 # 5. BOS #12 Mike Napoli (X - 34 - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("t f b b f")
 b2.out("G6-3")
 
 # 6. BOS #5  Jonny Gomes (X - 34 - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("b c")
 b2.out("F8")
 
 # 7. BOS #20 Ryan Lavarnway (X - 34 - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.out("G5-3")
 
 
@@ -266,7 +266,7 @@ t3.reach("BB")
 t3.thrown_out(2, "9 DP5-4-3", 2, 22)
 
 # 4. TBR #9  Wil Myers (X - 8 - 18)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("b s s 2")
 t3.out("DP5-4-3")
 
@@ -322,12 +322,12 @@ t4.hit(1)
 t4.advance(3, "1 2B")
 
 # 9. TBR #1  Sean Rodríguez (11 - X - 28)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("b c")
 t4.hit(2, rbis=1)
 
 # 1. TBR #8  Desmond Jennings (28 - 1 - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("b b s b c")
 t4.out("L9")
 
@@ -366,13 +366,13 @@ t5.advance(3, "18 1B")
 t5.advance(4, "9 FC6-4")
 
 # 3. TBR #18 Ben Zobrist (X - 3 - X)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("c f d")
 t5.hit(1)
 t5.thrown_out(2, "9 FC6-4", 1, 22)
 
 # 4. TBR #9  Wil Myers (3 - X - 18)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("f c f 1 d d")
 t5.reach("FC6-4", rbis=1)
 t5.advance(2, "30 B1-3")
@@ -383,12 +383,12 @@ t5.new_ab()
 t5.out("B1-3")
 
 # 6. TBR #11 Yunel Escobar (X - 9 - X)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("b b b")
 t5.reach("HBP")
 
 # 7. TBR #21 James Loney (9 - X - 11)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("l d b")
 t5.out("L9")
 
@@ -438,17 +438,17 @@ t6.pitch_list("c b b f b")
 t6.hit(1)
 
 # 1. TBR #8  Desmond Jennings (X - 28 - 20)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("b s f s")
 t6.out("K")
 
 # 2. TBR #3  Evan Longoria (X - 28 - 20)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("c f f b f s")
 t6.out("K")
 
 # 3. TBR #18 Ben Zobrist (X - 28 - 20)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("b b c f c")
 t6.out("!K")
 
@@ -577,11 +577,11 @@ b8.advance(3, "7 2B")
 b8.thrown_out(4, "23 DP7-2", 3, 62)
 
 # 8. BOS #7  Stephen Drew (X - 20 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.hit(2)
 
 # 9. BOS #23 Brandon Snyder (29 - 7 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("c")
 b8.out("DP7-2")
 
@@ -634,12 +634,12 @@ b9.pitch_list("l l")
 b9.out("P4")
 
 # 3. BOS #15 Dustin Pedroia (X - X - 2)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("b c b s f f")
 b9.out("G6-3")
 
 # 4. BOS #34 David Ortiz (X - 2 - X)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("i i i i")
 b9.reach("IBB")
 # Offensive change (BOS): Pinch-runner #10 Jose Iglesias replaces #34 David Ortiz
@@ -648,7 +648,7 @@ b9.atbase("PR")
 b9.advance(2, "12 WP")
 
 # 5. BOS #12 Mike Napoli (X - 2 - 34)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("b d s s f b s")
 b9.wp()
 b9.out("K")

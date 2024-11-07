@@ -222,12 +222,12 @@ t2.hit(1)
 t2.advance(2, "26 G5-3")
 
 # 8. BOS #26 Brock Holt (X - 39 - 10)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("c")
 t2.out("G5-3")
 
 # 9. BOS #44 Jackie Bradley Jr. (39 - 10 - X)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("c f f f b f f f f c")
 t2.out("!K")
 
@@ -252,28 +252,28 @@ b2.advance(2, "13 BB")
 b2.advance(4, "5 2B")
 
 # 8. SEA #3  Mike Zunino (X - 17 - 55)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("b s f b s")
 b2.out("K")
 
 # 9. SEA #13 Dustin Ackley (X - 17 - 55)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("b b b d")
 b2.reach("BB")
 b2.advance(4, "5 2B")
 
 # 1. SEA #5  Brad Miller (17 - 55 - 13)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("s")
 b2.hit(2, rbis=3)
 
 # 2. SEA #6  Nick Franklin (X - 5 - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("c f b d b s")
 b2.out("K")
 
 # 3. SEA #28 Raul Ibanez (X - 5 - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("s b c")
 b2.out("(F)P5")
 
@@ -308,7 +308,7 @@ t3.hit(2)
 t3.advance(4, "12 HR")
 
 # 5. BOS #12 Mike Napoli (X - 34 - X)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.hit(4, rbis=2)
 
 # 6. BOS #39 Jarrod Saltalamacchia (X - X - X)
@@ -319,13 +319,13 @@ t3.advance(3, "10 WP")
 t3.advance(4, "26 SF9")
 
 # 7. BOS #10 Jose Iglesias (X - 39 - X)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("c s b s")
 t3.wp()
 t3.reach("K")
 
 # 8. BOS #26 Brock Holt (39 - X - 10)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.out("SF9", rbis=1)
 
 # 9. BOS #44 Jackie Bradley Jr. (X - X - 10)
@@ -360,12 +360,12 @@ b3.pitch_list("f b d s")
 b3.hit(3, rbis=1)
 
 # 8. SEA #3  Mike Zunino (55 - X - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("b s")
 b3.out("G6-3")
 
 # 9. SEA #13 Dustin Ackley (55 - X - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("b d f b")
 b3.out("G6-3")
 
@@ -394,22 +394,22 @@ t4.reach("BB")
 t4.advance(2, "15 1B")
 
 # 3. BOS #15 Dustin Pedroia (X - 29 - 18)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("b c")
 t4.hit(1, rbis=1)
 
 # 4. BOS #34 David Ortiz (X - 18 - 15)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("c")
 t4.out("F8")
 
 # 5. BOS #12 Mike Napoli (X - 18 - 15)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("c b s s")
 t4.out("K")
 
 # 6. BOS #39 Jarrod Saltalamacchia (X - 18 - 15)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("c b f f s")
 t4.out("K")
 
@@ -442,7 +442,7 @@ b4.pitch_list("1 b b s")
 b4.hit(1)
 
 # 5. SEA #15 Kyle Seager (5 - X - 8)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("b f b")
 b4.out("F9")
 
@@ -522,12 +522,12 @@ t6.pitch_list("b c c f d f")
 t6.hit(2)
 
 # 5. BOS #12 Mike Napoli (15 - 34 - X)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("c s b b d f c")
 t6.out("!K")
 
 # 6. BOS #39 Jarrod Saltalamacchia (15 - 34 - X)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("c s s")
 t6.out("K")
 
@@ -549,12 +549,12 @@ b6.hit(2)
 b6.pitching_substitution(40)
 
 # 2. SEA #6  Nick Franklin (X - 5 - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("b c f b s")
 b6.out("K")
 
 # 3. SEA #28 Raul Ibanez (X - 5 - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("b b")
 b6.out("G4-3")
 
@@ -642,27 +642,27 @@ t8.pitch_list("b s f f c")
 t8.out("!K")
 
 # 6. BOS #39 Jarrod Saltalamacchia (X - 34 - X)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("i i i i")
 t8.reach("IBB")
 t8.advance(3, "10 1B")
 t8.advance(4, "26 1B")
 
 # 7. BOS #10 Jose Iglesias (X - 34 - 39)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("c")
 t8.hit(1, rbis=1)
 t8.advance(3, "26 1B")
 
 # 8. BOS #26 Brock Holt (39 - X - 10)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.hit(1, rbis=1)
 
 # Pitching change (SEA): #44 Lucas Luetge replaces #58 Carter Capps
 t8.pitching_substitution(44)
 
 # 9. BOS #44 Jackie Bradley Jr. (10 - X - 26)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("c c s")
 t8.out("K2-3")
 
@@ -693,12 +693,12 @@ b8.hit(1)
 b8.advance(2, "5 G3")
 
 # 1. SEA #5  Brad Miller (55 - X - 13)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b f c b d")
 b8.out("G3", rbis=1)
 
 # 2. SEA #6  Nick Franklin (X - 13 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b s c t")
 b8.out("KT")
 

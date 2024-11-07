@@ -164,7 +164,7 @@ t1.pitch_list("b c b b")
 t1.hit(1)
 
 # 5. TEX #17 Nelson Cruz (X - 27 - 29)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("c c s")
 t1.out("K")
 
@@ -186,12 +186,12 @@ b1.hit(1)
 b1.thrown_out(2, "15 DP6-4-3", 1, 45)
 
 # 3. BOS #15 Dustin Pedroia (X - 2 - 5)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("c t b f f")
 b1.out("DP6-4-3")
 
 # 4. BOS #34 David Ortiz (2 - X - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("c")
 b1.out("G4-3")
 
@@ -210,7 +210,7 @@ t2.hit(2)
 t2.advance(4, "15 HR")
 
 # 7. TEX #15 Jeff Baker (X - 12 - X)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("b b b c f f")
 t2.hit(4, rbis=2)
 
@@ -231,7 +231,7 @@ t2.pitch_list("b b c d f")
 t2.out("G5-3")
 
 # 2. TEX #7  David Murphy (X - 13 - X)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.out("G4-3")
 
 
@@ -309,17 +309,17 @@ b3.hit(1)
 b3.advance(4, "15 2B")
 
 # 2. BOS #5  Jonny Gomes (X - 10 - 2)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("b c")
 b3.out("L9")
 
 # 3. BOS #15 Dustin Pedroia (10 - X - 2)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("b d b c 1 f f")
 b3.hit(2, rbis=2)
 
 # 4. BOS #34 David Ortiz (X - 15 - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("d")
 b3.out("G3")
 
@@ -353,7 +353,7 @@ t4.pitch_list("b b c f f")
 t4.hit(1)
 
 # 2. TEX #7  David Murphy (X - 23 - 1)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("c")
 t4.out("L7")
 
@@ -384,7 +384,7 @@ b4.pitch_list("b b c b f f b")
 b4.reach("BB")
 
 # 9. BOS #23 Pedro Ciriaco (X - 3 - 10)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.out("G6-3")
 
 
@@ -423,19 +423,19 @@ b5.advance(3, "5 1B")
 b5.thrown_out(4, "15 FC3-2", 1, 45)
 
 # 2. BOS #5  Jonny Gomes (X - 2 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b b")
 b5.hit(1)
 b5.advance(2, "15 FC3-2")
 
 # 3. BOS #15 Dustin Pedroia (2 - X - 5)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("s b s")
 b5.reach("FC3-2")
 b5.thrown_out(2, "34 DP6-3", 2, 45)
 
 # 4. BOS #34 David Ortiz (X - 5 - 15)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("f b c")
 b5.out("DP6-3")
 
@@ -452,17 +452,17 @@ t6.new_ab()
 t6.hit(2)
 
 # 7. TEX #15 Jeff Baker (X - 12 - X)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("b c b s f b f c")
 t6.out("!K")
 
 # 8. TEX #23 Craig Gentry (X - 12 - X)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("c f b")
 t6.out("G5-3")
 
 # 9. TEX #13 Jurickson Profar (X - 12 - X)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("t b b f c")
 t6.out("!K")
 
@@ -495,7 +495,7 @@ b6.hit(1)
 b6.advance(2, "23 WP")
 
 # 9. BOS #23 Pedro Ciriaco (X - 29 - 10)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("c f b f s")
 b6.wp()
 b6.out("K")
@@ -523,16 +523,16 @@ t7.hit(2)
 t7.advance(3, "29 1B")
 
 # 3. TEX #27 Lance Berkman (X - 7 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.out("L5")
 
 # 4. TEX #29 Adrian Beltré (X - 7 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("c b")
 t7.hit(1)
 
 # 5. TEX #17 Nelson Cruz (7 - X - 29)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b b f")
 t7.out("F8")
 
@@ -552,19 +552,19 @@ b7.advance(3, "5 1B")
 b7.advance(4, "12 FC3-6")
 
 # 2. BOS #5  Jonny Gomes (X - 2 - X)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("c b b")
 b7.hit(1)
 b7.advance(2, "34 BB")
 b7.advance(3, "12 FC3-6")
 
 # 3. BOS #15 Dustin Pedroia (2 - X - 5)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("b f s s")
 b7.out("K")
 
 # 4. BOS #34 David Ortiz (2 - X - 5)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("b s b f b b")
 b7.reach("BB")
 b7.thrown_out(2, "12 FC3-6", 2, 44)
@@ -573,12 +573,12 @@ b7.thrown_out(2, "12 FC3-6", 2, 44)
 b7.pitching_substitution(44)
 
 # 5. BOS #12 Mike Napoli (2 - 5 - 34)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("s s f")
 b7.reach("FC3-6", rbis=1)
 
 # 6. BOS #29 Daniel Nava (5 - X - 12)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("c b f 1 s")
 b7.out("K")
 
@@ -680,12 +680,12 @@ t9.pitch_list("b 1 b b c m")
 t9.out("SAC3-4")
 
 # 2. TEX #7  David Murphy (X - 13 - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("c f f")
 t9.out("(F)P5")
 
 # 3. TEX #27 Lance Berkman (X - 13 - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("b f s f s")
 t9.out("K")
 
@@ -703,13 +703,13 @@ b9.hit(2)
 b9.advance(4, "34 HR")
 
 # 3. BOS #15 Dustin Pedroia (X - 5 - X)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("i i i i")
 b9.reach("IBB")
 b9.advance(4, "34 HR")
 
 # 4. BOS #34 David Ortiz (X - 5 - 15)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.hit(4, rbis=3)
 
 # Winning team: BOS

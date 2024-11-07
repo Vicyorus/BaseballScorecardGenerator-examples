@@ -264,7 +264,7 @@ t3.pitch_list("c b s")
 t3.hit(1)
 
 # 4. BAL #10 Adam Jones (X - 13 - 21)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("b b s s b c")
 t3.out("!K")
 
@@ -454,7 +454,7 @@ t7.pitch_list("f f b b")
 t7.out("G4-3")
 
 # 9. BAL #28 Steve Pearce (X - 32 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b b c f s")
 t7.out("K")
 
@@ -477,12 +477,12 @@ b7.hit(2)
 b7.advance(4, "29 HR")
 
 # 5. BOS #16 Will Middlebrooks (15 - 12 - X)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("f f b f f b s")
 b7.out("K")
 
 # 6. BOS #29 Daniel Nava (15 - 12 - X)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("b f")
 b7.hit(4, rbis=3)
 
@@ -582,7 +582,7 @@ t9.pitch_list("c")
 t9.hit(2)
 
 # 8. BAL #3  Ryan Flaherty (X - 2 - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("b b")
 t9.out("(F)P5")
 

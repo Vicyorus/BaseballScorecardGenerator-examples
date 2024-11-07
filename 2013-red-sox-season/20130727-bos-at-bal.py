@@ -251,19 +251,19 @@ t3.pitch_list("b 1 1 f")
 t3.out("G3")
 
 # 1. BOS #2  Jacoby Ellsbury (X - 7 - X)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("c")
 t3.hit(1)
 t3.advance(2, "18 SB")
 t3.advance(3, "18 G4-3")
 
 # 2. BOS #18 Shane Victorino (7 - X - 2)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("c 1 b")
 t3.out("G4-3", rbis=1)
 
 # 3. BOS #15 Dustin Pedroia (2 - X - X)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("b f b f")
 t3.out("G6-3")
 
@@ -293,7 +293,7 @@ b3.pitch_list("1 b c p f 1 1 d f f d")
 b3.reach("BB")
 
 # 3. BAL #21 Nick Markakis (X - 9 - 13)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("f")
 b3.out("F8")
 
@@ -328,7 +328,7 @@ t4.hit(1)
 t4.advance(4, "7 HR")
 
 # 8. BOS #7  Stephen Drew (X - 37 - 39)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("b")
 t4.hit(4, rbis=3)
 
@@ -339,7 +339,7 @@ t4.hit(1)
 t4.advance(2, "2 SB")
 
 # 1. BOS #2  Jacoby Ellsbury (X - X - 10)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("1 b b")
 t4.out("L3")
 
@@ -409,18 +409,18 @@ b5.hit(1)
 b5.advance(3, "1 1B")
 
 # 9. BAL #1  Brian Roberts (X - 2 - 51)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("c b b")
 b5.hit(1, rbis=1)
 b5.thrown_out(2, "13 DP6-4-3", 2, 46)
 
 # 1. BAL #9  Nate McLouth (51 - X - 1)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("c s b d s")
 b5.out("K")
 
 # 2. BAL #13 Manny Machado (51 - X - 1)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("1 c 1 s b")
 b5.out("DP6-4-3")
 
@@ -489,7 +489,7 @@ b6.thrown_out(2, "32 FC3-6", 2, 32)
 b6.pitching_substitution(32)
 
 # 6. BAL #32 Matt Wieters (21 - X - 19)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("b c s b f b")
 b6.reach("FC3-6", rbis=1)
 
@@ -571,17 +571,17 @@ t8.offensive_substitution(6, 29, "PR")
 t8.atbase("PR")
 
 # 7. BOS #39 Jarrod Saltalamacchia (X - 37 - X)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("c f d f b d")
 t8.out("(F)P2")
 
 # 8. BOS #7  Stephen Drew (X - 29 - X)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("s b s c")
 t8.out("!K")
 
 # 9. BOS #10 Jose Iglesias (X - 29 - X)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("b b s")
 t8.out("G6-3")
 
@@ -615,17 +615,17 @@ b8.reach("BB")
 b8.advance(2, "2 E6")
 
 # 6. BAL #32 Matt Wieters (X - 10 - 19)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.out("F9")
 
 # 7. BAL #2  J.J. Hardy (10 - X - 19)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("c b s")
 b8.error(6)
 b8.reach("E6")
 
 # 8. BAL #51 Henry Urrutia (X - 19 - 2)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b b f f")
 b8.out("F7")
 
@@ -684,12 +684,12 @@ b9.pitch_list("c")
 b9.hit(2)
 
 # 2. BAL #13 Manny Machado (X - 9 - X)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("b c s t")
 b9.out("KT")
 
 # 3. BAL #21 Nick Markakis (X - 9 - X)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("c f b b b")
 b9.out("F9")
 

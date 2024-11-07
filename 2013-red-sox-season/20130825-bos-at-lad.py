@@ -160,24 +160,24 @@ t1.advance(3, "15 1B")
 t1.advance(4, "12 2B")
 
 # 3. BOS #15 Dustin Pedroia (X - 18 - X)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("c b f b")
 t1.hit(1)
 t1.advance(3, "12 2B")
 
 # 4. BOS #12 Mike Napoli (18 - X - 15)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("s b b s 1 b")
 t1.hit(2, rbis=1)
 
 # 5. BOS #5  Jonny Gomes (15 - 12 - X)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("i i i i")
 t1.reach("IBB")
 t1.thrown_out(2, "16 DP5-4-3", 2, 35)
 
 # 6. BOS #16 Will Middlebrooks (15 - 12 - 5)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("f b b s")
 t1.out("DP5-4-3")
 
@@ -260,12 +260,12 @@ t3.advance(3, "18 SAC1-3")
 t3.advance(4, "15 SF8")
 
 # 2. BOS #18 Shane Victorino (X - X - 2)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("b 1 b")
 t3.out("SAC1-3")
 
 # 3. BOS #15 Dustin Pedroia (2 - X - X)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("b f")
 t3.out("SF8", rbis=1)
 
@@ -296,7 +296,7 @@ b3.pitch_list("l")
 b3.out("SAC3")
 
 # 1. LAD #25 Carl Crawford (X - 17 - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("f b b f c")
 b3.out("!K")
 
@@ -332,7 +332,7 @@ t4.hit(1)
 t4.advance(2, "E8")
 
 # 9. BOS #44 Jake Peavy (X - 72 - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("b")
 t4.out("G6-3")
 
@@ -559,7 +559,7 @@ t8.pitch_list("c s")
 t8.hit(1)
 
 # 9. BOS #44 Jake Peavy (39 - X - 72)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.out("L1")
 
 
@@ -614,7 +614,7 @@ t9.hit(2)
 t9.advance(4, "12 HR")
 
 # 4. BOS #12 Mike Napoli (X - 15 - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("b f d b f f f")
 t9.hit(4, rbis=2)
 

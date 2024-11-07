@@ -164,7 +164,7 @@ t1.pitch_list("c b b 1 b b")
 t1.reach("BB")
 
 # 5. BOS #37 Mike Carp (X - 18 - 34)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("s b b")
 t1.out("F9")
 
@@ -185,12 +185,12 @@ b1.hit(2)
 b1.advance(3, "21 G3")
 
 # 3. BAL #21 Nick Markakis (X - 13 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("c b d")
 b1.out("G3")
 
 # 4. BAL #10 Adam Jones (13 - X - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("d b b c")
 b1.out("G6-3")
 
@@ -298,16 +298,16 @@ b3.hit(1)
 b3.advance(2, "10 1B")
 
 # 3. BAL #21 Nick Markakis (X - 9 - 13)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("c b")
 b3.out("F8")
 
 # 4. BAL #10 Adam Jones (9 - X - 13)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.hit(1, rbis=1)
 
 # 5. BAL #19 Chris Davis (X - 13 - 10)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("b c f")
 b3.out("L4")
 
@@ -332,17 +332,17 @@ t4.pitch_list("b f b f")
 t4.out("G3")
 
 # 7. BOS #10 Jose Iglesias (X - 37 - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("c")
 t4.hit(1)
 
 # 8. BOS #16 Will Middlebrooks (37 - X - 10)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("b b c b 1")
 t4.out("F9")
 
 # 9. BOS #3  David Ross (37 - X - 10)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("b s f 1 s")
 t4.out("K")
 
@@ -363,13 +363,13 @@ b4.reach("BB")
 b4.advance(2, "36 WP")
 
 # 8. BAL #36 Chris Dickerson (X - X - 2)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("b c b b s s")
 b4.wp()
 b4.out("K")
 
 # 9. BAL #3  Ryan Flaherty (X - 2 - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("c b")
 b4.out("G3-1")
 
@@ -414,12 +414,12 @@ b5.pitch_list("1 c b 1 f f b t")
 b5.out("KT")
 
 # 3. BAL #21 Nick Markakis (X - X - 9)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("p")
 b5.out("G3")
 
 # 4. BAL #10 Adam Jones (9 - X - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("c b")
 b5.out("F8")
 
@@ -482,17 +482,17 @@ t7.hit(2)
 t7.pitching_substitution(56)
 
 # 8. BOS #16 Will Middlebrooks (X - 10 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("f b")
 t7.out("P4")
 
 # 9. BOS #3  David Ross (X - 10 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("s c f b b s")
 t7.out("K")
 
 # 1. BOS #2  Jacoby Ellsbury (X - 10 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.out("F8")
 
 
@@ -553,23 +553,23 @@ b8.hit(2)
 b8.advance(3, "21 G4-3")
 
 # 3. BAL #21 Nick Markakis (X - 13 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("c")
 b8.out("G4-3")
 
 # 4. BAL #10 Adam Jones (13 - X - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("f s b d b f")
 b8.out("G4-3")
 
 # 5. BAL #19 Chris Davis (13 - X - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("i i i i")
 b8.reach("IBB")
 b8.advance(2, "32 BB")
 
 # 6. BAL #32 Matt Wieters (13 - X - 19)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b c b d b")
 b8.reach("BB")
 
@@ -577,7 +577,7 @@ b8.reach("BB")
 b8.pitching_substitution(19)
 
 # 7. BAL #2  J.J. Hardy (13 - 19 - 32)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("c s t")
 b8.out("KT")
 

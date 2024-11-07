@@ -160,7 +160,7 @@ t1.pitch_list("c f b b d c")
 t1.out("!K")
 
 # 4. TBR #18 Ben Zobrist (X - 1 - X)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("b")
 t1.out("F8")
 
@@ -219,7 +219,7 @@ t2.pitch_list("1 c b c")
 t2.hit(1)
 
 # 9. TBR #20 Matt Joyce (X - 19 - 28)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("c")
 t2.out("G1-3")
 
@@ -269,18 +269,18 @@ t3.hit(2, rbis=1)
 t3.advance(3, "3 WP")
 
 # 3. TBR #3  Evan Longoria (X - 1 - X)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("f b c b b s")
 t3.wp()
 t3.out("K")
 
 # 4. TBR #18 Ben Zobrist (1 - X - X)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("c f b b")
 t3.out("L3")
 
 # 5. TBR #15 Shelley Duncan (1 - X - X)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("b")
 t3.out("G5-3")
 
@@ -306,7 +306,7 @@ b3.hit(1)
 b3.advance(2, "15 SB")
 
 # 3. BOS #15 Dustin Pedroia (X - X - 18)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("f f 1 1 1 1 b b s")
 b3.out("K")
 
@@ -449,7 +449,7 @@ b6.pitch_list("f b f b 1")
 b6.hit(1)
 
 # 6. BOS #29 Daniel Nava (X - 12 - 16)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("f")
 b6.out("F8")
 
@@ -589,17 +589,17 @@ t9.pitching_substitution(19)
 t9.offensive_substitution(5, 21, "PH")
 
 # 5. TBR #21 James Loney (X - 3 - 18)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("c b s c")
 t9.out("!K")
 
 # 6. TBR #11 Yunel Escobar (X - 3 - 18)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("c")
 t9.out("F9")
 
 # 7. TBR #19 Ryan Roberts (X - 3 - 18)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("f b")
 t9.out("P4")
 
@@ -636,13 +636,13 @@ b9.advance(2, "5 WP")
 b9.pitching_substitution(47)
 
 # 7. BOS #5  Jonny Gomes (X - X - 29)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("s b c b b b")
 b9.wp()
 b9.reach("BB")
 
 # 8. BOS #7  Stephen Drew (X - 29 - 5)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("b c b f")
 b9.out("L8")
 
@@ -666,16 +666,16 @@ t10.offensive_substitution(8, 2, "PR")
 t10.atbase("PR")
 
 # 9. TBR #20 Matt Joyce (X - 28 - X)
-t10.new_ab()
+t10.new_ab(is_risp=True)
 t10.out("L7")
 
 # 1. TBR #8  Desmond Jennings (X - 2 - X)
-t10.new_ab()
+t10.new_ab(is_risp=True)
 t10.pitch_list("c f")
 t10.out("P4")
 
 # 2. TBR #5  Sam Fuld (X - 2 - X)
-t10.new_ab()
+t10.new_ab(is_risp=True)
 t10.pitch_list("b d b c")
 t10.out("G3")
 
@@ -705,7 +705,7 @@ b10.advance(3, "18 E2")
 b10.advance("U", "18 1B")
 
 # 2. BOS #18 Shane Victorino (X - X - 2)
-b10.new_ab()
+b10.new_ab(is_risp=True)
 b10.pitch_list("c b b c")
 b10.hit(1, rbis=1)
 

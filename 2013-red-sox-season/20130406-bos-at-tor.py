@@ -149,17 +149,17 @@ t1.hit(2)
 t1.advance(3, "12 SB")
 
 # 2. BOS #18 Shane Victorino (X - 2 - X)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("b s f f")
 t1.out("P4")
 
 # 3. BOS #15 Dustin Pedroia (X - 2 - X)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("c d b s s")
 t1.out("K")
 
 # 4. BOS #12 Mike Napoli (X - 2 - X)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("b c b b c c")
 t1.out("!K")
 
@@ -175,17 +175,17 @@ b1.hit(1)
 b1.advance(2, "11 SB")
 
 # 2. TOR #11 Rajai Davis (X - X - 7)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b c f b b c")
 b1.out("!K")
 
 # 3. TOR #53 Melky Cabrera (X - 7 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("f b b c b f f")
 b1.out("G1-3")
 
 # 4. TOR #10 Edwin Encarnación (X - 7 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b f f s")
 b1.out("K")
 
@@ -253,19 +253,19 @@ t3.advance(3, "2 WP")
 t3.thrown_out(4, "2 FC3-2", 2, 48)
 
 # 1. BOS #2  Jacoby Ellsbury (X - X - 23)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("c c b")
 t3.wp()
 t3.reach("FC3-2")
 t3.advance(2, "18 SB")
 
 # 2. BOS #18 Shane Victorino (X - X - 2)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("1 b b b b")
 t3.reach("BB")
 
 # 3. BOS #15 Dustin Pedroia (X - 2 - 18)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("c f f b b b")
 t3.out("(F)P5")
 
@@ -296,7 +296,7 @@ b3.pitch_list("1 1")
 b3.hit(1)
 
 # 3. TOR #53 Melky Cabrera (X - 7 - 11)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("b b c c s")
 b3.out("K")
 
@@ -407,7 +407,7 @@ b5.pitch_list("1")
 b5.hit(1)
 
 # 4. TOR #10 Edwin Encarnación (X - 7 - 53)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("c")
 b5.out("G4-3")
 
@@ -456,13 +456,13 @@ b6.pitch_list("f s c")
 b6.out("!K")
 
 # 7. TOR #16 Mark DeRosa (X - X - 26)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("s b b f d b")
 b6.reach("BB")
 b6.advance(4, "28 HR")
 
 # 8. TOR #28 Colby Rasmus (X - 26 - 16)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("b 2 b")
 b6.hit(4, rbis=3)
 
@@ -559,12 +559,12 @@ b8.pitch_list("b b f b")
 b8.hit(2)
 
 # 7. TOR #16 Mark DeRosa (X - 9 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b c s d c")
 b8.out("!K")
 
 # 8. TOR #28 Colby Rasmus (X - 9 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b c c b")
 b8.out("G4-3")
 

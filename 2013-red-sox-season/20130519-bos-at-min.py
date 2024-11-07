@@ -160,7 +160,7 @@ t1.pitch_list("c 1")
 t1.out("L9")
 
 # 4. BOS #34 David Ortiz (X - X - 18)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("s f b b")
 t1.out("G1-3")
 
@@ -261,17 +261,17 @@ t3.advance(2, "15 FC5")
 t3.advance(3, "15 E5")
 
 # 3. BOS #15 Dustin Pedroia (18 - X - 5)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("b b")
 t3.reach("FC5", rbis=1)
 
 # 4. BOS #34 David Ortiz (5 - X - 15)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("f f c")
 t3.out("!K")
 
 # 5. BOS #12 Mike Napoli (5 - X - 15)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("1 c b b b f f")
 t3.out("F9")
 
@@ -316,18 +316,18 @@ t4.pitch_list("b b 1 c f f b 1")
 t4.out("G5-3")
 
 # 8. BOS #39 Jarrod Saltalamacchia (X - 29 - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("b")
 t4.hit(1)
 t4.advance(2, "23 B1-3")
 
 # 9. BOS #23 Pedro Ciriaco (29 - X - 39)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("f")
 t4.out("B1-3")
 
 # 1. BOS #18 Shane Victorino (29 - 39 - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("c")
 t4.out("L5")
 
@@ -379,13 +379,13 @@ t5.advance(2, "12 1B")
 t5.advance(3, "29 1B")
 
 # 5. BOS #12 Mike Napoli (15 - X - 34)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("c f b f")
 t5.hit(1, rbis=1)
 t5.advance(2, "29 1B")
 
 # 6. BOS #29 Daniel Nava (X - 34 - 12)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("c f f b")
 t5.hit(1)
 
@@ -393,12 +393,12 @@ t5.hit(1)
 t5.pitching_substitution(20)
 
 # 7. BOS #16 Will Middlebrooks (34 - 12 - 29)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("b b s f d")
 t5.out("IF4")
 
 # 8. BOS #39 Jarrod Saltalamacchia (34 - 12 - 29)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.out("G1-3")
 
 
@@ -414,18 +414,18 @@ b5.error(6)
 b5.advance("U", "27 E6")
 
 # 5. MIN #31 Oswaldo Arcia (X - 24 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b f b s")
 b5.reach("HBP")
 b5.thrown_out(2, "27 FC4-6", 2, 41)
 
 # 6. MIN #22 Wilkin Ramirez (X - 24 - 31)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("f s s")
 b5.out("K")
 
 # 7. MIN #27 Chris Parmelee (X - 24 - 31)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.reach("FC4-6")
 
 # 8. MIN #32 Aaron Hicks (X - X - 27)
@@ -566,7 +566,7 @@ b8.hit(2)
 b8.advance(3, "8 1B")
 
 # 7. MIN #27 Chris Parmelee (X - 22 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("c f s")
 b8.out("K")
 
@@ -574,23 +574,23 @@ b8.out("K")
 b8.offensive_substitution(8, 16, "PH")
 
 # 8. MIN #16 Josh Willingham (X - 22 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b b b s c s")
 b8.out("K")
 
 # 9. MIN #25 Pedro Florimón (X - 22 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b b f b f b")
 b8.reach("BB")
 b8.advance(2, "8 1B")
 
 # 1. MIN #8  Jamey Carroll (X - 22 - 25)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("c")
 b8.hit(1)
 
 # 2. MIN #7  Joe Mauer (22 - 25 - 8)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("d f f b s")
 b8.out("K")
 
@@ -639,12 +639,12 @@ t9.pitch_list("c s f b b b b")
 t9.reach("BB")
 
 # 6. BOS #29 Daniel Nava (X - 34 - 12)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("c f f f d")
 t9.out("F7")
 
 # 7. BOS #16 Will Middlebrooks (X - 34 - 12)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("f b f d f s")
 t9.out("K")
 
@@ -668,17 +668,17 @@ b9.pitch_list("b")
 b9.hit(1)
 
 # 5. MIN #31 Oswaldo Arcia (X - 33 - 24)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("s f s")
 b9.out("K")
 
 # 6. MIN #22 Wilkin Ramirez (X - 33 - 24)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("b f d s s")
 b9.out("K")
 
 # 7. MIN #27 Chris Parmelee (X - 33 - 24)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("c f b")
 b9.out("G4-3")
 

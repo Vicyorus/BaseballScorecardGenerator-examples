@@ -154,12 +154,12 @@ t1.hit(3)
 t1.advance(4, "15 SF8")
 
 # 2. BOS #29 Daniel Nava (2 - X - X)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("f")
 t1.out("F7")
 
 # 3. BOS #15 Dustin Pedroia (2 - X - X)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("b")
 t1.out("SF8", rbis=1)
 
@@ -244,7 +244,7 @@ b2.pitch_list("s")
 b2.out("F9")
 
 # 8. PHI #13 Freddy Galvis (X - X - 9)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("1 1 c b b")
 b2.out("G4-3")
 
@@ -278,7 +278,7 @@ t3.hit(1)
 t3.thrown_out(2, "12 CS", 3, 38)
 
 # 4. BOS #12 Mike Napoli (29 - X - 15)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("s b")
 t3.no_ab("CS")
 
@@ -304,12 +304,12 @@ b3.hit(1)
 b3.advance(2, "11 SB")
 
 # 3. PHI #11 Jimmy Rollins (X - X - 28)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("b c b b b")
 b3.reach("BB")
 
 # 4. PHI #6  Ryan Howard (X - 28 - 11)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("s b b s c")
 b3.out("!K")
 
@@ -396,7 +396,7 @@ t5.pitch_list("1")
 t5.out("SAC1-4")
 
 # 1. BOS #2  Jacoby Ellsbury (X - 7 - X)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("c")
 t5.out("F9")
 
@@ -447,12 +447,12 @@ t6.reach("BB")
 t6.thrown_out(2, "37 DP1-6-3", 2, 38)
 
 # 5. BOS #39 Jarrod Saltalamacchia (X - 15 - 12)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("c f b")
 t6.out("L8")
 
 # 6. BOS #37 Mike Carp (X - 15 - 12)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("c f b b")
 t6.out("DP1-6-3")
 
@@ -472,18 +472,18 @@ b6.advance(2, "9 SB")
 b6.advance(3, "9 G6-3")
 
 # 6. PHI #9  Domonic Brown (X - X - 3)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("c")
 b6.out("G6-3")
 
 # 7. PHI #31 Erik Kratz (15 - X - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("f b c d b f f b")
 b6.reach("BB")
 b6.thrown_out(2, "13 DP4-6-3", 2, 41)
 
 # 8. PHI #13 Freddy Galvis (15 - X - 31)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("1 b b d c f")
 b6.out("DP4-6-3")
 
@@ -515,18 +515,18 @@ t7.hit(2)
 t7.offensive_substitution(9, 5, "PH")
 
 # 9. BOS #5  Jonny Gomes (X - 10 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("c")
 t7.reach("HBP")
 t7.thrown_out(2, "29 FC4", 3, 59)
 
 # 1. BOS #2  Jacoby Ellsbury (X - 10 - 5)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b f b f f d c")
 t7.out("!K")
 
 # 2. BOS #29 Daniel Nava (X - 10 - 5)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.reach("FC4")
 
 
@@ -556,18 +556,18 @@ b7.advance(2, "28 SB")
 b7.advance(3, "11 BB")
 
 # 2. PHI #28 Kevin Frandsen (X - X - 2)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("1 1 1 b b b b")
 b7.reach("BB")
 b7.advance(2, "11 BB")
 
 # 3. PHI #11 Jimmy Rollins (X - 2 - 28)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("b b c b c f b")
 b7.reach("BB")
 
 # 4. PHI #6  Ryan Howard (2 - 28 - 11)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("f s s")
 b7.out("K")
 
@@ -576,7 +576,7 @@ b7.pitching_substitution(19)
 b7.defensive_substitution(6, 19, "1")
 
 # 5. PHI #15 John Mayberry Jr. (2 - 28 - 11)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("c d")
 b7.out("P6")
 
@@ -677,12 +677,12 @@ t9.hit(1)
 t9.advance(3, "2 2B")
 
 # 1. BOS #2  Jacoby Ellsbury (X - 7 - 5)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("b b")
 t9.hit(2, rbis=1)
 
 # 2. BOS #29 Daniel Nava (5 - 2 - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.out("G3")
 
 # Winning team: PHI

@@ -248,7 +248,7 @@ b2.new_ab()
 b2.hit(1)
 
 # 8. TBR #28 José Molina (X - 21 - 8)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("c b b b f f t")
 b2.out("KT")
 
@@ -354,7 +354,7 @@ t5.hit(2)
 t5.advance(4, "5 1B")
 
 # 5. BOS #5  Jonny Gomes (X - 12 - X)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("c f b f")
 t5.hit(1, rbis=1)
 t5.advance(2, "T")
@@ -362,11 +362,11 @@ t5.advance(3, "29 SAC2-3")
 t5.advance(4, "39 SF8")
 
 # 6. BOS #29 Daniel Nava (X - 5 - X)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.out("SAC2-3")
 
 # 7. BOS #39 Jarrod Saltalamacchia (5 - X - X)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("b t b f f f b")
 t5.out("SF8", rbis=1)
 
@@ -522,14 +522,14 @@ t8.pitch_list("f")
 t8.out("F8")
 
 # 8. BOS #16 Will Middlebrooks (X - X - 29)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("f b t f f f f f f f b")
 t8.wp()
 t8.wp()
 t8.out("G6-3")
 
 # 9. BOS #7  Stephen Drew (29 - X - X)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("c c b s")
 t8.out("K")
 
@@ -559,7 +559,7 @@ b8.hit(2)
 b8.pitching_substitution(19)
 
 # 1. TBR #9  Wil Myers (X - 11 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("c c")
 b8.out("(F)P3")
 
@@ -591,12 +591,12 @@ t9.pitch_list("f f")
 t9.out("L9")
 
 # 4. BOS #12 Mike Napoli (X - X - 15)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("b b b d")
 t9.reach("BB")
 
 # 5. BOS #5  Jonny Gomes (X - 15 - 12)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("s b s")
 t9.out("F8")
 

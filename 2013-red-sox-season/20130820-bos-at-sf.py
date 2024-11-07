@@ -156,34 +156,34 @@ t1.advance(3, "15 1B")
 t1.advance(4, "37 SF9")
 
 # 2. BOS #18 Shane Victorino (X - X - 2)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("c b")
 t1.reach("HBP")
 t1.advance(2, "15 1B")
 t1.advance(3, "16 1B")
 
 # 3. BOS #15 Dustin Pedroia (X - 2 - 18)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("b d c d")
 t1.hit(1)
 t1.advance(2, "16 1B")
 
 # 4. BOS #37 Mike Carp (2 - 18 - 15)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.out("SF9", rbis=1)
 
 # 5. BOS #16 Will Middlebrooks (X - 18 - 15)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("f")
 t1.hit(1)
 
 # 6. BOS #29 Daniel Nava (18 - 15 - 16)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("f c")
 t1.out("F7")
 
 # 7. BOS #72 Xander Bogaerts (18 - 15 - 16)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("c")
 t1.out("G1-4-3")
 
@@ -255,7 +255,7 @@ b2.pitch_list("c s b")
 b2.hit(1)
 
 # 8. SFG #13 Joaquin Arias (X - 8 - 22)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("b")
 b2.out("G4-3")
 
@@ -294,7 +294,7 @@ t3.pitch_list("b c b f")
 t3.hit(2)
 
 # 7. BOS #72 Xander Bogaerts (15 - 29 - X)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("c b b")
 t3.out("G6-3")
 
@@ -351,17 +351,17 @@ b4.new_ab()
 b4.hit(3)
 
 # 4. SFG #28 Buster Posey (9 - X - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("b b f b f f")
 b4.out("G5-3")
 
 # 5. SFG #8  Hunter Pence (9 - X - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("f c b d s")
 b4.out("K")
 
 # 6. SFG #35 Brandon Crawford (9 - X - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("b b c c t")
 b4.out("KT")
 
@@ -405,17 +405,17 @@ b5.pitch_list("c b")
 b5.hit(3, rbis=1)
 
 # 9. SFG #32 Ryan Vogelsong (13 - X - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b f")
 b5.out("G4-3")
 
 # 1. SFG #7  Grégor Blanco (13 - X - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b b s")
 b5.out("G4-3")
 
 # 2. SFG #19 Marco Scutaro (13 - X - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b b c c b")
 b5.out("G6-3")
 
@@ -453,11 +453,11 @@ b6.pitch_list("f f")
 b6.hit(2)
 
 # 4. SFG #28 Buster Posey (X - 9 - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.out("G6-3")
 
 # 5. SFG #8  Hunter Pence (X - 9 - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.out("F9")
 
 # Pitching change (BOS): #32 Craig Breslow replaces #44 Jake Peavy, batting 7th
@@ -468,7 +468,7 @@ b6.defensive_substitution(7, 32, "1")
 b6.defensive_substitution(9, 7, "6")
 
 # 6. SFG #35 Brandon Crawford (X - 9 - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.out("G4-3")
 
 
@@ -485,17 +485,17 @@ t7.pitch_list("f")
 t7.hit(2)
 
 # 9. BOS #7  Stephen Drew (X - 3 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b b f s b s")
 t7.out("K")
 
 # 1. BOS #2  Jacoby Ellsbury (X - 3 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b")
 t7.out("P6")
 
 # 2. BOS #18 Shane Victorino (X - 3 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("c b c")
 t7.out("G5-3")
 
@@ -583,7 +583,7 @@ b8.pitch_list("b s f f d f f")
 b8.hit(1)
 
 # 4. SFG #28 Buster Posey (19 - X - 9)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("c b")
 b8.out("(F)SF9", rbis=1)
 
@@ -659,7 +659,7 @@ b9.advance(3, "19 BB")
 b9.offensive_substitution(1, 29, "PH")
 
 # 1. SFG #29 Héctor Sánchez (X - 22 - 56)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("c f b b")
 b9.reach("HBP")
 b9.advance(2, "19 BB")
@@ -669,7 +669,7 @@ b9.pitching_substitution(60)
 b9.defensive_substitution(4, 60, "1")
 
 # 2. SFG #19 Marco Scutaro (22 - 56 - 29)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("b b b b")
 b9.reach("BB", rbis=1)
 

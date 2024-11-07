@@ -317,7 +317,7 @@ b4.pitch_list("c")
 b4.out("L9")
 
 # 4. LAD #13 Hanley Ramirez (X - X - 25)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("c c b")
 b4.hit(4, rbis=2)
 
@@ -352,7 +352,7 @@ t5.hit(1)
 t5.thrown_out(2, "16 DP5-4-3", 2, 47)
 
 # 8. BOS #16 Will Middlebrooks (X - 29 - 7)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("b c")
 t5.out("DP5-4-3")
 
@@ -420,7 +420,7 @@ b6.pitch_list("b f b b")
 b6.out("F9")
 
 # 3. LAD #23 Adrián González (X - X - 25)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("1 1 c f b b f")
 b6.out("F7")
 

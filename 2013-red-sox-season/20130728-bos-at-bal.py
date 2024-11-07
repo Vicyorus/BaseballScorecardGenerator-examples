@@ -167,12 +167,12 @@ t1.hit(1)
 t1.advance(3, "12 2B")
 
 # 5. BOS #12 Mike Napoli (18 - X - 34)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("b b")
 t1.hit(2, rbis=1)
 
 # 6. BOS #37 Mike Carp (34 - 12 - X)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("s f s")
 t1.out("K")
 
@@ -193,12 +193,12 @@ b1.pitch_list("b")
 b1.out("G6-3")
 
 # 3. BAL #19 Chris Davis (X - 21 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("f b f b s")
 b1.out("K")
 
 # 4. BAL #10 Adam Jones (X - 21 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b s f b f f s")
 b1.out("K")
 
@@ -324,12 +324,12 @@ t4.pitch_list("b b b b")
 t4.reach("BB")
 
 # 9. BOS #10 Jose Iglesias (X - 37 - 7)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("c")
 t4.out("F9")
 
 # 1. BOS #2  Jacoby Ellsbury (X - 37 - 7)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("b s f")
 t4.out("F8")
 
@@ -360,7 +360,7 @@ b4.pitch_list("b b b c f f b")
 b4.reach("BB")
 
 # 6. BAL #2  J.J. Hardy (X - 10 - 32)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("c")
 b4.out("(F)P3")
 
@@ -391,7 +391,7 @@ t5.hit(1)
 t5.thrown_out(2, "12 DP5-4-3", 2, 39)
 
 # 5. BOS #12 Mike Napoli (X - 15 - 34)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.out("DP5-4-3")
 
 
@@ -420,7 +420,7 @@ b5.pitch_list("b b b b")
 b5.reach("BB")
 
 # 2. BAL #13 Manny Machado (X - 31 - 21)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b b f b")
 b5.out("L6")
 
@@ -447,7 +447,7 @@ t6.thrown_out(2, "7 DP4-6", 3, 66)
 t6.pitching_substitution(66)
 
 # 8. BOS #7  Stephen Drew (X - 39 - X)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("b c s f f f d")
 t6.out("DP4-6")
 
@@ -469,12 +469,12 @@ b6.hit(1)
 b6.thrown_out(2, "2 DP5-4-3", 2, 31)
 
 # 5. BAL #32 Matt Wieters (X - 19 - 10)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("b b f b f f s")
 b6.out("K")
 
 # 6. BAL #2  J.J. Hardy (X - 19 - 10)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("c b f f b b")
 b6.out("DP5-4-3")
 
@@ -550,22 +550,22 @@ t8.advance(4, "39 1B")
 t8.offensive_substitution(6, 5, "PH")
 
 # 6. BOS #5  Jonny Gomes (34 - 12 - X)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("i i i i")
 t8.reach("IBB")
 t8.advance(2, "39 1B")
 
 # 7. BOS #39 Jarrod Saltalamacchia (34 - 12 - 5)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.hit(1, rbis=2)
 
 # 8. BOS #7  Stephen Drew (X - 5 - 39)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("s c b f s")
 t8.out("K")
 
 # 9. BOS #10 Jose Iglesias (X - 5 - 39)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("d f")
 t8.out("G1-3")
 

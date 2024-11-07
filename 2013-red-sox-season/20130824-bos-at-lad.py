@@ -167,13 +167,13 @@ t1.advance(2, "12 1B")
 t1.advance(4, "5 HR")
 
 # 4. BOS #12 Mike Napoli (X - 18 - 15)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("c b")
 t1.hit(1, rbis=1)
 t1.advance(4, "5 HR")
 
 # 5. BOS #5  Jonny Gomes (X - 15 - 12)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.hit(4, rbis=3)
 
 # 6. BOS #7  Stephen Drew (X - X - X)
@@ -299,7 +299,7 @@ b3.new_ab()
 b3.out("SAC3")
 
 # 1. LAD #66 Yasiel Puig (X - 6 - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.out("F9")
 
 
@@ -316,17 +316,17 @@ t4.pitch_list("c f")
 t4.hit(2)
 
 # 7. BOS #16 Will Middlebrooks (X - 7 - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("b c c b f f b")
 t4.out("G5-3")
 
 # 8. BOS #3  David Ross (X - 7 - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("f c b t")
 t4.out("KT")
 
 # 9. BOS #31 Jon Lester (X - 7 - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("b c c s")
 t4.out("K")
 
@@ -357,7 +357,7 @@ b4.pitch_list("f b b b c f b")
 b4.reach("BB")
 
 # 6. LAD #16 Andre Ethier (X - 14 - 17)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("b")
 b4.out("F9")
 
@@ -436,7 +436,7 @@ t6.pitch_list("1 1 c c 1 b s")
 t6.out("K")
 
 # 7. BOS #16 Will Middlebrooks (X - X - 5)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("1 c 1 t b s")
 t6.out("K")
 
@@ -510,7 +510,7 @@ b7.pitch_list("b s")
 b7.hit(1)
 
 # 7. LAD #5  Juan Uribe (X - 13 - 16)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("b c")
 b7.out("DP6")
 
@@ -537,23 +537,23 @@ t8.hit(2)
 t8.advance(3, "12 1B")
 
 # 4. BOS #12 Mike Napoli (X - 15 - X)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("b b c")
 t8.hit(1)
 t8.advance(2, "7 BB")
 
 # 5. BOS #5  Jonny Gomes (15 - X - 12)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("b c")
 t8.out("P4")
 
 # 6. BOS #7  Stephen Drew (15 - X - 12)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("b f b c b f b")
 t8.reach("BB")
 
 # 7. BOS #16 Will Middlebrooks (15 - 12 - 7)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("f b f b c")
 t8.out("!K")
 
@@ -588,7 +588,7 @@ b8.hit(1)
 b8.advance(4, "23 2B")
 
 # 2. LAD #14 Mark Ellis (X - 25 - 66)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("c c b f t")
 b8.out("KT")
 
@@ -597,12 +597,12 @@ b8.pitching_substitution(32)
 b8.defensive_substitution(9, 32, "1")
 
 # 3. LAD #23 Adrián González (X - 25 - 66)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b")
 b8.hit(2, rbis=2)
 
 # 4. LAD #13 Hanley Ramirez (X - 23 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b s b s d b")
 b8.reach("BB")
 
@@ -614,7 +614,7 @@ b8.defensive_substitution(7, 19, "1")
 b8.defensive_substitution(9, 72, "5")
 
 # 5. LAD #17 A.J. Ellis (X - 23 - 13)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("s c b f b s")
 b8.out("K")
 

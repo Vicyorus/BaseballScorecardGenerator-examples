@@ -152,23 +152,23 @@ t1.error(6)
 t1.advance("U", "2 E6")
 
 # 2. KCR #2  Alcides Escobar (X - 4 - X)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("s b")
 t1.hit(1)
 t1.advance(2, "E6")
 
 # 3. KCR #16 Billy Butler (X - 2 - X)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("b c b c f s")
 t1.out("K")
 
 # 4. KCR #35 Eric Hosmer (X - 2 - X)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("f f b s")
 t1.out("K")
 
 # 5. KCR #6  Lorenzo Cain (X - 2 - X)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("c")
 t1.out("G4-3")
 
@@ -185,7 +185,7 @@ b1.advance(2, "29 WP")
 b1.thrown_out(2, "29 DP3-6", 2, 11)
 
 # 2. BOS #29 Daniel Nava (X - X - 2)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("c b s")
 b1.wp()
 b1.out("DP3-6")
@@ -245,12 +245,12 @@ b2.pitch_list("b b f b")
 b2.hit(2, rbis=1)
 
 # 8. BOS #3  David Ross (X - 37 - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("c c t")
 b2.out("KT")
 
 # 9. BOS #23 Pedro Ciriaco (X - 37 - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("c")
 b2.out("G1")
 
@@ -292,12 +292,12 @@ b3.advance(3, "29 G4-3")
 b3.advance(4, "15 1B")
 
 # 2. BOS #29 Daniel Nava (X - 2 - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("f b b")
 b3.out("G4-3")
 
 # 3. BOS #15 Dustin Pedroia (2 - X - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("f")
 b3.hit(1, rbis=1)
 b3.thrown_out(2, "12 CS", 2, 11)
@@ -309,7 +309,7 @@ b3.hit(2)
 b3.thrown_out(4, "39 4-2-5-2-6", 3, 11)
 
 # 5. BOS #39 Jarrod Saltalamacchia (X - 12 - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.hit(1)
 
 
@@ -352,12 +352,12 @@ b4.pitch_list("c b f b f")
 b4.hit(3)
 
 # 8. BOS #3  David Ross (37 - X - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("b")
 b4.out("G5-3")
 
 # 9. BOS #23 Pedro Ciriaco (37 - X - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.out("G4-3")
 
 
@@ -417,19 +417,19 @@ b5.hit(1)
 b5.advance(3, "12 1B")
 
 # 4. BOS #12 Mike Napoli (X - 29 - 15)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("f c f f")
 b5.hit(1, rbis=1)
 b5.advance(2, "39 PB")
 
 # 5. BOS #39 Jarrod Saltalamacchia (15 - X - 12)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b b s s s")
 b5.pb()
 b5.out("K")
 
 # 6. BOS #16 Will Middlebrooks (15 - 12 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.out("G6-3")
 
 
@@ -537,7 +537,7 @@ b7.pitch_list("b")
 b7.out("L7")
 
 # 5. BOS #39 Jarrod Saltalamacchia (X - X - 15)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("b c c")
 b7.out("G3")
 
@@ -642,17 +642,17 @@ b9.hit(1)
 b9.advance(2, "29 SB")
 
 # 2. BOS #29 Daniel Nava (X - X - 2)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("b c b f f b s")
 b9.out("K")
 
 # 3. BOS #15 Dustin Pedroia (X - 2 - X)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("i i i i")
 b9.reach("IBB")
 
 # 4. BOS #12 Mike Napoli (X - 2 - 15)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("f s")
 b9.out("F8")
 
@@ -691,23 +691,23 @@ t10.advance(2, "35 1B")
 t10.advance(3, "6 BB")
 
 # 3. KCR #16 Billy Butler (X - 4 - 2)
-t10.new_ab()
+t10.new_ab(is_risp=True)
 t10.pitch_list("b c f b s")
 t10.out("K")
 
 # 4. KCR #35 Eric Hosmer (X - 4 - 2)
-t10.new_ab()
+t10.new_ab(is_risp=True)
 t10.pitch_list("b c")
 t10.hit(1)
 t10.advance(2, "6 BB")
 
 # 5. KCR #6  Lorenzo Cain (4 - 2 - 35)
-t10.new_ab()
+t10.new_ab(is_risp=True)
 t10.pitch_list("b b b b")
 t10.reach("BB", rbis=1)
 
 # 6. KCR #8  Mike Moustakas (2 - 35 - 6)
-t10.new_ab()
+t10.new_ab(is_risp=True)
 t10.pitch_list("c")
 t10.out("G3-1")
 

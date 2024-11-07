@@ -226,29 +226,29 @@ b2.error(4)
 b2.advance(3, "39 E4")
 
 # 5. BOS #12 Mike Napoli (X - X - 34)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("c b b b f b")
 b2.wp()
 b2.reach("BB")
 b2.advance(2, "39 E4")
 
 # 6. BOS #5  Jonny Gomes (X - 34 - 12)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("b c c s")
 b2.out("K")
 
 # 7. BOS #39 Jarrod Saltalamacchia (X - 34 - 12)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("c")
 b2.reach("FC4")
 
 # 8. BOS #7  Stephen Drew (34 - 12 - 39)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("c c s")
 b2.out("K")
 
 # 9. BOS #23 Brandon Snyder (34 - 12 - 39)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.out("L9")
 
 
@@ -301,12 +301,12 @@ b3.pitch_list("c b d 1 b")
 b3.hit(1)
 
 # 4. BOS #34 David Ortiz (X - 18 - 15)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("f f d s")
 b3.out("K")
 
 # 5. BOS #12 Mike Napoli (X - 18 - 15)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("f b c f")
 b3.out("P6")
 
@@ -504,7 +504,7 @@ b7.advance(3, "2 1B")
 b7.advance(4, "18 SF8")
 
 # 1. BOS #2  Jacoby Ellsbury (7 - X - 23)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("f b 1 s b")
 b7.wp()
 b7.hit(1, rbis=1)
@@ -514,7 +514,7 @@ b7.advance(2, "15 SB")
 b7.pitching_substitution(38)
 
 # 2. BOS #18 Shane Victorino (26 - X - 2)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("c s f b f")
 b7.out("SF8", rbis=1)
 
@@ -527,7 +527,7 @@ b7.out("K")
 b7.pitching_substitution(54)
 
 # 4. BOS #34 David Ortiz (X - 2 - X)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("b")
 b7.out("P4")
 
@@ -562,7 +562,7 @@ t8.advance(3, "2 1B")
 t8.thrown_out(4, "2 7-2", 1, 36)
 
 # 1. AZ #8  Gerardo Parra (X - 27 - 4)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("l l b")
 t8.hit(1)
 t8.advance(2, "2 7-2")
@@ -571,16 +571,16 @@ t8.advance(2, "2 7-2")
 t8.pitching_substitution(36)
 
 # 2. AZ #2  Aaron Hill (27 - 4 - 8)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.hit(1, rbis=1)
 
 # 3. AZ #44 Paul Goldschmidt (X - 8 - 2)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("b f f 2 t")
 t8.out("KT")
 
 # 4. AZ #12 Eric Chavez (X - 8 - 2)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.out("L7")
 
 

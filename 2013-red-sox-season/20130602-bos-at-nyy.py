@@ -214,7 +214,7 @@ t2.pitch_list("b b f b f")
 t2.hit(1)
 
 # 8. BOS #10 Jose Iglesias (12 - X - 39)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("c")
 t2.out("G1-3")
 
@@ -309,7 +309,7 @@ t4.hit(1)
 t4.thrown_out(2, "12 FC6-4", 1, 18)
 
 # 5. BOS #12 Mike Napoli (15 - X - 34)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.reach("FC6-4", rbis=1)
 
 # 6. BOS #7  Stephen Drew (X - X - 12)

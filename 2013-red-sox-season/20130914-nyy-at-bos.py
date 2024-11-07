@@ -240,28 +240,28 @@ b2.advance(3, "29 SAC1-3")
 b2.advance(4, "16 G6-3")
 
 # 5. BOS #5  Jonny Gomes (X - 12 - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("b b c b b")
 b2.reach("BB")
 b2.advance(2, "29 SAC1-3")
 b2.advance(3, "16 G6-3")
 
 # 6. BOS #29 Daniel Nava (X - 12 - 5)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.out("SAC1-3")
 
 # 7. BOS #16 Will Middlebrooks (12 - 5 - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("c f")
 b2.out("G6-3", rbis=1)
 
 # 8. BOS #3  David Ross (5 - X - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("b b b b")
 b2.reach("BB")
 
 # 9. BOS #72 Xander Bogaerts (5 - X - 3)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.out("P4")
 
 
@@ -304,29 +304,29 @@ b3.new_ab()
 b3.out("SAC5-3")
 
 # 3. BOS #34 David Ortiz (X - 15 - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.hit(2, rbis=1)
 b3.advance(3, "12 1B")
 b3.advance(4, "5 1B")
 
 # 4. BOS #12 Mike Napoli (X - 34 - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("c f b b")
 b3.hit(1)
 b3.advance(2, "5 1B")
 
 # 5. BOS #5  Jonny Gomes (34 - X - 12)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("b b b c c")
 b3.hit(1, rbis=1)
 
 # 6. BOS #29 Daniel Nava (X - 12 - 5)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("s c b c")
 b3.out("!K")
 
 # 7. BOS #16 Will Middlebrooks (X - 12 - 5)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("f c d f f s")
 b3.out("K")
 
@@ -345,12 +345,12 @@ t4.hit(3)
 t4.advance(4, "24 G3")
 
 # 2. NYY #39 Mark Reynolds (14 - X - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("b b")
 t4.out("L4")
 
 # 3. NYY #24 Robinson Canó (14 - X - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.out("G3", rbis=1)
 
 # 4. NYY #13 Alex Rodriguez (X - X - X)
@@ -382,12 +382,12 @@ b4.reach("BB")
 b4.thrown_out(2, "15 DP6-4-3", 1, 52)
 
 # 1. BOS #15 Dustin Pedroia (X - 3 - 72)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("c")
 b4.out("DP6-4-3")
 
 # 2. BOS #18 Shane Victorino (3 - X - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("c")
 b4.hit(1, rbis=1)
 
@@ -443,17 +443,17 @@ b5.pitch_list("f c b")
 b5.hit(2)
 
 # 6. BOS #29 Daniel Nava (12 - 5 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("c f")
 b5.out("SF8", rbis=1)
 
 # 7. BOS #16 Will Middlebrooks (X - 5 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b b c b c f f f s")
 b5.out("K")
 
 # 8. BOS #3  David Ross (X - 5 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b f b b s s")
 b5.out("K")
 
@@ -472,16 +472,16 @@ t6.hit(2)
 t6.advance(3, "24 G6-3")
 
 # 2. NYY #39 Mark Reynolds (X - 14 - X)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.out("F8")
 
 # 3. NYY #24 Robinson Canó (X - 14 - X)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("c b b b c")
 t6.out("G6-3")
 
 # 4. NYY #13 Alex Rodriguez (14 - X - X)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("b c s f f")
 t6.out("G5-3")
 
@@ -507,7 +507,7 @@ b6.hit(2)
 b6.advance(3, "34 SB")
 
 # 3. BOS #34 David Ortiz (X - 18 - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("b s c f")
 b6.out("L8")
 
@@ -555,11 +555,11 @@ b7.reach("BB")
 b7.thrown_out(1, "29 DP3", 2, 62)
 
 # 6. BOS #29 Daniel Nava (X - 12 - 5)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.out("DP3")
 
 # 7. BOS #16 Will Middlebrooks (X - 12 - X)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("c s s")
 b7.out("K")
 

@@ -154,12 +154,12 @@ t1.pitch_list("c c 1 f f 1 1 b f")
 t1.out("F7")
 
 # 3. BOS #15 Dustin Pedroia (X - X - 2)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("b c d c b c")
 t1.out("!K")
 
 # 4. BOS #34 David Ortiz (X - 2 - X)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("d c b")
 t1.out("G3-1")
 
@@ -230,16 +230,16 @@ b2.reach("BB")
 b2.advance(2, "59 BB")
 
 # 7. TBR #30 Luke Scott (X - 3 - 8)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.out("F9")
 
 # 8. TBR #59 Jose Lobaton (X - 3 - 8)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("c b b b b")
 b2.reach("BB")
 
 # 9. TBR #11 Yunel Escobar (3 - 8 - 59)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.out("G5-3")
 
 
@@ -270,7 +270,7 @@ t3.advance(3, "29 E2")
 t3.advance(4, "29 HR")
 
 # 2. BOS #29 Daniel Nava (X - X - 2)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("1 b b b c f f f f f")
 t3.hit(4, rbis=2)
 
@@ -286,7 +286,7 @@ t3.pitch_list("b b s 1 b c f b")
 t3.reach("BB")
 
 # 5. BOS #12 Mike Napoli (X - 15 - 34)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("b b c s c")
 t3.out("!K")
 
@@ -308,12 +308,12 @@ b3.hit(1)
 b3.thrown_out(2, "3 DP6-4-3", 2, 91)
 
 # 3. TBR #2  Kelly Johnson (20 - X - 18)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("b s b f c")
 b3.out("!K")
 
 # 4. TBR #3  Evan Longoria (20 - X - 18)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("c b f f")
 b3.out("DP6-4-3")
 
@@ -344,17 +344,17 @@ t4.reach("BB")
 t4.advance(2, "2 BB")
 
 # 9. BOS #7  Stephen Drew (X - 37 - 16)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("c d f b b s")
 t4.out("K")
 
 # 1. BOS #2  Jacoby Ellsbury (X - 37 - 16)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("b d d c b")
 t4.reach("BB")
 
 # 2. BOS #29 Daniel Nava (37 - 16 - 2)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("d b c b c s")
 t4.out("K")
 
@@ -404,7 +404,7 @@ t5.reach("HBP")
 t5.advance(2, "37 SB")
 
 # 6. BOS #37 Mike Carp (X - X - 12)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("f b b b")
 t5.out("F7")
 
@@ -428,7 +428,7 @@ b5.pitch_list("b d c f")
 b5.hit(2)
 
 # 2. TBR #18 Ben Zobrist (X - 20 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("c")
 b5.out("F7")
 
@@ -598,7 +598,7 @@ b8.hit(2)
 b8.pitching_substitution(19)
 
 # 4. TBR #3  Evan Longoria (X - 2 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("c c s")
 b8.out("K")
 
@@ -655,7 +655,7 @@ b9.pitch_list("c f c")
 b9.out("!K")
 
 # 8. TBR #59 Jose Lobaton (X - X - 5)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("c f b b s")
 b9.out("K")
 

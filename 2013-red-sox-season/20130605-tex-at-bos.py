@@ -237,16 +237,16 @@ t3.hit(2)
 t3.advance(3, "13 G3")
 
 # 8. TEX #13 Jurickson Profar (X - 18 - X)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("c")
 t3.out("G3")
 
 # 9. TEX #2  Leonys Martin (18 - X - X)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.out("G1-3")
 
 # 1. TEX #1  Elvis Andrus (18 - X - X)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("b s f f b")
 t3.out("F9")
 
@@ -300,7 +300,7 @@ t4.pitch_list("b")
 t4.hit(2)
 
 # 6. TEX #12 A.J. Pierzynski (X - 17 - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("b f c b c")
 t4.out("!K")
 
@@ -321,18 +321,18 @@ b4.hit(2)
 b4.advance(3, "12 WP")
 
 # 3. BOS #15 Dustin Pedroia (X - 37 - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("b d c b f d")
 b4.reach("BB")
 b4.advance(2, "12 WP")
 
 # 4. BOS #34 David Ortiz (X - 37 - 15)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("b d c f b s")
 b4.out("K")
 
 # 5. BOS #12 Mike Napoli (X - 37 - 15)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("b c b c f b f c")
 b4.wp()
 b4.out("!K")
@@ -367,7 +367,7 @@ t5.pitch_list("f b")
 t5.hit(1)
 
 # 2. TEX #7  David Murphy (X - 13 - 1)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("b b b c f")
 t5.out("G4-3")
 
@@ -421,7 +421,7 @@ t6.reach("HBP")
 t6.advance(2, "12 SB")
 
 # 6. TEX #12 A.J. Pierzynski (X - X - 17)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("s s b f")
 t6.out("G4-3")
 
@@ -459,7 +459,7 @@ b6.pitch_list("b b s b c f b")
 b6.reach("BB")
 
 # 6. BOS #39 Jarrod Saltalamacchia (X - 34 - 12)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("f f t")
 b6.out("KT")
 
@@ -484,7 +484,7 @@ t7.atbase("PR")
 t7.advance(4, "1 2B")
 
 # 8. TEX #13 Jurickson Profar (X - 18 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("l")
 t7.out("B1-4")
 
@@ -492,7 +492,7 @@ t7.out("B1-4")
 t7.offensive_substitution(9, 23, "PH")
 
 # 9. TEX #23 Craig Gentry (X - 15 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("s f b b d b")
 t7.reach("BB")
 t7.advance(4, "1 2B")
@@ -501,16 +501,16 @@ t7.advance(4, "1 2B")
 t7.pitching_substitution(19)
 
 # 1. TEX #1  Elvis Andrus (X - 15 - 23)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.hit(2, rbis=2)
 
 # 2. TEX #7  David Murphy (X - 1 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("c s")
 t7.out("F7")
 
 # 3. TEX #27 Lance Berkman (X - 1 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b b c b c f f s")
 t7.out("K")
 
@@ -542,19 +542,19 @@ b7.hit(1)
 b7.advance(2, "29 G1-3")
 
 # 9. BOS #44 Jackie Bradley Jr. (X - 7 - 10)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("2 l c s")
 b7.out("K")
 
 # 1. BOS #29 Daniel Nava (X - 7 - 10)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.out("G1-3")
 
 # Offensive change (BOS): Pinch-hitter #5 Jonny Gomes replaces #37 Mike Carp, batting 2nd
 b7.offensive_substitution(2, 5, "PH")
 
 # 2. BOS #5  Jonny Gomes (7 - 10 - X)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("c s d")
 b7.out("F8")
 
@@ -618,7 +618,7 @@ b8.offensive_substitution(6, 23, "PR")
 b8.atbase("PR")
 
 # 7. BOS #7  Stephen Drew (X - 39 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b")
 b8.out("G4-3")
 

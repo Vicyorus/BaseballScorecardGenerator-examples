@@ -191,7 +191,7 @@ b1.error(9)
 b1.reach("E9")
 
 # 5. BOS #12 Mike Napoli (15 - X - 34)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b c c s")
 b1.out("K")
 
@@ -381,7 +381,7 @@ b5.advance(3, "18 1B")
 b5.advance(4, "15 2B")
 
 # 1. BOS #2  Jacoby Ellsbury (7 - X - 26)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("f f")
 b5.out("SF8", rbis=1)
 
@@ -392,12 +392,12 @@ b5.hit(1)
 b5.advance(3, "15 2B")
 
 # 3. BOS #15 Dustin Pedroia (26 - X - 18)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("c b f 1 1 f f f f")
 b5.hit(2, rbis=1)
 
 # 4. BOS #34 David Ortiz (18 - 15 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("i i i i")
 b5.reach("IBB")
 
@@ -405,12 +405,12 @@ b5.reach("IBB")
 b5.pitching_substitution(38)
 
 # 5. BOS #12 Mike Napoli (18 - 15 - 34)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b s b")
 b5.out("IF3")
 
 # 6. BOS #37 Mike Carp (18 - 15 - 34)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b c")
 b5.out("P5")
 
@@ -461,24 +461,24 @@ b6.advance(2, "26 SAC5-3")
 b6.advance(4, "18 1B")
 
 # 9. BOS #26 Brock Holt (X - 39 - 7)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.out("SAC5-3")
 
 # 1. BOS #2  Jacoby Ellsbury (39 - 7 - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("t s f b b b f")
 b6.hit(1, rbis=1)
 b6.advance(2, "18 1B")
 b6.advance(3, "15 BB")
 
 # 2. BOS #18 Shane Victorino (X - 7 - 2)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("f c b")
 b6.hit(1, rbis=1)
 b6.advance(2, "15 BB")
 
 # 3. BOS #15 Dustin Pedroia (X - 2 - 18)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("b b b b")
 b6.reach("BB")
 
@@ -486,12 +486,12 @@ b6.reach("BB")
 b6.pitching_substitution(54)
 
 # 4. BOS #34 David Ortiz (2 - 18 - 15)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("c s s")
 b6.out("K")
 
 # 5. BOS #12 Mike Napoli (2 - 18 - 15)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.out("F8")
 
 
@@ -520,12 +520,12 @@ t7.pitch_list("b b")
 t7.hit(1)
 
 # 6. AZ #27 Wil Nieves (X - 44 - 7)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b b b c f f s")
 t7.out("K")
 
 # 7. AZ #8  Gerardo Parra (X - 44 - 7)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("c b f f")
 t7.out("G6-3")
 
@@ -562,7 +562,7 @@ b7.reach("BB")
 b7.pitching_substitution(21)
 
 # 1. BOS #2  Jacoby Ellsbury (X - 7 - 26)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("c c b s")
 b7.out("K")
 
@@ -600,12 +600,12 @@ t8.pitch_list("c f")
 t8.hit(1)
 
 # 2. AZ #2  Aaron Hill (X - 54 - 11)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("f")
 t8.out("F9")
 
 # 3. AZ #44 Paul Goldschmidt (X - 54 - 11)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.out("G1-3")
 
 
@@ -624,12 +624,12 @@ b8.pitch_list("c b")
 b8.out("G4-3")
 
 # 4. BOS #34 David Ortiz (X - 18 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("d b f")
 b8.out("F8")
 
 # 5. BOS #12 Mike Napoli (X - 18 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("c b d s s")
 b8.out("K")
 
@@ -660,7 +660,7 @@ t9.new_ab()
 t9.out("F8")
 
 # 7. AZ #8  Gerardo Parra (X - X - 14)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("l s d d")
 t9.out("G4-3")
 

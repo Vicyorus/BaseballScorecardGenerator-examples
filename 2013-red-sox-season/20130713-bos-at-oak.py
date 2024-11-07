@@ -166,7 +166,7 @@ t1.pitch_list("b b b c")
 t1.hit(1)
 
 # 5. BOS #12 Mike Napoli (X - 18 - 34)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("b s b c f b s")
 t1.out("K")
 
@@ -242,7 +242,7 @@ b2.pitch_list("c")
 b2.hit(1)
 
 # 8. OAK #36 Derek Norris (X - 25 - 16)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("c f")
 b2.out("G3-1")
 
@@ -270,7 +270,7 @@ t3.hit(1)
 t3.advance(2, "15 SB")
 
 # 3. BOS #15 Dustin Pedroia (X - X - 18)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("c f f")
 t3.out("G5-3")
 
@@ -311,12 +311,12 @@ t4.new_ab()
 t4.hit(2)
 
 # 6. BOS #29 Daniel Nava (X - 12 - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("b c d b")
 t4.out("L7")
 
 # 7. BOS #39 Jarrod Saltalamacchia (X - 12 - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("b")
 t4.out("F8")
 
@@ -423,7 +423,7 @@ t6.pitch_list("c b")
 t6.hit(1)
 
 # 7. BOS #39 Jarrod Saltalamacchia (34 - X - 29)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("b c")
 t6.out("F7")
 
@@ -451,16 +451,16 @@ b6.hit(1)
 b6.advance(2, "52 1B")
 
 # 4. OAK #52 Yoenis Cespedes (X - 8 - 20)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("c b")
 b6.hit(1, rbis=1)
 
 # 5. OAK #7  Nate Freiman (X - 20 - 52)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.out("P4")
 
 # 6. OAK #25 Chris Young (X - 20 - 52)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("c f")
 b6.out("(F)P3")
 
@@ -507,7 +507,7 @@ b7.reach("BB")
 b7.advance(2, "4 1B")
 
 # 9. OAK #35 Grant Green (X - 16 - 36)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("b c s b")
 b7.out("(F)F9")
 
@@ -515,16 +515,16 @@ b7.out("(F)F9")
 b7.pitching_substitution(36)
 
 # 1. OAK #4  Coco Crisp (16 - X - 36)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.hit(1, rbis=1)
 
 # 2. OAK #8  Jed Lowrie (X - 36 - 4)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("f c d f f s")
 b7.out("K")
 
 # 3. OAK #20 Josh Donaldson (X - 36 - 4)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("b c f f b")
 b7.out("G6-3")
 

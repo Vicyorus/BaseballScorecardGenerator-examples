@@ -167,7 +167,7 @@ t1.hit(1)
 t1.thrown_out(2, "20 FC5-4", 3, 31)
 
 # 5. OAK #20 Josh Donaldson (X - 15 - 8)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("c")
 t1.reach("FC5-4")
 
@@ -192,7 +192,7 @@ b1.pitch_list("b b")
 b1.hit(2)
 
 # 4. BOS #34 David Ortiz (X - 15 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("c c b s")
 b1.out("K")
 
@@ -220,7 +220,7 @@ t2.new_ab()
 t2.out("F8")
 
 # 9. OAK #12 Andy Parrino (X - X - 25)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("c b b c s")
 t2.out("K")
 
@@ -319,7 +319,7 @@ t4.hit(1)
 t4.advance(4, "25 HR")
 
 # 7. OAK #25 Chris Young (X - 20 - 37)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("c")
 t4.hit(4, rbis=3)
 
@@ -349,30 +349,30 @@ b4.hit(2)
 b4.advance(4, "12 2B")
 
 # 5. BOS #12 Mike Napoli (X - 34 - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("b b b s")
 b4.hit(2, rbis=1)
 b4.advance(3, "16 FC1-4")
 b4.advance(4, "7 3B")
 
 # 6. BOS #5  Jonny Gomes (X - 12 - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("b b b c b")
 b4.reach("BB")
 b4.thrown_out(2, "16 FC1-4", 2, 49)
 
 # 7. BOS #16 Will Middlebrooks (X - 12 - 5)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.reach("FC1-4")
 b4.advance(4, "7 3B")
 
 # 8. BOS #7  Stephen Drew (12 - X - 16)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("b c b")
 b4.hit(3, rbis=2)
 
 # 9. BOS #3  David Ross (7 - X - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("s c s")
 b4.out("K")
 
@@ -416,14 +416,14 @@ b5.advance(2, "18 SB")
 b5.advance(4, "18 2B")
 
 # 2. BOS #18 Shane Victorino (X - X - 2)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b c l f b f f")
 b5.hit(2, rbis=1)
 b5.advance(3, "15 1B")
 b5.advance(4, "34 1B")
 
 # 3. BOS #15 Dustin Pedroia (X - 18 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b b s b")
 b5.hit(1)
 b5.advance(2, "34 1B")
@@ -431,7 +431,7 @@ b5.advance(3, "12 HBP")
 b5.advance(4, "29 1B")
 
 # 4. BOS #34 David Ortiz (18 - X - 15)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b b c")
 b5.hit(1, rbis=1)
 b5.advance(2, "12 HBP")
@@ -441,7 +441,7 @@ b5.advance(3, "29 1B")
 b5.pitching_substitution(44)
 
 # 5. BOS #12 Mike Napoli (X - 15 - 34)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.reach("HBP")
 b5.advance(2, "29 1B")
 
@@ -449,24 +449,24 @@ b5.advance(2, "29 1B")
 b5.offensive_substitution(6, 29, "PH")
 
 # 6. BOS #29 Daniel Nava (15 - 34 - 12)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("c b b c")
 b5.hit(1, rbis=1)
 
 # 7. BOS #16 Will Middlebrooks (34 - 12 - 29)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.out("F7")
 
 # Pitching change (OAK): #13 Jerry Blevins replaces #44 Chris Resop
 b5.pitching_substitution(13)
 
 # 8. BOS #7  Stephen Drew (34 - 12 - 29)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("t t d b f s")
 b5.out("K")
 
 # 9. BOS #3  David Ross (34 - 12 - 29)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b c f b f f")
 b5.out("F9")
 
@@ -488,30 +488,30 @@ t6.hit(2)
 t6.advance(3, "12 1B")
 
 # 6. OAK #37 Brandon Moss (X - 20 - X)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("t s f s")
 t6.out("K")
 
 # 7. OAK #25 Chris Young (X - 20 - X)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("c s f f s")
 t6.out("K")
 
 # 8. OAK #7  Nate Freiman (X - 20 - X)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("b b f s f b b")
 t6.reach("BB")
 t6.advance(2, "12 1B")
 
 # 9. OAK #12 Andy Parrino (X - 20 - 7)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.hit(1)
 
 # Pitching change (BOS): #36 Junichi Tazawa replaces #31 Jon Lester
 t6.pitching_substitution(36)
 
 # 1. OAK #4  Coco Crisp (20 - 7 - 12)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("b f d s")
 t6.out("F7")
 
@@ -566,7 +566,7 @@ t7.hit(2)
 t7.advance(4, "20 1B")
 
 # 5. OAK #20 Josh Donaldson (X - 8 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b b f b f f")
 t7.hit(1, rbis=1)
 t7.advance(2, "37 SB")
@@ -575,7 +575,7 @@ t7.advance(2, "37 SB")
 t7.pitching_substitution(30)
 
 # 6. OAK #37 Brandon Moss (X - X - 20)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b c s b d s")
 t7.out("K")
 
@@ -681,7 +681,7 @@ b8.reach("BB")
 b8.thrown_out(2, "15 FC6-4", 3, 50)
 
 # 3. BOS #15 Dustin Pedroia (X - 2 - 37)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b f")
 b8.reach("FC6-4")
 

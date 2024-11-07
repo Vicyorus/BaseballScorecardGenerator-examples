@@ -173,12 +173,12 @@ b1.pitch_list("b b")
 b1.hit(2)
 
 # 3. LAA #5  Albert Pujols (X - 27 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("c")
 b1.out("G5-3")
 
 # 4. LAA #44 Mark Trumbo (X - 27 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b b s")
 b1.out("F9")
 
@@ -210,23 +210,23 @@ t2.advance(2, "39 1B")
 t2.advance("U", "39 E7")
 
 # 7. BOS #23 Brandon Snyder (X - 5 - 29)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("b b")
 t2.out("F8")
 
 # 8. BOS #39 Jarrod Saltalamacchia (X - 5 - 29)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("c b b")
 t2.hit(1, rbis=1)
 t2.advance(2, "E7")
 
 # 9. BOS #10 Jose Iglesias (X - 39 - X)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("b b c b f d")
 t2.reach("BB")
 
 # 1. BOS #2  Jacoby Ellsbury (X - 39 - 10)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("c")
 t2.out("G4-3")
 
@@ -258,7 +258,7 @@ b2.reach("BB")
 b2.thrown_out(2, "2 FC6-4", 3, 22)
 
 # 9. LAA #2  Erick Aybar (X - 32 - 17)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("b")
 b2.reach("FC6-4")
 
@@ -298,13 +298,13 @@ b3.hit(3)
 b3.advance(4, "5 DP5-4-3")
 
 # 2. LAA #27 Mike Trout (39 - X - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("b b f f b f b")
 b3.reach("BB")
 b3.thrown_out(2, "5 DP5-4-3", 1, 22)
 
 # 3. LAA #5  Albert Pujols (39 - X - 27)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("d 1 f f b f d")
 b3.out("DP5-4-3")
 
@@ -338,11 +338,11 @@ t4.pitch_list("s")
 t4.hit(1)
 
 # 8. BOS #39 Jarrod Saltalamacchia (X - 5 - 23)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.out("F9")
 
 # 9. BOS #10 Jose Iglesias (X - 5 - 23)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("2 c b b c f c")
 t4.out("!K")
 
@@ -389,12 +389,12 @@ t5.pitch_list("b 1 c d c s")
 t5.out("K")
 
 # 3. BOS #15 Dustin Pedroia (X - X - 2)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("1 b b")
 t5.out("G6-3")
 
 # 4. BOS #12 Mike Napoli (X - 2 - X)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("c b c s")
 t5.out("K")
 
@@ -448,12 +448,12 @@ t6.hit(1)
 t6.advance(2, "10 1B")
 
 # 9. BOS #10 Jose Iglesias (X - 23 - 39)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("d c b")
 t6.hit(1)
 
 # 1. BOS #2  Jacoby Ellsbury (23 - 39 - 10)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("b c c")
 t6.out("L1")
 
@@ -530,7 +530,7 @@ b7.pitch_list("b c c")
 b7.hit(2)
 
 # 8. LAA #17 Chris Iannetta (X - 6 - X)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("b f b b f f c")
 b7.out("!K")
 
@@ -538,7 +538,7 @@ b7.out("!K")
 b7.pitching_substitution(32)
 
 # 9. LAA #2  Erick Aybar (X - 6 - X)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("c")
 b7.out("F8")
 
@@ -560,7 +560,7 @@ t8.advance(4, "34 HR")
 t8.offensive_substitution(7, 34, "PH")
 
 # 7. BOS #34 David Ortiz (X - 29 - X)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("c")
 t8.hit(4, rbis=2)
 

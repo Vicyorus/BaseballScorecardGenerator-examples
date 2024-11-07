@@ -166,7 +166,7 @@ t1.hit(1)
 t1.advance(2, "5 WP")
 
 # 5. BOS #5  Jonny Gomes (X - 18 - 12)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("b")
 
 
@@ -242,7 +242,7 @@ b2.hit(2)
 b2.advance(4, "55 1B")
 
 # 8. NYY #55 Lyle Overbay (33 - 26 - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.hit(1, rbis=2)
 
 # 9. NYY #29 Francisco Cervelli (X - X - 55)
@@ -357,7 +357,7 @@ b4.pitch_list("c 1 b f b b f b")
 b4.reach("BB")
 
 # 1. NYY #11 Brett Gardner (X - 26 - 29)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("c d c b b s")
 b4.out("K")
 
@@ -399,12 +399,12 @@ b5.pitch_list("b b c")
 b5.hit(2)
 
 # 4. NYY #33 Travis Hafner (X - 36 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b f c s")
 b5.out("K")
 
 # 5. NYY #12 Vernon Wells (X - 36 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("c b c")
 b5.out("G2")
 
@@ -489,7 +489,7 @@ t7.pitch_list("b c")
 t7.hit(2, rbis=1)
 
 # 9. BOS #10 Jose Iglesias (X - 44 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("c s d")
 t7.out("F8")
 
@@ -595,12 +595,12 @@ t9.hit(2)
 t9.advance(3, "44 G3-1")
 
 # 7. BOS #44 Jackie Bradley Jr. (15 - 5 - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("f c b")
 t9.out("G3-1", rbis=1)
 
 # 8. BOS #3  David Ross (5 - X - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("c f c")
 t9.out("!K")
 

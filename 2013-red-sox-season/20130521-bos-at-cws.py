@@ -366,7 +366,7 @@ b5.pitch_list("b")
 b5.hit(2)
 
 # 9. CWS #1  Tyler Greene (X - 21 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("d c f f f b")
 b5.out("G5-3")
 
@@ -424,7 +424,7 @@ b6.pitch_list("1 b b 1 b c f f b")
 b6.reach("BB")
 
 # 5. CWS #44 Adam Dunn (X - 51 - 14)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("c b b b t f")
 b6.out("F9")
 
@@ -455,7 +455,7 @@ t7.hit(1)
 t7.advance(2, "29 1B")
 
 # 6. BOS #29 Daniel Nava (X - 34 - 12)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b c b")
 t7.hit(1)
 
@@ -463,12 +463,12 @@ t7.hit(1)
 t7.pitching_substitution(26)
 
 # 7. BOS #16 Will Middlebrooks (34 - 12 - 29)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b b c f b s")
 t7.out("K")
 
 # 8. BOS #7  Stephen Drew (34 - 12 - 29)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("c b b f f s")
 t7.out("K")
 
@@ -531,12 +531,12 @@ t8.pitching_substitution(27)
 t8.offensive_substitution(2, 37, "PH")
 
 # 2. BOS #37 Mike Carp (X - 39 - 2)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("c")
 t8.out("F7")
 
 # 3. BOS #15 Dustin Pedroia (X - 39 - 2)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("b c b f d")
 t8.wp()
 t8.error(6)
@@ -544,7 +544,7 @@ t8.reach("E6", rbis=1)
 t8.thrown_out(2, "34 DP3-6-3", 2, 27)
 
 # 4. BOS #34 David Ortiz (2 - X - 15)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.out("DP3-6-3")
 
 
@@ -575,7 +575,7 @@ b8.new_ab()
 b8.hit(2, rbis=1)
 
 # 4. CWS #14 Paul Konerko (X - 51 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b f b b b")
 b8.reach("BB")
 
@@ -583,7 +583,7 @@ b8.reach("BB")
 b8.pitching_substitution(30)
 
 # 5. CWS #44 Adam Dunn (X - 51 - 14)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b s b c s")
 b8.out("K")
 

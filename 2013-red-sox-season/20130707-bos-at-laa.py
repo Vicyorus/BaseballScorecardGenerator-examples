@@ -149,22 +149,22 @@ t1.hit(2)
 t1.advance(3, "29 1B")
 
 # 2. BOS #29 Daniel Nava (X - 2 - X)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("b s b")
 t1.hit(1)
 
 # 3. BOS #15 Dustin Pedroia (2 - X - 29)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("c f f")
 t1.out("L5")
 
 # 4. BOS #34 David Ortiz (2 - X - 29)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("b b c s s")
 t1.out("K")
 
 # 5. BOS #12 Mike Napoli (2 - X - 29)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("b b s 1 c f b s")
 t1.out("K")
 
@@ -218,7 +218,7 @@ t2.pitch_list("b 1 c s b b")
 t2.out("G4-3")
 
 # 9. BOS #10 Jose Iglesias (X - 20 - X)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("c f")
 t2.out("G5-3")
 
@@ -287,7 +287,7 @@ b3.hit(1)
 b3.advance(2, "27 SB")
 
 # 2. LAA #27 Mike Trout (X - X - 39)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("c s b f d b t")
 b3.out("KT")
 
@@ -440,7 +440,7 @@ b6.reach("BB")
 b6.advance(2, "47 SB")
 
 # 5. LAA #47 Howie Kendrick (X - 5 - 32)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("n c d 1 f b f b f")
 b6.out("G6-3")
 
@@ -476,7 +476,7 @@ t7.hit(1)
 t7.pitching_substitution(65)
 
 # 9. BOS #10 Jose Iglesias (X - 12 - 26)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("c")
 t7.out("F9")
 
@@ -546,7 +546,7 @@ b8.hit(3)
 b8.advance(4, "44 SF8")
 
 # 1. LAA #44 Mark Trumbo (2 - X - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("d")
 b8.out("SF8", rbis=1)
 
@@ -570,7 +570,7 @@ b8.pitch_list("b")
 b8.hit(2)
 
 # 5. LAA #47 Howie Kendrick (27 - 32 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("f")
 b8.out("G3")
 
@@ -592,17 +592,17 @@ t9.error(3)
 t9.reach("E3", end_base=2)
 
 # 5. BOS #12 Mike Napoli (X - 34 - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("c f s")
 t9.out("K")
 
 # 6. BOS #37 Mike Carp (X - 34 - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("b s f b s")
 t9.out("K")
 
 # 7. BOS #20 Ryan Lavarnway (X - 34 - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("c b c c")
 t9.out("!K")
 

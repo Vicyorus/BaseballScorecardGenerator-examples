@@ -165,7 +165,7 @@ t1.pitch_list("d 1 f b c b f f f b")
 t1.reach("BB")
 
 # 5. TBR #30 Luke Scott (X - 18 - 9)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("c c b b b")
 t1.out("G4-3")
 
@@ -259,32 +259,32 @@ t3.advance(3, "3 1B")
 t3.advance(4, "9 1B")
 
 # 2. TBR #3  Evan Longoria (X - X - 8)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("1 1 b")
 t3.hit(1)
 t3.advance(2, "18 SAC-1")
 t3.advance(4, "9 1B")
 
 # 3. TBR #18 Ben Zobrist (8 - X - 3)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.reach("SAC-1")
 t3.advance(2, "9 1B")
 t3.advance(3, "30 SB")
 t3.advance(4, "30 SF7")
 
 # 4. TBR #9  Wil Myers (8 - 3 - 18)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("f b c f f")
 t3.hit(1, rbis=2)
 t3.advance(2, "30 SB")
 
 # 5. TBR #30 Luke Scott (X - 18 - 9)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("f c b")
 t3.out("SF7", rbis=1)
 
 # 6. TBR #1  Sean Rodríguez (X - 9 - X)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("c f b c")
 t3.out("!K")
 
@@ -386,16 +386,16 @@ b5.pitch_list("b c c b")
 b5.hit(2)
 
 # 6. BOS #5  Jonny Gomes (X - 12 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.out("L8")
 
 # 7. BOS #7  Stephen Drew (X - 12 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b f b b")
 b5.out("F8")
 
 # 8. BOS #39 Jarrod Saltalamacchia (X - 12 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.out("F9")
 
 
@@ -478,7 +478,7 @@ t7.advance(2, "3 SB")
 t7.pitching_substitution(54)
 
 # 2. TBR #3  Evan Longoria (X - X - 8)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("1 1 c b s")
 t7.out("F9")
 
@@ -543,17 +543,17 @@ t8.advance(3, "21 1B")
 t8.advance(4, "28 1B")
 
 # 7. TBR #21 James Loney (X - 30 - 1)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.hit(1, rbis=1)
 t8.advance(2, "28 1B")
 
 # 8. TBR #28 José Molina (1 - X - 21)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("s b f f")
 t8.hit(1, rbis=1)
 
 # 9. TBR #11 Yunel Escobar (X - 21 - 28)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.out("G3")
 
 

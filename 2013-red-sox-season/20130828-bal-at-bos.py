@@ -160,12 +160,12 @@ t1.hit(2, rbis=1)
 t1.advance(3, "10 F8")
 
 # 4. BAL #10 Adam Jones (X - 19 - X)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("c d b")
 t1.out("F8")
 
 # 5. BAL #21 Nick Markakis (19 - X - X)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("f")
 t1.out("(F)P5")
 
@@ -182,17 +182,17 @@ b1.advance(2, "18 SB")
 b1.advance(3, "15 G1-3")
 
 # 2. BOS #18 Shane Victorino (X - X - 2)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b c b")
 b1.out("L6")
 
 # 3. BOS #15 Dustin Pedroia (X - 2 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b c b d c")
 b1.out("G1-3")
 
 # 4. BOS #34 David Ortiz (2 - X - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b b")
 b1.out("F7")
 
@@ -255,7 +255,7 @@ t3.advance(2, "9 SB")
 t3.thrown_out(3, "13 CS", 2, 41)
 
 # 1. BAL #9  Nate McLouth (X - X - 1)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("b b b c c f")
 t3.out("(F)P5")
 
@@ -293,23 +293,23 @@ b3.advance(2, "18 1B")
 b3.advance(3, "15 BB")
 
 # 2. BOS #18 Shane Victorino (X - 7 - 2)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("b b f f")
 b3.hit(1, rbis=1)
 b3.advance(2, "15 BB")
 
 # 3. BOS #15 Dustin Pedroia (X - 2 - 18)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("b b b b")
 b3.reach("BB")
 
 # 4. BOS #34 David Ortiz (2 - 18 - 15)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("b b c f t")
 b3.out("KT")
 
 # 5. BOS #29 Daniel Nava (2 - 18 - 15)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("c f c")
 b3.out("!K")
 
@@ -332,12 +332,12 @@ t4.pitch_list("c")
 t4.hit(2)
 
 # 6. BAL #2  J.J. Hardy (X - 21 - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("s s d s")
 t4.out("K")
 
 # 7. BAL #32 Matt Wieters (X - 21 - X)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.out("L7")
 
 
@@ -507,11 +507,11 @@ b7.advance(3, "2 1B")
 b7.advance(4, "15 1B")
 
 # 9. BOS #72 Xander Bogaerts (X - 7 - X)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.out("L4")
 
 # 1. BOS #2  Jacoby Ellsbury (X - 7 - X)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("c f b")
 b7.hit(1)
 b7.advance(2, "18 SB")
@@ -521,12 +521,12 @@ b7.advance(4, "15 1B")
 b7.pitching_substitution(56)
 
 # 2. BOS #18 Shane Victorino (7 - X - 2)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("1 c c f")
 b7.out("L4")
 
 # 3. BOS #15 Dustin Pedroia (7 - 2 - X)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.hit(1, rbis=2)
 b7.advance(2, "T")
 
@@ -534,7 +534,7 @@ b7.advance(2, "T")
 b7.pitching_substitution(17)
 
 # 4. BOS #34 David Ortiz (X - 15 - X)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("b b b f")
 b7.out("F8")
 
@@ -598,7 +598,7 @@ b8.hit(2)
 b8.advance(4, "37 1B")
 
 # 8. BOS #7  Stephen Drew (X - 39 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("i i i i")
 b8.reach("IBB")
 b8.advance(3, "37 1B")
@@ -607,7 +607,7 @@ b8.advance(3, "37 1B")
 b8.offensive_substitution(9, 37, "PH")
 
 # 9. BOS #37 Mike Carp (X - 39 - 7)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("f")
 b8.hit(1, rbis=1)
 # Offensive change (BOS): Pinch-runner #16 Will Middlebrooks replaces #37 Mike Carp
@@ -615,7 +615,7 @@ b8.offensive_substitution(9, 16, "PR")
 b8.atbase("PR")
 
 # 1. BOS #5  Jonny Gomes (7 - X - 37)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("s")
 b8.out("F9")
 

@@ -166,12 +166,12 @@ t1.reach("BB")
 t1.advance(2, "12 BB")
 
 # 5. BOS #12 Mike Napoli (X - 15 - 34)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("b s b b s b")
 t1.reach("BB")
 
 # 6. BOS #29 Daniel Nava (15 - 34 - 12)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("c c s")
 t1.out("K")
 
@@ -288,7 +288,7 @@ b3.hit(3)
 b3.advance(4, "13 1B")
 
 # 2. BAL #13 Manny Machado (9 - X - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("b b d s c f")
 b3.hit(1, rbis=1)
 b3.advance(2, "21 G3")
@@ -299,12 +299,12 @@ b3.pitch_list("c")
 b3.out("G3")
 
 # 4. BAL #10 Adam Jones (X - 13 - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("b b")
 b3.out("G5-3")
 
 # 5. BAL #19 Chris Davis (X - 13 - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.out("F8")
 
 
@@ -359,12 +359,12 @@ b4.hit(1)
 b4.advance(3, "1 9-2")
 
 # 9. BAL #1  Brian Roberts (X - 2 - 51)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("b c b")
 b4.hit(1)
 
 # 1. BAL #9  Nate McLouth (51 - X - 1)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("1")
 b4.out("F8")
 
@@ -392,7 +392,7 @@ t5.pitch_list("c")
 t5.hit(2)
 
 # 2. BOS #18 Shane Victorino (X - 2 - X)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("c s d b f b f")
 t5.out("L8")
 
@@ -465,7 +465,7 @@ b6.error(1)
 b6.reach("E1", end_base=2)
 
 # 9. BAL #1  Brian Roberts (X - 51 - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("b")
 b6.out("(F)P5")
 

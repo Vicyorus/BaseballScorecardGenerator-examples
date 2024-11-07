@@ -160,7 +160,7 @@ t1.pitch_list("c c f f f b f f")
 t1.hit(2)
 
 # 4. BOS #34 David Ortiz (X - 15 - X)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("c f c")
 t1.out("!K")
 
@@ -199,16 +199,16 @@ t2.hit(2)
 t2.advance(3, "20 G5-3")
 
 # 6. BOS #37 Mike Carp (X - 5 - X)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.out("L6")
 
 # 7. BOS #20 Ryan Lavarnway (X - 5 - X)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("c b")
 t2.out("G5-3")
 
 # 8. BOS #26 Brock Holt (5 - X - X)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("b s b b")
 t2.out("F8")
 
@@ -389,16 +389,16 @@ t6.hit(1)
 t6.advance(2, "15 1B")
 
 # 3. BOS #15 Dustin Pedroia (2 - X - 29)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("b c f b")
 t6.hit(1, rbis=1)
 
 # 4. BOS #34 David Ortiz (X - 29 - 15)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.out("F7")
 
 # 5. BOS #5  Jonny Gomes (X - 29 - 15)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("f c c")
 t6.out("!K")
 
@@ -437,12 +437,12 @@ t7.advance(3, "20 G6-3")
 t7.advance(4, "26 1B")
 
 # 7. BOS #20 Ryan Lavarnway (X - 37 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b f")
 t7.out("G6-3")
 
 # 8. BOS #26 Brock Holt (37 - X - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("f")
 t7.hit(1, rbis=1)
 t7.advance(2, "2 SB")
@@ -456,7 +456,7 @@ t7.pitch_list("c 1")
 t7.out("F9")
 
 # 1. BOS #2  Jacoby Ellsbury (X - X - 26)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("s b")
 t7.out("(F)P5")
 
@@ -651,7 +651,7 @@ b10.advance(2, "E6")
 b10.thrown_out(3, "7 CS", 2, 19)
 
 # 6. OAK #16 Josh Reddick (X - 52 - X)
-b10.new_ab()
+b10.new_ab(is_risp=True)
 b10.pitch_list("f s b s")
 b10.out("K")
 
@@ -694,11 +694,11 @@ t11.reach("BB")
 t11.advance(2, "20 HBP")
 
 # 7. BOS #20 Ryan Lavarnway (X - 34 - 37)
-t11.new_ab()
+t11.new_ab(is_risp=True)
 t11.reach("HBP")
 
 # 8. BOS #26 Brock Holt (23 - 37 - 20)
-t11.new_ab()
+t11.new_ab(is_risp=True)
 t11.pitch_list("c s f c")
 t11.out("!K")
 
@@ -729,20 +729,20 @@ b11.pitch_list("b")
 b11.out("SAC3-4")
 
 # 1. OAK #4  Coco Crisp (X - 25 - X)
-b11.new_ab()
+b11.new_ab(is_risp=True)
 b11.out("G5-3")
 
 # Offensive change (OAK): Pinch-hitter #36 Derek Norris replaces #5 John Jaso, batting 2nd
 b11.offensive_substitution(2, 36, "PH")
 
 # 2. OAK #36 Derek Norris (X - 25 - X)
-b11.new_ab()
+b11.new_ab(is_risp=True)
 b11.pitch_list("c b b f b d")
 b11.reach("BB")
 b11.advance(3, "20 1B")
 
 # 3. OAK #20 Josh Donaldson (X - 25 - 36)
-b11.new_ab()
+b11.new_ab(is_risp=True)
 b11.pitch_list("b")
 b11.hit(1, rbis=1)
 

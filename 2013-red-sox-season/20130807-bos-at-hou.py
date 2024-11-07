@@ -163,7 +163,7 @@ t1.pitch_list("s b f")
 t1.hit(1)
 
 # 5. BOS #37 Mike Carp (X - 18 - 34)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("b b b c c f")
 t1.out("G1-3")
 
@@ -213,12 +213,12 @@ t2.hit(2)
 t2.advance(3, "26 G4-3")
 
 # 9. BOS #26 Brock Holt (5 - 39 - X)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("b b c b")
 t2.out("G4-3", rbis=1)
 
 # 1. BOS #2  Jacoby Ellsbury (39 - X - X)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("b")
 t2.out("L9")
 
@@ -274,7 +274,7 @@ t3.hit(1)
 t3.thrown_out(2, "37 DP3-6", 3, 48)
 
 # 5. BOS #37 Mike Carp (15 - X - 34)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.out("DP3-6")
 
 
@@ -294,7 +294,7 @@ b3.hit(2)
 b3.advance(4, "19 HR")
 
 # 1. HOU #19 Robbie Grossman (X - 10 - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("f b c")
 b3.hit(4, rbis=2)
 
@@ -338,7 +338,7 @@ t4.pitch_list("b b b c b")
 t4.reach("BB")
 
 # 1. BOS #2  Jacoby Ellsbury (X - 39 - 26)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("b c c b c")
 t4.out("!K")
 
@@ -389,7 +389,7 @@ t5.hit(1)
 t5.thrown_out(2, "37 DP4-6-3", 2, 48)
 
 # 5. BOS #37 Mike Carp (15 - X - 34)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("c b b")
 t5.out("DP4-6-3")
 
@@ -429,7 +429,7 @@ t6.advance(2, "7 WP")
 t6.advance(3, "26 BB")
 
 # 7. BOS #7  Stephen Drew (X - X - 5)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("c b f b b d")
 t6.wp()
 t6.reach("BB")
@@ -439,17 +439,17 @@ t6.advance(2, "26 BB")
 t6.pitching_substitution(53)
 
 # 8. BOS #39 Jarrod Saltalamacchia (X - 5 - 7)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("c s s")
 t6.out("K")
 
 # 9. BOS #26 Brock Holt (X - 5 - 7)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("c b c f b b b")
 t6.reach("BB")
 
 # 1. BOS #2  Jacoby Ellsbury (5 - 7 - 26)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("c f b b f c")
 t6.out("!K")
 
@@ -457,7 +457,7 @@ t6.out("!K")
 t6.pitching_substitution(61)
 
 # 2. BOS #18 Shane Victorino (5 - 7 - 26)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("d c f s")
 t6.out("K")
 
@@ -474,13 +474,13 @@ b6.advance(3, "2 WP")
 b6.advance(4, "27 1B")
 
 # 2. HOU #2  Brandon Barnes (X - 19 - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("b s b s f b s")
 b6.wp()
 b6.out("K")
 
 # 3. HOU #27 Jose Altuve (19 - X - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("b s")
 b6.hit(1, rbis=1)
 b6.advance(4, "15 2B")
@@ -493,7 +493,7 @@ b6.advance(3, "T")
 b6.advance(4, "59 SF9")
 
 # 5. HOU #59 Marc Krauss (15 - X - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("f")
 b6.out("SF9", rbis=1)
 
@@ -552,7 +552,7 @@ t7.pitching_substitution(63)
 t7.offensive_substitution(9, 23, "PH")
 
 # 9. BOS #23 Brandon Snyder (X - 7 - 39)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("s b b b f f s")
 t7.out("K")
 
@@ -667,7 +667,7 @@ t9.reach("BB")
 t9.advance(4, "7 HR")
 
 # 7. BOS #7  Stephen Drew (X - 66 - 5)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("c")
 t9.hit(4, rbis=3)
 

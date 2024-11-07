@@ -227,7 +227,7 @@ b2.pitch_list("b")
 b2.hit(2)
 
 # 8. BOS #7  Stephen Drew (X - 16 - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("c b f b b")
 b2.out("G3-1")
 
@@ -255,7 +255,7 @@ t3.hit(1)
 t3.advance(2, "2 SB")
 
 # 1. MIN #2  Brian Dozier (X - X - 25)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("c b")
 t3.out("G3")
 
@@ -281,7 +281,7 @@ b3.hit(2)
 b3.advance(4, "15 1B")
 
 # 3. BOS #15 Dustin Pedroia (X - 18 - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.hit(1, rbis=1)
 
 # 4. BOS #34 David Ortiz (X - X - 15)
@@ -338,7 +338,7 @@ b4.pitch_list("b f c f b")
 b4.out("G6-3")
 
 # 8. BOS #7  Stephen Drew (X - 29 - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("s b")
 b4.hit(1, rbis=1)
 
@@ -367,17 +367,17 @@ t5.hit(3)
 t5.advance(4, "32 2B")
 
 # 8. MIN #32 Aaron Hicks (31 - X - X)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("b 3 s")
 t5.hit(2, rbis=1)
 
 # 9. MIN #25 Pedro Florimón (X - 32 - X)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("b c b c b f t")
 t5.out("KT")
 
 # 1. MIN #2  Brian Dozier (X - 32 - X)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("d f b f c")
 t5.out("!K")
 
@@ -435,13 +435,13 @@ t6.advance(3, "24 E1")
 t6.advance("U", "9 SF9")
 
 # 5. MIN #24 Trevor Plouffe (X - 7 - 33)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("s")
 t6.reach("FC1")
 t6.advance("U", "31 HR")
 
 # 6. MIN #9  Ryan Doumit (33 - X - 24)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("b 1")
 t6.out("SF9", rbis=1)
 
@@ -466,7 +466,7 @@ b6.hit(2)
 b6.advance(4, "29 1B")
 
 # 6. BOS #29 Daniel Nava (X - 12 - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("f")
 b6.hit(1, rbis=1)
 b6.thrown_out(2, "16 FC6-4", 1, 30)
@@ -591,7 +591,7 @@ b8.error(6)
 b8.reach("E6")
 
 # 8. BOS #7  Stephen Drew (X - 29 - 16)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("c b f c")
 b8.out("!K")
 
@@ -599,7 +599,7 @@ b8.out("!K")
 b8.offensive_substitution(9, 37, "PH")
 
 # 9. BOS #37 Mike Carp (X - 29 - 16)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("c c f s")
 b8.out("K")
 
@@ -630,12 +630,12 @@ t9.pitch_list("s d b f")
 t9.out("G5-3")
 
 # 8. MIN #32 Aaron Hicks (X - 9 - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("b c d")
 t9.out("G6-3")
 
 # 9. MIN #5  Eduardo Escobar (X - 9 - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("b")
 t9.out("G1-3")
 

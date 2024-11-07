@@ -158,12 +158,12 @@ t1.advance(3, "15 G4-3")
 t1.advance("U", "34 1B")
 
 # 3. BOS #15 Dustin Pedroia (X - 29 - X)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("c t f b")
 t1.out("G4-3")
 
 # 4. BOS #34 David Ortiz (29 - X - X)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("d c c f f")
 t1.hit(1, rbis=1)
 
@@ -276,12 +276,12 @@ b3.advance(3, "32 G4-3")
 b3.advance(4, "25 HR")
 
 # 8. MIN #32 Aaron Hicks (X - 24 - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("c l")
 b3.out("G4-3")
 
 # 9. MIN #25 Pedro Florimón (24 - X - X)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.hit(4, rbis=2)
 
 # 1. MIN #2  Brian Dozier (X - X - X)
@@ -317,12 +317,12 @@ t4.pitch_list("b c b b b")
 t4.reach("BB")
 
 # 7. BOS #5  Jonny Gomes (X - 34 - 7)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("c")
 t4.out("L8")
 
 # 8. BOS #37 Mike Carp (X - 34 - 7)
-t4.new_ab()
+t4.new_ab(is_risp=True)
 t4.pitch_list("f")
 t4.out("G6-3")
 
@@ -352,7 +352,7 @@ b4.pitch_list("c b f b b f b")
 b4.reach("BB")
 
 # 7. MIN #24 Trevor Plouffe (X - 9 - 31)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("b b c c d s")
 b4.out("K")
 
@@ -382,7 +382,7 @@ t5.hit(1)
 t5.thrown_out(2, "15 DP4-6-3", 2, 49)
 
 # 3. BOS #15 Dustin Pedroia (39 - X - 29)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("c b b f b f")
 t5.out("DP4-6-3")
 
@@ -410,17 +410,17 @@ b5.reach("BB")
 b5.advance(2, "27 1B")
 
 # 2. MIN #27 Chris Parmelee (X - 32 - 2)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b s f")
 b5.hit(1)
 
 # 3. MIN #16 Josh Willingham (32 - 2 - 27)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("s d c c")
 b5.out("!K")
 
 # 4. MIN #33 Justin Morneau (32 - 2 - 27)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("d b f f f")
 b5.out("F7")
 
@@ -497,12 +497,12 @@ t7.hit(1)
 t7.advance(3, "2 1B")
 
 # 1. BOS #2  Jacoby Ellsbury (5 - X - 39)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.hit(1, rbis=1)
 t7.advance(2, "29 SB")
 
 # 2. BOS #29 Daniel Nava (39 - X - 2)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("1 1 c f d s")
 t7.out("K")
 
@@ -510,7 +510,7 @@ t7.out("K")
 t7.pitching_substitution(50)
 
 # 3. BOS #15 Dustin Pedroia (39 - 2 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("c b")
 t7.out("P4")
 
@@ -559,12 +559,12 @@ t8.pitch_list("c s")
 t8.hit(2)
 
 # 7. BOS #5  Jonny Gomes (X - 7 - X)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("s d c b b b")
 t8.reach("BB")
 
 # 8. BOS #37 Mike Carp (X - 7 - 5)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("b s b b f c")
 t8.out("!K")
 
@@ -669,22 +669,22 @@ t10.atbase("PR")
 t10.advance(2, "16 SAC1-4")
 
 # 5. BOS #16 Will Middlebrooks (X - 15 - 34)
-t10.new_ab()
+t10.new_ab(is_risp=True)
 t10.pitch_list("b")
 t10.out("SAC1-4")
 
 # 6. BOS #7  Stephen Drew (15 - 23 - X)
-t10.new_ab()
+t10.new_ab(is_risp=True)
 t10.pitch_list("i i i i")
 t10.reach("IBB")
 
 # 7. BOS #5  Jonny Gomes (15 - 23 - 7)
-t10.new_ab()
+t10.new_ab(is_risp=True)
 t10.pitch_list("d f")
 t10.out("SF8", rbis=1)
 
 # 8. BOS #37 Mike Carp (X - 23 - 7)
-t10.new_ab()
+t10.new_ab(is_risp=True)
 t10.pitch_list("c b f")
 t10.out("G3")
 

@@ -169,7 +169,7 @@ b1.hit(3)
 b1.advance(4, "18 G4-3")
 
 # 2. BOS #18 Shane Victorino (2 - X - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("l d f")
 b1.out("G4-3", rbis=1)
 
@@ -359,12 +359,12 @@ b5.pitch_list("f b b s")
 b5.hit(2)
 
 # 8. BOS #5  Jonny Gomes (X - 7 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b b s s s")
 b5.out("K")
 
 # 9. BOS #44 Jackie Bradley Jr. (X - 7 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.out("F8")
 
 
@@ -392,13 +392,13 @@ t6.pitch_list("1 c b 1 b s b f s")
 t6.out("K")
 
 # 2. TBR #18 Ben Zobrist (X - 2 - X)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("c b b c b d")
 t6.wp()
 t6.reach("BB")
 
 # 3. TBR #3  Evan Longoria (2 - X - 18)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("c f d b b")
 t6.out("G6-3")
 
@@ -544,23 +544,23 @@ t9.advance(2, "18 SB")
 t9.advance(4, "18 1B")
 
 # 2. TBR #18 Ben Zobrist (X - X - 8)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("c d b b c")
 t9.hit(1, rbis=1)
 t9.advance(2, "T")
 
 # 3. TBR #3  Evan Longoria (X - 18 - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("d s f b f f b s")
 t9.out("K")
 
 # 4. TBR #20 Matt Joyce (X - 18 - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("t b b f c")
 t9.out("!K")
 
 # 5. TBR #19 Ryan Roberts (X - 18 - X)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.out("P4")
 
 

@@ -181,13 +181,13 @@ b1.advance(2, "14 SB")
 b1.advance(4, "44 HR")
 
 # 4. CWS #14 Paul Konerko (X - X - 51)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b b c b b")
 b1.reach("BB")
 b1.advance(4, "44 HR")
 
 # 5. CWS #44 Adam Dunn (X - 51 - 14)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b d")
 b1.hit(4, rbis=3)
 
@@ -239,17 +239,17 @@ b2.hit(2)
 b2.advance(4, "30 2B")
 
 # 1. CWS #30 Alejandro De Aza (X - 1 - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("c s b f")
 b2.hit(2, rbis=1)
 b2.advance(4, "10 2B")
 
 # 2. CWS #10 Alexei Ramirez (X - 30 - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.hit(2, rbis=1)
 
 # 3. CWS #51 Alex Rios (X - 10 - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.out("F8")
 
 
@@ -392,29 +392,29 @@ b5.advance(3, "14 DP4-6-3")
 b5.advance("U", "24 1B")
 
 # 3. CWS #51 Alex Rios (X - X - 10)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("b b b b")
 b5.reach("BB")
 b5.thrown_out(2, "14 DP4-6-3", 1, 31)
 
 # 4. CWS #14 Paul Konerko (X - 10 - 51)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("f s b")
 b5.out("DP4-6-3")
 
 # 5. CWS #44 Adam Dunn (10 - X - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("c f b d b b")
 b5.reach("BB")
 b5.advance(2, "24 1B")
 
 # 6. CWS #24 Dayan Viciedo (10 - X - 44)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("f b f d f f b f")
 b5.hit(1, rbis=1)
 
 # 7. CWS #7  Jeff Keppinger (X - 44 - 24)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("c")
 b5.out("(F)P3")
 
@@ -497,21 +497,21 @@ t7.reach("BB")
 t7.advance(4, "16 2B")
 
 # 6. BOS #29 Daniel Nava (X - 34 - 12)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.out("F9")
 
 # 7. BOS #16 Will Middlebrooks (34 - X - 12)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b f")
 t7.hit(2, rbis=2)
 
 # 8. BOS #7  Stephen Drew (X - 16 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("c f d b f c")
 t7.out("!K")
 
 # 9. BOS #39 Jarrod Saltalamacchia (X - 16 - X)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("b f t b")
 t7.out("F7")
 
@@ -598,12 +598,12 @@ b8.pitch_list("d")
 b8.hit(2)
 
 # 8. CWS #21 Tyler Flowers (39 - 7 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("b")
 b8.out("P5")
 
 # 9. CWS #1  Tyler Greene (39 - 7 - X)
-b8.new_ab()
+b8.new_ab(is_risp=True)
 b8.pitch_list("c s f d")
 b8.out("L3")
 
@@ -638,7 +638,7 @@ t9.pitch_list("s t b b")
 t9.out("F8")
 
 # 8. BOS #7  Stephen Drew (X - X - 12)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("b c")
 t9.out("G3-1")
 

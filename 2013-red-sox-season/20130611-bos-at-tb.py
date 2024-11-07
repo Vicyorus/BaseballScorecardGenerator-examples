@@ -151,23 +151,23 @@ t1.advance(3, "18 1B")
 t1.advance(4, "15 (F)SF9")
 
 # 2. BOS #18 Shane Victorino (X - X - 2)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("b b c")
 t1.hit(1)
 t1.advance(2, "34 SB")
 
 # 3. BOS #15 Dustin Pedroia (2 - X - 18)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("c f b")
 t1.out("(F)SF9", rbis=1)
 
 # 4. BOS #34 David Ortiz (X - X - 18)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("b c f b d s")
 t1.out("K")
 
 # 5. BOS #12 Mike Napoli (X - 18 - X)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("b c b b f f")
 t1.out("G5-3")
 
@@ -191,29 +191,29 @@ b1.reach("BB")
 b1.thrown_out(2, "18 DP4-6-3", 1, 31)
 
 # 3. TBR #18 Ben Zobrist (X - 8 - 1)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.out("DP4-6-3")
 
 # 4. TBR #3  Evan Longoria (8 - X - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b b b b")
 b1.reach("BB")
 b1.advance(2, "11 BB")
 b1.advance(3, "21 BB")
 
 # 5. TBR #11 Yunel Escobar (8 - X - 3)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b c b b b")
 b1.reach("BB")
 b1.advance(2, "21 BB")
 
 # 6. TBR #21 James Loney (8 - 3 - 11)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b b c t b b")
 b1.reach("BB", rbis=1)
 
 # 7. TBR #19 Ryan Roberts (3 - 11 - 21)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.out("G1-3")
 
 
@@ -289,27 +289,27 @@ t3.advance(2, "18 SAC1-3")
 t3.advance(4, "12 1B")
 
 # 2. BOS #18 Shane Victorino (X - 10 - 2)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.out("SAC1-3")
 
 # 3. BOS #15 Dustin Pedroia (10 - 2 - X)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("f f s")
 t3.out("K")
 
 # 4. BOS #34 David Ortiz (10 - 2 - X)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("b b i i")
 t3.reach("IBB")
 t3.advance(2, "12 1B")
 
 # 5. BOS #12 Mike Napoli (10 - 2 - 34)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.pitch_list("s")
 t3.hit(1, rbis=2)
 
 # 6. BOS #29 Daniel Nava (X - 34 - 12)
-t3.new_ab()
+t3.new_ab(is_risp=True)
 t3.out("L8")
 
 
@@ -337,30 +337,30 @@ b3.advance(2, "19 1B")
 b3.advance(4, "28 1B")
 
 # 6. TBR #21 James Loney (X - 18 - 11)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("c f s")
 b3.out("K")
 
 # 7. TBR #19 Ryan Roberts (X - 18 - 11)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("s c")
 b3.hit(1, rbis=1)
 b3.advance(2, "28 1B")
 b3.advance(3, "20 1B")
 
 # 8. TBR #28 José Molina (X - 11 - 19)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.hit(1, rbis=1)
 b3.advance(2, "20 1B")
 
 # 9. TBR #20 Matt Joyce (X - 19 - 28)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("b 2 b f c")
 b3.hit(1)
 b3.thrown_out(2, "8 FC6-4", 3, 31)
 
 # 1. TBR #8  Desmond Jennings (19 - 28 - 20)
-b3.new_ab()
+b3.new_ab(is_risp=True)
 b3.pitch_list("b d")
 b3.reach("FC6-4")
 
@@ -509,7 +509,7 @@ t6.pitch_list("b b b c c b")
 t6.reach("BB")
 
 # 8. BOS #3  David Ross (X - 34 - 7)
-t6.new_ab()
+t6.new_ab(is_risp=True)
 t6.pitch_list("c s")
 t6.out("(F)P3")
 
@@ -580,7 +580,7 @@ b7.advance(2, "8 SB")
 b7.advance(3, "8 E2")
 
 # 1. TBR #8  Desmond Jennings (X - X - 20)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("b f b c b")
 b7.out("G6-3")
 
@@ -609,17 +609,17 @@ t8.advance(2, "29 G1-3")
 t8.pitching_substitution(62)
 
 # 5. BOS #12 Mike Napoli (X - 15 - 34)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("s c f s")
 t8.out("K")
 
 # 6. BOS #29 Daniel Nava (X - 15 - 34)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("b c b c")
 t8.out("G1-3")
 
 # 7. BOS #7  Stephen Drew (15 - 34 - X)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.out("F8")
 
 

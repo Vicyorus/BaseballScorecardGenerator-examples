@@ -202,21 +202,21 @@ b1.hit(2)
 b1.advance(3, "29 G1-6-3")
 
 # 2. BOS #29 Daniel Nava (X - 15 - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.out("G1-6-3")
 
 # 3. BOS #34 David Ortiz (15 - X - X)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b b f f f b f b")
 b1.reach("BB")
 
 # 4. BOS #12 Mike Napoli (15 - X - 34)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b c s f f s")
 b1.out("K")
 
 # 5. BOS #37 Mike Carp (15 - X - 34)
-b1.new_ab()
+b1.new_ab(is_risp=True)
 b1.pitch_list("b c b f")
 b1.out("L7")
 
@@ -255,12 +255,12 @@ b2.hit(2)
 b2.advance(4, "7 HR")
 
 # 7. BOS #16 Will Middlebrooks (X - 39 - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("c t c")
 b2.out("!K")
 
 # 8. BOS #7  Stephen Drew (X - 39 - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.hit(4, rbis=2)
 
 # 9. BOS #25 Jackie Bradley Jr. (X - X - X)
@@ -270,23 +270,23 @@ b2.hit(2)
 b2.advance(4, "15 1B")
 
 # 1. BOS #15 Dustin Pedroia (X - 25 - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("f b b")
 b2.hit(1, rbis=1)
 b2.advance(2, "T")
 
 # 2. BOS #29 Daniel Nava (X - 15 - X)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("c b b b b")
 b2.reach("BB")
 
 # 3. BOS #34 David Ortiz (X - 15 - 29)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("c b s t")
 b2.out("KT")
 
 # 4. BOS #12 Mike Napoli (X - 15 - 29)
-b2.new_ab()
+b2.new_ab(is_risp=True)
 b2.pitch_list("c c b b s")
 b2.out("K")
 
@@ -474,7 +474,7 @@ b6.new_ab()
 b6.hit(3)
 
 # 9. BOS #25 Jackie Bradley Jr. (7 - X - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("c s f f b t")
 b6.out("KT")
 

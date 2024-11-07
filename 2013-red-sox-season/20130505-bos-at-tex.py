@@ -327,17 +327,17 @@ b4.pitch_list("c b b")
 b4.hit(2)
 
 # 4. TEX #29 Adrian Beltré (X - 27 - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("b b")
 b4.out("F8")
 
 # 5. TEX #17 Nelson Cruz (X - 27 - X)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("b b b b")
 b4.reach("BB")
 
 # 6. TEX #12 A.J. Pierzynski (X - 27 - 17)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("b b s b s c")
 b4.out("!K")
 
@@ -366,7 +366,7 @@ t5.pitch_list("b 1 f 1 b f")
 t5.out("F9")
 
 # 2. BOS #29 Daniel Nava (X - X - 23)
-t5.new_ab()
+t5.new_ab(is_risp=True)
 t5.pitch_list("b f 1 b s f s")
 t5.out("K")
 
@@ -397,7 +397,7 @@ b5.pitch_list("b")
 b5.hit(1)
 
 # 2. TEX #1  Elvis Andrus (X - 15 - 5)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("c s b b b f c")
 b5.out("!K")
 
@@ -491,7 +491,7 @@ t7.pitch_list("b b f s f s")
 t7.out("K")
 
 # 9. BOS #23 Pedro Ciriaco (X - X - 3)
-t7.new_ab()
+t7.new_ab(is_risp=True)
 t7.pitch_list("s s d b b s")
 t7.out("K")
 
@@ -516,17 +516,17 @@ b7.pitch_list("1 c 1")
 b7.out("SAC1-3")
 
 # 2. TEX #1  Elvis Andrus (X - 23 - X)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("c s f b s")
 b7.out("K")
 
 # 3. TEX #27 Lance Berkman (X - 23 - X)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("b b b i")
 b7.reach("IBB")
 
 # 4. TEX #29 Adrian Beltré (23 - X - 27)
-b7.new_ab()
+b7.new_ab(is_risp=True)
 b7.pitch_list("c")
 b7.out("G1-3")
 
@@ -558,7 +558,7 @@ t8.reach("BB")
 t8.advance(2, "34 SB")
 
 # 4. BOS #34 David Ortiz (X - X - 15)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("b 1 b s s 1 b b")
 t8.reach("BB")
 t8.thrown_out(2, "12 FC6-4", 3, 44)
@@ -567,7 +567,7 @@ t8.thrown_out(2, "12 FC6-4", 3, 44)
 t8.pitching_substitution(44)
 
 # 5. BOS #12 Mike Napoli (X - 15 - 34)
-t8.new_ab()
+t8.new_ab(is_risp=True)
 t8.pitch_list("b c f b")
 t8.reach("FC6-4")
 
@@ -635,12 +635,12 @@ t9.hit(1)
 t9.offensive_substitution(9, 39, "PH")
 
 # 9. BOS #39 Jarrod Saltalamacchia (X - 18 - 7)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("f c b b s")
 t9.out("K")
 
 # 1. BOS #2  Jacoby Ellsbury (X - 18 - 7)
-t9.new_ab()
+t9.new_ab(is_risp=True)
 t9.pitch_list("f b b c")
 t9.out("G3-1")
 
@@ -684,14 +684,14 @@ b9.advance(2, "27 WP")
 b9.advance(4, "29 1B")
 
 # 3. TEX #27 Lance Berkman (X - X - 1)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("1 b b i i")
 b9.wp()
 b9.reach("IBB")
 b9.advance(2, "29 1B")
 
 # 4. TEX #29 Adrian Beltré (X - 1 - 27)
-b9.new_ab()
+b9.new_ab(is_risp=True)
 b9.pitch_list("c b s")
 b9.hit(1, rbis=1)
 

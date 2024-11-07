@@ -161,7 +161,7 @@ t1.pitch_list("c")
 t1.out("F9")
 
 # 4. TBR #3  Evan Longoria (X - X - 8)
-t1.new_ab()
+t1.new_ab(is_risp=True)
 t1.pitch_list("s b s b b s")
 t1.wp()
 t1.out("K")
@@ -210,7 +210,7 @@ t2.pitch_list("c b b")
 t2.out("G3")
 
 # 8. TBR #59 Jose Lobaton (X - 9 - X)
-t2.new_ab()
+t2.new_ab(is_risp=True)
 t2.pitch_list("s b s f c")
 t2.out("!K")
 
@@ -327,12 +327,12 @@ b4.pitch_list("b b t")
 b4.hit(1)
 
 # 5. BOS #29 Daniel Nava (X - 15 - 34)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("b f b f b")
 b4.out("F8")
 
 # 6. BOS #5  Jonny Gomes (X - 15 - 34)
-b4.new_ab()
+b4.new_ab(is_risp=True)
 b4.pitch_list("s d b f")
 b4.out("F8")
 
@@ -376,13 +376,13 @@ b5.hit(2)
 b5.advance(3, "10 1B")
 
 # 9. BOS #10 Jose Iglesias (X - 7 - X)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("c c d b")
 b5.hit(1)
 b5.thrown_out(2, "2 DP6-3", 2, 23)
 
 # 1. BOS #2  Jacoby Ellsbury (7 - X - 10)
-b5.new_ab()
+b5.new_ab(is_risp=True)
 b5.pitch_list("1 f b f")
 b5.out("DP6-3")
 
@@ -432,7 +432,7 @@ b6.new_ab()
 b6.hit(2)
 
 # 5. BOS #29 Daniel Nava (X - 34 - X)
-b6.new_ab()
+b6.new_ab(is_risp=True)
 b6.pitch_list("f c")
 b6.out("G5-3")
 
